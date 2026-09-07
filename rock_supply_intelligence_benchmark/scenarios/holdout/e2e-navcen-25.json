@@ -1,0 +1,160 @@
+{
+  "scenario_id": "E2E-NAVCEN-25",
+  "scenario_version": "0.1",
+  "split": "holdout",
+  "evaluation_timestamp": "2024-03-01T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "vessel_anomaly",
+    "title": "Navigation advisory / route corridor",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "evidence": [
+    {
+      "id": "EVD-E2E-NAVCEN-25-A",
+      "schema_version": "0.1",
+      "status": "draft",
+      "source_name": "TO_BE_COLLECTED",
+      "source_type": "government",
+      "source_locator": "collection-plan://E2E-NAVCEN-25/primary",
+      "retrieved_at": null,
+      "published_at": null,
+      "content_hash": null,
+      "raw_ref": "raw/E2E-NAVCEN-25/",
+      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "extraction": {
+        "method": "pending"
+      },
+      "collection_status": "planned",
+      "language": "en",
+      "provenance": "historical-anchor metadata only"
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-025",
+        "supplier_code": "SYN-25",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-025",
+        "supplier_id": "SUP-025",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-025",
+            "quantity_ordered": 24,
+            "promised_date": "2024-08-10"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-025",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "Long Beach",
+        "po_refs": [
+          "PO-SYN-025"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "Long Beach",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-025",
+        "location_id": "LOC-LONGBEAC",
+        "snapshot_at": "2024-03-01T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-025",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-025",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "vessel_anomaly",
+      "severity": "moderate",
+      "disposition": "monitor",
+      "evidence_required": true
+    },
+    "affected_shipments": [],
+    "unaffected_shipments": [
+      "SHP-SYN-025"
+    ],
+    "exposures": [
+      {
+        "exposure_type": "route_monitoring",
+        "status": "dismissed",
+        "linkage_method": "rule_based",
+        "confidence_band": "provisional"
+      }
+    ],
+    "recommendation": {
+      "action_type": "monitor",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action; monitor advisory and vessel plan"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "autonomous operational action"
+    ]
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-NAVCEN-OUTSIDE-CORRIDOR",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "weights": {
+      "event_detection": 0.2,
+      "correlation": 0.35,
+      "exposure": 0.25,
+      "recommendation_constraint": 0.2
+    },
+    "adjudication_status": "pending_source_collection"
+  }
+}

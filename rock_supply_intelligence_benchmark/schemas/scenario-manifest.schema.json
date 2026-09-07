@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Rock Supply Intelligence End-to-End Scenario v0.1",
+  "type":"object",
+  "required":["scenario_id","scenario_version","split","evaluation_timestamp","canonical_contract","historical_anchor","evidence","synthetic_business_state","expected","scoring_metadata"],
+  "properties": {
+    "scenario_id":{"type":"string","pattern":"^E2E-[A-Z0-9-]+$"}, "scenario_version":{"const":"0.1"}, "split":{"enum":["dev","selection","holdout"]}, "evaluation_timestamp":{"type":"string"},
+    "canonical_contract":{"type":"object","required":["version","tenant_id"],"properties":{"version":{"const":"0.1"},"tenant_id":{"const":"sunlighten-shadow"}}},
+    "historical_anchor":{"type":"object","required":["event_type","title","temporal_integrity"],"properties":{"event_type":{"type":"string"},"title":{"type":"string"},"temporal_integrity":{"const":"evidence_limited_to_evaluation_timestamp"}}},
+    "evidence":{"type":"array","minItems":1}, "synthetic_business_state":{"type":"object"}, "expected":{"type":"object"}, "scoring_metadata":{"type":"object"}
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "sample_id":"ATOM-EXAMPLE-001", "schema_version":"0.1", "split":"dev", "collection_status":"planned",
+  "source":{"source_name":"TO_BE_COLLECTED","source_type":"government","source_locator":"https://example.invalid/replace", "language":"en", "retrieved_at":null, "published_at":null, "observed_at":null, "raw_ref":"raw/ATOM-EXAMPLE-001/", "content_hash":null, "hash_method":"sha256", "license":null, "access_constraints":null},
+  "labels":{"primary_class":"materially_relevant","event_category":"weather_natural_disaster","expected_disposition":"normalize","tasks":["relevance","event_extraction","grounding"]},
+  "provenance":{"collection_plan_id":"CP-001","content_status":"metadata_only","notes":"Template only; replace all fields after lawful collection and adjudication."}
+}

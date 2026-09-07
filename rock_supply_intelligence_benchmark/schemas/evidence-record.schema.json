@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Canonical Evidence Record v0.1",
+  "type":"object",
+  "required":["id","schema_version","status","source_name","source_type","source_locator","retrieved_at","content_hash","raw_ref","excerpt_or_payload_path","extraction"],
+  "properties":{"id":{"type":"string"},"schema_version":{"const":"0.1"},"status":{"enum":["active","superseded","retracted","archived","draft"]},"source_name":{"type":"string"},"source_type":{"type":"string"},"source_locator":{"type":"string"},"retrieved_at":{"type":"string"},"published_at":{"type":["string","null"]},"content_hash":{"type":["string","null"],"pattern":"^[a-f0-9]{64}$"},"raw_ref":{"type":"string"},"excerpt_or_payload_path":{"type":"string"},"extraction":{"type":"object"}}
+}

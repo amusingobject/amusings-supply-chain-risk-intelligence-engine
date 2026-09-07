@@ -1,0 +1,11 @@
+{
+  "benchmark_id": "rock-supply-intelligence",
+  "benchmark_version": "0.1.0-draft",
+  "contract_version": "0.1",
+  "status": "scaffold_unlocked",
+  "evaluation_principles": ["deterministic_first", "local_model_first", "cloud_optional", "human_in_the_loop", "evidence_grounded"],
+  "splits": {"atomic": {"dev": 120, "selection": 150, "holdout": 150}, "scenarios": {"dev": 8, "selection": 10, "holdout": 10}},
+  "completeness": {"atomic_samples_target": 420, "atomic_samples_collected": 0, "raw_bodies_retained": 0, "scenario_manifests": 28, "expected_atomic_labels_reviewed": 0},
+  "freeze": {"hash_algorithm": "sha256", "tree_hash": null, "locked_at": null, "lock_policy": "Changes after lock require a new benchmark version."},
+  "entrypoints": {"atomic_corpus": "atomic/corpus_manifest.json", "scenario_index": "scenarios/index.json", "scoring": "scoring/gates.json"}
+}

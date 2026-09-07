@@ -1,0 +1,11 @@
+{
+  "corpus_id":"rock-supply-intelligence-atomic-v0.1", "schema_version":"0.1", "status":"collection_planned", "target_samples":420, "collected_samples":0,
+  "split_targets":{"dev":120,"selection":150,"holdout":150},
+  "primary_class_targets":{"materially_relevant":150,"monitor":50,"irrelevant":130,"ambiguous_conflicting":50,"prompt_injection":40},
+  "language_targets":{"en":250,"zh-TW":120,"mixed":50},
+  "source_format_targets":{"structured":120,"semi_structured":60,"unstructured":240},
+  "event_category_targets":{"weather_natural_disaster":80,"port_vessel_carrier":95,"labor_infrastructure_transportation":70,"geopolitical_security":60,"regulatory_trade_customs":35,"irrelevant_general_world":80},
+  "adversarial_targets":{"counterfactual_or_entity_masked_minimum":63,"conflict_bundles":25,"conflict_records":50,"prompt_injection_records":40,"traditional_chinese_injection":5},
+  "required_source_metadata":["source_name","source_type","source_locator","retrieved_at","published_at","language","provenance","raw_ref","content_hash","license","access_constraints","split"],
+  "sample_manifest_template":"atomic/sample.placeholder.json", "completeness_note":"No source bodies or atomic labels have been collected in this scaffold."
+}

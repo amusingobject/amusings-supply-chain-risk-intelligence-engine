@@ -1,0 +1,160 @@
+{
+  "scenario_id": "E2E-RED-SEA-11",
+  "scenario_version": "0.1",
+  "split": "selection",
+  "evaluation_timestamp": "2024-01-15T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "geopolitical",
+    "title": "Red Sea routing disruption / Suez route",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "evidence": [
+    {
+      "id": "EVD-E2E-RED-SEA-11-A",
+      "schema_version": "0.1",
+      "status": "draft",
+      "source_name": "TO_BE_COLLECTED",
+      "source_type": "government",
+      "source_locator": "collection-plan://E2E-RED-SEA-11/primary",
+      "retrieved_at": null,
+      "published_at": null,
+      "content_hash": null,
+      "raw_ref": "raw/E2E-RED-SEA-11/",
+      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "extraction": {
+        "method": "pending"
+      },
+      "collection_status": "planned",
+      "language": "en",
+      "provenance": "historical-anchor metadata only"
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-011",
+        "supplier_code": "SYN-11",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-011",
+        "supplier_id": "SUP-011",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-011",
+            "quantity_ordered": 24,
+            "promised_date": "2024-08-10"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-011",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "New York",
+        "po_refs": [
+          "PO-SYN-011"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "New York",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-011",
+        "location_id": "LOC-NEWYORK",
+        "snapshot_at": "2024-01-15T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-011",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-011",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "geopolitical",
+      "severity": "high",
+      "disposition": "affected",
+      "evidence_required": true
+    },
+    "affected_shipments": [
+      "SHP-SYN-011"
+    ],
+    "unaffected_shipments": [],
+    "exposures": [
+      {
+        "exposure_type": "transit_delay_risk",
+        "status": "candidate",
+        "linkage_method": "deterministic_entity",
+        "confidence_band": "strong"
+      }
+    ],
+    "recommendation": {
+      "action_type": "verify",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action; verify carrier routing and ETA"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "autonomous operational action"
+    ]
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-RED-SEA-TRANSPACIFIC",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "weights": {
+      "event_detection": 0.2,
+      "correlation": 0.35,
+      "exposure": 0.25,
+      "recommendation_constraint": 0.2
+    },
+    "adjudication_status": "pending_source_collection"
+  }
+}

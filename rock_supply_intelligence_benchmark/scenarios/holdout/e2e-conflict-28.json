@@ -1,0 +1,166 @@
+{
+  "scenario_id": "E2E-CONFLICT-28",
+  "scenario_version": "0.1",
+  "split": "holdout",
+  "evaluation_timestamp": "2024-10-10T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "port_disruption",
+    "title": "Conflicting port closure and restricted-operations notices",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "scenario_tags": [
+    "conflicting_evidence",
+    "closure_vs_restricted_operations",
+    "confidence_reduction_required"
+  ],
+  "evidence": [
+    {
+      "id": "EVD-E2E-CONFLICT-28-A",
+      "schema_version": "0.1",
+      "status": "draft",
+      "source_name": "TO_BE_COLLECTED",
+      "source_type": "government",
+      "source_locator": "collection-plan://E2E-CONFLICT-28/primary",
+      "retrieved_at": null,
+      "published_at": null,
+      "content_hash": null,
+      "raw_ref": "raw/E2E-CONFLICT-28/",
+      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "extraction": {
+        "method": "pending"
+      },
+      "collection_status": "planned",
+      "language": "en",
+      "provenance": "historical-anchor metadata only"
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-028",
+        "supplier_code": "SYN-28",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-028",
+        "supplier_id": "SUP-028",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-028",
+            "quantity_ordered": 24,
+            "promised_date": "2024-08-10"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-028",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "Long Beach",
+        "po_refs": [
+          "PO-SYN-028"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "Long Beach",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-028",
+        "location_id": "LOC-LONGBEAC",
+        "snapshot_at": "2024-10-10T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-028",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-028",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "port_disruption",
+      "severity": "moderate",
+      "disposition": "monitor",
+      "evidence_required": true
+    },
+    "affected_shipments": [],
+    "unaffected_shipments": [
+      "SHP-SYN-028"
+    ],
+    "exposures": [
+      {
+        "exposure_type": "operations_uncertain",
+        "status": "dismissed",
+        "linkage_method": "rule_based",
+        "confidence_band": "provisional"
+      }
+    ],
+    "recommendation": {
+      "action_type": "monitor",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action; retain both notices and seek verification"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "autonomous operational action"
+    ],
+    "conflict_expectation": "Retain both source records, normalize operations as uncertain/restricted, lower confidence, and route the material claim for verification rather than selecting a source without basis."
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-CONFLICT-RESOLVED-OFFICIAL",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "weights": {
+      "event_detection": 0.2,
+      "correlation": 0.35,
+      "exposure": 0.25,
+      "recommendation_constraint": 0.2
+    },
+    "adjudication_status": "pending_source_collection"
+  }
+}

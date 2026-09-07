@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rock Supply Intelligence Benchmark Manifest v0.1",
+  "type": "object",
+  "required": [
+    "benchmark_id",
+    "benchmark_version",
+    "contract_version",
+    "status",
+    "evaluation_principles",
+    "splits",
+    "completeness",
+    "freeze",
+    "entrypoints"
+  ],
+  "properties": {
+    "benchmark_id": {"const": "rock-supply-intelligence"},
+    "benchmark_version": {"type": "string"},
+    "contract_version": {"const": "0.1"},
+    "status": {"enum": ["scaffold_unlocked", "locked", "superseded"]},
+    "evaluation_principles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"enum": ["deterministic_first", "local_model_first", "cloud_optional", "human_in_the_loop", "evidence_grounded"]}
+    },
+    "splits": {
+      "type": "object",
+      "required": ["atomic", "scenarios"],
+      "properties": {
+        "atomic": {"$ref": "#/$defs/splitCounts"},
+        "scenarios": {"$ref": "#/$defs/splitCounts"}
+      }
+    },
+    "completeness": {
+      "type": "object",
+      "required": ["atomic_samples_target", "atomic_samples_collected", "raw_bodies_retained", "scenario_manifests", "expected_atomic_labels_reviewed"],
+      "properties": {
+        "atomic_samples_target": {"const": 420},
+        "atomic_samples_collected": {"type": "integer", "minimum": 0, "maximum": 420},
+        "raw_bodies_retained": {"type": "integer", "minimum": 0},
+        "scenario_manifests": {"const": 28},
+        "expected_atomic_labels_reviewed": {"type": "integer", "minimum": 0, "maximum": 420}
+      }
+    },
+    "freeze": {
+      "type": "object",
+      "required": ["hash_algorithm", "tree_hash", "locked_at", "lock_policy"],
+      "properties": {
+        "hash_algorithm": {"const": "sha256"},
+        "tree_hash": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "locked_at": {"type": ["string", "null"]},
+        "lock_policy": {"type": "string"}
+      }
+    },
+    "entrypoints": {
+      "type": "object",
+      "required": ["atomic_corpus", "scenario_index", "scoring"],
+      "properties": {
+        "atomic_corpus": {"const": "atomic/corpus_manifest.json"},
+        "scenario_index": {"const": "scenarios/index.json"},
+        "scoring": {"const": "scoring/gates.json"}
+      }
+    }
+  },
+  "$defs": {
+    "splitCounts": {
+      "type": "object",
+      "required": ["dev", "selection", "holdout"],
+      "properties": {
+        "dev": {"type": "integer", "minimum": 0},
+        "selection": {"type": "integer", "minimum": 0},
+        "holdout": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}

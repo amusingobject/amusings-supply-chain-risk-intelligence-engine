@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rock Supply Intelligence Atomic OSINT Sample v0.1",
+  "type": "object",
+  "required": ["sample_id", "schema_version", "split", "collection_status", "source", "labels", "provenance"],
+  "properties": {
+    "sample_id": {"type": "string", "pattern": "^ATOM-[A-Z0-9-]+$"},
+    "schema_version": {"const": "0.1"},
+    "split": {"enum": ["dev", "selection", "holdout"]},
+    "collection_status": {"enum": ["planned", "collected", "redacted", "unavailable"]},
+    "source": {"type": "object", "required": ["source_name", "source_type", "source_locator", "language", "retrieved_at", "published_at", "raw_ref", "content_hash"], "properties": {"source_name":{"type":"string"}, "source_type":{"enum":["authoritative_feed","government","open_data","news","satellite","community","internal","analyst"]}, "source_locator":{"type":"string"}, "language":{"enum":["en","zh-TW","mixed"]}, "retrieved_at":{"type":["string","null"]}, "published_at":{"type":["string","null"]}, "observed_at":{"type":["string","null"]}, "raw_ref":{"type":"string"}, "content_hash":{"type":["string","null"],"pattern":"^[a-f0-9]{64}$"}, "hash_method":{"const":"sha256"}, "license":{"type":["string","null"]}, "access_constraints":{"type":["string","null"]}}},
+    "labels": {"type": "object", "required": ["primary_class", "event_category", "expected_disposition"], "properties": {"primary_class":{"enum":["materially_relevant","monitor","irrelevant","ambiguous_conflicting","prompt_injection"]}, "event_category":{"type":"string"}, "expected_disposition":{"enum":["normalize","monitor","suppress","abstain","quarantine"]}, "tasks":{"type":"array","items":{"type":"string"}}}},
+    "provenance": {"type":"object", "required":["collection_plan_id","content_status"], "properties":{"collection_plan_id":{"type":"string"},"content_status":{"enum":["metadata_only","lawful_capture","redacted_excerpt"]},"notes":{"type":"string"}}}
+  }
+}
