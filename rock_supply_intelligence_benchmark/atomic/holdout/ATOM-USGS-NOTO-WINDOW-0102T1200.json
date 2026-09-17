@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T1200",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "USGS-NOTO-0102T1200",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 4.4 - 15 km ENE of Anamizu, Japan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-02T12:00:00&endtime=2024-01-02T16:00:00&minlatitude=35&maxlatitude=39&minlongitude=135&maxlongitude=139&minmagnitude=4",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-08T04:20:40Z",
+    "published_at": "2024-01-02T12:13:20Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "effective_at": "2024-01-02T12:13:20Z",
+    "observed_at": "2024-01-02T12:13:20Z",
+    "raw_ref": "raw/wave2/ATOM-USGS-NOTO-WINDOW-0102T1200.json",
+    "content_hash": "d3c8bf0e17f639ffd6525b4ae709b07c1be265fd28a137d00e69ef8658bf55e1",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "japan_noto_earthquake_negative_control",
+    "event_category": "irrelevant_general_world",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_bounded_query",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T04:20:40Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Bounded official FDSN query. Provisional label requires review. Human review W13-38: keep."
+  }
+}

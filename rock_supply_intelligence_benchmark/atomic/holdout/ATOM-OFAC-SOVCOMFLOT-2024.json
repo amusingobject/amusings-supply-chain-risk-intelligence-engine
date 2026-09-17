@@ -1,0 +1,49 @@
+{
+  "sample_id": "ATOM-OFAC-SOVCOMFLOT-2024",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "OFAC-SOVCOMFLOT-2024",
+    "source_type": "government",
+    "publisher": "Primary official source",
+    "source_name": "Russia-related Designations; Issuance of Russia-related General Licenses",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://ofac.treasury.gov/recent-actions/20240223_33",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T13:05:31Z",
+    "published_at": "2024-02-23T00:00:00Z",
+    "raw_ref": "raw/wave2/ATOM-OFAC-SOVCOMFLOT-2024.html",
+    "content_hash": "ef73a621cfc677b8bacc991d0a30a7211dc9a73a6a942dae76c00a41a5dfa57a",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "official_ofac_notice",
+    "event_category": "geopolitical_security",
+    "event_type": "geopolitical_security",
+    "event_subtype": "official_ofac_notice",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-09T13:05:31Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Direct dated primary notice; provisional label requires human review. Human review W15-15: keep."
+  }
+}

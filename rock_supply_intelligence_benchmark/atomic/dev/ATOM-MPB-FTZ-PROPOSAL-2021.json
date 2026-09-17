@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-bilingual-wave5",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Free Trade Zone business-operation proposal form",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/b772d5c9-6b33-40be-a250-59d346e0c827?DLCount=1&attachTable=4",
+    "language": "mixed",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T14:34:47Z",
+    "published_at": "2021-03-18T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-FTZ-PROPOSAL-2021.pdf",
+    "content_hash": "6f38d2f7fadda261df8d30ab83621717a0983ae640001098b245efcbca86e960",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual form or process document"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "administrative_bilingual_control",
+    "event_subtype": "taiwan-maritime-bilingual-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:34:47Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-07: keep."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+  "source_id": "taiwan-maritime-wave6",
+  "url": "https://www.motcmpb.gov.tw/ServerFile/Get/cbeadf75-5e58-444a-be29-9299307c3bad?DLCount=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T15:50:04Z",
+  "content_hash": null
+}

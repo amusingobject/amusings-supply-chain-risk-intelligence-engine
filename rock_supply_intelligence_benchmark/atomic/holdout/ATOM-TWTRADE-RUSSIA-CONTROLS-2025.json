@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-trade-controls-wave6",
+    "source_type": "government",
+    "publisher": "Taiwan International Trade Administration",
+    "source_name": "Taiwan strengthens export controls concerning Russia",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=799760",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:35Z",
+    "published_at": "2025-03-31T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWTRADE-RUSSIA-CONTROLS-2025.html",
+    "content_hash": "8dd632bc2646b118adda0eca05c94545f608209f5018727f5cabd3510b0ce9d3",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government notice or report"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "export_control",
+    "event_subtype": "taiwan-trade-controls-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:35Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-24: keep."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "candidate_id": "GROUND-GAEMI-KHH-MOTC-2024",
+  "scenario_id": "E2E-GAEMI-KHH-02",
+  "publisher": "Ministry of Transportation and Communications, Taiwan",
+  "locator": "https://www.motc.gov.tw/ch/app/data/view?id=14&module=news&serno=d1c1dd95-ed5e-4ee8-9d1f-067867e2fbb6",
+  "published_at": "2024-07-22T23:59:59Z",
+  "supported_claims": [
+    "carrier_service"
+  ],
+  "excerpt": "24日(星期三)高雄往馬公航線停航"
+}

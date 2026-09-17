@@ -1,0 +1,162 @@
+{
+  "scenario_id": "E2E-LABOR-WEST-NEGATIVE-15",
+  "scenario_version": "0.1",
+  "split": "selection",
+  "evaluation_timestamp": "2024-10-02T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "labor",
+    "title": "ILA East/Gulf strike / Long Beach negative control",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "evidence": [
+    {
+      "id": "EVD-E2E-LABOR-WEST-NEGATIVE-15-A",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Synthetic historical notice: ILA East/Gulf strike / Long Beach negative control",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-LABOR-WEST-NEGATIVE-15",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2024-10-02T12:00:00Z",
+      "effective_at": "2024-10-02T12:00:00Z",
+      "observed_at": "2024-10-02T12:00:00Z",
+      "content_hash": "96789325e4a8d086484ee44c80441d09ab72f7cc9cfda1299bf4de4471a3c97f",
+      "raw_ref": "raw/e2e-synthetic/E2E-LABOR-WEST-NEGATIVE-15.txt",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-15",
+        "supplier_code": "SYN-15",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-15",
+        "supplier_id": "SUP-15",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-15",
+            "quantity_ordered": 24,
+            "promised_date": "2024-10-02"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-ILA-W",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "Long Beach",
+        "po_refs": [
+          "PO-SYN-15"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "Long Beach",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-15",
+        "location_id": "LOC-LONGBEACH",
+        "snapshot_at": "2024-10-02T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-15",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-15",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "labor",
+      "severity": "none",
+      "disposition": "unaffected",
+      "evidence_required": true
+    },
+    "affected_shipments": [],
+    "unaffected_shipments": [
+      "SHP-SYN-ILA-W"
+    ],
+    "exposures": [
+      {
+        "exposure_type": "delay",
+        "status": "dismissed",
+        "linkage_method": "rule_based",
+        "confidence_band": "provisional"
+      }
+    ],
+    "recommendation": {
+      "action_type": "no_action",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "autonomous operational action"
+    ]
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-E2E-LABOR-WEST-NEGATIVE-15",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "adjudication_status": "provisional_synthetic_evidence"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-09T21:39:55Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [],
+  "failed": [
+    {
+      "sample_id": "ATOM-W11-MPB-FENGMIAO-SURVEY-PDF-JUL2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-W11-MPB-TAICHUNG-DREDGING-AUG2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+      "reason": "accept_terms_missing"
+    }
+  ],
+  "corpus_collected": 417,
+  "raw_bodies_retained": 514,
+  "review_packet": null
+}

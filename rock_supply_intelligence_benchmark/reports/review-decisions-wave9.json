@@ -1,0 +1,47 @@
+[
+  {
+    "decision_id": "W9-01",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-NITROCELLULOSE-CONTROLS-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:59:30Z",
+    "manifest_hash": "3d97238fbfedcf7d5f813d7b857c9356ad917e4642b51359565572af189622d4",
+    "rationale": "Human reviewer approved Wave 9A with the proposed narrow label."
+  },
+  {
+    "decision_id": "W9-02",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:59:30Z",
+    "manifest_hash": "d8dde990faca100f10be55dc4bd383323b9e27785c7aabb99fb2d865333f0869",
+    "rationale": "Human reviewer approved Wave 9A with the proposed narrow label."
+  },
+  {
+    "decision_id": "W9-03",
+    "sample_id": "ATOM-TWMOL-TAIPEI-TERMINAL-INSPECTION-2010",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:59:30Z",
+    "manifest_hash": "163ffec702983bc04e100d590aa940f262d3e7af1ad031c4cecd144cbca5579c",
+    "rationale": "Human reviewer approved Wave 9B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W9-04",
+    "sample_id": "ATOM-TWMOL-KUO-KUANG-INSPECTION-2018",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:59:30Z",
+    "manifest_hash": "db66ce86316ce5aad31dfc37da2971025769eb3b2fb81b2da9de39e7e3dfc535",
+    "rationale": "Human reviewer approved Wave 9B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W9-05",
+    "sample_id": "ATOM-TWMOL-TOURBUS-INSPECTION-2017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:59:30Z",
+    "manifest_hash": "3f7ec40478ab514ef06da261791ab2d61da059fa46173a248ff3f67dc97d7d20",
+    "rationale": "Human reviewer approved Wave 9B with the proposed narrow label."
+  }
+]

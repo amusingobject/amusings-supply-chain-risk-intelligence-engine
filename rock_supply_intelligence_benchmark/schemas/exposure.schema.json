@@ -1,0 +1,358 @@
+{
+  "$defs": {
+    "CalculationTraceItem": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "rule_version": {
+          "default": "0.1",
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "inputs": {
+          "additionalProperties": true,
+          "title": "Inputs",
+          "type": "object"
+        },
+        "outputs": {
+          "additionalProperties": true,
+          "title": "Outputs",
+          "type": "object"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        }
+      },
+      "required": [
+        "rule_id",
+        "inputs",
+        "outputs"
+      ],
+      "title": "CalculationTraceItem",
+      "type": "object"
+    },
+    "DelayRange": {
+      "additionalProperties": false,
+      "properties": {
+        "min_hours": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min Hours"
+        },
+        "max_hours": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Hours"
+        },
+        "method": {
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "method"
+      ],
+      "title": "DelayRange",
+      "type": "object"
+    },
+    "ExternalId": {
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "title": "System",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "system",
+        "value"
+      ],
+      "title": "ExternalId",
+      "type": "object"
+    },
+    "ImpactWindow": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        }
+      },
+      "required": [
+        "start"
+      ],
+      "title": "ImpactWindow",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Deterministic disruption consequence linked to a business entity.",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "tenant_id": {
+      "default": "sunlighten-shadow",
+      "title": "Tenant Id",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "retracted",
+        "archived",
+        "draft"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "title": "Updated At",
+      "type": "string"
+    },
+    "external_ids": {
+      "items": {
+        "$ref": "#/$defs/ExternalId"
+      },
+      "title": "External Ids",
+      "type": "array"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "event_id": {
+      "title": "Event Id",
+      "type": "string"
+    },
+    "exposure_type": {
+      "enum": [
+        "delay",
+        "capacity_loss",
+        "inventory_stockout",
+        "customer_commitment",
+        "financial",
+        "compliance",
+        "route_disruption"
+      ],
+      "title": "Exposure Type",
+      "type": "string"
+    },
+    "exposure_status": {
+      "default": "candidate",
+      "enum": [
+        "candidate",
+        "reviewed",
+        "confirmed",
+        "dismissed",
+        "resolved"
+      ],
+      "title": "Exposure Status",
+      "type": "string"
+    },
+    "subject_type": {
+      "enum": [
+        "shipment",
+        "shipment_leg",
+        "container",
+        "purchase_order",
+        "sku",
+        "sales_order",
+        "supplier",
+        "location"
+      ],
+      "title": "Subject Type",
+      "type": "string"
+    },
+    "subject_id": {
+      "title": "Subject Id",
+      "type": "string"
+    },
+    "linkage_method": {
+      "enum": [
+        "deterministic_geospatial",
+        "deterministic_entity",
+        "deterministic_time_window",
+        "rule_based",
+        "analyst_confirmed"
+      ],
+      "title": "Linkage Method",
+      "type": "string"
+    },
+    "impact_window": {
+      "$ref": "#/$defs/ImpactWindow"
+    },
+    "expected_delay": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DelayRange"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "affected_sku_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Affected Sku Ids",
+      "type": "array"
+    },
+    "sales_order_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Sales Order Ids",
+      "type": "array"
+    },
+    "inventory_risk": {
+      "anyOf": [
+        {
+          "enum": [
+            "none",
+            "watch",
+            "at_risk",
+            "stockout_expected"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Inventory Risk"
+    },
+    "financial_exposure": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Financial Exposure"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "calculation_trace": {
+      "items": {
+        "$ref": "#/$defs/CalculationTraceItem"
+      },
+      "title": "Calculation Trace",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "created_at",
+    "updated_at",
+    "event_id",
+    "exposure_type",
+    "subject_type",
+    "subject_id",
+    "linkage_method",
+    "impact_window"
+  ],
+  "title": "Canonical Exposure v0.1",
+  "type": "object"
+}

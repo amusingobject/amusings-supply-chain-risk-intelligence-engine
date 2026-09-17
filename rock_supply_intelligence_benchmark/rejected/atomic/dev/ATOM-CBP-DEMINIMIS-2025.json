@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-CBP-DEMINIMIS-2025",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "CBP-ARTICLE-1919",
+    "source_type": "government",
+    "publisher": "U.S. Customs and Border Protection",
+    "source_name": "Executive Order 14324—International Mail",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.help.cbp.gov/s/article/Article-1919?language=en_US",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-08T22:10:39Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public CBP web page",
+    "raw_ref": "raw/wave2/ATOM-CBP-DEMINIMIS-2025.html",
+    "content_hash": "24eb0f2b63c0474b3145725b751898a594f3510f204334ae1c44a34019996a1d",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "cbp_trade_compliance_notice",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "customs_regulatory",
+    "event_subtype": "cbp_trade_guidance",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "review",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T22:10:39Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "provisional",
+    "notes": "CBP guidance describes the end of de minimis treatment for covered international-mail shipments; retain as a provisional trade-compliance event."
+  }
+}

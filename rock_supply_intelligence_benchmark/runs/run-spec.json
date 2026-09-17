@@ -1,0 +1,20 @@
+{
+  "fingerprint": "351d09f3ba1369e5bb646087d6e098bdfe0f5d25cfd4e432ad47e263c21a428f",
+  "spec": {
+    "provider": "ollama",
+    "model": "qwen3:4b-instruct",
+    "base_url": "http://192.168.1.188:11434",
+    "execution_class": "local",
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 2048,
+    "timeout_s": 120.0,
+    "prompt_version": "atomic-extraction-v0.1",
+    "splits": [
+      "dev",
+      "selection"
+    ],
+    "development_only": true,
+    "model_hash": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0"
+  }
+}

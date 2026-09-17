@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-FR-MARITIME-LABOR-PAGE-20",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "FR-MARITIME-LABOR-20",
+    "source_type": "government",
+    "publisher": "Office of the Federal Register",
+    "source_name": "Federal Register maritime-labor search results page 20",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=maritime%20labor&order=newest&per_page=20&page=20",
+    "language": "en",
+    "content_type": "application/json",
+    "retrieved_at": "2026-09-08T03:14:34Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public Federal Register API",
+    "raw_ref": "raw/wave2/ATOM-FR-MARITIME-LABOR-PAGE-20.json",
+    "content_hash": "e6692b19cc20538f054aba37f55ca58272dab8ec64550d878112433429d98f9f",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "federal_register_maritime-labor_search",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_action",
+    "event_subtype": "federal_register_search_page",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T03:14:34Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "provisional",
+    "notes": "Official search payload for a reviewer queue. Individual result relevance is not presumed."
+  }
+}

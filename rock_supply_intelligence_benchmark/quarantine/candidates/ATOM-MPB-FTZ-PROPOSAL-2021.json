@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021",
+  "source_id": "taiwan-maritime-bilingual-wave5",
+  "url": "https://www.motcmpb.gov.tw/ServerFile/Get/b772d5c9-6b33-40be-a250-59d346e0c827?DLCount=1&attachTable=4",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T14:31:03Z",
+  "content_hash": "6f38d2f7fadda261df8d30ab83621717a0983ae640001098b245efcbca86e960",
+  "raw_ref": "quarantine/raw/ATOM-MPB-FTZ-PROPOSAL-2021.bin"
+}

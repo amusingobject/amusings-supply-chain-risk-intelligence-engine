@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-POLA-SHIP-FIRE-SUSPEND-2025",
+  "source_id": "port-of-los-angeles",
+  "url": "https://portoflosangeles.org/references/2025-news-releases/news_112125_ship_fire",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:57:27Z",
+  "content_hash": null
+}

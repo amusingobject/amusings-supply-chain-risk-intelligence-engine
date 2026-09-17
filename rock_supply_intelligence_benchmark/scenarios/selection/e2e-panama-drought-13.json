@@ -16,21 +16,58 @@
     {
       "id": "EVD-E2E-PANAMA-DROUGHT-13-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-PANAMA-DROUGHT-13/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-PANAMA-DROUGHT-13/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Panama Canal restrictions / eastbound route",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-PANAMA-DROUGHT-13",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2023-12-15T12:00:00Z",
+      "effective_at": "2023-12-15T12:00:00Z",
+      "observed_at": "2023-12-15T12:00:00Z",
+      "content_hash": "97e80cb49314b84308d9df225219f3e1a71c552b4ac1d4f2741aecbce1582298",
+      "raw_ref": "raw/e2e-synthetic/E2E-PANAMA-DROUGHT-13.txt",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    },
+    {
+      "id": "EVD-GROUND-PANAMA-A48-2023",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Panama Canal Authority capacity-restriction notice",
+      "source_type": "government",
+      "source_locator": "https://pancanal.com/en/the-driest-month-of-october-since-1950/",
+      "publisher": "Panama Canal Authority",
+      "retrieved_at": "2026-09-10T18:35:14Z",
+      "published_at": "2023-10-31T23:26:32Z",
+      "observed_at": "2023-10-31T23:26:32Z",
+      "content_hash": "3c49b7acd782b4fb531d6e011a6454b8555d9d5d9e2e1f0434144c8cde964ec6",
+      "raw_ref": "raw/scenario-grounding/GROUND-PANAMA-A48-2023.html",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-grounding-capture-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": false,
+      "license": "Public official publication",
+      "access_constraints": "Public direct government page",
+      "provenance": "Reviewed scenario-grounding candidate GROUND-PANAMA-A48-2023; decision 18A limits this evidence to infrastructure context.",
+      "supported_claims": [
+        "infrastructure"
+      ]
     }
   ],
   "synthetic_business_state": {
@@ -64,6 +101,7 @@
         "mode": "ocean",
         "origin": "Kaohsiung",
         "destination": "New York",
+        "via": "Panama Canal",
         "po_refs": [
           "PO-SYN-013"
         ],
@@ -107,11 +145,31 @@
       }
     ]
   },
+  "grounding": {
+    "decision_ref": "reports/scenario-oracle-decisions-2026-09-10.json#18A",
+    "external_evidence_candidate_ids": [
+      "GROUND-PANAMA-A48-2023"
+    ],
+    "route_assertions": [
+      {
+        "assertion_id": "ROUTE-E2E-PANAMA-DROUGHT-13-01",
+        "shipment_number": "SHP-SYN-013",
+        "kind": "declared_required_transit",
+        "field": "synthetic_business_state.shipments[0].via",
+        "value": "Panama Canal",
+        "deterministic": true,
+        "supports": "route_entity_linkage",
+        "limitations": [
+          "Does not prove vessel transit or an exact delay."
+        ]
+      }
+    ]
+  },
   "expected": {
     "external_event": {
       "event_type": "infrastructure",
-      "severity": "high",
-      "disposition": "affected",
+      "severity": "moderate",
+      "disposition": "monitor",
       "evidence_required": true
     },
     "affected_shipments": [

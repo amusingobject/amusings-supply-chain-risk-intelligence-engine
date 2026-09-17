@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-09-09T14:31:40Z",
+  "registry_id": "RSIB-collection-registry-wave5",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-ATENTO-PANEL-2025.json",
+      "content_hash": "7523c0a6cd050852edaa13806d8b67fc557244bd50dfc9bc390d3cbfc24df392",
+      "sample_id": "ATOM-USTR-ATENTO-PANEL-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-RRM-RESPONSE-2025.json",
+      "content_hash": "9e4e023959569923f7daead7ab6d3ef9400ce3268ef6b0879f470436344bd085",
+      "sample_id": "ATOM-USTR-RRM-RESPONSE-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-ALUDYNE-RESOLUTION-2025.json",
+      "content_hash": "64416c8834745bf8838d11996db8f1a5ffa701de146efc6fbe61fae55d1fa820",
+      "sample_id": "ATOM-USTR-ALUDYNE-RESOLUTION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-ASIAWAY-RESOLUTION-2024.json",
+      "content_hash": "567282d80f273d6f6b58b5bf451c7d9b9b38df0169a86798eef2fa0221880a2a",
+      "sample_id": "ATOM-USTR-ASIAWAY-RESOLUTION-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-MMA-RESOLUTION-2025.json",
+      "content_hash": "d9007a0211e1b1ab8381417c7dad6cac7598b021fcb3381a1ff8bde54231814a",
+      "sample_id": "ATOM-USTR-MMA-RESOLUTION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-MMA-SUSPENSION-2025.json",
+      "content_hash": "57f913a322d33d570a75568f8701218437fa7cbe3880149ceacf9f16ccd1df8e",
+      "sample_id": "ATOM-USTR-MMA-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-TAMSA-SUSPENSION-2025.json",
+      "content_hash": "44804b57d43359484d7e140851e83dfb23db8a11b69faedac985f8f1f474d8ea",
+      "sample_id": "ATOM-USTR-TAMSA-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-VW-RESOLUTION-2024.json",
+      "content_hash": "1e705180720a3d1cbcfe784cdbae953d697ae15079793e01635fb0c67bb7d23d",
+      "sample_id": "ATOM-USTR-VW-RESOLUTION-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-HORMUZ-SB0581.json",
+      "content_hash": "79cbaf421a7d057782b7264593355216cc881b1e2cb4cc4049e40daee34a7637",
+      "sample_id": "ATOM-TREASURY-HORMUZ-SB0581"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-OUTCAST-SB0613.json",
+      "content_hash": "cf525a85c9b09062837c2bcea5b89f232623ce729a8ad56c77a5ce9e2b662ee0",
+      "sample_id": "ATOM-TREASURY-OUTCAST-SB0613"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-SHADOW-SB0472.json",
+      "content_hash": "cf1e00638604ab71efb4aa45ec396dca6702de24442f748d3797107362c7d025",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0472"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-SHADOW-SB0502.json",
+      "content_hash": "7ce3f7cfa755f7e06db3d7715f6f673d7fc54a6c5b28b0996bf5b66d6511591c",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0502"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-NASA-BENNU-2025.json",
+      "content_hash": "e8fa92c1a52741da18d59450cdd14f1055004805b30ff5d06d3caa46001d8e99",
+      "sample_id": "ATOM-NASA-BENNU-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-NASA-HUBBLE-BLACK-HOLE-2025.json",
+      "content_hash": "1dfe526b4588fa3378bf9fa704e26bd930599755b85ace5ac7a2d1599e224e3d",
+      "sample_id": "ATOM-NASA-HUBBLE-BLACK-HOLE-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-NASA-SPHEREX-LAUNCH-2025.json",
+      "content_hash": "275e1aba5d32a2b227a128244c5d41cad33481b962872e0114db705b24da20fb",
+      "sample_id": "ATOM-NASA-SPHEREX-LAUNCH-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-APPLICATION-2021.json",
+      "content_hash": "5968d6a4a60bd58c7cc46ac28f62c97fea2442ccc39191b5c114b0444ef7198e",
+      "sample_id": "ATOM-MPB-FTZ-APPLICATION-2021"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-APPLICATION-INSTRUCTIONS-2021.json",
+      "content_hash": "b34ffa398499e0bc0c67174698f5e3853f508f276194984f50a6377f81b56cfc",
+      "sample_id": "ATOM-MPB-FTZ-APPLICATION-INSTRUCTIONS-2021"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-COMMISSIONED-PROCESS-2018.json",
+      "content_hash": "5f1b806b236c18a21ec424bf40992fae7aa41fb77bfe0f01858f897fa56ffa05",
+      "sample_id": "ATOM-MPB-FTZ-COMMISSIONED-PROCESS-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-PROPOSAL-INSTRUCTIONS-2021.json",
+      "content_hash": "43eed77c3740b3a5647257604e39441a0e7fc20daaabf49af54d816b75aea4f7",
+      "sample_id": "ATOM-MPB-FTZ-PROPOSAL-INSTRUCTIONS-2021"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-STORAGE-APPLICATION-2018.json",
+      "content_hash": "9fbe2d83a0ff6214cefecac9fd2060f4c51bf9ba5f349f89ab8cd5b0eb9910d4",
+      "sample_id": "ATOM-MPB-FTZ-STORAGE-APPLICATION-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-STORAGE-PROCESS-2018.json",
+      "content_hash": "91e677468e5d447f4ee2acf40d4a8db3123299252afa2180df034bb9732a9ff6",
+      "sample_id": "ATOM-MPB-FTZ-STORAGE-PROCESS-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWCUSTOMS-GLOSSARY-EN-2025.json",
+      "content_hash": "0230ed6929a99bc15349b2019607029562c55111a89333789184217ac7e70bfe",
+      "sample_id": "ATOM-TWCUSTOMS-GLOSSARY-EN-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWCUSTOMS-GLOSSARY-ZH-B-2025.json",
+      "content_hash": "aec9fdd90647b3a1a85c51e0f00269bd6eea85db4538530ead3a8a3c581879a8",
+      "sample_id": "ATOM-TWCUSTOMS-GLOSSARY-ZH-B-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWCUSTOMS-REPORT-2018.json",
+      "content_hash": "3f22811e2627a28364b0b05aca58cf436258d562958ed000ab9477ab6f758755",
+      "sample_id": "ATOM-TWCUSTOMS-REPORT-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWCUSTOMS-REPORT-2019.json",
+      "content_hash": "1d4ea3184081cc3dffd83484d83f858034b294507f0aaa95f78269ba9ab457e4",
+      "sample_id": "ATOM-TWCUSTOMS-REPORT-2019"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-TWCUSTOMS-DECLARATION-A-2026",
+      "reason": "unextractable_payload"
+    },
+    {
+      "sample_id": "ATOM-TWCUSTOMS-DECLARATION-B-2025",
+      "reason": "unextractable_payload"
+    },
+    {
+      "sample_id": "ATOM-TWCUSTOMS-GLOSSARY-ZH-A-2025",
+      "reason": "duplicate_content_hash"
+    }
+  ],
+  "corpus_collected": 311,
+  "raw_bodies_retained": 408,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T143140Z.md"
+}

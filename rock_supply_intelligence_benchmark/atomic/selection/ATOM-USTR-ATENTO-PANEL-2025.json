@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-ATENTO-PANEL-2025",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave5",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "Atento call-center labor-rights panel decision",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://ustr.gov/about/policy-offices/press-office/press-releases/2025/august/usmca-rapid-response-labor-mechanism-panel-finds-denial-rights-atento-servicios",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:27Z",
+    "published_at": "2025-08-21T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-ATENTO-PANEL-2025.html",
+    "content_hash": "7523c0a6cd050852edaa13806d8b67fc557244bd50dfc9bc390d3cbfc24df392",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_non_supply_chain_control",
+    "event_subtype": "ustr-labor-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:27Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-21: keep."
+  }
+}

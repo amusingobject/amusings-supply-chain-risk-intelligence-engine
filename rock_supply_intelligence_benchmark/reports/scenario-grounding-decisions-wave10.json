@@ -1,0 +1,11 @@
+[
+  {
+    "decision_id": "W10-GROUND-01",
+    "candidate_id": "GROUND-ILA-EAST-GULF-STRIKE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T21:07:36Z",
+    "review_packet": "reports/human-review-registry-20260909T205726Z.md",
+    "scope": "Evidence grounding only; no shipment-impact, delay-duration, causality, or release certification."
+  }
+]

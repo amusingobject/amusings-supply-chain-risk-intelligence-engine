@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="https://rdc28.cwa.gov.tw/TDB/image/typhoon_database_icon.ico" type="image/x-icon">
+        <link rel="mask-icon" href="https://rdc28.cwa.gov.tw/TDB/image/typhoon_database_icon.ico">
+        <title></title>
+        <link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/jquery-ui/1.13.2/jquery-ui.min.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/jquery-ui/1.13.2/jquery-ui.theme.min.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/jquery-ui/1.13.2/jquery-ui.structure.min.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/bootstrap/4.1.3/css/bootstrap.min.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/font-awesome/5.3.1/css/all.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/footable/3.1.6/css/footable.bootstrap.min.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/packages/footable/3.1.6/custom.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/modules/mod_com_footer/footer.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/css/global.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/css/layout.css?v=0601183030">
+<link rel="stylesheet" href="https://rdc28.cwa.gov.tw/TDB/pages/public/typhoon_detail/typhoon_detail.css?v=0601183030">
+<script>global = window.global || {}; d = {"base_url":"https:\/\/rdc28.cwa.gov.tw\/TDB\/","controller":"https:\/\/rdc28.cwa.gov.tw\/TDB\/public\/typhoon_detail","current_lang":"zh-TW","year":"2024","level":"","name":"SON-TINH","login":"unlogin","meta":{"meta":{"tyname":"SON-TINH","year":"2024","Group":{"OBS":{"datatype_e":["Track","Satellite","Weather_map"],"datatype_c":["\u98b1\u98a8\u8def\u5f91\u5716","\u885b\u661f\u96f2\u5716","\u7d9c\u89c0\u5929\u6c23\u5716"]}}}},"product":{"RainInfo":"\u63d0\u4f9b\u4e00 pdf \u6a94\uff0c\u6a94\u6848\u5167\u6db5\uff1a\u98b1\u98a8\u767c\u5e03\u8207\u89e3\u9664\u6642\u9593\u3001\u6b77\u7a0b\u7c21\u8ff0\u3001\u707d\u60c5\u6458\u8981\u3001\u98b1\u98a8\u7e3d\u96e8\u91cf\u53ca\u65e5\u96e8\u91cf\u5206\u5e03\u5716\u3002\uff081991\u5e74\u524d\u53ea\u6709\u7e6a\u88fd\u4fb5(\u8fd1)\u81fa\u98b1\u98a8\uff0c1992\u5e74\u4e4b\u5f8c\u5305\u542b\u672a\u4fb5\u81fa\u4f46\u767c\u5e03\u9678\u4e0a\u8b66\u5831\u4e4b\u500b\u6848\uff0c2006\u5e74\u4e4b\u5f8c\u5247\u4ea6\u5c07\u50c5\u767c\u5e03\u6d77\u4e0a\u98b1\u98a8\u8b66\u5831\u4e4b\u500b\u6848\u7d0d\u5165\uff09\u3002\u9694\u5e74\u63d0\u4f9b\u3002","Dropsonde":"\u63d0\u4f9b\u81ea2003\u5e74\u8d77\uff0c\u65bc\u98b1\u98a8\u671f\u9593\uff0c\u98db\u6a5f\u6295\u843d\u9001(DROPSONDE)\u89c0\u6e2c\u4f5c\u696d\u6240\u91cf\u6e2c\u6d77\u9762\u4e0a\u4e4b\u6c23\u58d3\u3001\u6eab\u5ea6\u3001\u6fd5\u5ea6\u4ee5\u53ca\u6c34\u5e73\u98a8\u901f\u98a8\u5411\u4e4b\u5782\u76f4\u5206\u5e03\u6c23\u8c61\u8cc7\u6599\u3002\u98db\u6a5f\u6295\u843d\u9001\u89c0\u6e2c(\u8ffd\u98a8\u8a08\u756b)\u8d77\u59cb\u65bc\u6c11\u570b91\u5e74\uff0c\u7531\u884c\u653f\u9662\u570b\u5bb6\u79d1\u5b78\u59d4\u54e1\u6703(2014\u5e74\u5347\u683c\u70ba\u79d1\u6280\u90e8)\u8cc7\u52a9\u81fa\u7063\u5927\u5b78\u5927\u6c23\u79d1\u5b78\u7cfb\u3001\u4ea4\u901a\u90e8\u4e2d\u592e\u6c23\u8c61\u7f72\u53ca\u570b\u5167\u591a\u500b\u5b78\u8853\u7814\u7a76\u55ae\u4f4d\u5408\u4f5c\u9032\u884c\u81fa\u3001\u7f8e\u3001\u65e53\u570b\u7684\u8de8\u570b\u570b\u969b\u5408\u4f5c\u7814\u7a76\u8a08\u756b\u300c\u4fb5\u81fa\u98b1\u98a8\u4e4b\u98db\u6a5f\u5075\u5bdf\u53ca\u6295\u843d\u9001\u89c0\u6e2c\u5be6\u9a57\u300d(Dropwindsonde Observation for Typhoon Surveillance near the Taiwan Region\uff0cDOTSTAR)\u3002\u81ea\u6c11\u570b95\u5e74\u8d77\u6b63\u5f0f\u7531\u4e2d\u592e\u6c23\u8c61\u7f72\u7de8\u5217\u9810\u7b97\u7d0d\u5165\u4f5c\u696d\u6027\u89c0\u6e2c\uff0c\u4e26\u5148\u5f8c\u59d4\u8a17\u81fa\u7063\u5927\u5b78\u3001\u570b\u5bb6\u5be6\u9a57\u7814\u7a76\u9662\u81fa\u7063\u98b1\u98a8\u6d2a\u6c34\u7814\u7a76\u4e2d\u5fc3\u7b49\u76f8\u95dc\u7814\u7a76\u5718\u968a\u57f7\u884c\u3002 <a href=\"https:\/\/www.cwa.gov.tw\/V8\/C\/K\/Encyclopedia\/typhoon\/typhoon_list04.html#typhoon-87\" target=\"_blank\">\u8a73\u7d30\u8acb\u9ede\u6b64\u9023\u7d50(\u6c23\u8c61\u7f72\u5b98\u7db2\u98b1\u98a8\u767e\u554f\u7684\u7b2c87\u9805\u8aaa\u660e)","TyphoonSummary":"\u6982\u6cc1\u8868\u4e3b\u8981\u7528\u4f86\u5c0d\u6bcf\u500b\u767c\u5e03\u8b66\u5831\u4e4b\u98b1\u98a8\u505a\u7c21\u7565\u7684\u4ecb\u7d39\uff0c\u5167\u5bb9\u5305\u542b\uff1a\u98b1\u98a8\u540d\u7a31\u3001\u98b1\u98a8\u7de8\u865f\u3001\u98b1\u98a8\u751f\u6210\u5730\u9ede\u3001\u98b1\u98a8\u4fb5 (\u8fd1) \u81fa\u7684\u65e5\u671f\uff0c\u9084\u6709\u6c23\u8c61\u7f72\u91dd\u5c0d\u8a72\u98b1\u98a8\u767c\u5e03\u8b66\u5831\u8207\u89e3\u9664\u8b66\u5831\u7684\u6642\u9593\u4ee5\u53ca\u8a72\u865f\u98b1\u98a8\u8b66\u5831\u7e3d\u5171\u767c\u5e03\u7684\u6b21\u6578\uff0c\u6b64\u5916\u9084\u6709\u98b1\u98a8\u8b66\u5831\u671f\u9593\u98b1\u98a8\u6700\u5927\u5f37\u5ea6\u53ca\u8fd1\u4e2d\u5fc3\u6700\u5927\u98a8\u901f\uff0c\u540c\u6642\u4ea6\u5c0d\u98b1\u98a8\u4fb5\u81fa\u8def\u5f91\u5206\u985e\u8207\u767b\u9678\u5730\u6bb5\u3001\u98b1\u98a8\u52d5\u614b\u8207\u76f8\u95dc\u707d\u60c5\u7b49\u4f5c\u4e00\u8aaa\u660e\u3002","Weather_map":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u6bcf 12 \u5c0f\u6642\u7684\u9ad8\u7a7a (200hPa\u3001300hPa\u3001500hPa\u3001700hPa\u3001850hPa\u3001925hPa) \u5929\u6c23\u5716\u8207\u6bcf 6 \u5c0f\u6642\u7684\u5730\u9762\u5929\u6c23\u5716\u3002(\u4f7f\u7528\u6642\u7cfbUTC)","Satellite":"\u885b\u661f\u96f2\u5716\u63d0\u4f9b\u98b1\u98a8\u751f\u547d\u671f\u9593\u96f2\u5716\u5305\u62ec\uff1a\u6771\u4e9e\u7d05\u5916\u7dda\u8272\u8abf\u5f37\u5316\u96f2\u5716\u3001\u6771\u4e9e\u7d05\u5916\u7dda\u5f69\u8272\u96f2\u5716\u3001\u5168\u7403\u7d05\u5916\u7dda\u5716(IR1_FDK)\u3001\u6771\u4e9e\u7d05\u5916\u7dda\u5716(IR1_LOC)\u3001\u5168\u7403\u53ef\u898b\u5149\u96f2\u5716(VIS_FDK)\u3001\u6771\u4e9e\u53ef\u898b\u5149\u96f2\u5716(VIS_LOC)\u3002\r\n\u56e02015\u5e7412\u6708\u5f8c\u66f4\u6539\u63d0\u4f9b\u5411\u65e5\u8475\u885b\u661f\u7684\u9ad8\u89e3\u6790\u5ea6\u885b\u661f\u96f2\u5716\u5f8c\u51fa\u5716\u983b\u7387\u6539\u70ba10\u5206\u9418\u4e00\u5f35\u3002","Skewt":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u81fa\u5317\u3001\u82b1\u84ee\u3001\u6771\u6c99\u5cf6\u3001\u99ac\u516c\u3001\u5c4f\u6771\u3001\u7da0\u5cf6\u7b49\u5404\u5730\u659c\u6eab\u5716\u3002(\u4f7f\u7528\u6642\u7cfb:UTC)","Rainfall":"\u63d0\u4f9b\u81fa\u7063\u5404\u7e23\u5e02\u5340\u57df\u96e8\u91cf\u5206\u5e03\u5716\u3002(\u4f7f\u7528\u6642\u7cfbTST)","Radar":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u81fa\u7063\u5730\u5340\u5408\u6210\u96f7\u9054\u7b49\u5716\u3002(\u4f7f\u7528\u6642\u7cfb:TST)","Track":"\u986f\u793a\u98b1\u98a8\u65bc\u751f\u547d\u671f\u9593\u8def\u5f91\u5716\uff0c\u6bcf 6 \u5c0f\u6642\u4e00\u7b46\u4e4b\u8def\u5f91\u8207\u5f37\u5ea6\u8cc7\u6599\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u3002\u4f7f\u7528\u672c\u7f72\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u7e6a\u88fd\u3002\u7576\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u5c1a\u672a\u91cb\u51fa\u524d\uff0c\u4f7f\u7528\u8def\u5f91\u8cc7\u6599\u7e6a\u88fd\uff0c\u4e14\u5728\u5716\u4e2d\u6a19\u793a*\u865f\u3002(\u50c5\u4f9b\u7814\u7a76\u7528\u4f7f\u7528\u8005\u700f\u89bd\u3001\u4e0b\u8f09) ","StationData":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u6c11\u7528\u6e2c\u7ad9\u6c23\u58d3\u3001\u6eab\u5ea6\u3001\u9732\u9ede\u3001\u76f8\u5c0d\u6fd5\u5ea6\u3001\u96e8\u91cf\u3001\u5e73\u5747\u98a8\u98a8\u5411\u3001\u98a8\u901f\u3001\u77ac\u9593\u98a8\u98a8\u5411\u3001\u98a8\u901f\u7b49\u5404\u9805\u8cc7\u6599\u3002(\u50c5\u4f9b\u7814\u7a76\u7528\u4f7f\u7528\u8005\u700f\u89bd\u3001\u4e0b\u8f09)","Rain":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u81fa\u7063\u5168\u5340\u6bcf\u5c0f\u6642\u96e8\u91cf\u5206\u5e03\u5716\u3002","Warnings":"\u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u4e2d\u592e\u6c23\u8c61\u7f72\u767c\u5e03\u4e4b\u6d77\u4e0a\u3001\u9678\u4e0a\u98b1\u98a8\u8b66\u5831\u55ae\u5305\u62ec\uff1a\u6bcf\uff08\u4e09\u5c0f\u6642\uff0f\u4e00\u5c0f\u6642\uff09\u4e00\u5831\u7684\uff08\u6d77\u4e0a\uff0f\u9678\u4e0a\uff09\u4e0a\u98b1\u98a8\u8b66\u5831\u55ae\u3002\u9700\u89815-10\u500b\u5de5\u4f5c\u5929\u7d93\u5f8c\u88fd\u3001\u6574\u7406\u904e\u5f8c\u624d\u80fd\u66f4\u65b0\u81f3\u7db2\u9801\u4e0a\u3002(\u4f7f\u7528\u6642\u7cfb:TST)  ","WeatherInfo":"\u63d0\u4f9b\u98b1\u98a8\u5404\u6e2c\u7ad9\u98a8\u5411\u3001\u98a8\u901f\u3001\u96e8\u91cf\u3001\u6eab\u5ea6\u3001\u9732\u9ede\u3001\u6c23\u58d3\u7b49\u9010\u6642\u8cc7\u6599\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba TST\u3002\u6b64\u8cc7\u6599\u65bc1958-1969\u5e74\u4e4b\u9593\u53ea\u63d0\u4f9b\u6709\u5f71\u97ff\u53f0\u7063\u98b1\u98a8\u8cc7\u6599\uff0c1970\u5e74\u4ee5\u5f8c\u5247\u65bc\u6709\u767c\u8b66\u5831\u7684\u98b1\u98a8\u7686\u6709\u63d0\u4f9b\u3002","PhaseWindField":"\u63d0\u4f9b\u4eba\u5de5\u91cd\u5206\u6790\u98b1\u98a8\u98a8\u5834\uff0c\u88fd\u4f5c\u5206\u6790\u5716\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u3002","PhaseTempField":"\u63d0\u4f9b\u4eba\u5de5\u91cd\u5206\u6790\u98b1\u98a8\u6c23\u58d3\u5834\uff0c\u88fd\u4f5c\u5206\u6790\u5716\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u3002","GustHis":"\u63d0\u4f9b\u98b1\u98a8\u65bc\u8b66\u5831\u671f\u9593\uff0c\u5404\u6e2c\u7ad9\u6700\u5927\u5e73\u5747\u98a8\u53ca\u6700\u5927\u9663\u98a8\u98a8\u901f\u3002(\u4f7f\u7528\u6642\u7cfb:TST)","TotalStnRain":"\u63d0\u4f9b\u98b1\u98a8\u65bc\u8b66\u5831\u671f\u9593\uff0c\u5404\u6e2c\u7ad9\u7e3d\u96e8\u91cf\u503c\u3002(\u4f7f\u7528\u6642\u7cfb:TST)","Max24Rain":"\u63d0\u4f9b\u98b1\u98a8\u65bc\u8b66\u5831\u671f\u9593\uff0c\u5404\u6e2c\u7ad9\u6700\u5927\u9023\u7e8c 24 \u5c0f\u6642\u7d2f\u7a4d\u96e8\u91cf\u503c\u3002(\u4f7f\u7528\u6642\u7cfb:TST)","TrackData":"\u8def\u5f91\u8cc7\u6599(YYYY.TYName.Track.txt)\u8207\u6700\u4f73\u8def\u5f91\u8cc7\u6599(YYYY.TYName.TrackBEST.txt) \u7684\u4e0d\u540c\u70ba : \u8def\u5f91\u8cc7\u6599\u53d7\u9650\u65bc\u4f5c\u696d\u6642\u9593\u58d3\u529b\uff0c\u7576\u6709\u4e9b\u8cc7\u6599\u5c1a\u672a\u9032\u4f86\u6c23\u8c61\u7f72\u5c31\u5fc5\u9808\u5148\u5224\u65b7\u98b1\u98a8\u4e4b\u8def\u5f91\uff1b\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u5247\u662f\u4e8b\u5f8c\u5206\u6790\u8cc7\u6599\u518d\u505a\u4fee\u6b63\uff0c\u7576\u4f5c\u65e5\u5f8c\u7814\u7a76\u7684\u53c3\u8003\u3002\u98b1\u98a8\u8cc7\u6599\u5eab\u6703\u512a\u5148\u63d0\u4f9b\u8def\u5f91\u8cc7\u6599\uff0c\u5f85\u9810\u5831\u4e2d\u5fc3\u6aa2\u8996\u5fae\u8abf\u5f8c\uff0c\u518d\u7531\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u53d6\u4ee3\u3002\u5728\u672a\u767c\u8b66\u5831\u4e0b\u70ba\u6bcf6\u5c0f\u6642\u4e00\u7b46\uff0c\u800c2002\u5e74\u4e4b\u5f8c\u5728\u6d77\u4e0a\u8b66\u5831\u671f\u9593\u70ba\u6bcf3\u5c0f\u6642\u4e00\u7b46\uff0c2019\u5e74\u5f8c\u9678\u4e0a\u8b66\u5831\u671f\u9593\u70ba\u6bcf\u5c0f\u6642\u8cc7\u6599\u3002\u4ee5\u6700\u5927\u98a8\u901f\uff0810\u5206\u9418\u5e73\u5747\uff09\u5224\u65b7\u5b9a\u4f4d\u3002","SurfaceDataMap":"\u63d0\u4f9b\u5730\u9762\u4ee3\u8868\u6e2c\u7ad9\u4e4b\u6642\u8cc7\u6599\uff0c\u5305\u62ec\u6c23\u58d3\u3001\u98a8\u901f\u98a8\u5411\u3001\u6eab\u5ea6\u53ca\u9732\u9ede\u6eab\u5ea6\u7b49\u7a7a\u9593\u5206\u5e03\u60c5\u5f62\u3002(\u50c5\u4f9b\u7814\u7a76\u7528\u4f7f\u7528\u8005\u700f\u89bd\u3001\u4e0b\u8f09)","ReTrack":"\u63d0\u4f9b\u4eba\u5de5\u5206\u6790\u98b1\u98a8\u8def\u5f91\uff0c\u5c24\u5176\u662f\u5728\u81fa\u7063\u9678\u5730\u7684\u90e8\u5206\uff0c\u8457\u91cd\u5728\u98b1\u98a8\u5982\u4f55\u5728\u8907\u96dc\u5730\u5f62\u4e0a\u79fb\u52d5\uff0c\u662f\u5426\u5206\u88c2\u904e\u5c71\u6216\u662f\u81ea\u7531\u904e\u5c71\u7b49\uff0c\u88fd\u4f5c\u6210\u9010\u6642\u8def\u5f91\u5716\u3002"}};for(var k in d) {global[k]=d[k]};</script><script>lang = window.lang || {}; d = {"title":"\u4e2d\u592e\u6c23\u8c61\u7f72\u98b1\u98a8\u8b66\u5831\u767c\u5e03\u6982\u6cc1\u8868","no_data":"\u8cc7\u6599\u8490\u96c6\u4e2d","name":"\u540d\u7a31","id":"\u7de8\u865f","born":"\u751f\u6210\u5730\u9ede","enter_times":"\u4fb5\u81fa\u6b21\u6578","times_before":"\u7b2c ","times_after":" \u6b21","enter_date":"\u4fb5(\u8fd1)\u81fa\u65e5\u671f","date_year":"\u5e74 ","date_month":"\u6708 ","date_day":"\u65e5","no_enter_date":"\u7121\u4fb5(\u8fd1)\u81fa\u65e5\u671f","issue_time":"\u767c\u5e03\u6642\u9593","issue_sea":"\u6d77\u4e0a ","issue_land":"\u9678\u4e0a ","release_time":"\u89e3\u9664\u6642\u9593","no_warning":"\u7121\u8b66\u5831\u767c\u5e03","warning_count":"\u767c\u5e03\u5831\u6578","max_intensity":"\u6700\u5927\u5f37\u5ea6","center_max_speed":"\u8fd1\u4e2d\u5fc3\u6700\u5927\u98a8\u901f","speed_unit":" (\u516c\u5c3a\/\u79d2)","path_category":"\u4fb5\u81fa\u8def\u5f91\u5206\u985e","special_path":"\u7279\u6b8a","enter_place":"\u767b\u9678\u5730\u6bb5","movement":"\u52d5\u614b","disaster":"\u707d\u60c5","disaster_link":"\u98b1\u98a8\u707d\u5bb3\u5c08\u5340\u7db2\u9801\u9023\u7d50","link":"\u707d\u5bb3\u9023\u7d50","note_1":"\u8a3b1\uff1a\u8cc7\u6599\u7bc4\u570d\u53d6\u81ea\u8b66\u5831\u767c\u5e03\u81f3\u8b66\u5831\u89e3\u9664\u3002","note_2":"\u8a3b2\uff1a\u707d\u60c5\u7bc0\u9304\u81ea\u5167\u653f\u90e8\u6d88\u9632\u7f72\u53ca\u884c\u653f\u9662\u8fb2\u59d4\u6703\u8cc7\u6599\u3002","TyphoonSummary":"\u203b \u6982\u6cc1\u8868\u4e3b\u8981\u7528\u4f86\u5c0d\u6bcf\u500b\u767c\u4f48\u8b66\u5831\u4e4b\u98b1\u98a8\u505a\u7c21\u7565\u7684\u4ecb\u7d39\uff0c\u5167\u5bb9\u5305\u542b\uff1a\u98b1\u98a8\u540d\u7a31\u3001\u98b1\u98a8\u7de8\u865f\u3001\u98b1\u98a8\u751f\u6210\u5730\u9ede\u3001\u98b1\u98a8\u4fb5 (\u8fd1) \u81fa\u7684\u65e5\u671f\uff0c\u9084\u6709\u6c23\u8c61\u7f72\u91dd\u5c0d\u8a72\u98b1\u98a8\u767c\u4f48\u8b66\u5831\u8207\u89e3\u9664\u8b66\u5831\u7684\u6642\u9593\u4ee5\u53ca\u8a72\u865f\u98b1\u98a8\u8b66\u5831\u7e3d\u5171\u767c\u4f48\u7684\u6b21\u6578\uff0c\u6b64\u5916\u9084\u6709\u98b1\u98a8\u8b66\u5831\u671f\u9593\u98b1\u98a8\u6700\u5927\u5f37\u5ea6\u53ca\u8fd1\u4e2d\u5fc3\u6700\u5927\u98a8\u901f\uff0c\u540c\u6642\u4ea6\u5c0d\u98b1\u98a8\u4fb5\u81fa\u8def\u5f91\u5206\u985e\u8207\u767b\u9678\u5730\u6bb5\u3001\u98b1\u98a8\u52d5\u614b\u8207\u76f8\u95dc\u707d\u60c5\u7b49\u4f5c\u4e00\u8aaa\u660e\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Track":"\u203b \u986f\u793a\u98b1\u98a8\u65bc\u751f\u547d\u671f\u9593\u8def\u5f91\u5716\uff0c\u6bcf 6 \u5c0f\u6642\u4e00\u7b46\u4e4b\u8def\u5f91\u8207\u5f37\u5ea6\u8cc7\u6599\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u30021992\u5e746\u6708\u4ee5\u524d\u897f\u5317\u592a\u5e73\u6d0b\u672a\u767c\u8b66\u5831\u98b1\u98a8\u63a1\u7528\u95dc\u5cf6\u8def\u5f91\u8cc7\u6599\u7e6a\u5716\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","TrackData":"\u203b \u8def\u5f91\u8cc7\u6599\u8207\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u7684\u5dee\u5225\u70ba\uff0c\u8def\u5f91\u8cc7\u6599\u53d7\u9650\u65bc\u4f5c\u696d\u6642\u9593\u58d3\u529b\uff0c\u7576\u6709\u4e9b\u8cc7\u6599\u5c1a\u672a\u9032\u4f86\u6c23\u8c61\u7f72\u5c31\u5fc5\u9808\u5148\u5224\u65b7\u98b1\u98a8\u4e4b\u8def\u5f91\uff1b\u6700\u4f73\u8def\u5f91\u8cc7\u6599\u5247\u662f\u4e8b\u5f8c\u7e3d\u652c\u8cc7\u6599\u4f5c\u5fae\u8abf\uff0c\u7576\u4f5c\u65e5\u5f8c\u7814\u7a76\u7684\u53c3\u8003\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","Warnings":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u4e2d\u592e\u6c23\u8c61\u7f72\u767c\u5e03\u4e4b\u6d77\u4e0a\u3001\u9678\u4e0a\u98b1\u98a8\u8b66\u5831\u55ae\u5305\u62ec\uff1a\u6bcf\uff08\u4e09\u5c0f\u6642\uff0f\u4e00\u5c0f\u6642\uff09\u4e00\u5831\u7684\uff08\u6d77\u4e0a\uff0f\u9678\u4e0a\uff09\u4e0a\u98b1\u98a8\u8b66\u5831\u55ae\u3002\u9700\u89815-10\u500b\u5de5\u4f5c\u5929\u7d93\u5f8c\u88fd\u3001\u6574\u7406\u904e\u5f8c\u624d\u80fd\u65bc\u7db2\u9801\u4e0a\u986f\u793a\u6b64\u7522\u54c1\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Satellite":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u6bcf 1 \u5c0f\u6642 1 \u5f35\u885b\u661f\u96f2\u5716\u5305\u62ec\uff1a\u6771\u4e9e\u7d05\u5916\u7dda\u8272\u8abf\u5f37\u5316\u96f2\u5716\u3001\u6771\u4e9e\u7d05\u5916\u7dda\u5f69\u8272\u96f2\u5716\u3001\u5168\u7403\u7d05\u5916\u7dda\u5716(IR1_FDK)\u3001\u6771\u4e9e\u7d05\u5916\u7dda\u5716(IR1_LOC)\u3001\u5168\u7403\u53ef\u898b\u5149\u96f2\u5716(VIS_FDK)\u3001\u6771\u4e9e\u53ef\u898b\u5149\u96f2\u5716(VIS_LOC)\uff0c\u7db2\u9801\u986f\u793a\u6642\u9593\u70ba TST\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Weather_map":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u6bcf 12 \u5c0f\u6642\u7684\u9ad8\u7a7a (200hPa\u3001300hPa\u3001500hPa\u3001700hPa\u3001850hPa\u3001925hPa) \u5929\u6c23\u5716\u8207\u6bcf 6 \u5c0f\u6642\u7684\u5730\u9762\u5929\u6c23\u5716\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","WeatherInfo":"\u203b \u63d0\u4f9b\u98b1\u98a8\u5404\u6e2c\u7ad9\u98a8\u5411\u3001\u98a8\u901f\u3001\u96e8\u91cf\u3001\u6eab\u5ea6\u3001\u9732\u9ede\u3001\u6c23\u58d3\u7b49\u9010\u6642\u8cc7\u6599\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba TST\u3002\u6b64\u8cc7\u6599\u65bc1958-1969\u5e74\u4e4b\u9593\u53ea\u63d0\u4f9b\u6709\u5f71\u97ff\u81fa\u7063\u98b1\u98a8\u8cc7\u6599\uff0c1970\u5e74\u4ee5\u5f8c\u5247\u65bc\u6709\u767c\u8b66\u5831\u7684\u98b1\u98a8\u7686\u6709\u63d0\u4f9b\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","GustHis":"\u203b \u63d0\u4f9b\u98b1\u98a8\u65bc\u8b66\u5831\u671f\u9593\uff0c\u5404\u6e2c\u7ad9\u6700\u5927\u5e73\u5747\u98a8\u53ca\u6700\u5927\u9663\u98a8\u98a8\u901f\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","TotalStnRain":"\u203b \u63d0\u4f9b\u98b1\u98a8\u65bc\u8b66\u5831\u671f\u9593\uff0c\u5404\u6e2c\u7ad9\u7e3d\u96e8\u91cf\u503c\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","StationData":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u6c11\u7528\u6e2c\u7ad9\u6c23\u58d3\u3001\u6eab\u5ea6\u3001\u9732\u9ede\u3001\u76f8\u5c0d\u6fd5\u5ea6\u3001\u96e8\u91cf\u3001\u5e73\u5747\u98a8\u98a8\u5411\u3001\u98a8\u901f\u3001\u77ac\u9593\u98a8\u98a8\u5411\u3001\u98a8\u901f\u7b49\u5404\u9805\u8cc7\u6599\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","PhaseWindField":"\u203b \u63d0\u4f9b\u98b1\u98a8\u98a8\u5834\u5206\u6790\u5716\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","PhaseTempField":"\u203b \u63d0\u4f9b\u98b1\u98a8\u6c23\u58d3\u5834\u5206\u6790\u5716\uff0c\u5716\u6a94\u8cc7\u6599\u986f\u793a\u6642\u9593\u70ba UTC\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","ReTrack":"\u63d0\u4f9b\u4eba\u5de5\u5206\u6790\u98b1\u98a8\u8def\u5f91\uff0c\u5c24\u5176\u662f\u5728\u81fa\u7063\u9678\u5730\u7684\u90e8\u5206\uff0c\u8457\u91cd\u5728\u98b1\u98a8\u5982\u4f55\u5728\u8907\u96dc\u5730\u5f62\u4e0a\u79fb\u52d5\uff0c\u662f\u5426\u5206\u88c2\u904e\u5c71\u6216\u662f\u81ea\u7531\u904e\u5c71\u7b49\uff0c\u88fd\u4f5c\u6210\u9010\u6642\u8def\u5f91\u5716\u3002","Radar":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u81fa\u7063\u5730\u5340\u5408\u6210\u96f7\u9054\u7b49\u5716\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Skewt":"\u203b \u63d0\u4f9b\u98b1\u98a8\u8b66\u5831\u671f\u9593\u81fa\u5317\u3001\u82b1\u84ee\u3001\u6771\u6c99\u5cf6\u3001\u99ac\u516c\u3001\u5c4f\u6771\u3001\u7da0\u5cf6\u7b49\u5404\u5730\u659c\u6eab\u5716\u3002(\u4f7f\u7528\u6642\u7cfb: UTC)","RainInfo":"\u203b \u63d0\u4f9b\u4e00 pdf \u6a94\uff0c\u6a94\u6848\u5167\u6db5\uff1a\u98b1\u98a8\u767c\u5e03\u8207\u89e3\u9664\u6642\u9593\u3001\u6b77\u7a0b\u7c21\u8ff0\u3001\u707d\u60c5\u6458\u8981\u3001\u98b1\u98a8\u7e3d\u96e8\u91cf\u53ca\u65e5\u96e8\u91cf\u5206\u5e03\u5716\u3002\uff081991\u5e74\u4e4b\u5f8c\u5305\u542b\u672a\u4fb5\u81fa\u4f46\u767c\u5e03\u9678\u4e0a\u8b66\u5831\u4e4b\u500b\u6848\uff0c2006\u5e74\u4e4b\u5f8c\u5247\u4ea6\u5c07\u50c5\u767c\u5e03\u6d77\u4e0a\u98b1\u98a8\u8b66\u5831\u4e4b\u500b\u6848\u7d0d\u5165\uff09\u3002\u9694\u5e74\u63d0\u4f9b\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Rainfall":"\u203b \u63d0\u4f9b\u81fa\u7063\u5404\u7e23\u5e02\u5340\u57df\u96e8\u91cf\u5206\u5e03\u5716\u3002(\u4f7f\u7528\u6642\u7cfb: TST)","Dropsonde":"\u63d0\u4f9b\u81ea2003\u5e74\u8d77\uff0c\u65bc\u98b1\u98a8\u671f\u9593\uff0c\u98db\u6a5f\u6295\u843d\u9001(DROPSONDE)\u89c0\u6e2c\u4f5c\u696d\u6240\u91cf\u6e2c\u6d77\u9762\u4e0a\u4e4b\u6c23\u58d3\u3001\u6eab\u5ea6\u3001\u6fd5\u5ea6\u4ee5\u53ca\u6c34\u5e73\u98a8\u901f\u98a8\u5411\u4e4b\u5782\u76f4\u5206\u5e03\u6c23\u8c61\u8cc7\u6599\u3002\u98db\u6a5f\u6295\u843d\u9001\u89c0\u6e2c(\u8ffd\u98a8\u8a08\u756b)\u8d77\u59cb\u65bc\u6c11\u570b91\u5e74\uff0c\u7531\u884c\u653f\u9662\u570b\u5bb6\u79d1\u5b78\u59d4\u54e1\u6703(2014\u5e74\u5347\u683c\u70ba\u79d1\u6280\u90e8)\u8cc7\u52a9\u81fa\u7063\u5927\u5b78\u5927\u6c23\u79d1\u5b78\u7cfb\u3001\u4ea4\u901a\u90e8\u4e2d\u592e\u6c23\u8c61\u7f72\u53ca\u570b\u5167\u591a\u500b\u5b78\u8853\u7814\u7a76\u55ae\u4f4d\u5408\u4f5c\u9032\u884c\u81fa\u3001\u7f8e\u3001\u65e53\u570b\u7684\u8de8\u570b\u570b\u969b\u5408\u4f5c\u7814\u7a76\u8a08\u756b\u300c\u4fb5\u81fa\u98b1\u98a8\u4e4b\u98db\u6a5f\u5075\u5bdf\u53ca\u6295\u843d\u9001\u89c0\u6e2c\u5be6\u9a57\u300d(Dropwindsonde Observation for Typhoon Surveillance near the TAiwan Region\uff0cDOTSTAR)\u3002\u81ea\u6c11\u570b95\u5e74\u8d77\u6b63\u5f0f\u7531\u4e2d\u592e\u6c23\u8c61\u7f72\u7de8\u5217\u9810\u7b97\u7d0d\u5165\u4f5c\u696d\u6027\u89c0\u6e2c\uff0c\u4e26\u5148\u5f8c\u59d4\u8a17\u81fa\u7063\u5927\u5b78\u3001\u570b\u5bb6\u5be6\u9a57\u7814\u7a76\u9662\u81fa\u7063\u98b1\u98a8\u6d2a\u6c34\u7814\u7a76\u4e2d\u5fc3\u7b49\u76f8\u95dc\u7814\u7a76\u5718\u968a\u57f7\u884c\u3002 \u8a73\u7d30\u8acb\u9ede\u6b64\u9023\u7d50(\u6c23\u8c61\u7f72\u5b98\u7db2\u98b1\u98a8\u767e\u554f\u7684\u7b2c87\u9805\u8aaa\u660e)<br><br>\n\u9023\u7d50\uff1a<a href=\"https:\/\/www.cwa.gov.tw\/V8\/C\/K\/Encyclopedia\/typhoon\/index.html\">\u300c\u8a73\u7d30\u8acb\u9ede\u6b64\u9023\u7d50(\u6c23\u8c61\u7f72\u5b98\u7db2\u98b1\u98a8\u767e\u554f\u7684\u7b2c87\u9805\u8aaa\u660e)\u300d<\/a>","intensity_s":"\u5f37\u70c8","intensity_m":"\u4e2d\u5ea6","intensity_w":"\u8f15\u5ea6","typhoon_abstract":"\u98b1\u98a8\u6982\u6cc1\u8868","OBS":"\u89c0\u6e2c\u8cc7\u6599","FCT":"\u6a21\u5f0f\u8cc7\u6599","ReAna":"\u91cd\u5206\u6790","Download":"\u8cc7\u6599\u4e0b\u8f09","select_all":"\u5168\u9078","no_product_content":"\u9019\u7b46\u8cc7\u6599\u6c92\u6709\u7d30\u90e8\u5167\u5bb9\uff01","click_to_open_pdf":"\u9ede\u64ca\u958b\u555f PDF","click_to_open_txt":"\u9ede\u64ca\u958b\u555f TXT","download_not_select":"\u6c92\u6709\u52fe\u9078\u4efb\u4f55\u9805\u76ee\uff0c\u7121\u6cd5\u4e0b\u8f09\uff01","download_text":"\u4e0b\u8f09","loop_play":"\u64ad\u653e","loop_stop":"\u505c\u6b62","loop_prev":"\u4e0a\u4e00\u5f35","loop_next":"\u4e0b\u4e00\u5f35","loop_speed":"\u64ad\u653e\u901f\u5ea6","loop_speed_unit":"\u6beb\u79d2","announcement":"\u653f\u5e9c\u7db2\u7ad9\u8cc7\u6599\u958b\u653e\u5ba3\u544a","information_policy":"\u8cc7\u8a0a\u5b89\u5168\u653f\u7b56","privacy_right":"\u96b1\u79c1\u6b0a\u4fdd\u8b77\u653f\u7b56 ","personal_privacy":"\u500b\u4eba\u8cc7\u6599\u4fdd\u8b77\u5c08\u5340","address":"\u5730\u5740\uff1a100006\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u516c\u5712\u8def64\u865f | \u96fb\u8a71\uff1a(02)2349-1000(\u4ee3\u8868\u865f) | \u7db2\u9801\u554f\u984c : (02)2349-7975","broswer_version":"\u6700\u4f73\u700f\u89bd\u5668\u7248\u672c\uff1a\u5efa\u8b70\u4f7f\u7528 Google Chrome 48.0.2526\u3001Firefox 40.0.3\u3001Microsoft IE 8.0 \u4ee5\u4e0a \u6700\u4f73\u89e3\u6790\u5ea6\uff1a1024*768"};for(var k in d) {lang[k]=d[k]};</script><script src="https://rdc28.cwa.gov.tw/TDB/packages/jquery/3.7.0/jquery.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/bootstrap/4.1.3/js/bootstrap.bundle.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/jquery-ui/1.13.2/jquery-ui.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/jquery-ui/1.13.2/i18n/datepicker-zh-TW.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/js/fix_ie.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/js/lib.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/footable/3.1.6/js/footable.min.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/footable/3.1.6/custom.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/moment/2.22.2/min/moment-with-locales.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/packages/moment/2.22.2/custom.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/js/global.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/pages/public/typhoon_detail/getTyProductJsonData.js?v=0601183030"></script>
+<script src="https://rdc28.cwa.gov.tw/TDB/pages/public/typhoon_detail/typhoon_detail.js?v=0601183030"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid" id="main_content_container">
+            <header id="navbar_header">
+                <a href="https://rdc28.cwa.gov.tw/TDB/"><div id="logo">颱風資料庫<span>Typhoon Database</span></div></a>
+                <div class="user_func">
+                                            <a href="https://rdc28.cwa.gov.tw/TDB/user/login/" data-ajax=false><i class="fas fa-user-cog"></i></a>
+                                    </div>
+
+                <div id="navbar_subtitle">
+                    <ul>
+                        <li><a href="mailto:mcd.tdbservice@cwa.gov.tw">聯絡我們</a></li>
+
+                        
+                        <li><a href="https://rdc28.cwa.gov.tw/TDB/public/sitemap/">網站導覽</a></li>
+                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/feedback/">意見回饋</a></li>
+                        
+                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/paper/">論文資源</a></li>
+                        
+                        <li><i class="fa fa-globe"></i>
+                                                            <a href="https://rdc28.cwa.gov.tw/TDB/global_ctrl/english/">English</a>
+                                                    </li>
+                        <li>
+                                                            <a href="https://rdc28.cwa.gov.tw/TDB/user/login/" data-ajax=false>登入</a>
+                                                    </li>
+                    </ul>
+                </div>
+
+                <input type="checkbox" id="main_menu_switch"><label for="main_menu_switch"><span></span></label>
+                <div id="navbar_menu">
+                    <ul>
+                        <li class="mobile_li"><a href="mailto:mcd.tdbservice@cwa.gov.tw">聯絡我們</a>
+
+                            
+                                                        <li class="mobile_li"><a href="https://rdc28.cwa.gov.tw/TDB/public/feedback/">意見回饋</a>
+                            
+                                                        <li class="mobile_li"><a href="https://rdc28.cwa.gov.tw/TDB/public/paper/">論文資源</a>
+                            
+                                                                                            <li class="mobile_li mobile_lang"><a href="https://rdc28.cwa.gov.tw/TDB/global_ctrl/english/"><i class="fas fa-language"></i></a></li>
+                                                                                
+                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/news/">最新消息</a></li>
+                        
+                        <li class="root_li"><a href="#">基本分類</a>
+                            <input type="checkbox">
+                            <ul class="sub_menu">
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/basic_query/">基本分類查詢</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/typhoon_list/">西北太平洋颱風列表</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/warning_typhoon_list/">有發警報颱風列表</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/typhoon_range_query">距離範圍查詢</a></li>
+                                                            </ul>
+                        </li>
+                        <li class="root_li"><a href="#">進階查詢</a>
+                            <input type="checkbox">
+                            <ul class="sub_menu">
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/advanced_query/">自訂範圍查詢</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/precipitation_statistics/">雨量統計查詢</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/wind_gust_statistics/">風速統計查詢</a></li>
+                                
+                                
+                                
+                                                            </ul>
+                        </li>
+                        <li class="root_li"><a href="#">極端值查詢</a>
+                            <input type="checkbox">
+                            <ul class="sub_menu">
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/cwb_precipitation_statistics/">署屬站降水與風力統計排名</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/typhoon_extremum_query/">颱風基本資訊極值查詢</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/station_extremum_query/">各測站極值查詢</a></li>
+                                
+                                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/cwb_extremum_query/">署屬站極值查詢</a></li>
+                                                            </ul>
+                        </li>
+
+                        
+                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/data_description/">資料說明</a></li>
+                        
+                                                    <li><a href="https://rdc28.cwa.gov.tw/TDB/public/associated_link">相關連結</a></li>
+                        
+                                                        
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                                    </ul>
+                </div>
+            </header>
+
+            <div id="navbar_breadcrumb" class="row">
+                <div class="col-md-12">
+                    <li class="breadcrumb_item active">首頁</li>                </div>
+            </div>
+
+            <div class="row" id="main_content_row">
+                <div id="ajax_loading"></div>
+
+                <div id="main_content_col">
+                    
+<div id="main_container">
+    <div id="collapse_parent">
+        <div class="card">
+            <div class="card-header" id="typhoon_abstract_header" data-toggle="collapse" data-target="#typhoon_abstract" aria-expanded="false" aria-controls="collapseOne">
+                <h5 class="mb-0">
+                    颱風概況表 <i class="fas fa-sort-down"></i>                </h5>
+            </div>
+
+            <div id="typhoon_abstract" class="collapse" aria-labelledby="typhoon_abstract_header" data-parent="#collapse_parent">
+                <div class="card-body">
+                    <table class="table table-striped table-bordered mb-0">
+                        <tbody>
+                            <tr>
+                                <th scope="row">名稱</th>
+                                <td>山神 (SON-TINH)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">編號</th>
+                                <td>202406</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">生成地點</th>
+                                <td>154.9, 29.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    
+                    註1：資料範圍取自警報發布至警報解除。<br>
+                    註2：災情節錄自內政部消防署及行政院農委會資料。
+                    <!--需加入颱風概況表的資料說明-->
+                    <div class="mt-4 description">
+                        <small id="typhoon_summary"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="group_template" class="card mt-3">
+            <div class="card-header" data-toggle="collapse" data-target="#group" aria-expanded="false" aria-controls="collapse_group">
+                <h5 class="mb-0">group</h5>
+            </div>
+
+            <div id="group" class="collapse" aria-labelledby="collapse_group" data-parent="#collapse_parent">
+                <div class="card-body">
+                    <div id="product_template" class="product_template">
+                        <div class="card mb-1">
+                            <div class="card-header" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse_product">
+                                <h5 class="mb-0"></h5>
+                            </div>
+
+                            <div id="collapse1" class="collapse" aria-labelledby="collapse_product" data-parent="#product_template">
+                                <div class="card-body">
+                                    <div class="product_display">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-7 order-1 order-lg-0 text-center display_area"></div>
+                                            <div class="col-12 col-lg-5 order-0 order-lg-1 select_area pl-3"></div>
+                                            <div class="col-12 order-2 function_area"></div>
+                                        </div>
+                                    </div>
+
+                                    <!--每個產品要加入對應的資料說明-->
+                                    <div class="description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+                </div>
+            </div>
+            <!--</div>-->
+            
+<footer id="footer" class="row">
+    <p class="col-12">
+        <a href="https://www.cwa.gov.tw/V8/C/information.html" target="_blank">政府網站資料開放宣告</a> |
+        <a href="https://www.cwa.gov.tw/V8/C/security.html" target="_blank">資訊安全政策</a> |
+        <a href="https://www.cwa.gov.tw/V8/C/private.html" target="_blank">隱私權保護政策 </a> |
+        <a href="https://www.cwa.gov.tw/V8/C/pi_secure.pdf" target="_blank">個人資料保護專區</a>
+    </p>
+    <p class="col-12">地址：100006臺北市中正區公園路64號 | 電話：(02)2349-1000(代表號) | 網頁問題 : (02)2349-7975</p>
+    <div class="w-100"></div>
+    <p class="col">最佳瀏覽器版本：建議使用 Google Chrome 48.0.2526、Firefox 40.0.3、Microsoft IE 8.0 以上 最佳解析度：1024*768</p>
+</footer>
+                    </div>
+
+        <!--forecast analysis modal-->
+        <div class="modal fade" id="forecastModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header"></div>
+                    <div class="modal-body"></div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--typhoon detail modal-->
+        <div class="modal fade" id="typhoonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5></h5>
+                        <a href="https://rdc28.cwa.gov.tw/TDB/" target="_blank"><span data-word="相關資料">相關資料</span></a>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

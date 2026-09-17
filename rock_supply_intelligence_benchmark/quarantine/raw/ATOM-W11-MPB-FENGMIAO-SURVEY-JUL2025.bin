@@ -1,0 +1,1457 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>交通部航港局   | 交通部航港局</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta name="keywords" content="交通部航港局,航港局,海運,航運,港務,港口,船舶,船員,燈塔,航行安全,港務行政,航港法規,海事,海運資訊,船舶檢驗,船舶登記,船員證照,航港便民服務,航港公告,MPB">
+    <meta name="description" content="交通部航港局全球資訊網提供航港政策、港務管理、船舶管理、船員管理、航行安全、燈塔管理、航運法規、統計資訊、公告訊息及各項線上便民服務，致力建構安全、高效、永續的海運與港埠發展環境。">
+    <meta name="DC.Title" content="交通部航港局 Maritime Port Bureau. MOTC - 夢想航道 航港知道">
+    <meta name="DC.Language" content="zh-Hant-TW">
+    <meta name="DC.Description" content="交通部航港局全球資訊網提供航港政策、港務管理、船舶管理、船員管理、航行安全、燈塔管理、航運法規、統計資訊、公告訊息及各項線上便民服務，致力建構安全、高效、永續的海運與港埠發展環境。">
+    <meta name="site.description" content="交通部航港局全球資訊網提供航港政策、港務管理、船舶管理、船員管理、航行安全、燈塔管理、航運法規、統計資訊、公告訊息及各項線上便民服務，致力建構安全、高效、永續的海運與港埠發展環境。">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.motcmpb.gov.tw/">
+    <meta property="og:title" content="交通部航港局 Maritime Port Bureau. MOTC - 夢想航道 航港知道">
+    <meta property="og:description" content="交通部航港局全球資訊網提供航港政策、港務管理、船舶管理、船員管理、航行安全、燈塔管理、航運法規、統計資訊、公告訊息及各項線上便民服務，致力建構安全、高效、永續的海運與港埠發展環境。">
+
+    <meta name="google-site-verification" content="Ab42dQDQ0HYweE50OJj4-EKtleMovvKpkfaKDbCibjw" />
+    <meta name="format-detection" content="telephone=no">
+
+    <link href="/Content/jquery-ui.min.css" rel="stylesheet"/>
+<link href="/Content/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet"/>
+<link href="/Content/bootstrap-bs3-compat.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/center.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/skbase.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/owl.carousel.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/owl.transitions.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/owl.theme.default.min.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/responsive-tables.css" rel="stylesheet"/>
+<link href="/Scripts/fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet"/>
+<link href="/FContent/plugins/bootstrap-datepicker/css/datepicker.min.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/style.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/shipmtnet2.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/shiproute.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/o_style.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/k_style.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/print.css" rel="stylesheet"/>
+<link href="/FContent/themes/css/port_station.css" rel="stylesheet"/>
+
+    
+    
+</head>
+
+<body>
+    <a class="sr-only sr-only-focusable" href="#accesskeyC" title="跳到主要內容區塊" tabindex="1">跳到主要內容</a>
+    <noscript>您的電腦不支援Script,可能會影響使用的順暢度,建議您開啟Script</noscript>
+    <!-- all -->
+    <div id="all">
+        <div id="mobi-control"></div>
+        <!-- header -->
+        <!-- mobile control -->
+        <nav class="noprint">
+            <!-- header -->
+            <div id="header">
+                <a id="mobi-navbar" href="javascript:;" title="選單按鈕" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="text-hidden">選單按鈕</span>
+                </a>
+                <!-- navigation -->
+                <ul id="navigation">
+                    <li class="search inside">
+                        <dl id="search">
+                            <dt class="searchdt">
+                                <a href="#accesskeyU" id="accesskeyU" title="右上方功能區塊" accesskey="U">:::</a>
+                            </dt>
+                            <dt id="hot-search">
+                                熱門搜尋：
+                                        <a href="javascript:;" onclick="setWord( '停航資訊' )" title="停航資訊 (另開新視窗)">停航資訊</a>
+                                            、
+                                        <a href="javascript:;" onclick="setWord( '離岸風電' )" title="離岸風電 (另開新視窗)">離岸風電</a>
+                                            、
+                                        <a href="javascript:;" onclick="setWord( '航海人員測驗' )" title="航海人員測驗 (另開新視窗)">航海人員測驗</a>
+                            </dt>
+                            <dd>
+                                <label style="display: none;" for="hotkeywordString"></label>
+                                <input id="hotkeywordString" name="hotkeywordString" type="hidden" value="停航資訊|離岸風電|航海人員測驗|船員訓練|船員組|下載專區|船舶各項證書註銷公告|寫信給局長|小三通|電子報|航港電子報|航務中心|最新消息|海運承攬運送業|新聞稿|交通部航港局|" />
+<form action="/AdvanceSearch" id="advancedSearchForm" method="post" target="_blank"><input name="__RequestVerificationToken" type="hidden" value="VoQFMyzwBraQiKXIYR9mcabWfU-eIUA9x3bT6XDuaEzRhJLS99BO7fqKmMt3P8v98ZYZLeFepNdAf2hoHtlfPaEMdn4QJud6P4NrU5khDpE1" />                                    <label for="oCountries" style="display: none;">關鍵字查詢</label>
+                                    <input type="text" class="form-control" placeholder="請輸入關鍵字" id="oCountries" accesskey="S" name="SearchKey" autocomplete="off">
+                                    <a href="javascript:;" title="熱門搜尋文字下拉選擇" class="popular_search JQpopular_search_a">熱門搜尋文字下拉選擇</a>
+                                    <ul class="popular_search_ul JQpopular_search">
+                                                <li><a href="javascript:;" onclick="setWord('停航資訊')" title="停航資訊 (另開新視窗)">停航資訊</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('離岸風電')" title="離岸風電 (另開新視窗)">離岸風電</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('航海人員測驗')" title="航海人員測驗 (另開新視窗)">航海人員測驗</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('船員訓練')" title="船員訓練 (另開新視窗)">船員訓練</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('船員組')" title="船員組 (另開新視窗)">船員組</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('下載專區')" title="下載專區 (另開新視窗)">下載專區</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('船舶各項證書註銷公告')" title="船舶各項證書註銷公告 (另開新視窗)">船舶各項證書註銷公告</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('寫信給局長')" title="寫信給局長 (另開新視窗)">寫信給局長</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('小三通')" title="小三通 (另開新視窗)">小三通</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('電子報')" title="電子報 (另開新視窗)">電子報</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('航港電子報')" title="航港電子報 (另開新視窗)">航港電子報</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('航務中心')" title="航務中心 (另開新視窗)">航務中心</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('最新消息')" title="最新消息 (另開新視窗)">最新消息</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('海運承攬運送業')" title="海運承攬運送業 (另開新視窗)">海運承攬運送業</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('新聞稿')" title="新聞稿 (另開新視窗)">新聞稿</a></li>
+                                                <li><a href="javascript:;" onclick="setWord('交通部航港局')" title="交通部航港局 (另開新視窗)">交通部航港局</a></li>
+                                    </ul>
+                                    <button type="submit" class="JQCountriesSearchbutton" title="送出關鍵字查詢"> GO </button>
+</form>                            </dd>
+                        </dl>
+                    </li>
+                    <li class="navigationlog_li">
+                        <h1 class="logo"> <a href="/" class="navigationlog">交通部航港局 Maritime Port Bureau. MOTC</a></h1>
+                    </li>
+                    <!-- logo -->
+                    <!-- menu start -->
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=13&amp;siteId=1" title="訊息發布" class="dropdown-toggle">訊息發布</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50101&amp;siteId=1" title="重要消息">重要消息</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=14&amp;siteId=1" title="最新消息">最新消息</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482" title="全部">全部</a></li>
+                <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=103" title="航港局">航港局</a></li>
+                <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=110" title="北部航務中心">北部航務中心</a></li>
+                <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=111" title="中部航務中心">中部航務中心</a></li>
+                <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=112" title="南部航務中心">南部航務中心</a></li>
+                <li><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=109" title="東部航務中心">東部航務中心</a></li>
+                <li><a href="/ShipAlter?siteId=1&amp;nodeId=10512" title="停航資訊">停航資訊</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Information?siteId=1&amp;nodeId=622" title="非洲豬瘟專區">非洲豬瘟專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=15" title="新聞稿">新聞稿</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=23" title="政令宣導">政令宣導</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=24" title="重大政策">重大政策</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=17&amp;siteId=1" title="航船布告">航船布告</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information/Notice?SiteId=1&amp;NodeId=483" title="全部 ">全部 </a></li>
+                <li><a href="/Information/Notice?SiteId=1&amp;NodeId=117" title="外部連結">外部連結</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50102&amp;siteId=1" title="船舶註銷訊息">船舶註銷訊息</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/ShipAnnouncement?siteId=1&amp;nodeId=25" title="船舶各項證書註銷公告">船舶各項證書註銷公告</a></li>
+                <li><a href="/RevocationRegistration?siteId=1&amp;nodeId=10076" title="公告預定期滿三個月逕行註銷登記或註冊名冊">公告預定期滿三個月逕行註銷登記或註冊名冊</a></li>
+                <li><a href="/RevocationRegistration?siteId=1&amp;nodeId=10077" title="公告期滿三個月逕行註銷登記或註冊名冊">公告期滿三個月逕行註銷登記或註冊名冊</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/MaritimeBulletin?siteId=1&amp;nodeId=26" title="海運承攬運送業公司繳銷許可證公告">海運承攬運送業公司繳銷許可證公告</a></li>
+                <li><a href="/RentAnnouncement?siteId=1&amp;nodeId=27" title="租傭非我國籍船舶於我國各港口間運送客貨業務公告">租傭非我國籍船舶於我國各港口間運送客貨業務公告</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50103&amp;siteId=1" title="船員訓練">船員訓練</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=19" title="船員專業訓練">船員專業訓練</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=20" title="船員岸上晉升訓練">船員岸上晉升訓練</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Information?siteId=1&amp;nodeId=28" title="招標資訊">招標資訊</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=10123&amp;siteId=1" title="國際海運運輸平穩專區">國際海運運輸平穩專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=10125" title="運價趨勢">運價趨勢</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10128" title="貨櫃航商船期表">貨櫃航商船期表</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10141" title="國際各港物流狀況">國際各港物流狀況</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=10130" title="諮詢窗口">諮詢窗口</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10131" title="加船加班加艙資訊">加船加班加艙資訊</a></li>
+                <li><a href="https://imarine.motcmpb.gov.tw/#/news" title="海運焦點新聞">海運焦點新聞</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50098" title="海運重要資訊">海運重要資訊</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=10078&amp;siteId=1" title="離岸風電專區">離岸風電專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=10156" title="重大訊息公告">重大訊息公告</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10094" title="離岸風場航行空間航安管理事項">離岸風場航行空間航安管理事項</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10095" title="離岸風電相關航港法規及申請表單">離岸風電相關航港法規及申請表單</a></li>
+                <li><a href="/OffshoreWindPowerVerified?siteId=1&amp;nodeId=10079" title="非本國籍從事離岸風電工作船舶之許可及已入級驗船中心(CR)之風電工作船資料">非本國籍從事離岸風電工作船舶之許可及已入級驗船中心(CR)之風電工作船資料</a></li>
+                <li><a href="https://el-sol.mtnet.gov.tw/Portal/sys_a/a01/a0107?rn=1530340401" title="船員徵才">船員徵才</a></li>
+                <li><a href="/QuestionAndAnswer?siteId=1&amp;nodeId=10097" title="常見問答Q&amp;A">常見問答Q&amp;A</a></li>
+                <li><a href="/RelatedLink?siteId=1&amp;nodeId=10099" title="相關連結">相關連結</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=10100" title="聯絡我們">聯絡我們</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50148&amp;siteId=1" title="海員新星培育計畫專區">海員新星培育計畫專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=50150" title="海員新星1.0—夢想從這裡開始">海員新星1.0—夢想從這裡開始</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50151" title="海員新星2.0—第二人生，航向海洋">海員新星2.0—第二人生，航向海洋</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50152" title="相關影音—海上的故事，說給你聽">相關影音—海上的故事，說給你聽</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50153" title="常見Q&amp;A—關於海星，你可能想問">常見Q&amp;A—關於海星，你可能想問</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50158" title="偏鄉足跡—跨越山海，種下航運夢想的種子">偏鄉足跡—跨越山海，種下航運夢想的種子</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50163" title="商船船員介紹—一艘船，是一個專業團隊">商船船員介紹—一艘船，是一個專業團隊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50164" title="女性船員—航向海洋，妳也可以">女性船員—航向海洋，妳也可以</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50161" title="合作夥伴">合作夥伴</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50134&amp;siteId=1" title="海運行動電源宣導專區">海運行動電源宣導專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=50135" title="航商及船員">航商及船員</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50136" title="乘客">乘客</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50137" title="海運行動電源法令">海運行動電源法令</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50143&amp;siteId=1" title="2026海運安全月專區">2026海運安全月專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=50144" title="人船避碰宣導">人船避碰宣導</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50145" title="攜帶鋰電池注意事項">攜帶鋰電池注意事項</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50146" title="乘客實名制">乘客實名制</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50147" title="救生宣導">救生宣導</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=30&amp;siteId=1" title="航務中心" class="dropdown-toggle">航務中心</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/Center?SiteId=1&amp;NodeId=31" title="北部航務中心">北部航務中心</a></li>
+                <li><a href="/Center?SiteId=1&amp;NodeId=32" title="中部航務中心">中部航務中心</a></li>
+                <li><a href="/Center?SiteId=1&amp;NodeId=33" title="南部航務中心">南部航務中心</a></li>
+                <li><a href="/Center?SiteId=1&amp;NodeId=34" title="東部航務中心">東部航務中心</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=35&amp;siteId=1" title="重要業務" class="dropdown-toggle">重要業務</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=40&amp;siteId=1" title="企劃業務">企劃業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=36" title="簡介">簡介</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=325&amp;siteId=1" title="國際事務">國際事務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=507" title="國際會議">國際會議</a></li>
+                <li><a href="/RelatedLink?siteId=1&amp;nodeId=509" title="國際海運相關網站">國際海運相關網站</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Article?siteId=1&amp;nodeId=327" title="法制業務">法制業務</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=329" title="研究發展">研究發展</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=330" title="活動訊息">活動訊息</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=331" title="組織學習">組織學習</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50094" title="iMarine資訊">iMarine資訊</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=10515&amp;siteId=1" title="國際海事發展諮詢會議">國際海事發展諮詢會議</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/RelatedLink?siteId=1&amp;nodeId=10520" title="相關單位連結">相關單位連結</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10517" title="各次會議紀錄">各次會議紀錄</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10518" title="公約趨勢分享">公約趨勢分享</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10519" title="海運趨勢分享">海運趨勢分享</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=41&amp;siteId=1" title="航務業務">航務業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=333" title="簡介">簡介</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=334" title="工作重點">工作重點</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=335" title="未來願景">未來願景</a></li>
+                <li><a href="/DownloadFile?SiteId=1&amp;NodeId=83&amp;BaseCategoryId=58" title="檔案下載">檔案下載</a></li>
+                <li><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=10" title="常見問題">常見問題</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=42&amp;siteId=1" title="港務業務">港務業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=336" title="簡介">簡介</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=337" title="港區安全維護">港區安全維護</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=339" title="港埠管理">港埠管理</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=340" title="航港建設基金">航港建設基金</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=341" title="商港服務費">商港服務費</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=342" title="重大計畫">重大計畫</a></li>
+                <li><a href="https://www.twport.com.tw/chinese/cp.aspx?n=5280D17C12C1BD3B" title="港區公共設施維護管理情形">港區公共設施維護管理情形</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=43&amp;siteId=1" title="船舶業務">船舶業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=343" title="簡介">簡介</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=344" title="工作重點">工作重點</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=345" title="未來願景">未來願景</a></li>
+                <li><a href="/DownloadFile?SiteId=1&amp;NodeId=83&amp;BaseCategoryId=61" title="檔案下載">檔案下載</a></li>
+                <li><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=13" title="常見問題">常見問題</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50057" title="澎湖輪介紹">澎湖輪介紹</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=44&amp;siteId=1" title="船員業務">船員業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=348" title="簡介">簡介</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=350" title="訓練管理科">訓練管理科</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=351" title="測驗規劃科">測驗規劃科</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=349" title="就業發展科">就業發展科</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=352" title="未來願景">未來願景</a></li>
+                <li><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=11" title="船員類問答集">船員類問答集</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50167&amp;siteId=1" title="海員新星培育計畫學員故事集">海員新星培育計畫學員故事集</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=50168" title="海員新星1.0">海員新星1.0</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50169" title="海員新星2.0">海員新星2.0</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=45&amp;siteId=1" title="航安業務">航安業務</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=355" title="簡介">簡介</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=356&amp;siteId=1" title="工作重點">工作重點</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=495" title="燈塔與航路標識">燈塔與航路標識</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=496" title="燈塔工程及維護">燈塔工程及維護</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=498" title="引水人監理作業">引水人監理作業</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=499" title="海難防範與救護">海難防範與救護</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=500" title="海事安全與管理">海事安全與管理</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Article?siteId=1&amp;nodeId=357" title="未來展望">未來展望</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10509" title="搜索與救助">搜索與救助</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50104&amp;siteId=1" title="綜合業務專區">綜合業務專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50058&amp;siteId=1" title="船員事故(含職災)通報">船員事故(含職災)通報</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=50059" title="船員事故(含職災)通報專區">船員事故(含職災)通報專區</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50060" title="船員申訴專區">船員申訴專區</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50067" title="中華民國船員外僱輔導會資訊">中華民國船員外僱輔導會資訊</a></li>
+                <li><a href="/RelatedLink?siteId=1&amp;nodeId=50061" title="相關網站">相關網站</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Information?siteId=1&amp;nodeId=547" title="貨櫃總重驗證(VGM)專區">貨櫃總重驗證(VGM)專區</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=10418&amp;siteId=1" title="航政監理透明專區">航政監理透明專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=10420" title="船員相關證書申辦">船員相關證書申辦</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10419" title="遊艇動力小船考照">遊艇動力小船考照</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10421" title="引水人">引水人</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10422" title="驗船師執業證書申請">驗船師執業證書申請</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10423" title="自由港區專責人員">自由港區專責人員</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10426" title="危險物品專責人員">危險物品專責人員</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50092" title="特許行業透明專區">特許行業透明專區</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10431" title="浮具器具專區">浮具器具專區</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50040&amp;siteId=1" title="交通船碼頭旅運設施改善案例">交通船碼頭旅運設施改善案例</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=50041" title="布袋港旅客服務中心">布袋港旅客服務中心</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50042" title="琉球新船運服務中心">琉球新船運服務中心</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50043" title="富岡漁港候船室">富岡漁港候船室</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50044" title="南海候船室">南海候船室</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=50086" title="鹽琉線船運服務中心">鹽琉線船運服務中心</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50117&amp;siteId=1" title="職業安全衛生專區">職業安全衛生專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=50118" title="最新消息">最新消息</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50119" title="政策及目標宣示、計畫">政策及目標宣示、計畫</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50120" title="推動情形">推動情形</a></li>
+                <li><a href="/RelatedLink?siteId=1&amp;nodeId=50122" title="相關網站">相關網站</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Article?siteId=1&amp;nodeId=328" title="MTNet資訊">MTNet資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50173" title="無人載具專區">無人載具專區</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=73&amp;siteId=1" title="廉政專區">廉政專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=74" title="廉政消息">廉政消息</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=75" title="業務簡介">業務簡介</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=76" title="陳情檢舉">陳情檢舉</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=77" title="廉政法規">廉政法規</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=78" title="廉政會報">廉政會報</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=79" title="廉政宣導">廉政宣導</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=80" title="廉倫登錄">廉倫登錄</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=81" title="財產申報">財產申報</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=82" title="請託關說">請託關說</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=523&amp;siteId=1" title="性別平等專區">性別平等專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=524" title="性別平等宣導事項">性別平等宣導事項</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=526" title="性別平等相關網站">性別平等相關網站</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=525" title="性別平等工作小組">性別平等工作小組</a></li>
+                <li><a href="https://www.motcmpb.gov.tw/Information/Detail/d66ee2bb-f455-4d09-a21f-cdc8908e99f2?SiteId=1&amp;NodeId=390" title="性別統計">性別統計</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10074" title="性騷擾防治">性騷擾防治</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10075" title="性平教材及成果分享">性平教材及成果分享</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=59&amp;siteId=1" title="為民服務" class="dropdown-toggle">為民服務</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50105&amp;siteId=1" title="海運與航班專區">海運與航班專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=60&amp;siteId=1" title="航班表">航班表</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/ShipLane?siteId=1&amp;nodeId=611" title="固定航班資訊">固定航班資訊</a></li>
+                <li><a href="/PassengerShip?siteId=1&amp;nodeId=610" title="船舶資訊">船舶資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=377" title="國際航班資訊">國際航班資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=378" title="國內航班資訊">國內航班資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=379" title="兩岸直航">兩岸直航</a></li>
+                <li><a href="/BoatSchedule?siteId=1&amp;nodeId=380" title="小三通">小三通</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=543" title="小三通航班表下載">小三通航班表下載</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=567" title="載客船舶違規統計">載客船舶違規統計</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50066" title="蘇花海運備援資訊專區">蘇花海運備援資訊專區</a></li>
+                <li><a href="/PassengerShip/Yacht?siteId=1&amp;nodeId=50100" title="非自用遊艇名單">非自用遊艇名單</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=10105&amp;siteId=1" title="海運無障礙專區">海運無障礙專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=10106" title="最新消息">最新消息</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=338" title="簡介(業務)">簡介(業務)</a></li>
+                <li><a href="/ShipLane/AccessibilitySchedule?siteId=1&amp;nodeId=50170" title="無障礙固定航班資訊">無障礙固定航班資訊</a></li>
+                <li><a href="https://www.motcmpb.gov.tw/PassengerShip?siteId=1&amp;nodeId=610" title="船舶資訊">船舶資訊</a></li>
+                <li><a href="/PortStation?siteId=1&amp;nodeId=10109" title="場站資訊">場站資訊</a></li>
+                <li><a href="/PortShore?siteId=1&amp;nodeId=10110" title="岸接資訊">岸接資訊</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=10111" title="交通接駁其他資訊">交通接駁其他資訊</a></li>
+                <li><a href="/Video?siteId=1&amp;nodeId=10112" title="影片資訊">影片資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10113" title="相關法令">相關法令</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50132" title="通用無障礙海運環境推動小組專區">通用無障礙海運環境推動小組專區</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Article?siteId=1&amp;nodeId=376" title="購票資訊">購票資訊</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50128&amp;siteId=1" title="海運客運品牌專區">海運客運品牌專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=50129" title="關於品牌">關於品牌</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50130" title="品牌識別手冊及影音分享">品牌識別手冊及影音分享</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50131" title="品牌輔導及認證專區">品牌輔導及認證專區</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50&amp;siteId=1" title="法令及規費">法令及規費</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=51" title="航務業務">航務業務</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=52" title="船員業務">船員業務</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=54" title="船舶業務">船舶業務</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=56" title="港政業務">港政業務</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=57" title="自由貿易港區">自由貿易港區</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=58" title="商港服務費">商港服務費</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=371" title="航安業務">航安業務</a></li>
+                <li><a href="https://motclaw.motc.gov.tw/webMotcLaw2018/" title="相關法令釋示">相關法令釋示</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=374" title="航港規費">航港規費</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=607" title="申請捐、補助費用之相關辦法">申請捐、補助費用之相關辦法</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=510" title="其他">其他</a></li>
+                <li><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=10142" title="草案預告">草案預告</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=91&amp;siteId=1" title="資訊公開">資訊公開</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=92&amp;siteId=1" title="統計資料">統計資料</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=406" title="海事統計">海事統計</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=407" title="港口國管制">港口國管制</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=408" title="兩岸小三通航線船舶檢查資訊">兩岸小三通航線船舶檢查資訊</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=98&amp;siteId=1" title="主動公開之政府資訊專區">主動公開之政府資訊專區</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=93" title="法規及行政規則">法規及行政規則</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=94" title="對外關係文書">對外關係文書</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=95" title="條約">條約</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=96" title="行政指導有關文書">行政指導有關文書</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=97" title="施政計畫">施政計畫</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=390" title="公務統計及重要統計指標">公務統計及重要統計指標</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=391" title="委託研究報告">委託研究報告</a></li>
+                <li><a href="https://report.ndc.gov.tw/ReportFront/ " title="公務出國報告">公務出國報告</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=540" title="預算、決算及會計報告">預算、決算及會計報告</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=394" title="訴願決定書">訴願決定書</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=395" title="請願處理結果">請願處理結果</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=396" title="公共工程及採購契約">公共工程及採購契約</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=398" title="支付或接受之補助">支付或接受之補助</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=399" title="辦理業務宣導之廣告">辦理業務宣導之廣告</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=400" title="遊說法專區">遊說法專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=401" title="個人資料保護專區">個人資料保護專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=402" title="國家賠償「事件收結情形」統計表">國家賠償「事件收結情形」統計表</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=403" title="辦理人民申請提供政府資訊案件統計">辦理人民申請提供政府資訊案件統計</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=624" title="人民申請案件處理期限表">人民申請案件處理期限表</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10082" title="公職人員利益衝突迴避法身分關係揭露">公職人員利益衝突迴避法身分關係揭露</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=605" title="內部控制聲明書">內部控制聲明書</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50172" title="其他">其他</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=551&amp;siteId=1" title="政府資料開放平台">政府資料開放平台</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=552" title="政風室">政風室</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=553" title="主計室">主計室</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=554" title="航安組">航安組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=555" title="秘書室">秘書室</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=556" title="航務組">航務組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=557" title="人事室">人事室</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=558" title="企劃組">企劃組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=559" title="港務組">港務組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=560" title="船舶組">船舶組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=561" title="船員組">船員組</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=582" title="資訊室">資訊室</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=571&amp;siteId=1" title="行政資訊/檔案應用">行政資訊/檔案應用</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=572" title="國家發展委員會檔案管理局">國家發展委員會檔案管理局</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=573" title="檔案法規">檔案法規</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=574" title="檔案應用申請">檔案應用申請</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=576" title="受理傳真號碼、受理電子郵件信箱">受理傳真號碼、受理電子郵件信箱</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=577" title="檔案閱覽抄錄複製收費標準">檔案閱覽抄錄複製收費標準</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=578" title="檔案目錄查詢">檔案目錄查詢</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=579" title="檔案應用Q&amp;A">檔案應用Q&amp;A</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=581" title="檔案情報站">檔案情報站</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10102" title="生態檢核專區">生態檢核專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50038" title="法規英譯徵集意見專區">法規英譯徵集意見專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=10103" title="船舶轉籍限制公告">船舶轉籍限制公告</a></li>
+                <li><a href="/Company?siteId=1&amp;nodeId=10150" title="航業法公司資料查詢">航業法公司資料查詢</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=72" title="提升服務品質">提升服務品質</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50138" title="安全及衛生防護">安全及衛生防護</a></li>
+                <li><a href="https://www.twport.com.tw/theme/Articles?a=173" title="商港垂釣資訊">商港垂釣資訊</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=70&amp;siteId=1" title="本局出版品">本局出版品</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Periodical?siteId=1&amp;nodeId=387" title="年刊">年刊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=562" title="圖書">圖書</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=389" title="出版品展售處">出版品展售處</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=50171" title="台灣航港新視野期刊">台灣航港新視野期刊</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=50106&amp;siteId=1" title="作業流程及民眾申辦事項">作業流程及民眾申辦事項</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=414&amp;siteId=1" title="作業流程">作業流程</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Information?siteId=1&amp;nodeId=501" title="航運業務">航運業務</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=502" title="船員業務">船員業務</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=503" title="船舶業務">船舶業務</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=504" title="航安業務">航安業務</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=505" title="港政業務">港政業務</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=506" title="自由港區業務">自由港區業務</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Questionnaire?siteId=1&amp;nodeId=67" title="線上問卷">線上問卷</a></li>
+                <li><a href="/OnlineRegistration?siteId=1&amp;nodeId=69" title="線上報名">線上報名</a></li>
+                <li><a href="/DownloadFile/Top?SiteId=1&amp;NodeId=83" title="民眾常辦業務">民眾常辦業務</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=62" title="我要寫信給局長">我要寫信給局長</a></li>
+                <li><a href="/QuestionAndAnswer?siteId=1&amp;nodeId=63" title="民眾常見問題">民眾常見問題</a></li>
+                <li><a href="/Opinion?siteId=1&amp;nodeId=64" title="民意論壇">民意論壇</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/DownloadFile?siteId=1&amp;nodeId=83" title="下載專區">下載專區</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=66" title="活動花絮">活動花絮</a></li>
+                <li><a href="/Video?siteId=1&amp;nodeId=68" title="影音平台">影音平台</a></li>
+                <li><a href="/RelatedLink?siteId=1&amp;nodeId=49" title="相關業務連結">相關業務連結</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=527" title="獎項專區">獎項專區</a></li>
+                <li><a href="/Lighthouse?siteId=1&amp;nodeId=50091" title="燈塔資訊">燈塔資訊</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=71" title="消費者保護專區">消費者保護專區</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=10445&amp;siteId=1" title="公約履行" class="dropdown-toggle">公約履行</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/Convention?siteId=1&amp;nodeId=10465" title="船旗國指引">船旗國指引</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10466" title="國際航線船舶及其他適用規範">國際航線船舶及其他適用規範</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10460" title="海上人命安全國際公約(SOLAS)">海上人命安全國際公約(SOLAS)</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10459" title="防止船舶污染國際公約(MARPOL)">防止船舶污染國際公約(MARPOL)</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10461" title="船舶噸位丈量國際公約(TONNAGE)">船舶噸位丈量國際公約(TONNAGE)</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10462" title="載重線國際公約(LL)">載重線國際公約(LL)</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10463" title="海上避碰規則國際公約(COLREGS)">海上避碰規則國際公約(COLREGS)</a></li>
+                <li><a href="/Convention?siteId=1&amp;nodeId=10464" title="航海人員訓練、發證及當值標準國際公約(STCW)">航海人員訓練、發證及當值標準國際公約(STCW)</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/Home/Node?nodeId=2&amp;siteId=1" title="關於本局" class="dropdown-toggle">關於本局</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=3" title="航港局沿革">航港局沿革</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=7" title="組織與職掌">組織與職掌</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=8" title="業務概況">業務概況</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=4" title="局長的話">局長的話</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=5" title="首長簡介">首長簡介</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=9" title="施政計畫">施政計畫</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=10" title="推動方案及計畫">推動方案及計畫</a></li>
+                <li><a href="/Article?siteId=1&amp;nodeId=6" title="歷任局長">歷任局長</a></li>
+                <li class="dropdown-submenu">
+                    <a href="/Home/Node?nodeId=11&amp;siteId=1" title="交通資訊">交通資訊</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/Article?siteId=1&amp;nodeId=104" title="局本部">局本部</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=105" title="北部航務中心">北部航務中心</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=106" title="中部航務中心">中部航務中心</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=107" title="南部航務中心">南部航務中心</a></li>
+                <li><a href="/Information?siteId=1&amp;nodeId=108" title="東部航務中心">東部航務中心</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/Article?siteId=1&amp;nodeId=12" title="聯絡我們">聯絡我們</a></li>
+                <li><a href="/Information/BigEvens?SiteId=1&amp;NodeId=542" title="大事紀">大事紀</a></li>
+
+                    </ul>
+                </li>
+                    <!-- menu end -->
+                </ul>
+                <!-- lang -->
+
+                <div class="pull-right">
+                    <ul id="top-link">
+                        <li class="btn-1"> <a href="/" title="首頁"> <span class="sr-only">首頁</span></a> </li>
+                        <li class="btn-2">
+                            <a href="/SiteMap" title="網站導覽">
+                                <span class="sr-only">網站導覽</span>
+                            </a>
+                        </li>
+                        <li class="btn-3">
+                            <a href="/RSS" title="RSS"><span class="sr-only">RSS</span></a>
+                        </li>
+                        <li class="btn-4">
+                            <a href="/Article?siteId=1&amp;nodeId=62" title="局長信箱">
+                                <span class="sr-only">局長信箱</span>
+                            </a>
+                        </li>
+                        
+                        <li class="btn-6">
+                            <a href="https://web02.mtnet.gov.tw/" title="MTNet(另開新視窗)" target="_blank">
+                                <span class="sr-only">MTNet</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="lang">
+                        
+                        <a href="https://www.motcmpb.gov.tw/En/" title="點選以進入英文版網站">ENGLISH</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- get template -->
+        <div class="template_content">
+            
+
+<div id="templateload">
+    <style>
+        #container404 {
+            width: 100vw;
+            max-width: 100%;
+            margin: 0px auto;
+            padding: 0;
+            background: #FFF;
+            box-shadow: 0 0 20px #DDD;
+            box-sizing: border-box;
+        }
+
+        footer::before {
+            background-color: #008ab3;
+        }
+    </style>
+    <!-- container -->
+    <div id="container404">
+        <div class="full-img">
+                <img class="" src="/images/error404.png" alt="404頁面不存在">
+        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!-- mobile menu start -->
+                    <ul id="mobile_navigation" class="noprint">
+                <li>
+                    <a href="/Home/Node?nodeId=13&amp;siteId=1" title="訊息發布" class="dropdown-toggle">訊息發布</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=50101&amp;siteId=1" title="重要消息">重要消息</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=14&amp;siteId=1" title="最新消息">最新消息</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482" title="全部">全部</a></dt></dl>
+                <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=103" title="航港局">航港局</a></dt></dl>
+                <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=110" title="北部航務中心">北部航務中心</a></dt></dl>
+                <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=111" title="中部航務中心">中部航務中心</a></dt></dl>
+                <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=112" title="南部航務中心">南部航務中心</a></dt></dl>
+                <dl><dt><a href="/Information/LatestNews?SiteId=1&amp;NodeId=482&amp;baseCategoryId=109" title="東部航務中心">東部航務中心</a></dt></dl>
+                <dl><dt><a href="/ShipAlter?siteId=1&amp;nodeId=10512" title="停航資訊">停航資訊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=622" title="非洲豬瘟專區">非洲豬瘟專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=15" title="新聞稿">新聞稿</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=23" title="政令宣導">政令宣導</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=24" title="重大政策">重大政策</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=17&amp;siteId=1" title="航船布告">航船布告</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information/Notice?SiteId=1&amp;NodeId=483" title="全部 ">全部 </a></dt></dl>
+                <dl><dt><a href="/Information/Notice?SiteId=1&amp;NodeId=117" title="外部連結">外部連結</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50102&amp;siteId=1" title="船舶註銷訊息">船舶註銷訊息</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/ShipAnnouncement?siteId=1&amp;nodeId=25" title="船舶各項證書註銷公告">船舶各項證書註銷公告</a></dt></dl>
+                <dl><dt><a href="/RevocationRegistration?siteId=1&amp;nodeId=10076" title="公告預定期滿三個月逕行註銷登記或註冊名冊">公告預定期滿三個月逕行註銷登記或註冊名冊</a></dt></dl>
+                <dl><dt><a href="/RevocationRegistration?siteId=1&amp;nodeId=10077" title="公告期滿三個月逕行註銷登記或註冊名冊">公告期滿三個月逕行註銷登記或註冊名冊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/MaritimeBulletin?siteId=1&amp;nodeId=26" title="海運承攬運送業公司繳銷許可證公告">海運承攬運送業公司繳銷許可證公告</a></dt></dl>
+                <dl><dt><a href="/RentAnnouncement?siteId=1&amp;nodeId=27" title="租傭非我國籍船舶於我國各港口間運送客貨業務公告">租傭非我國籍船舶於我國各港口間運送客貨業務公告</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50103&amp;siteId=1" title="船員訓練">船員訓練</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=19" title="船員專業訓練">船員專業訓練</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=20" title="船員岸上晉升訓練">船員岸上晉升訓練</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=28" title="招標資訊">招標資訊</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=10123&amp;siteId=1" title="國際海運運輸平穩專區">國際海運運輸平穩專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=10125" title="運價趨勢">運價趨勢</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10128" title="貨櫃航商船期表">貨櫃航商船期表</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10141" title="國際各港物流狀況">國際各港物流狀況</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=10130" title="諮詢窗口">諮詢窗口</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10131" title="加船加班加艙資訊">加船加班加艙資訊</a></dt></dl>
+                <dl><dt><a href="https://imarine.motcmpb.gov.tw/#/news" title="海運焦點新聞">海運焦點新聞</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50098" title="海運重要資訊">海運重要資訊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=10078&amp;siteId=1" title="離岸風電專區">離岸風電專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=10156" title="重大訊息公告">重大訊息公告</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10094" title="離岸風場航行空間航安管理事項">離岸風場航行空間航安管理事項</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10095" title="離岸風電相關航港法規及申請表單">離岸風電相關航港法規及申請表單</a></dt></dl>
+                <dl><dt><a href="/OffshoreWindPowerVerified?siteId=1&amp;nodeId=10079" title="非本國籍從事離岸風電工作船舶之許可及已入級驗船中心(CR)之風電工作船資料">非本國籍從事離岸風電工作船舶之許可及已入級驗船中心(CR)之風電工作船資料</a></dt></dl>
+                <dl><dt><a href="https://el-sol.mtnet.gov.tw/Portal/sys_a/a01/a0107?rn=1530340401" title="船員徵才">船員徵才</a></dt></dl>
+                <dl><dt><a href="/QuestionAndAnswer?siteId=1&amp;nodeId=10097" title="常見問答Q&amp;A">常見問答Q&amp;A</a></dt></dl>
+                <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=10099" title="相關連結">相關連結</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=10100" title="聯絡我們">聯絡我們</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50148&amp;siteId=1" title="海員新星培育計畫專區">海員新星培育計畫專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=50150" title="海員新星1.0—夢想從這裡開始">海員新星1.0—夢想從這裡開始</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50151" title="海員新星2.0—第二人生，航向海洋">海員新星2.0—第二人生，航向海洋</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50152" title="相關影音—海上的故事，說給你聽">相關影音—海上的故事，說給你聽</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50153" title="常見Q&amp;A—關於海星，你可能想問">常見Q&amp;A—關於海星，你可能想問</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50158" title="偏鄉足跡—跨越山海，種下航運夢想的種子">偏鄉足跡—跨越山海，種下航運夢想的種子</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50163" title="商船船員介紹—一艘船，是一個專業團隊">商船船員介紹—一艘船，是一個專業團隊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50164" title="女性船員—航向海洋，妳也可以">女性船員—航向海洋，妳也可以</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50161" title="合作夥伴">合作夥伴</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50134&amp;siteId=1" title="海運行動電源宣導專區">海運行動電源宣導專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=50135" title="航商及船員">航商及船員</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50136" title="乘客">乘客</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50137" title="海運行動電源法令">海運行動電源法令</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50143&amp;siteId=1" title="2026海運安全月專區">2026海運安全月專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=50144" title="人船避碰宣導">人船避碰宣導</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50145" title="攜帶鋰電池注意事項">攜帶鋰電池注意事項</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50146" title="乘客實名制">乘客實名制</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50147" title="救生宣導">救生宣導</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Home/Node?nodeId=30&amp;siteId=1" title="航務中心" class="dropdown-toggle">航務中心</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/Center?SiteId=1&amp;NodeId=31" title="北部航務中心">北部航務中心</a></dt></dl>
+                <dl><dt><a href="/Center?SiteId=1&amp;NodeId=32" title="中部航務中心">中部航務中心</a></dt></dl>
+                <dl><dt><a href="/Center?SiteId=1&amp;NodeId=33" title="南部航務中心">南部航務中心</a></dt></dl>
+                <dl><dt><a href="/Center?SiteId=1&amp;NodeId=34" title="東部航務中心">東部航務中心</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Home/Node?nodeId=35&amp;siteId=1" title="重要業務" class="dropdown-toggle">重要業務</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=40&amp;siteId=1" title="企劃業務">企劃業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=36" title="簡介">簡介</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=325&amp;siteId=1" title="國際事務">國際事務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=507" title="國際會議">國際會議</a></dt></dl>
+                <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=509" title="國際海運相關網站">國際海運相關網站</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=327" title="法制業務">法制業務</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=329" title="研究發展">研究發展</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=330" title="活動訊息">活動訊息</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=331" title="組織學習">組織學習</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50094" title="iMarine資訊">iMarine資訊</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=10515&amp;siteId=1" title="國際海事發展諮詢會議">國際海事發展諮詢會議</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=10520" title="相關單位連結">相關單位連結</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10517" title="各次會議紀錄">各次會議紀錄</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10518" title="公約趨勢分享">公約趨勢分享</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10519" title="海運趨勢分享">海運趨勢分享</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=41&amp;siteId=1" title="航務業務">航務業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=333" title="簡介">簡介</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=334" title="工作重點">工作重點</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=335" title="未來願景">未來願景</a></dt></dl>
+                <dl><dt><a href="/DownloadFile?SiteId=1&amp;NodeId=83&amp;BaseCategoryId=58" title="檔案下載">檔案下載</a></dt></dl>
+                <dl><dt><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=10" title="常見問題">常見問題</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=42&amp;siteId=1" title="港務業務">港務業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=336" title="簡介">簡介</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=337" title="港區安全維護">港區安全維護</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=339" title="港埠管理">港埠管理</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=340" title="航港建設基金">航港建設基金</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=341" title="商港服務費">商港服務費</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=342" title="重大計畫">重大計畫</a></dt></dl>
+                <dl><dt><a href="https://www.twport.com.tw/chinese/cp.aspx?n=5280D17C12C1BD3B" title="港區公共設施維護管理情形">港區公共設施維護管理情形</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=43&amp;siteId=1" title="船舶業務">船舶業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=343" title="簡介">簡介</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=344" title="工作重點">工作重點</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=345" title="未來願景">未來願景</a></dt></dl>
+                <dl><dt><a href="/DownloadFile?SiteId=1&amp;NodeId=83&amp;BaseCategoryId=61" title="檔案下載">檔案下載</a></dt></dl>
+                <dl><dt><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=13" title="常見問題">常見問題</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50057" title="澎湖輪介紹">澎湖輪介紹</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=44&amp;siteId=1" title="船員業務">船員業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=348" title="簡介">簡介</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=350" title="訓練管理科">訓練管理科</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=351" title="測驗規劃科">測驗規劃科</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=349" title="就業發展科">就業發展科</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=352" title="未來願景">未來願景</a></dt></dl>
+                <dl><dt><a href="/QuestionAndAnswer?SiteId=1&amp;NodeId=63&amp;BaseCategoryId=11" title="船員類問答集">船員類問答集</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50167&amp;siteId=1" title="海員新星培育計畫學員故事集">海員新星培育計畫學員故事集</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=50168" title="海員新星1.0">海員新星1.0</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50169" title="海員新星2.0">海員新星2.0</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=45&amp;siteId=1" title="航安業務">航安業務</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=355" title="簡介">簡介</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=356&amp;siteId=1" title="工作重點">工作重點</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=495" title="燈塔與航路標識">燈塔與航路標識</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=496" title="燈塔工程及維護">燈塔工程及維護</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=498" title="引水人監理作業">引水人監理作業</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=499" title="海難防範與救護">海難防範與救護</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=500" title="海事安全與管理">海事安全與管理</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=357" title="未來展望">未來展望</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10509" title="搜索與救助">搜索與救助</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50104&amp;siteId=1" title="綜合業務專區">綜合業務專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=50058&amp;siteId=1" title="船員事故(含職災)通報">船員事故(含職災)通報</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=50059" title="船員事故(含職災)通報專區">船員事故(含職災)通報專區</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50060" title="船員申訴專區">船員申訴專區</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50067" title="中華民國船員外僱輔導會資訊">中華民國船員外僱輔導會資訊</a></dt></dl>
+                <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=50061" title="相關網站">相關網站</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=547" title="貨櫃總重驗證(VGM)專區">貨櫃總重驗證(VGM)專區</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=10418&amp;siteId=1" title="航政監理透明專區">航政監理透明專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=10420" title="船員相關證書申辦">船員相關證書申辦</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10419" title="遊艇動力小船考照">遊艇動力小船考照</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10421" title="引水人">引水人</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10422" title="驗船師執業證書申請">驗船師執業證書申請</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10423" title="自由港區專責人員">自由港區專責人員</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10426" title="危險物品專責人員">危險物品專責人員</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50092" title="特許行業透明專區">特許行業透明專區</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10431" title="浮具器具專區">浮具器具專區</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50040&amp;siteId=1" title="交通船碼頭旅運設施改善案例">交通船碼頭旅運設施改善案例</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=50041" title="布袋港旅客服務中心">布袋港旅客服務中心</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50042" title="琉球新船運服務中心">琉球新船運服務中心</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50043" title="富岡漁港候船室">富岡漁港候船室</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50044" title="南海候船室">南海候船室</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=50086" title="鹽琉線船運服務中心">鹽琉線船運服務中心</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50117&amp;siteId=1" title="職業安全衛生專區">職業安全衛生專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=50118" title="最新消息">最新消息</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50119" title="政策及目標宣示、計畫">政策及目標宣示、計畫</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50120" title="推動情形">推動情形</a></dt></dl>
+                <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=50122" title="相關網站">相關網站</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=328" title="MTNet資訊">MTNet資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50173" title="無人載具專區">無人載具專區</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=73&amp;siteId=1" title="廉政專區">廉政專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=74" title="廉政消息">廉政消息</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=75" title="業務簡介">業務簡介</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=76" title="陳情檢舉">陳情檢舉</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=77" title="廉政法規">廉政法規</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=78" title="廉政會報">廉政會報</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=79" title="廉政宣導">廉政宣導</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=80" title="廉倫登錄">廉倫登錄</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=81" title="財產申報">財產申報</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=82" title="請託關說">請託關說</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=523&amp;siteId=1" title="性別平等專區">性別平等專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=524" title="性別平等宣導事項">性別平等宣導事項</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=526" title="性別平等相關網站">性別平等相關網站</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=525" title="性別平等工作小組">性別平等工作小組</a></dt></dl>
+                <dl><dt><a href="https://www.motcmpb.gov.tw/Information/Detail/d66ee2bb-f455-4d09-a21f-cdc8908e99f2?SiteId=1&amp;NodeId=390" title="性別統計">性別統計</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10074" title="性騷擾防治">性騷擾防治</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10075" title="性平教材及成果分享">性平教材及成果分享</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Home/Node?nodeId=59&amp;siteId=1" title="為民服務" class="dropdown-toggle">為民服務</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=50105&amp;siteId=1" title="海運與航班專區">海運與航班專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=60&amp;siteId=1" title="航班表">航班表</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/ShipLane?siteId=1&amp;nodeId=611" title="固定航班資訊">固定航班資訊</a></dt></dl>
+                <dl><dt><a href="/PassengerShip?siteId=1&amp;nodeId=610" title="船舶資訊">船舶資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=377" title="國際航班資訊">國際航班資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=378" title="國內航班資訊">國內航班資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=379" title="兩岸直航">兩岸直航</a></dt></dl>
+                <dl><dt><a href="/BoatSchedule?siteId=1&amp;nodeId=380" title="小三通">小三通</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=543" title="小三通航班表下載">小三通航班表下載</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=567" title="載客船舶違規統計">載客船舶違規統計</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50066" title="蘇花海運備援資訊專區">蘇花海運備援資訊專區</a></dt></dl>
+                <dl><dt><a href="/PassengerShip/Yacht?siteId=1&amp;nodeId=50100" title="非自用遊艇名單">非自用遊艇名單</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=10105&amp;siteId=1" title="海運無障礙專區">海運無障礙專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=10106" title="最新消息">最新消息</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=338" title="簡介(業務)">簡介(業務)</a></dt></dl>
+                <dl><dt><a href="/ShipLane/AccessibilitySchedule?siteId=1&amp;nodeId=50170" title="無障礙固定航班資訊">無障礙固定航班資訊</a></dt></dl>
+                <dl><dt><a href="https://www.motcmpb.gov.tw/PassengerShip?siteId=1&amp;nodeId=610" title="船舶資訊">船舶資訊</a></dt></dl>
+                <dl><dt><a href="/PortStation?siteId=1&amp;nodeId=10109" title="場站資訊">場站資訊</a></dt></dl>
+                <dl><dt><a href="/PortShore?siteId=1&amp;nodeId=10110" title="岸接資訊">岸接資訊</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=10111" title="交通接駁其他資訊">交通接駁其他資訊</a></dt></dl>
+                <dl><dt><a href="/Video?siteId=1&amp;nodeId=10112" title="影片資訊">影片資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10113" title="相關法令">相關法令</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50132" title="通用無障礙海運環境推動小組專區">通用無障礙海運環境推動小組專區</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=376" title="購票資訊">購票資訊</a></dt></dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50128&amp;siteId=1" title="海運客運品牌專區">海運客運品牌專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Article?siteId=1&amp;nodeId=50129" title="關於品牌">關於品牌</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50130" title="品牌識別手冊及影音分享">品牌識別手冊及影音分享</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50131" title="品牌輔導及認證專區">品牌輔導及認證專區</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50&amp;siteId=1" title="法令及規費">法令及規費</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=51" title="航務業務">航務業務</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=52" title="船員業務">船員業務</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=54" title="船舶業務">船舶業務</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=56" title="港政業務">港政業務</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=57" title="自由貿易港區">自由貿易港區</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=58" title="商港服務費">商港服務費</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=371" title="航安業務">航安業務</a></dt></dl>
+                <dl><dt><a href="https://motclaw.motc.gov.tw/webMotcLaw2018/" title="相關法令釋示">相關法令釋示</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=374" title="航港規費">航港規費</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=607" title="申請捐、補助費用之相關辦法">申請捐、補助費用之相關辦法</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=510" title="其他">其他</a></dt></dl>
+                <dl><dt><a href="/Information/OnlyTitle?SiteId=1&amp;NodeId=10142" title="草案預告">草案預告</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=91&amp;siteId=1" title="資訊公開">資訊公開</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=92&amp;siteId=1" title="統計資料">統計資料</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=406" title="海事統計">海事統計</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=407" title="港口國管制">港口國管制</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=408" title="兩岸小三通航線船舶檢查資訊">兩岸小三通航線船舶檢查資訊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=98&amp;siteId=1" title="主動公開之政府資訊專區">主動公開之政府資訊專區</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=93" title="法規及行政規則">法規及行政規則</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=94" title="對外關係文書">對外關係文書</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=95" title="條約">條約</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=96" title="行政指導有關文書">行政指導有關文書</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=97" title="施政計畫">施政計畫</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=390" title="公務統計及重要統計指標">公務統計及重要統計指標</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=391" title="委託研究報告">委託研究報告</a></dt></dl>
+                <dl><dt><a href="https://report.ndc.gov.tw/ReportFront/ " title="公務出國報告">公務出國報告</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=540" title="預算、決算及會計報告">預算、決算及會計報告</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=394" title="訴願決定書">訴願決定書</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=395" title="請願處理結果">請願處理結果</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=396" title="公共工程及採購契約">公共工程及採購契約</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=398" title="支付或接受之補助">支付或接受之補助</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=399" title="辦理業務宣導之廣告">辦理業務宣導之廣告</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=400" title="遊說法專區">遊說法專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=401" title="個人資料保護專區">個人資料保護專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=402" title="國家賠償「事件收結情形」統計表">國家賠償「事件收結情形」統計表</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=403" title="辦理人民申請提供政府資訊案件統計">辦理人民申請提供政府資訊案件統計</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=624" title="人民申請案件處理期限表">人民申請案件處理期限表</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10082" title="公職人員利益衝突迴避法身分關係揭露">公職人員利益衝突迴避法身分關係揭露</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=605" title="內部控制聲明書">內部控制聲明書</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50172" title="其他">其他</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=551&amp;siteId=1" title="政府資料開放平台">政府資料開放平台</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=552" title="政風室">政風室</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=553" title="主計室">主計室</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=554" title="航安組">航安組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=555" title="秘書室">秘書室</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=556" title="航務組">航務組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=557" title="人事室">人事室</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=558" title="企劃組">企劃組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=559" title="港務組">港務組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=560" title="船舶組">船舶組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=561" title="船員組">船員組</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=582" title="資訊室">資訊室</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=571&amp;siteId=1" title="行政資訊/檔案應用">行政資訊/檔案應用</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=572" title="國家發展委員會檔案管理局">國家發展委員會檔案管理局</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=573" title="檔案法規">檔案法規</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=574" title="檔案應用申請">檔案應用申請</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=576" title="受理傳真號碼、受理電子郵件信箱">受理傳真號碼、受理電子郵件信箱</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=577" title="檔案閱覽抄錄複製收費標準">檔案閱覽抄錄複製收費標準</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=578" title="檔案目錄查詢">檔案目錄查詢</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=579" title="檔案應用Q&amp;A">檔案應用Q&amp;A</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=581" title="檔案情報站">檔案情報站</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10102" title="生態檢核專區">生態檢核專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50038" title="法規英譯徵集意見專區">法規英譯徵集意見專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=10103" title="船舶轉籍限制公告">船舶轉籍限制公告</a></dt></dl>
+                <dl><dt><a href="/Company?siteId=1&amp;nodeId=10150" title="航業法公司資料查詢">航業法公司資料查詢</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=72" title="提升服務品質">提升服務品質</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50138" title="安全及衛生防護">安全及衛生防護</a></dt></dl>
+                <dl><dt><a href="https://www.twport.com.tw/theme/Articles?a=173" title="商港垂釣資訊">商港垂釣資訊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=70&amp;siteId=1" title="本局出版品">本局出版品</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Periodical?siteId=1&amp;nodeId=387" title="年刊">年刊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=562" title="圖書">圖書</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=389" title="出版品展售處">出版品展售處</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=50171" title="台灣航港新視野期刊">台灣航港新視野期刊</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="/Home/Node?nodeId=50106&amp;siteId=1" title="作業流程及民眾申辦事項">作業流程及民眾申辦事項</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="/Home/Node?nodeId=414&amp;siteId=1" title="作業流程">作業流程</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/Information?siteId=1&amp;nodeId=501" title="航運業務">航運業務</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=502" title="船員業務">船員業務</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=503" title="船舶業務">船舶業務</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=504" title="航安業務">航安業務</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=505" title="港政業務">港政業務</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=506" title="自由港區業務">自由港區業務</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/Questionnaire?siteId=1&amp;nodeId=67" title="線上問卷">線上問卷</a></dt></dl>
+                <dl><dt><a href="/OnlineRegistration?siteId=1&amp;nodeId=69" title="線上報名">線上報名</a></dt></dl>
+                <dl><dt><a href="/DownloadFile/Top?SiteId=1&amp;NodeId=83" title="民眾常辦業務">民眾常辦業務</a></dt></dl>
+                <dl><dt><a href="/Article?siteId=1&amp;nodeId=62" title="我要寫信給局長">我要寫信給局長</a></dt></dl>
+                <dl><dt><a href="/QuestionAndAnswer?siteId=1&amp;nodeId=63" title="民眾常見問題">民眾常見問題</a></dt></dl>
+                <dl><dt><a href="/Opinion?siteId=1&amp;nodeId=64" title="民意論壇">民意論壇</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/DownloadFile?siteId=1&amp;nodeId=83" title="下載專區">下載專區</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=66" title="活動花絮">活動花絮</a></dt></dl>
+                <dl><dt><a href="/Video?siteId=1&amp;nodeId=68" title="影音平台">影音平台</a></dt></dl>
+                <dl><dt><a href="/RelatedLink?siteId=1&amp;nodeId=49" title="相關業務連結">相關業務連結</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=527" title="獎項專區">獎項專區</a></dt></dl>
+                <dl><dt><a href="/Lighthouse?siteId=1&amp;nodeId=50091" title="燈塔資訊">燈塔資訊</a></dt></dl>
+                <dl><dt><a href="/Information?siteId=1&amp;nodeId=71" title="消費者保護專區">消費者保護專區</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Home/Node?nodeId=10445&amp;siteId=1" title="公約履行" class="dropdown-toggle">公約履行</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10465" title="船旗國指引">船旗國指引</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10466" title="國際航線船舶及其他適用規範">國際航線船舶及其他適用規範</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10460" title="海上人命安全國際公約(SOLAS)">海上人命安全國際公約(SOLAS)</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10459" title="防止船舶污染國際公約(MARPOL)">防止船舶污染國際公約(MARPOL)</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10461" title="船舶噸位丈量國際公約(TONNAGE)">船舶噸位丈量國際公約(TONNAGE)</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10462" title="載重線國際公約(LL)">載重線國際公約(LL)</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10463" title="海上避碰規則國際公約(COLREGS)">海上避碰規則國際公約(COLREGS)</a></dt></dl>
+                <dl><dt><a href="/Convention?siteId=1&amp;nodeId=10464" title="航海人員訓練、發證及當值標準國際公約(STCW)">航海人員訓練、發證及當值標準國際公約(STCW)</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        <!-- mobile menu end -->
+        <!-- footer -->
+        <footer id="footer" class="noprint">
+            
+            <a id="gotop" href="#" class="btn btn-default" aria-label="回網頁頂端"><span class="sr-only">回網頁頂端</span></a>
+            <div class="container nav">
+                <a accesskey="B" href="#Buttom" id="Buttom" title="下方區域" style="color: #CCC;">:::</a>
+                <div class="row">
+                    <div class="col-4 col-lg-3 col-md-3">
+                        <div class="footer_logo logo"><img src="/Images/footer_logo.png" alt="交通部航港局 Maritime Port Bureau. MOTC"></div>
+                    </div>
+                    <div class="col-8 col-lg-6 col-md-6">
+                        <div class="copyright">
+                            
+                            <ul class="link footerlink">
+                                <li class="ps-md-0"><a class="normal" href="/Article?SiteId=1&amp;NodeId=411" title="著作權聲明">著作權聲明</a></li>
+                                <li><a class="normal" href="/Article?SiteId=1&amp;NodeId=412" title="隱私權及安全政策">隱私權及安全政策</a></li>
+                                <li class="ps-md-0"><a class="normal" href="/Article?SiteId=1&amp;NodeId=563" title="政府網站資料開放宣告">政府網站資料開放宣告</a></li>
+                                <li><a class="normal" href="/Article?SiteId=1&amp;NodeId=12" title="聯絡我們">聯絡我們</a></li>
+                            </ul>
+                            <div class="f_about">
+                                <div class="f_a_info">
+                                    <span class="footer_info">地址：106248臺北市大安區和平東路3段1巷1號</span>
+                                    <span class="footer_info">電話：(02)8978-2900 <br class="visible-xs"> 免付費電話：0800-369009</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <div class="Accessibility_logo">
+                            <a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20250822115226" target="_blank" title="無障礙網站(另開新頁)">
+                                <img src="/Images/aa.png" border="0" alt="通過AA檢測等級無障礙網頁檢測" />
+                            </a>
+                        </div>
+                        <div class="counter">
+                            <span class="footer_info people">瀏覽人次：6,611,859</span>
+                            <span class="footer_info date">更新日期：2026-09-10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a id="go_to_top" href="#" title="到頂端" style="display:none;" role="button">到頂端</a>
+
+    <!-- modal -->
+    <div id="defaultMessageModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" id="defaultMessageCloseBtn" class="close" data-dismiss="modal" aria-label="Close" title="關閉"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-title h3">提示訊息</div>
+                </div>
+                <div class="modal-body">
+                    <p id="defaultMessageTitle"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="defaultMessageBtn" class="btn btn-default" data-dismiss="modal" title="關閉">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="/Scripts/jquery-3.6.0.js"></script>
+
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script src="/Scripts/bootstrap-5.3.8/bootstrap.bundle.min.js"></script>
+<script src="/Scripts/bootstrap-bs3-compat.js"></script>
+
+    <script src="/Scripts/jquery-ui.js"></script>
+<script src="/FContent/themes/js/jquery.nicescroll.js"></script>
+<script src="/Scripts/fancybox-master/dist/jquery.fancybox.min.js"></script>
+<script src="/FContent/themes/js/script-head.js"></script>
+<script src="/FContent/themes/js/fontsize.js"></script>
+<script src="/FContent/themes/js/abused/owl.carousel.min.js"></script>
+<script src="/Scripts/fontawesome/all.js"></script>
+<script src="/FContent/plugins/jquery.form.js"></script>
+<script src="/FContent/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/FContent/plugins/bootstrap-datepicker/js/bootstrap-datepicker-tw.js"></script>
+<script src="/Scripts/js/jquery.matchHeight-min.js"></script>
+<script src="/FContent/themes/js/script.js"></script>
+<script src="/Scripts/DOMPurify-3.3.3/purify.min.js"></script>
+
+    <script src="/Scripts/custom/Layout.js"></script>
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41887693-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-41887693-2');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-GAEMI-FERRY-RECOVERY-2024",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave6",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Typhoon Gaemi ferry cancellations and recovery",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/8d0d6fb3-5dc0-4666-90a2-1b23bd75891c?NodeId=15&SiteId=1",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:45Z",
+    "published_at": "2024-07-27T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-GAEMI-FERRY-RECOVERY-2024.html",
+    "content_hash": "cb90a26972f5d86b962ace0b47f37a2182e51867165f17fa99a189bde2f41cf4",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government notice or bilingual marine notice"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "ferry_service_disruption",
+    "event_subtype": "taiwan-maritime-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:45Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-28: keep."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+  "source_id": "taiwan-maritime-wave8",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/2eeacb83-4bf0-4a95-bf6e-39dfe0d74bf6?NodeId=10016&SiteId=2",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T21:39:55Z",
+  "content_hash": "ace797bcac2fa117da14955ff18aac28ac0d3973279d8b85a534b0158d01febb",
+  "raw_ref": "quarantine/raw/ATOM-MPB-TAICHUNG-DREDGING-2025.bin"
+}

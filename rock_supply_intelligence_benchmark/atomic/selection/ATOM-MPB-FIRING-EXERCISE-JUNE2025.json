@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-FIRING-EXERCISE-JUNE2025",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave8",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Taiwan waters firing-exercise navigation restriction",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/6b700edb-069a-41bc-b85e-4f6915453f1e?NodeId=10016&SiteId=2",
+    "language": "mixed",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T16:06:15Z",
+    "published_at": "2025-05-08T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-FIRING-EXERCISE-JUNE2025.html",
+    "content_hash": "497533a6ff06ecd5efe813b419bd5b0e8bba523b413d9b6eba6f8c44bfdf8e66",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice to mariners"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "military_navigation_restriction",
+    "event_subtype": "taiwan-maritime-wave8",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T16:06:15Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W8-01: keep."
+  }
+}

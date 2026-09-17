@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWTRADE-BARRIER-REPORT-2026",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-trade-controls-wave6",
+    "source_type": "government",
+    "publisher": "Taiwan International Trade Administration",
+    "source_name": "Taiwan trade-barriers report addressing Russian retaliatory tariffs",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.trade.gov.tw/Files/PageFile/803530/803530cruwd20260611153035.pdf",
+    "language": "zh-TW",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T14:57:32Z",
+    "published_at": "2026-06-11T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWTRADE-BARRIER-REPORT-2026.pdf",
+    "content_hash": "71674c4b0c1d730739c253f6ee2ce4290103ee47d1138f50ca978452d6b579d4",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government notice or report"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "trade_barrier",
+    "event_subtype": "taiwan-trade-controls-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:32Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-26: keep."
+  }
+}

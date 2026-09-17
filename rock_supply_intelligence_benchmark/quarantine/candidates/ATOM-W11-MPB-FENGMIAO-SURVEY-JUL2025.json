@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-W11-MPB-FENGMIAO-SURVEY-JUL2025",
+  "source_id": "taiwan-maritime-mixed-wave11",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/16ee6b12-b131-4739-8b6c-8e22a52cffcc?NodeId=10016&SiteId=2",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T21:33:18Z",
+  "content_hash": "ceb14dade572150297a980692441de5cad0d87a14005c22fe598fddf01bfb982",
+  "raw_ref": "quarantine/raw/ATOM-W11-MPB-FENGMIAO-SURVEY-JUL2025.bin"
+}

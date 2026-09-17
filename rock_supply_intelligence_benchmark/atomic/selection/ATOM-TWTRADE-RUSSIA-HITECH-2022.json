@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWTRADE-RUSSIA-HITECH-2022",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-trade-controls-wave6",
+    "source_type": "government",
+    "publisher": "Taiwan International Trade Administration",
+    "source_name": "Taiwan high-technology export controls concerning Russia and Belarus",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://publicinfo.trade.gov.tw/icp/billboards/30365",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:39Z",
+    "published_at": "2022-05-06T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWTRADE-RUSSIA-HITECH-2022.html",
+    "content_hash": "7a3075b94dcdd11561afec2d3daab04c475aea3027f85e6517f8bcc35a185dbd",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government notice or report"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "export_control",
+    "event_subtype": "taiwan-trade-controls-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:39Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-25: keep."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-09T14:34:49Z",
+  "registry_id": "RSIB-collection-registry-wave5",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-ESTABLISHMENT-PROCESS-2018.json",
+      "content_hash": "db2186c05e47fd1b7f346087f9665248987eb0b8fb4bf9adaa815d3b576683c5",
+      "sample_id": "ATOM-MPB-FTZ-ESTABLISHMENT-PROCESS-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018.json",
+      "content_hash": "7d919d21169e0590283d6150ec0d12441e28337923e6ff30ec5519c18d29857b",
+      "sample_id": "ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-OPERATION-PROCESS-2018.json",
+      "content_hash": "425cca4918155f112c840f390bfb8e7c592a6f6a5618b47a80dbd82442518182",
+      "sample_id": "ATOM-MPB-FTZ-OPERATION-PROCESS-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-MPB-FTZ-PROPOSAL-2021.json",
+      "content_hash": "6f38d2f7fadda261df8d30ab83621717a0983ae640001098b245efcbca86e960",
+      "sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 315,
+  "raw_bodies_retained": 412,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T143449Z.md"
+}

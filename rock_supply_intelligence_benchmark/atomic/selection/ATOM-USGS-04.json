@@ -1,0 +1,52 @@
+{
+  "sample_id": "ATOM-USGS-04",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "USGS-us7000m9gp",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 5.6 - 24 km NNE of Hualien City, Taiwan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9gp",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": "2024-04-03T00:46:44Z",
+    "effective_at": "2024-04-03T00:46:44Z",
+    "observed_at": "2024-06-12T21:51:52Z",
+    "raw_ref": "raw/first20/ATOM-USGS-04.json",
+    "content_hash": "dde8204d0b8520b5afee25f8ddad0a515d0cd59f763324215defdfdf9df6c5e5",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public API"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "taiwan_earthquake_aftershock",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "M5_aftershock",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "event_extraction",
+      "supply_chain_impact_assessment"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "notes": "Event, source-update, magnitude, and place are retained in the USGS GeoJSON payload. Human review W13-04: keep.",
+    "adjudication_status": "reviewed"
+  }
+}

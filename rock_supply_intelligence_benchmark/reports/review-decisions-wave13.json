@@ -1,0 +1,425 @@
+[
+  {
+    "decision_id": "W13-01",
+    "sample_id": "ATOM-USGS-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "a6bcb3fa0c4a7470120db471ac2d123c14901138bf1b1f65bb584f7e0b594c89",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-02",
+    "sample_id": "ATOM-USGS-02",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "136947f7a25c53d6d55dce935ae5c2cd8b3b9cf6c1052def1ccae47e11b8ad6b",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-03",
+    "sample_id": "ATOM-USGS-03",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "25ab6a8e82cb506c1287608bdf0fbf6f4593d08e50dad2e3215970a8120b10f9",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-04",
+    "sample_id": "ATOM-USGS-04",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "68a3ab01545346b200a622186e50493c2c3af8f025dd0c4469266df10a34397f",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-05",
+    "sample_id": "ATOM-USGS-CHILE-2015",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "d290fbc25b4e94050d28a9d5f4c996343c478b88e58baac615505524c962ac77",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-06",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0405T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "4cb9032aa2a36d0d8683297cf066628aed5c42a63e934a39107033b2144da5eb",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-07",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0405T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "7932847710b23dc252957a0689dcac6395e11424d74e932e027980073311c4af",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-08",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0405T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "153d6304e2ef414552439956652824b4ac2a703ff4e59cd6f262ea9a28300c86",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-09",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0405T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "f3e793d720413ea340abd1f5188de5982fb45b3be57f59c83e3576d241e0007d",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-10",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0405T2000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "8527c170140d5c563cfcd256bc41c102421c3dd7bff07b6483f8e8f68988e3ae",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-11",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T0000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "5a1a479b99cdad34576ec97678c3ced0e40a57772a1079da3c48fc06b8a17874",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-12",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "2e7f7993a21da996e941ab54b4e16c41744c588f740263f7e02933f4d3222bf6",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-13",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "0acb683d1f1222b71d5ab8807d8c2c587820b4f28e61d27ad9fa9c4d486d7e99",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-14",
+    "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "e351cf553f325b237660db8becc3b401c9d929fbad8c28e9ecb4ba392edef12a",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-15",
+    "sample_id": "ATOM-USGS-HUALIEN-M5-A",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "7c106188a4d0ad0e3fd0d4f35e77e1a10cd2b9e7fb9ff640a3d46acd71ada3ae",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-16",
+    "sample_id": "ATOM-USGS-HUALIEN-M5-B",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "be77a5e54f45e480f59799f78418a6b6e82bbcaca41cde4e03ee7b19cd09c8c3",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-17",
+    "sample_id": "ATOM-USGS-HUALIEN-M5-D",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "52e753cfd925de1a7c93dcd28ca586c823407325a55d68d583681d4d09e6f58d",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-18",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T0000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "ff984275192b7733845d33a88a4dec6a3b92936f19c9f82df6c637e535bafb39",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-19",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "2b809164e8cfb7b784b05347d00e2877ffc18a221ae3e50b4b2c1727b80ef1be",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-20",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "3d1ebbb99f55c33eccda62546d107e07d4029bbd96e9e402f4f6d7b2c2801022",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-21",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "3b35a7d8e5f28e17a8e243ae8ee9f03007ac5d35f8e838c9c737499fd3580dfc",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-22",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "579a2223fdb7ec911a810eec901ffeadec7ff70f6ace5142a65e29f0f5b4121c",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-23",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T2000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "2b3a6e94371d5b45b12e7a0de60ddfc9493af6d88f542f7222cdd62bc4c7d783",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-24",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0404T0000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "d22f4c0e853cf6e03df6ed1e6cc8f7aece66412aadf58e1f2b4a2bfd1f80a172",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-25",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0404T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "a54b34d67ba3ff4c680a18aefbb6fc7fc39bdd636700717b00fcfb1268c262ab",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-26",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0404T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "9bf8a873010841fa46c43522b6501a0d4bed217e5efc18d2ff9026363edb405b",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-27",
+    "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0404T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "bf0ed178bd835d464ec09879340c6400547bbd411b08de968862e5f73fb691c5",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-28",
+    "sample_id": "ATOM-USGS-NEPAL-2015",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "f1c15a8e23e263063aca96d12ccf4e6763c2818928499e831e7f8d12b4cbfb53",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-29",
+    "sample_id": "ATOM-USGS-NOTO-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "a5c85d399020ba9ccbf76eff23b9d25aec401966ef4f1e621614a5e83b7d17cf",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-30",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0101T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "1eeb0a0af44bfb2dea99bcfb7db2a224b9c3421b13c6378be18642b4c5aeec86",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-31",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0101T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "abb894f3eb8d09586310867c2536d8f160beb1d0d241491789b37f9144e8e17e",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-32",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0101T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "a858d165196731832d408a5c5b4c006a5589969c61b35169506fa098002fef6a",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-33",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0101T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "68ec5ab47838d4e196604ef97e0a51eca283a7cd529644db2976adc267ab45dd",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-34",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0101T2000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "50fd8fda0e204b65aac2f8beb3d0fd598200f6dc69d19a0b7b91786dda9ba821",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-35",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T0000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "63da3dad2af806f10651232fcb07d25f18335a257c3114b0f55f2f7d6fb7aeb0",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-36",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "9a0b0b904ba95fa0cce48a0d7529909319f561a349cca75e88a0c1cd8b3a3030",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-37",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "94c0a7f5915731c1ccefe7e3f788c1772e6efd6a835ff07e955674f33fba9103",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-38",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "0a58b3a67811b8e7aa5b222de387c56cf6c110f8b395de265198c68a4ff5a183",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-39",
+    "sample_id": "ATOM-USGS-NOTO-WINDOW-0102T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "32facba048cba1298a1926553c811ad068e94a4175409baf420fd7ec2be11bd9",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  },
+  {
+    "decision_id": "W13-40",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0917T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "d68f169e93ec2b22cd0124870ae280f62081ce4074fbec2742c7d3d5f37352a5",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-41",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0917T1600",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "0bb99cf1aabf41b6da426b61a57dc4138526e760303987804471bb0b0e9f2e9d",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-42",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0917T2000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "6b23c6f8d2a511535143e49c3ce5ca46fd2e99da9360cb066c6a34f3925be2c8",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-43",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0918T0000",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "ed085f1e9e55f5100b85c073c958a1a521e357d26a598c3040da88e296e473be",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-44",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0918T0400",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "9222f9446bfdf93adf7338e4863f0d49479eb1c4adcaff25907a59b7ad1fcd9c",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-45",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0918T0800",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "3c456689bd87cb16dda905f4ea4451401f89ac7e372f372165bed2ad3e30d0c8",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-46",
+    "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0918T1200",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "a376d1f55107dd63f660fe5edfd53976bdbebad4786036f6fe71738d35f865b4",
+    "rationale": "Human reviewer approved Wave 13A with the proposed Taiwan-area earthquake relevance label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W13-47",
+    "sample_id": "ATOM-USGS-TURKEY-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:01:25Z",
+    "manifest_hash": "4a764edb7baadc6c5c7d45696525fe2d2210b2e59ff54d756451fe875d982b32",
+    "rationale": "Human reviewer approved Wave 13B with the proposed out-of-scope geographic control label."
+  }
+]

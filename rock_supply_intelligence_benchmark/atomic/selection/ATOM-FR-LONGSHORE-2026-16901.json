@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-FR-LONGSHORE-2026-16901",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "FR-2026-16901",
+    "source_type": "government",
+    "publisher": "Office of the Federal Register / U.S. Department of Labor",
+    "source_name": "Form CA-2a, Notice of Recurrence",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.federalregister.gov/api/v1/documents/2026-16901.json",
+    "language": "en",
+    "content_type": "application/json",
+    "retrieved_at": "2026-09-08T23:47:16Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public Federal Register API individual document record",
+    "raw_ref": "raw/wave2/ATOM-FR-LONGSHORE-2026-16901.json",
+    "content_hash": "749d0cc6df151da0016b7f9a6d2fb41f1a45e150f2e918e1a002d803cf2519fa",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "longshore_labor_administration_not_operational_disruption",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_action",
+    "event_subtype": "longshore_administration_notice",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T23:47:16Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Individual dated labor-administration record. It is intentionally not evidence of a port closure, labor stoppage, or shipment disruption."
+  }
+}

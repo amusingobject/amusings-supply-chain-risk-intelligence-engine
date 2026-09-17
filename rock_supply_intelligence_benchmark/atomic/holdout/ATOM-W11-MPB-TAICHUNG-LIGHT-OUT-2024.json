@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-mixed-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Taichung Kan lighthouse extinguished notice",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/En/Information/Detail/f9ca1d1c-b780-4aef-958d-815dd2767876?NodeId=10016&SiteId=2",
+    "language": "mixed",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T21:34:20Z",
+    "published_at": "2024-02-26T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024.html",
+    "content_hash": "4c6ec444d347f5409da31a498c97b323bee8b7698b4cee2bb2062fe857f294eb",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice or notice PDF"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "navigation_hazard",
+    "event_subtype": "taiwan-maritime-mixed-wave11",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:34:20Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-22: keep."
+  }
+}

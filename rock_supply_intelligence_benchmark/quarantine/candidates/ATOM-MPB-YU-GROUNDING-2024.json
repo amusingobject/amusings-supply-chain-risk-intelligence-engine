@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-YU-GROUNDING-2024",
+  "source_id": "taiwan-maritime-wave4",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/0e178d5c-1ff8-42e8-acce-dc064447d086?NodeId=15&SiteId=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:59:27Z",
+  "content_hash": null
+}

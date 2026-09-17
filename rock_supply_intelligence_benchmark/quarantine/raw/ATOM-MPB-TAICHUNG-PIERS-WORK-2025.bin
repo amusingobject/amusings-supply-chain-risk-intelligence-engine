@@ -1,0 +1,897 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>英文版   | Maritime Port Bureau. MOTC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta name="description">
+    <meta name="keywords" content="Maritime Port Bureau. MOTC">
+    <meta name="sk:title" content="">
+    <meta name="format-detection" content="telephone=no">
+    <link href="/En/FContent/_FLayoutCss?v=sa4EQJiRF_Y50Rb2uM0LwIsFW87v6Q4QxdEXrBhcjCQ1" rel="stylesheet"/>
+
+    
+</head>
+
+<body>
+    <a class="sr-only sr-only-focusable" href="#accesskeyC" title="Skip to main content" tabindex="1">Skip to main content</a>
+    <noscript> For full functionality of this site it is necessary to enable JavaScript. Here are the <a href="https://www.enable-javascript.com/" target="_blank"> instructions how to enable JavaScript in your web browser </a>. </noscript>
+    
+    <!-- all -->
+    <div id="all">
+        <!-- header -->
+        <!-- mobile control -->
+        <div id="mobi-control"> <a href="#" id="mobi-btn" title="Menu" role="button"> Menu </a> </div>
+        <nav class="noprint">
+            <!-- header -->
+            <div id="header">
+                <!-- navigation -->
+                <ul id="navigation">
+                    <li class="search inside">
+                        <dl id="search">
+                            <dt class="searchdt">
+                                <a href="#accesskeyU" id="accesskeyU" title="Top block" accesskey="U">:::</a>
+                            </dt>
+                            <dt id="hot-search">
+                                <span id="hot-search">
+                                    Popular searches：
+                                </span>
+                            </dt>
+                            <dd>
+                                <label style="display: none;" for="FCountries">search</label>
+<form action="/En/AdvanceSearch" method="post" target="_blank"><input name="__RequestVerificationToken" type="hidden" value="XeyCYH4-EXhwfBdcypuUJP-qrNJWUfvysi76DU4fNppfCi7LjVDcSWzmsKOKTWFA058qIoel7Osv-Yhq8sS1lmjevFNpVriYKQDWGbX5S3A1" />                                    <input class="form-control" placeholder="please enter keywords" id="FCountries" accesskey="S" name="SearchKey" type="text">
+                                    <button type="submit" title="Open a new page after searching"> GO </button>
+</form>                            </dd>
+                        </dl>
+                    </li>
+                    <!-- logo -->
+                    <li class="navigationlog_li">
+                        <h1 class="logo"> <a href="/En/" class="navigationlog" title="Maritime Port Bureau. MOTC ">Maritime Port Bureau. MOTC </a></h1>
+                    </li>
+                    <!-- menu start -->
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10013&amp;siteId=2" title="MPB News" class="dropdown-toggle">MPB News</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50107&amp;siteId=2" title="Important Information">Important Information</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10014" title="News">News</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10207" title="African swine fever">African swine fever</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10206" title="Major Policies">Major Policies</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10016" title="Notice to Mariners">Notice to Mariners</a></li>
+                <li><a href="/En/ShipAnnouncement?siteId=2&amp;nodeId=10208" title="Certificate of deletion of vessel">Certificate of deletion of vessel</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10209" title="Professional Training for Seafarers">Professional Training for Seafarers</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10210" title="Onshore Promotion Training">Onshore Promotion Training</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10212" title="Policy Announcement">Policy Announcement</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10213" title="Tender Information">Tender Information</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10085&amp;siteId=2" title="Offshore Wind Power Zone">Offshore Wind Power Zone</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Article?siteId=2&amp;nodeId=10157" title="Vessel Traffic Service Guide for the Changhua Wind Farm Channel">Vessel Traffic Service Guide for the Changhua Wind Farm Channel</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10087" title="Offshore Wind Power News">Offshore Wind Power News</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10088" title="Laws and Regulations">Laws and Regulations</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10089" title="Download Forms">Download Forms</a></li>
+                <li><a href="/En/OffshoreWindPowerVerified?siteId=2&amp;nodeId=10086" title="Offshore wind power engineering permits for non-national workboats">Offshore wind power engineering permits for non-national workboats</a></li>
+                <li><a href="/En/QuestionAndAnswer?siteId=2&amp;nodeId=10090" title="Frequently-Asked Questions Q&amp;A">Frequently-Asked Questions Q&amp;A</a></li>
+                <li><a href="/En/RelatedLink?siteId=2&amp;nodeId=10091" title="Related Links">Related Links</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10093" title="Contact Us">Contact Us</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50149&amp;siteId=2" title="Seafarer Rising Star Development Program">Seafarer Rising Star Development Program</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50154" title="Seafarer Rising Star Development Program 1.0">Seafarer Rising Star Development Program 1.0</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50155" title="Seafarer Rising Star Development Program 2.0">Seafarer Rising Star Development Program 2.0</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50156" title="Related videos">Related videos</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50157" title="Frequently Asked Questions">Frequently Asked Questions</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50159" title="Publicity Campaign">Publicity Campaign</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50165" title="Introduction to seafarers">Introduction to seafarers</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50166" title="Women in Maritime">Women in Maritime</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50162" title="Collaborators">Collaborators</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50029&amp;siteId=2" title="International Maritime Transportation Stable Zone">International Maritime Transportation Stable Zone</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50031" title="Freight rates trends">Freight rates trends</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50032" title="Sailing schedules">Sailing schedules</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50033" title="Worldwide port congestion status">Worldwide port congestion status</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50036" title="Contact">Contact</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50079" title="Real-time information on additional vessels, extra sailings, and increased capacity">Real-time information on additional vessels, extra sailings, and increased capacity</a></li>
+                <li><a href="https://imarine.motcmpb.gov.tw/#/news" title="Maritime news">Maritime news</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50099" title="Important Information on Maritime Shipping">Important Information on Maritime Shipping</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50024&amp;siteId=2" title="International Maritime Developing Consultation Council">International Maritime Developing Consultation Council</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/RelatedLink?siteId=2&amp;nodeId=50025" title="Related Links">Related Links</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50026" title="Council meeting minutes">Council meeting minutes</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50027" title="IMO Convention Trend">IMO Convention Trend</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50028" title="International Maritime Trend">International Maritime Trend</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50139&amp;siteId=2" title="Maritime Power Bank Safety Promotion Zone">Maritime Power Bank Safety Promotion Zone</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50140" title="Shipping companies and crew members">Shipping companies and crew members</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50141" title="Passengers">Passengers</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50142" title="Regulations on carrying power banks">Regulations on carrying power banks</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+            </li>
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10158&amp;siteId=2" title="Taiwan Maritime affairs center" class="dropdown-toggle">Taiwan Maritime affairs center</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/En/Center?SiteId=2&amp;NodeId=10159" title="North Taiwan Maritime affairs center">North Taiwan Maritime affairs center</a></li>
+                <li><a href="/En/Center?SiteId=2&amp;NodeId=10160" title="Central Taiwan Maritime affairs center">Central Taiwan Maritime affairs center</a></li>
+                <li><a href="/En/Center?SiteId=2&amp;NodeId=10161" title="South Taiwan Maritime affairs center">South Taiwan Maritime affairs center</a></li>
+                <li><a href="/En/Center?SiteId=2&amp;NodeId=10162" title="East Taiwan Maritime affairs center">East Taiwan Maritime affairs center</a></li>
+
+                    </ul>
+            </li>
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10025&amp;siteId=2" title="Policies and Issues" class="dropdown-toggle">Policies and Issues</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10163" title="Planning Affairs">Planning Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10026" title="Maritime Affairs">Maritime Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10027" title="Port Affairs">Port Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10029" title="Vessel Affairs">Vessel Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10028" title="Seafarers Affairs">Seafarers Affairs</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10510&amp;siteId=2" title="Maritime Safety">Maritime Safety</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10030" title="Introduce">Introduce</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10511" title="Search and Rescue">Search and Rescue</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10522" title="Lighthouse Tour">Lighthouse Tour</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50108&amp;siteId=2" title="Comprehensive Affairs Zone">Comprehensive Affairs Zone</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50062&amp;siteId=2" title="Seafarer Occupational Accident and Complaint">Seafarer Occupational Accident and Complaint</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Article?siteId=2&amp;nodeId=50063" title="Seafarer Occupational Accident Notify">Seafarer Occupational Accident Notify</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50064" title="Seafarer Complaint Service">Seafarer Complaint Service</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10531" title="The Committee for R.O.C. Seafarers Employed by Foreign Employers">The Committee for R.O.C. Seafarers Employed by Foreign Employers</a></li>
+                <li><a href="/En/RelatedLink?siteId=2&amp;nodeId=50065" title="Related Links">Related Links</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10169" title="Verified Gross Mass of a Container Carrying Cargo">Verified Gross Mass of a Container Carrying Cargo</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10434&amp;siteId=2" title="Floating Equipment">Floating Equipment</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10435" title="Information">Information</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10436" title="Requlation and Process">Requlation and Process</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10437" title="Promotionarea">Promotionarea</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50045&amp;siteId=2" title="Cases related to the improvement of ferry terminal passenger facilities">Cases related to the improvement of ferry terminal passenger facilities</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Article?siteId=2&amp;nodeId=50046" title="Budai Port Passenger Terminal">Budai Port Passenger Terminal</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50047" title="Liugiu New Shipping Service Center">Liugiu New Shipping Service Center</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50048" title="Fugang Harbor Waiting Room">Fugang Harbor Waiting Room</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50049" title="Magong Ferry Terminal, Public Transportation Office, PH-PTO">Magong Ferry Terminal, Public Transportation Office, PH-PTO</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50055" title="Penghu Sea Carnival">Penghu Sea Carnival</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50081&amp;siteId=2" title="Narigation supervision transparency">Narigation supervision transparency</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50087" title="Apply for seafarer certificates">Apply for seafarer certificates</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50088" title="Examination for yacht and power-driven small ship skipper license ">Examination for yacht and power-driven small ship skipper license </a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50082" title="Pilot">Pilot</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50083" title="The application for the practicing certificate of a ship surveyor">The application for the practicing certificate of a ship surveyor</a></li>
+                <li><a href="https://www.motcmpb.gov.tw/Information?SiteId=1&amp;NodeId=10423" title="Designated Personnel for Free Trade Zone in Seaport">Designated Personnel for Free Trade Zone in Seaport</a></li>
+                <li><a href="https://www.motcmpb.gov.tw/Information?SiteId=1&amp;NodeId=10426" title="Designated Personnel for Dangerous Goods in Seaport Area">Designated Personnel for Dangerous Goods in Seaport Area</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50093" title="Franchise industry transparency">Franchise industry transparency</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50123&amp;siteId=2" title="Occupational Safety and Health">Occupational Safety and Health</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50124" title="News">News</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50125" title="Declaration , Plans">Declaration , Plans</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50126" title="Promoting situation">Promoting situation</a></li>
+                <li><a href="/En/RelatedLink?siteId=2&amp;nodeId=50127" title="Related Link">Related Link</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50174" title="Unmanned Vehicle">Unmanned Vehicle</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50068&amp;siteId=2" title="Information of Civil Service Ethics">Information of Civil Service Ethics</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=50069" title="Announcement">Announcement</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50070" title="About us">About us</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50071" title="Impeachment">Impeachment</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50072" title="Regulations">Regulations</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50073" title="Meeting for Integrity Affairs">Meeting for Integrity Affairs</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50074" title="Promotion of Integrity">Promotion of Integrity</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50075" title="Ethocs Guidelines for Civil Servants">Ethocs Guidelines for Civil Servants</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50076" title="Propetry Declaration">Propetry Declaration</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=50077" title="Requests and Canvass">Requests and Canvass</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="https://gec.ey.gov.tw/en/" title="Gender Mainstreaming">Gender Mainstreaming</a></li>
+
+                    </ul>
+            </li>
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10017&amp;siteId=2" title="Public Service" class="dropdown-toggle">Public Service</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50109&amp;siteId=2" title="Maritime and Flight Services Portal">Maritime and Flight Services Portal</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10114&amp;siteId=2" title="Maritime Accessible zone">Maritime Accessible zone</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10115" title="News">News</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10116" title="Introduction">Introduction</a></li>
+                <li><a href="https://www.motcmpb.gov.tw/PassengerShip?siteId=1&amp;nodeId=610" title="Ship Information">Ship Information</a></li>
+                <li><a href="/En/PortShore?siteId=2&amp;nodeId=10118" title="Connecting equipment">Connecting equipment</a></li>
+                <li><a href="/En/PortStation?siteId=2&amp;nodeId=10119" title="Station Information">Station Information</a></li>
+                <li><a href="/En/Information/OnlyTitle?SiteId=2&amp;NodeId=10120" title="Other Information About Transportation">Other Information About Transportation</a></li>
+                <li><a href="/En/Video?siteId=2&amp;nodeId=10121" title="Video">Video</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10122" title="Laws and Regulations">Laws and Regulations</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50133" title="Section for the Peomotion of an Accessible Maritime">Section for the Peomotion of an Accessible Maritime</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10182" title="Ticket Information">Ticket Information</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10178&amp;siteId=2" title="Laws and Regulations">Laws and Regulations</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10186" title="Maritime Affairs">Maritime Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10184" title="Seafarers Affairs">Seafarers Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10183" title="Vessel Affairs">Vessel Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10187" title="Port Affairs">Port Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10188" title="Free Trade Area">Free Trade Area</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10189" title="Commercial port service fee">Commercial port service fee</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10190" title="Maritime Safety Affairs">Maritime Safety Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10194" title="Other">Other</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50110&amp;siteId=2" title="Freedom of Government Information">Freedom of Government Information</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10204" title="Ship Transfer Restrictions">Ship Transfer Restrictions</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=50089" title="Improve service quality">Improve service quality</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10533" title="Taiwan Hi Marine Highway Zone">Taiwan Hi Marine Highway Zone</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=50111&amp;siteId=2" title="Operational procedures and  public application">Operational procedures and  public application</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10185&amp;siteId=2" title="Work Procedure">Work Procedure</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10196" title="Maritime Affairs">Maritime Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10197" title="Seafarers Affairs">Seafarers Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10198" title="Vessel Affairs">Vessel Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10199" title="Maritime Safety Affairs">Maritime Safety Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10200" title="Port Affairs">Port Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10202" title="Free Trade Affairs">Free Trade Affairs</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10203" title="Vessel Survey">Vessel Survey</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/OnlineRegistration?siteId=2&amp;nodeId=10218" title="Online registration">Online registration</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10045&amp;siteId=2" title="Publications">Publications</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Article?siteId=2&amp;nodeId=10046" title="MPB Annual Report">MPB Annual Report</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/QuestionAndAnswer?siteId=2&amp;nodeId=10180" title="Frequently-Asked Questions Q&amp;A">Frequently-Asked Questions Q&amp;A</a></li>
+                <li><a href="/En/DownloadFile?siteId=2&amp;nodeId=10181" title="Download Forms">Download Forms</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10217" title="Activities">Activities</a></li>
+                <li><a href="/En/Video?siteId=2&amp;nodeId=10020" title="Video">Video</a></li>
+                <li><a href="/En/Lighthouse?siteId=2&amp;nodeId=10018" title="Lighthouse">Lighthouse</a></li>
+                <li><a href="/En/RelatedLink?siteId=2&amp;nodeId=10019" title="Related Links">Related Links</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10219" title="Awards and prizes">Awards and prizes</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10179" title="Consumer Protection Plan">Consumer Protection Plan</a></li>
+
+                    </ul>
+            </li>
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10446&amp;siteId=2" title="IMO Instruments Implementation" class="dropdown-toggle">IMO Instruments Implementation</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/En/Convention?siteId=2&amp;nodeId=10453" title="Flag State Instructions">Flag State Instructions</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10454" title="International Ships and Other Applicable Rules">International Ships and Other Applicable Rules</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10448" title="SOLAS">SOLAS</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10447" title="MARPOL">MARPOL</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10449" title="TONNAGE">TONNAGE</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10450" title="LL">LL</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10451" title="COLREG">COLREG</a></li>
+                <li><a href="/En/Convention?siteId=2&amp;nodeId=10452" title="STCW">STCW</a></li>
+
+                    </ul>
+            </li>
+            <li class="dropdown dropdown-submenu dropdown-content">
+                    <a href="/En/Home/Node?nodeId=10004&amp;siteId=2" title="About MPB" class="dropdown-toggle">About MPB</a>
+                    <ul class="dropdown-menu menu-two" role="menu" aria-labelledby="dLabel">
+                                        <li><a href="/En/Article?siteId=2&amp;nodeId=10005" title="Director General of MPB">Director General of MPB</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10006" title="History">History</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10007" title="Symbol of MPB">Symbol of MPB</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10008" title="Vision and Goals">Vision and Goals</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10009" title="Words from the Director General">Words from the Director General</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10010" title="Organization and Functions">Organization and Functions</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10011" title="Functions of the Port Bureau">Functions of the Port Bureau</a></li>
+                <li class="dropdown-submenu">
+                    <a tabindex="-1" href="/En/Home/Node?nodeId=10012&amp;siteId=2" title="Locations">Locations</a>
+                    <ul class="dropdown-menu menu-three">
+                                        <li><a href="/En/Information?siteId=2&amp;nodeId=10040" title="Maritime and Port Bureau">Maritime and Port Bureau</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10041" title="North">North</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10042" title="Central">Central</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10043" title="South">South</a></li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10044" title="East">East</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/En/Information?siteId=2&amp;nodeId=10022" title="Events and Highlights">Events and Highlights</a></li>
+                <li><a href="/En/Article?siteId=2&amp;nodeId=10070" title="Contact Us">Contact Us</a></li>
+
+                    </ul>
+            </li>
+                    <!-- menu end -->
+                </ul>
+                <!-- lang -->
+                <div class="pull-right">
+                    <div id="lang">
+                        
+                        <a href="https://www.motcmpb.gov.tw/" title="Chinese">Chinese</a>
+                    </div>
+                    <ul id="top-link">
+                        <li class="btn-1"> <a href="/En/" title="Home"> <i class="fa fa-home" alt="Home" aria-hidden="true"></i><span class="sr-only">Home</span></a></li>
+                        <li class="btn-2">
+                            <a href="/En/SiteMap" title="Site Map">
+                                <i class="fa fa-globe" alt="Site Map" aria-hidden="true"></i>
+                                <span class="sr-only">Site Map</span>
+                            </a>
+                        </li>
+                        
+                        
+                        
+                        <li class="btn-6">
+                            <a href="https://web02.mtnet.gov.tw/" title="MTNet(open new window)" target="_blank">
+                                <i class="fa fa-link" alt="MTNet" aria-hidden="true"></i>
+                                <span class="sr-only">MTNet</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- get template -->
+        <div class="template_content">
+            
+
+<div id="templateload">
+    <style>
+        #container404 {
+            width: 100vw;
+            max-width: 100%;
+            margin: 0px auto;
+            padding: 0;
+            background: #FFF;
+            box-shadow: 0 0 20px #DDD;
+            box-sizing: border-box;
+        }
+
+        footer::before {
+            background-color: #008ab3;
+        }
+    </style>
+    <!-- container -->
+    <div id="container404">
+        <div class="full-img">
+                <img class="" src="/images/error404.png" alt="404頁面不存在">
+        </div>
+    </div>
+</div>
+        </div>
+
+        <!-- mobile menu start -->
+            <div id="mobile_navigation" class="noprint" style="display:none;">
+                <li class="search inside">
+                    <dl id="search">
+                        <dt class="search_dt">
+                            <a href="#accesskeyU" id="accesskeyU" title="Top block" accesskey="U">:::</a>
+                            <span id="hot-search">
+                                Popular searches：
+                            </span>
+                        </dt>
+                        <dd>
+<form action="/En/AdvanceSearch" id="advancedSearchForm" method="post" target="_blank"><input name="__RequestVerificationToken" type="hidden" value="q5bhTo0vuFr-Ra9Wrc_AW0i0QCKzGYneUTOA1dvH3fdyo5tIyJGxAwbCI_NLUoGafAjSQ5ffbtIgTZAD115U9qrfuymOWMckH3MoyLj3UuM1" />                                <label style="display: none;" for="oFCountries"><span class="sr-only">searchkey</span></label>
+                                <input class="form-control oFCountries" placeholder="please enter keywords" id="oFCountries" name="searchkey" type="text">
+                                <button type="submit" title="search"> GO </button>
+</form>                        </dd>
+                    </dl>
+                </li>
+                <!-- logo -->
+                
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="MPB News">MPB News</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl>
+                    <dt><a href="javascript:;" title="Important Information">Important Information</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10014" title="News">News</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10207" title="African swine fever">African swine fever</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10206" title="Major Policies">Major Policies</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10016" title="Notice to Mariners">Notice to Mariners</a></dt></dl>
+                <dl><dt><a href="/En/ShipAnnouncement?siteId=2&amp;nodeId=10208" title="Certificate of deletion of vessel">Certificate of deletion of vessel</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10209" title="Professional Training for Seafarers">Professional Training for Seafarers</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10210" title="Onshore Promotion Training">Onshore Promotion Training</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10212" title="Policy Announcement">Policy Announcement</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10213" title="Tender Information">Tender Information</a></dt></dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Offshore Wind Power Zone">Offshore Wind Power Zone</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10157" title="Vessel Traffic Service Guide for the Changhua Wind Farm Channel">Vessel Traffic Service Guide for the Changhua Wind Farm Channel</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10087" title="Offshore Wind Power News">Offshore Wind Power News</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10088" title="Laws and Regulations">Laws and Regulations</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10089" title="Download Forms">Download Forms</a></dt></dl>
+                <dl><dt><a href="/En/OffshoreWindPowerVerified?siteId=2&amp;nodeId=10086" title="Offshore wind power engineering permits for non-national workboats">Offshore wind power engineering permits for non-national workboats</a></dt></dl>
+                <dl><dt><a href="/En/QuestionAndAnswer?siteId=2&amp;nodeId=10090" title="Frequently-Asked Questions Q&amp;A">Frequently-Asked Questions Q&amp;A</a></dt></dl>
+                <dl><dt><a href="/En/RelatedLink?siteId=2&amp;nodeId=10091" title="Related Links">Related Links</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10093" title="Contact Us">Contact Us</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Seafarer Rising Star Development Program">Seafarer Rising Star Development Program</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50154" title="Seafarer Rising Star Development Program 1.0">Seafarer Rising Star Development Program 1.0</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50155" title="Seafarer Rising Star Development Program 2.0">Seafarer Rising Star Development Program 2.0</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50156" title="Related videos">Related videos</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50157" title="Frequently Asked Questions">Frequently Asked Questions</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50159" title="Publicity Campaign">Publicity Campaign</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50165" title="Introduction to seafarers">Introduction to seafarers</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50166" title="Women in Maritime">Women in Maritime</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50162" title="Collaborators">Collaborators</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="International Maritime Transportation Stable Zone">International Maritime Transportation Stable Zone</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50031" title="Freight rates trends">Freight rates trends</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50032" title="Sailing schedules">Sailing schedules</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50033" title="Worldwide port congestion status">Worldwide port congestion status</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50036" title="Contact">Contact</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50079" title="Real-time information on additional vessels, extra sailings, and increased capacity">Real-time information on additional vessels, extra sailings, and increased capacity</a></dt></dl>
+                <dl><dt><a href="https://imarine.motcmpb.gov.tw/#/news" title="Maritime news">Maritime news</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50099" title="Important Information on Maritime Shipping">Important Information on Maritime Shipping</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="International Maritime Developing Consultation Council">International Maritime Developing Consultation Council</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/RelatedLink?siteId=2&amp;nodeId=50025" title="Related Links">Related Links</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50026" title="Council meeting minutes">Council meeting minutes</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50027" title="IMO Convention Trend">IMO Convention Trend</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50028" title="International Maritime Trend">International Maritime Trend</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Maritime Power Bank Safety Promotion Zone">Maritime Power Bank Safety Promotion Zone</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50140" title="Shipping companies and crew members">Shipping companies and crew members</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50141" title="Passengers">Passengers</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50142" title="Regulations on carrying power banks">Regulations on carrying power banks</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="Taiwan Maritime affairs center">Taiwan Maritime affairs center</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/En/Center?SiteId=2&amp;NodeId=10159" title="North Taiwan Maritime affairs center">North Taiwan Maritime affairs center</a></dt></dl>
+                <dl><dt><a href="/En/Center?SiteId=2&amp;NodeId=10160" title="Central Taiwan Maritime affairs center">Central Taiwan Maritime affairs center</a></dt></dl>
+                <dl><dt><a href="/En/Center?SiteId=2&amp;NodeId=10161" title="South Taiwan Maritime affairs center">South Taiwan Maritime affairs center</a></dt></dl>
+                <dl><dt><a href="/En/Center?SiteId=2&amp;NodeId=10162" title="East Taiwan Maritime affairs center">East Taiwan Maritime affairs center</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="Policies and Issues">Policies and Issues</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10163" title="Planning Affairs">Planning Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10026" title="Maritime Affairs">Maritime Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10027" title="Port Affairs">Port Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10029" title="Vessel Affairs">Vessel Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10028" title="Seafarers Affairs">Seafarers Affairs</a></dt></dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Maritime Safety">Maritime Safety</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10030" title="Introduce">Introduce</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10511" title="Search and Rescue">Search and Rescue</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10522" title="Lighthouse Tour">Lighthouse Tour</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Comprehensive Affairs Zone">Comprehensive Affairs Zone</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="javascript:;" title="Seafarer Occupational Accident and Complaint">Seafarer Occupational Accident and Complaint</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50063" title="Seafarer Occupational Accident Notify">Seafarer Occupational Accident Notify</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50064" title="Seafarer Complaint Service">Seafarer Complaint Service</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10531" title="The Committee for R.O.C. Seafarers Employed by Foreign Employers">The Committee for R.O.C. Seafarers Employed by Foreign Employers</a></dt></dl>
+                <dl><dt><a href="/En/RelatedLink?siteId=2&amp;nodeId=50065" title="Related Links">Related Links</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10169" title="Verified Gross Mass of a Container Carrying Cargo">Verified Gross Mass of a Container Carrying Cargo</a></dt></dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Floating Equipment">Floating Equipment</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10435" title="Information">Information</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10436" title="Requlation and Process">Requlation and Process</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10437" title="Promotionarea">Promotionarea</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Cases related to the improvement of ferry terminal passenger facilities">Cases related to the improvement of ferry terminal passenger facilities</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50046" title="Budai Port Passenger Terminal">Budai Port Passenger Terminal</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50047" title="Liugiu New Shipping Service Center">Liugiu New Shipping Service Center</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50048" title="Fugang Harbor Waiting Room">Fugang Harbor Waiting Room</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50049" title="Magong Ferry Terminal, Public Transportation Office, PH-PTO">Magong Ferry Terminal, Public Transportation Office, PH-PTO</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50055" title="Penghu Sea Carnival">Penghu Sea Carnival</a></dt></dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Narigation supervision transparency">Narigation supervision transparency</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50087" title="Apply for seafarer certificates">Apply for seafarer certificates</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50088" title="Examination for yacht and power-driven small ship skipper license ">Examination for yacht and power-driven small ship skipper license </a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50082" title="Pilot">Pilot</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50083" title="The application for the practicing certificate of a ship surveyor">The application for the practicing certificate of a ship surveyor</a></dt></dl>
+                <dl><dt><a href="https://www.motcmpb.gov.tw/Information?SiteId=1&amp;NodeId=10423" title="Designated Personnel for Free Trade Zone in Seaport">Designated Personnel for Free Trade Zone in Seaport</a></dt></dl>
+                <dl><dt><a href="https://www.motcmpb.gov.tw/Information?SiteId=1&amp;NodeId=10426" title="Designated Personnel for Dangerous Goods in Seaport Area">Designated Personnel for Dangerous Goods in Seaport Area</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50093" title="Franchise industry transparency">Franchise industry transparency</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Occupational Safety and Health">Occupational Safety and Health</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50124" title="News">News</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50125" title="Declaration , Plans">Declaration , Plans</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50126" title="Promoting situation">Promoting situation</a></dt></dl>
+                <dl><dt><a href="/En/RelatedLink?siteId=2&amp;nodeId=50127" title="Related Link">Related Link</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50174" title="Unmanned Vehicle">Unmanned Vehicle</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Information of Civil Service Ethics">Information of Civil Service Ethics</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50069" title="Announcement">Announcement</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50070" title="About us">About us</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50071" title="Impeachment">Impeachment</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50072" title="Regulations">Regulations</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50073" title="Meeting for Integrity Affairs">Meeting for Integrity Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50074" title="Promotion of Integrity">Promotion of Integrity</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50075" title="Ethocs Guidelines for Civil Servants">Ethocs Guidelines for Civil Servants</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50076" title="Propetry Declaration">Propetry Declaration</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=50077" title="Requests and Canvass">Requests and Canvass</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="https://gec.ey.gov.tw/en/" title="Gender Mainstreaming">Gender Mainstreaming</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="Public Service">Public Service</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl>
+                    <dt><a href="javascript:;" title="Maritime and Flight Services Portal">Maritime and Flight Services Portal</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="javascript:;" title="Maritime Accessible zone">Maritime Accessible zone</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10115" title="News">News</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10116" title="Introduction">Introduction</a></dt></dl>
+                <dl><dt><a href="https://www.motcmpb.gov.tw/PassengerShip?siteId=1&amp;nodeId=610" title="Ship Information">Ship Information</a></dt></dl>
+                <dl><dt><a href="/En/PortShore?siteId=2&amp;nodeId=10118" title="Connecting equipment">Connecting equipment</a></dt></dl>
+                <dl><dt><a href="/En/PortStation?siteId=2&amp;nodeId=10119" title="Station Information">Station Information</a></dt></dl>
+                <dl><dt><a href="/En/Information/OnlyTitle?SiteId=2&amp;NodeId=10120" title="Other Information About Transportation">Other Information About Transportation</a></dt></dl>
+                <dl><dt><a href="/En/Video?siteId=2&amp;nodeId=10121" title="Video">Video</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10122" title="Laws and Regulations">Laws and Regulations</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50133" title="Section for the Peomotion of an Accessible Maritime">Section for the Peomotion of an Accessible Maritime</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10182" title="Ticket Information">Ticket Information</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Laws and Regulations">Laws and Regulations</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10186" title="Maritime Affairs">Maritime Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10184" title="Seafarers Affairs">Seafarers Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10183" title="Vessel Affairs">Vessel Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10187" title="Port Affairs">Port Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10188" title="Free Trade Area">Free Trade Area</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10189" title="Commercial port service fee">Commercial port service fee</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10190" title="Maritime Safety Affairs">Maritime Safety Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10194" title="Other">Other</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Freedom of Government Information">Freedom of Government Information</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10204" title="Ship Transfer Restrictions">Ship Transfer Restrictions</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=50089" title="Improve service quality">Improve service quality</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10533" title="Taiwan Hi Marine Highway Zone">Taiwan Hi Marine Highway Zone</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Operational procedures and  public application">Operational procedures and  public application</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl>
+                    <dt><a href="javascript:;" title="Work Procedure">Work Procedure</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10196" title="Maritime Affairs">Maritime Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10197" title="Seafarers Affairs">Seafarers Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10198" title="Vessel Affairs">Vessel Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10199" title="Maritime Safety Affairs">Maritime Safety Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10200" title="Port Affairs">Port Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10202" title="Free Trade Affairs">Free Trade Affairs</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10203" title="Vessel Survey">Vessel Survey</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/OnlineRegistration?siteId=2&amp;nodeId=10218" title="Online registration">Online registration</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Publications">Publications</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10046" title="MPB Annual Report">MPB Annual Report</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/QuestionAndAnswer?siteId=2&amp;nodeId=10180" title="Frequently-Asked Questions Q&amp;A">Frequently-Asked Questions Q&amp;A</a></dt></dl>
+                <dl><dt><a href="/En/DownloadFile?siteId=2&amp;nodeId=10181" title="Download Forms">Download Forms</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10217" title="Activities">Activities</a></dt></dl>
+                <dl><dt><a href="/En/Video?siteId=2&amp;nodeId=10020" title="Video">Video</a></dt></dl>
+                <dl><dt><a href="/En/Lighthouse?siteId=2&amp;nodeId=10018" title="Lighthouse">Lighthouse</a></dt></dl>
+                <dl><dt><a href="/En/RelatedLink?siteId=2&amp;nodeId=10019" title="Related Links">Related Links</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10219" title="Awards and prizes">Awards and prizes</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10179" title="Consumer Protection Plan">Consumer Protection Plan</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="IMO Instruments Implementation">IMO Instruments Implementation</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10453" title="Flag State Instructions">Flag State Instructions</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10454" title="International Ships and Other Applicable Rules">International Ships and Other Applicable Rules</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10448" title="SOLAS">SOLAS</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10447" title="MARPOL">MARPOL</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10449" title="TONNAGE">TONNAGE</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10450" title="LL">LL</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10451" title="COLREG">COLREG</a></dt></dl>
+                <dl><dt><a href="/En/Convention?siteId=2&amp;nodeId=10452" title="STCW">STCW</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dropdown-toggle" title="About MPB">About MPB</a><span>+</span>
+                    <div class="sub-menu">
+                        <div class="wrap">
+                                            <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10005" title="Director General of MPB">Director General of MPB</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10006" title="History">History</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10007" title="Symbol of MPB">Symbol of MPB</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10008" title="Vision and Goals">Vision and Goals</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10009" title="Words from the Director General">Words from the Director General</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10010" title="Organization and Functions">Organization and Functions</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10011" title="Functions of the Port Bureau">Functions of the Port Bureau</a></dt></dl>
+                <dl>
+                    <dt><a href="javascript:;" title="Locations">Locations</a><span>+</span></dt>
+                    <dd>
+                        <ul>
+                                            <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10040" title="Maritime and Port Bureau">Maritime and Port Bureau</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10041" title="North">North</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10042" title="Central">Central</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10043" title="South">South</a></dt></dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10044" title="East">East</a></dt></dl>
+
+                        </ul>
+                    </dd>
+                </dl>
+                <dl><dt><a href="/En/Information?siteId=2&amp;nodeId=10022" title="Events and Highlights">Events and Highlights</a></dt></dl>
+                <dl><dt><a href="/En/Article?siteId=2&amp;nodeId=10070" title="Contact Us">Contact Us</a></dt></dl>
+
+                        </div>
+                    </div>
+                </li>
+            </div>
+        <!-- mobile menu end -->
+        <!-- footer -->
+    <footer id="footer" class="noprint">
+        
+        <a id="gotop" href="#" title="Back to top"><span class="sr-only">Back to top</span></a>
+        <div class="container nav">
+            <a accesskey="B" href="#Buttom" id="Buttom" title="Buttom">:::</a>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="footer_logo logo"><img src="/En/Images/footer_logo.png" alt="Maritime Port Bureau. MOTC LOGO"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="copyright">
+                        <ul class="link footerlink">
+                            <li><a class="normal" href="/En/Article?NodeId=10037" title="Copyright">Copyright</a></li>
+                            <li><a class="normal" href="/En/Article?NodeId=10035" title="Privacy Policy and Security Notice">Privacy Policy and Security Notice</a></li>
+                            <li><a class="normal" href="/En/Article?NodeId=10036" title="Open Government Data License">Open Government Data License</a></li>
+                            <li><a class="normal" href="/En/Article?NodeId=10070" title="about us">about us</a></li>
+                        </ul>
+                        <span class="footer_info">No.1, Ln. 1, Sec. 3, Heping E. Rd., Da’an Dist., Taipei City 106248, Taiwan(R.O.C.)</span>
+                        <span class="footer_info">Tel：(02)8978-2900</span>
+                        <span class="footer_info">TFN：0800-369009</span>
+                        <span class="footer_info">Best viewed at 1024x768 resolution.</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 m-t-10">
+                    <div class="Accessibility_logo">
+                        <a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20250822115226" target="_blank" title="Accessible website (open new window)">
+                            <img src="/En/Images/aa.png" border="0" alt="Accessibility web page detection through AA detection level" />
+                        </a>
+                    </div>
+                    <div class="counter">
+                        <span class="footer_info people">Browse times：6,611,859</span>
+                        <span class="footer_info date">Updated：2026-09-10 03:35</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <div id="defaultMessageModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" id="defaultMessageCloseBtn" class="close" data-dismiss="modal" aria-label="Close" title="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-title h3">Message</div>
+                </div>
+                <div class="modal-body">
+                    <p id="defaultMessageTitle"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="defaultMessageBtn" class="btn btn-default" data-dismiss="modal" title="Close" style="width: 30%;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <!-- go to top start -->
+    <a href="#" id="go_to_top" title="Back to the top" role="button"><span class="sr-only">Back to the top</span></a>
+    <!-- go to top end -->
+
+    <script src="/En/bundles/jquery?v=Lre7x5BCiObRBO1cTtP8lchT5A1N17nO_N7dhSkUFI81"></script>
+
+    <script src="/En/bundles/jqueryval?v=kSREeooyvWGsJwHGvoFtQr9EBd0dsrF5ikNedqPNluU1"></script>
+
+    <script src="/En/bundles/bootstrap?v=xiPe55TbyP-d_nV67FdxlPN-aBO_kFDaT6A7zOMZsYQ1"></script>
+
+    <script src="/En/FContent/_FLayoutJs?v=6FPYF9btOhXFbyVdTDwtz_OJYPbiOIv4fRJhBti_7kY1"></script>
+
+    <script src="/En/bundles/custom?v=xNeM0C3Fan622vW6kf3PecoqbA0KHE51rFdzlfsUEZQ1"></script>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MAERSK-YANTIAN-MARKET-2021",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "MAERSK-YANTIAN-MARKET-2021",
+    "source_type": "news",
+    "publisher": "A.P. Moller - Maersk",
+    "source_name": "Maersk Asia Pacific Market Update (June 2021)",
+    "source_authority": "primary_carrier_publisher",
+    "source_reliability": "high",
+    "source_locator": "https://www.maersk.com/news/articles/2021/06/15/asia-pacific-market-update-june",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-08T22:43:29Z",
+    "published_at": null,
+    "license": "public web page; retained for benchmark evaluation",
+    "access_constraints": "public carrier/investor web page",
+    "raw_ref": "raw/wave2/ATOM-MAERSK-YANTIAN-MARKET-2021.html",
+    "content_hash": "1f9fe0c56b97d71ff250be0220f9f4bf7d3bfd413b93542bfb2a764759f99807",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "carrier_operational_notice",
+    "event_category": "port_vessel_carrier",
+    "event_type": "port_disruption",
+    "event_subtype": "carrier_first_party_notice",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T22:43:29Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Dated carrier market update describing Yantian and neighboring-port gate-in and transport restrictions. Human review decision 2026-09-08: Keep."
+  }
+}

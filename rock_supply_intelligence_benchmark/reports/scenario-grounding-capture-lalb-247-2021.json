@@ -1,0 +1,10 @@
+{
+  "candidate_id": "GROUND-LALB-247-2021",
+  "scenario_id": "E2E-LALB-CONGESTION-08",
+  "publisher": "Port of Los Angeles",
+  "locator": "https://portoflosangeles.org/references/2021-news-releases/news_101321_portstatement",
+  "published_at": "2021-10-13T00:00:00Z",
+  "supported_claims": ["port_operations"],
+  "excerpt": "moving to 24/7 operations at the Port of Los Angeles",
+  "notes": "Candidate establishes a contemporaneous official operational response. It does not quantify congestion or establish the synthetic shipment's exposure."
+}

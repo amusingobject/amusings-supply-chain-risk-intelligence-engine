@@ -1,0 +1,10 @@
+{
+  "candidate_id": "GROUND-PANAMA-A48-2023",
+  "scenario_id": "E2E-PANAMA-DROUGHT-13",
+  "publisher": "Panama Canal Authority",
+  "locator": "https://pancanal.com/en/the-driest-month-of-october-since-1950/",
+  "published_at": "2023-10-31T23:26:32Z",
+  "supported_claims": ["infrastructure"],
+  "excerpt": "December 1 to 31",
+  "notes": "Candidate proves canal booking-slot restrictions before the scenario evaluation time. It does not prove the synthetic shipment's canal dependency; route/entity support remains a separate required review item."
+}

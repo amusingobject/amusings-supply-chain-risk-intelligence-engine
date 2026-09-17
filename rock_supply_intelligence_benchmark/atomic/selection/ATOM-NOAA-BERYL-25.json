@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-NOAA-BERYL-25",
+  "split": "selection",
+  "source": {
+    "source_id": "NHC-AL022024-ADV25",
+    "source_type": "government",
+    "publisher": "NOAA National Hurricane Center",
+    "source_name": "Hurricane Beryl Advisory Number 25 (AL022024)",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.nhc.noaa.gov/archive/2024/al02/al022024.public.025.shtml",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": "2024-07-04T21:00:00Z",
+    "effective_at": "2024-07-04T21:00:00Z",
+    "observed_at": "2024-07-04T21:00:00Z",
+    "raw_ref": "raw/first20/ATOM-NOAA-BERYL-25.html",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public NHC archive page",
+    "content_hash": "fe159baf81fd085b7162ce336715a3e5d74ad38dbb728b84aa0474aef6b9979f"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "atlantic_hurricane_yucatan",
+    "event_category": "weather_natural_disaster",
+    "event_type": "tropical_cyclone",
+    "event_subtype": "NHC_public_advisory",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Retained NHC public advisory: 500 PM EDT 4 Jul 2024, Beryl approaching Yucatan. Added after truncated first20 JSON; hash is of retained bytes. Human review W14-40: keep."
+  },
+  "schema_version": "0.1",
+  "collection_status": "collected"
+}

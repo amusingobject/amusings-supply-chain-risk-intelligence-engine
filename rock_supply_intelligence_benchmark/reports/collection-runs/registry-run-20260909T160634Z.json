@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-09T16:06:34Z",
+  "registry_id": "RSIB-collection-registry-wave8",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-FIRING-EXERCISE-JUNE2025.json",
+      "content_hash": "497533a6ff06ecd5efe813b419bd5b0e8bba523b413d9b6eba6f8c44bfdf8e66",
+      "sample_id": "ATOM-MPB-FIRING-EXERCISE-JUNE2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-CCP-EXERCISE-WARNING-2025.json",
+      "content_hash": "5d13b40f3957589968b1b9be3e731022d93529b4873f09257a4b7697609e086b",
+      "sample_id": "ATOM-MPB-CCP-EXERCISE-WARNING-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-MILITARY-EXERCISE-MAY2025.json",
+      "content_hash": "c01d63d7bbc9899c34f3e41f29343344a21cf2ce5c293a4ab7d4b9160195eee6",
+      "sample_id": "ATOM-MPB-MILITARY-EXERCISE-MAY2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-NORTHEAST-MET-MAINTENANCE-2025.json",
+      "content_hash": "50a29f0e1bf1c2ee388c96e0c374db14b666a0e0118dbb2d1e37257effd40477",
+      "sample_id": "ATOM-MPB-NORTHEAST-MET-MAINTENANCE-2025"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 373,
+  "raw_bodies_retained": 470,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T160634Z.md"
+}

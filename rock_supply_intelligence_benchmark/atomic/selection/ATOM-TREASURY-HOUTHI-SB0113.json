@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TREASURY-HOUTHI-SB0113",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us-treasury-maritime-wave6",
+    "source_type": "government",
+    "publisher": "U.S. Department of the Treasury",
+    "source_name": "Treasury targets Houthi network and vessels",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://home.treasury.gov/news/press-releases/sb0113",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:57Z",
+    "published_at": "2025-04-28T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TREASURY-HOUTHI-SB0113.html",
+    "content_hash": "ceafed3fab72482534ad1f6c374fbca389016503f6803b5c6690c92e39e9121d",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct Treasury press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "maritime_sanctions",
+    "event_subtype": "us-treasury-maritime-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:57Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-21: keep."
+  }
+}

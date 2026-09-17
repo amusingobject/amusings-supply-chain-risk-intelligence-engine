@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-09-09T16:07:05Z",
+  "registry_id": "RSIB-collection-registry-wave8",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-NORTHEAST-WRECK-OPS-2025.json",
+      "content_hash": "01ac9d9a30e29b9a47cb2494440b221c395a3e8ce8fc8cd14262135f185a3fcb",
+      "sample_id": "ATOM-MPB-NORTHEAST-WRECK-OPS-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-TAIPEI-BREAKWATER-WORK-2025.json",
+      "content_hash": "b9904dddf37ae98025c6c1a1352bc6a4ea1501984eecf27743babc5d356b5a94",
+      "sample_id": "ATOM-MPB-TAIPEI-BREAKWATER-WORK-2025"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-PIERS-WORK-2025",
+      "reason": "accept_terms_missing"
+    }
+  ],
+  "corpus_collected": 375,
+  "raw_bodies_retained": 472,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T160705Z.md"
+}

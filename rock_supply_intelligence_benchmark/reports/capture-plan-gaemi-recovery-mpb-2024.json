@@ -1,0 +1,11 @@
+{
+  "candidate_id": "GROUND-GAEMI-RECOVERY-MPB-2024",
+  "scenario_id": "E2E-GAEMI-RECOVERY-03",
+  "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+  "locator": "https://web02.mtnet.gov.tw/0/News/Detail/b1b4a872-e163-4d64-a61a-03ce86610e1c?Type=D",
+  "published_at": "2024-07-25T23:59:59Z",
+  "supported_claims": [
+    "carrier_service"
+  ],
+  "excerpt": "基隆-馬祖：預估全部停航(1航次)"
+}

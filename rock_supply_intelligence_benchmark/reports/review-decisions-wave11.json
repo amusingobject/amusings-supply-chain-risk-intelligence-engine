@@ -1,0 +1,300 @@
+[
+  {
+    "decision_id": "W11-01",
+    "sample_id": "ATOM-W11-MOL-AIRLINE-HOURS-RESULTS-2015",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "8c6cd57dd65387e866cdbd2d99807f37161bed8cb2694759e8b22d13bcd170b4",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-02",
+    "sample_id": "ATOM-W11-MOL-AIRLINE-INSPECTION-LAUNCH-2015",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "952b8859302e435c99a3c2c820ef9d0e978613fa5dd03fd17cde6372a1b68675",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-03",
+    "sample_id": "ATOM-W11-MOL-BUS-OVERWORK-PREVENTION-2017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "bda4cd9e5ce793178e25c6ff90065971eb57d89b9203aaf290623bebcf085f3f",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-04",
+    "sample_id": "ATOM-W11-MOL-DELIVERY-PLATFORM-INSPECTION-2019",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "5910db180e4774f9cee00d7978211b7e2e2dd8d0bea2e393122d1fb97c93ccda",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-05",
+    "sample_id": "ATOM-W11-MOL-DOCK-SAFETY-STANDARD-2010",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "b4c7f47882b918becb990ca43f8ed4c69b285f1eeb0f250a98d987ee0897dfcc",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-06",
+    "sample_id": "ATOM-W11-MOL-FOREIGN-FISHER-RULES-2017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "b5e712042418c436e1e0540c2a40d788d993710f90de67079e59cde2bcf17480",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-07",
+    "sample_id": "ATOM-W11-MOL-FREIGHT-DRIVER-HOURS-2018",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "86e8bf96d6e60c66c238a440a9dd2698f84d330ffb5bf063686470571311bbf5",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-08",
+    "sample_id": "ATOM-W11-MOL-HIGHWAY-FREIGHT-SAFETY-2009",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "f9937ad47e7e6530fb3af33e961cccb5423d9ab6be7848fc17fc88edbd3c0b3c",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-09",
+    "sample_id": "ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "72609b34788879f6982491d4f6120bcb0c829278973c74114c066b3e3e65440d",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-10",
+    "sample_id": "ATOM-W11-MOL-RAIL-LABOR-DECISION-2017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "17efb9bda03c8e0e7c1a69290299320039080170a2399c590c04600a956ee6e5",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-11",
+    "sample_id": "ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "5e851bc6bed0d4e783f360be295446c1403926c02fdba42887d275eb45b778c8",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-12",
+    "sample_id": "ATOM-W11-MOL-SPRING-SAFETY-LOGISTICS-2022",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "8464bd648d260167496923fee4daa48346e2205a996a30e17704fc12e51f442a",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-13",
+    "sample_id": "ATOM-W11-MOL-SUPPLIER-LABOR-COMPLIANCE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "afbb5ca2dba845ea6629006902fde4a379d26e7ef8acda611e7d0c59c721f1ba",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-14",
+    "sample_id": "ATOM-W11-MOL-TRANSPORT-INSPECTION-CAPACITY-2016",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "44b06662fb083a99863c59dd8138bfebd069b26c0d7d6cb0a857a0502b2af82c",
+    "rationale": "Human reviewer approved Wave 11A with the proposed irrelevant labor/transportation control label."
+  },
+  {
+    "decision_id": "W11-15",
+    "sample_id": "ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "198ba2f774f0252d9b5a8ab0f9248fb0495ae30a8384d7387e7156c72c6b60d8",
+    "rationale": "Human reviewer approved Wave 11C with the proposed materially relevant maritime restriction or hazard label."
+  },
+  {
+    "decision_id": "W11-16",
+    "sample_id": "ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "97de4431ba02afd3817482ebac403c4a46691d45ba5ee6c8ea98461e52617f71",
+    "rationale": "Human reviewer approved Wave 11D with the proposed irrelevant planned maritime-operations control label."
+  },
+  {
+    "decision_id": "W11-17",
+    "sample_id": "ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "e8231bfc98d60f471c666e225f956072566867efb40e31ab3d34534aff95190a",
+    "rationale": "Human reviewer approved Wave 11D with the proposed irrelevant planned maritime-operations control label."
+  },
+  {
+    "decision_id": "W11-18",
+    "sample_id": "ATOM-W11-MPB-DONGYIN-EXERCISE-AUG2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "7785b2917c45e3bcb7c6d58e317dc5baa54a39b90e910b8ba099fd98240a6b09",
+    "rationale": "Human reviewer approved Wave 11C with the proposed materially relevant maritime restriction or hazard label."
+  },
+  {
+    "decision_id": "W11-19",
+    "sample_id": "ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "e09936a8234b1f200c9334ca411e729291a26580a5efa64448a3018db24cb857",
+    "rationale": "Human reviewer approved Wave 11D with the proposed irrelevant planned maritime-operations control label."
+  },
+  {
+    "decision_id": "W11-20",
+    "sample_id": "ATOM-W11-MPB-LIVE-FIRING-DEC2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "3f99bb3cf09aac48dc24c5191afeab08331e1a9e24d468c63c7eb02345c9cc3c",
+    "rationale": "Human reviewer approved Wave 11C with the proposed materially relevant maritime restriction or hazard label."
+  },
+  {
+    "decision_id": "W11-21",
+    "sample_id": "ATOM-W11-MPB-PENGHU-FIRING-APR2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "9908005865f45d77586d50f1f82c1ab7a53ccba9e21cad78ef7160cf7ae7df71",
+    "rationale": "Human reviewer approved Wave 11C with the proposed materially relevant maritime restriction or hazard label."
+  },
+  {
+    "decision_id": "W11-22",
+    "sample_id": "ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "cc4cf97e702f33ab97143b451c7ace357689373457de355b677276c6bbb3a136",
+    "rationale": "Human reviewer approved Wave 11C with the proposed materially relevant maritime restriction or hazard label."
+  },
+  {
+    "decision_id": "W11-23",
+    "sample_id": "ATOM-W11-TRADE-AAPEX-SEMA-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "a39852ee76986e2fe07a478f136dcf9d4951ae30b753bc7fce0fbabfa3f8dceb",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-24",
+    "sample_id": "ATOM-W11-TRADE-CANADA-DIALOGUE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "13712b1683e3c6540ca66b8a91d7e3d766aa167f9cd75dc7bbe14bd2b0e109ec",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-25",
+    "sample_id": "ATOM-W11-TRADE-CANADA-FRAMEWORK-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "cd14d01287db0dc711b30963a730dec837d077e7a805a1c696f6bb77b950b797",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-26",
+    "sample_id": "ATOM-W11-TRADE-JAPAN-COOPERATION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "429a10ce4c8657153b4f3d9575a99e5429fb52d223585066f1534da81bf94d59",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-27",
+    "sample_id": "ATOM-W11-TRADE-LITHUANIA-DIALOGUE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "68c3f0df75f09fff6228ca1cb60a220c910359aeb854d1aeb9fddd180913885e",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-28",
+    "sample_id": "ATOM-W11-TRADE-SEMICONDUCTOR-EXPO-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "f9a6cf024852f28b7f4e91e14a03f087b1c8e3133e781f3e3d18c14139feaca3",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-29",
+    "sample_id": "ATOM-W11-TRADE-TAIWAN-SELECT-APR2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "78e80079d24b81f1c59e41817f83237a13f9aeae62cf2949a021c9ae0070aa22",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-30",
+    "sample_id": "ATOM-W11-TRADE-TAIWAN-SELECT-OCT2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "643185cc157d1d4f4cf75eab954b042e9641c0d63b826c20695942adbdebce5e",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-31",
+    "sample_id": "ATOM-W11-TRADE-TENNESSEE-MOU-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "16421de43c86f26c39360dc67bde3e1af17fc112da7c17c0a2da4875eb8d1862",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-32",
+    "sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "ceabb93ec58e6efe4663602c7d2b3a7134e99d8640a45c89c5a656428b109dbb",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  },
+  {
+    "decision_id": "W11-33",
+    "sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T22:11:37Z",
+    "manifest_hash": "33ff00adbf18c43c813f0253cc03e48ebc80725df6824f043c52c07392b03cb3",
+    "rationale": "Human reviewer approved Wave 11B with the proposed irrelevant trade-policy/cooperation control label."
+  }
+]
+

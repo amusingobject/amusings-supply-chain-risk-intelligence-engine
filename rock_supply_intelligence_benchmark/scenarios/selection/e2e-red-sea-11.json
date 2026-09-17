@@ -16,21 +16,29 @@
     {
       "id": "EVD-E2E-RED-SEA-11-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-RED-SEA-11/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-RED-SEA-11/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Red Sea routing disruption / Suez route",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-RED-SEA-11",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2024-01-15T12:00:00Z",
+      "effective_at": "2024-01-15T12:00:00Z",
+      "observed_at": "2024-01-15T12:00:00Z",
+      "content_hash": "2ec6ad78bfe8898ea8a34b45b8f2d9f15c7c9dc6cc5e052ecc3ded3e9ab08f28",
+      "raw_ref": "raw/e2e-synthetic/E2E-RED-SEA-11.txt",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
     }
   ],
   "synthetic_business_state": {
@@ -64,6 +72,7 @@
         "mode": "ocean",
         "origin": "Kaohsiung",
         "destination": "New York",
+        "via": "Red Sea",
         "po_refs": [
           "PO-SYN-011"
         ],

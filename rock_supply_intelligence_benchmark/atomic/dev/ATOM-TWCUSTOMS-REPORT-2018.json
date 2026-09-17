@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWCUSTOMS-REPORT-2018",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-customs-bilingual-wave5",
+    "source_type": "government",
+    "publisher": "Taiwan Customs Administration",
+    "source_name": "Taiwan Customs bilingual annual publication 2018",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://web.customs.gov.tw/WEB/ecustoms/ebook_71906/pdf/full.pdf",
+    "language": "mixed",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T14:31:29Z",
+    "published_at": "2018-09-01T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWCUSTOMS-REPORT-2018.pdf",
+    "content_hash": "3f22811e2627a28364b0b05aca58cf436258d562958ed000ab9477ab6f758755",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual document"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "administrative_bilingual_control",
+    "event_subtype": "taiwan-customs-bilingual-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:31:29Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-03: keep."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "additionalProperties": false,
+  "description": "Canonical quality object attached to a filtered source / Evidence.",
+  "properties": {
+    "spam_class": {
+      "title": "Spam Class",
+      "type": "string"
+    },
+    "quality_score": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Quality Score",
+      "type": "number"
+    },
+    "spam_score": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Spam Score",
+      "type": "number"
+    },
+    "operational_value_score": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Operational Value Score",
+      "type": "number"
+    },
+    "duplicate_probability": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Duplicate Probability",
+      "type": "number"
+    },
+    "prompt_injection_score": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Prompt Injection Score",
+      "type": "number"
+    },
+    "reasons": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Reasons",
+      "type": "array"
+    },
+    "decision": {
+      "enum": [
+        "accept",
+        "accept_with_penalty",
+        "quarantine",
+        "reject",
+        "review"
+      ],
+      "title": "Decision",
+      "type": "string"
+    },
+    "method": {
+      "default": "deterministic",
+      "enum": [
+        "deterministic",
+        "hybrid",
+        "local_ai",
+        "human"
+      ],
+      "title": "Method",
+      "type": "string"
+    },
+    "model_used": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Used"
+    }
+  },
+  "required": [
+    "spam_class",
+    "quality_score",
+    "spam_score",
+    "operational_value_score",
+    "duplicate_probability",
+    "prompt_injection_score",
+    "decision"
+  ],
+  "title": "Canonical SourceQuality v0.1",
+  "type": "object"
+}

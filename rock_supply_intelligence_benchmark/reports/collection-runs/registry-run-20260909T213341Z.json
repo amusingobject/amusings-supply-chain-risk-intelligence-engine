@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-09-09T21:33:41Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025.json",
+      "content_hash": "93dbb8c1afa31511954dfc69bd0397ded893ac1c7534121aa45074e5d70454b1",
+      "sample_id": "ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MPB-DONGYIN-EXERCISE-AUG2025.json",
+      "content_hash": "9f13ebad88a3efe45f10d1198be12f67f986f15cecfb96d673773b732016f930",
+      "sample_id": "ATOM-W11-MPB-DONGYIN-EXERCISE-AUG2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-JAPAN-COOPERATION-2025.json",
+      "content_hash": "55133a16dc05a888f88648128380dc27e9842db1e96cabf78c65cbe937015a7f",
+      "sample_id": "ATOM-W11-TRADE-JAPAN-COOPERATION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-LITHUANIA-DIALOGUE-2024.json",
+      "content_hash": "816bbb0c191b8220478ca06ad76b6e578d5b56156efba0c544dc382fd6cfc4c5",
+      "sample_id": "ATOM-W11-TRADE-LITHUANIA-DIALOGUE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024.json",
+      "content_hash": "dff1cd4291919573333c7433d9e33042eca151feb6f0c7bd29ee4f59e2536f2f",
+      "sample_id": "ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MPB-PENGHU-FIRING-APR2025.json",
+      "content_hash": "6be3116c04c1a2f7696cc652d65dd418798bd5fe49e77a144dffeae88896e170",
+      "sample_id": "ATOM-W11-MPB-PENGHU-FIRING-APR2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-TRADE-AAPEX-SEMA-2025.json",
+      "content_hash": "e1883666fe4a53e8da650cd7b6d03de4906d893837d030320ffa91657b9a47ee",
+      "sample_id": "ATOM-W11-TRADE-AAPEX-SEMA-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-TRADE-US-BUSINESS-DAY-2024.json",
+      "content_hash": "ca2cf019550aa861b1e170c501e2932679a0aafb15f67b260b2494baeae139fa",
+      "sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-W11-MPB-FENGMIAO-SURVEY-JUL2025",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-W11-MPB-SOUTHEAST-FIRING-NOV2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 415,
+  "raw_bodies_retained": 512,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T213341Z.md"
+}

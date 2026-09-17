@@ -1,0 +1,52 @@
+{
+  "sample_id": "ATOM-TWPORT-04",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "TW-MPB-99641-A37ADB7A",
+    "source_type": "open_data",
+    "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+    "source_name": "International commercial port ship inbound and outbound dynamic data (release A37ADB7A)",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/a37adb7a-7eef-4480-8215-36e353f9e642?DLCount=1",
+    "language": "zh-TW",
+    "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": "2021-02-03T16:40:31.364000000",
+    "effective_at": null,
+    "observed_at": null,
+    "raw_ref": "raw/first20/ATOM-TWPORT-04.ods",
+    "content_hash": "6d349f2b342e7a75c8c98e779c2ae5a90fad1d5664155e70ea0839040aa6c0fb",
+    "hash_method": "sha256",
+    "license": "Open Government Data License, version 1.0",
+    "access_constraints": "public download; retained as delivered ODS"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "taiwan_port_vessel_record",
+    "event_category": "port_vessel_carrier",
+    "event_type": "vessel_movement",
+    "event_subtype": "international_port_entry_exit_dataset",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "structured_data_extraction",
+      "vessel_port_monitoring"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "notes": "Publication timestamp taken from retained ODS metadata; no row-level event time is asserted in this fixture metadata. Human review W15-20: keep.",
+    "adjudication_status": "reviewed"
+  }
+}

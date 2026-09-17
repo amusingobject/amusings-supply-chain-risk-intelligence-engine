@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TREASURY-RUSSIA-JY2777",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us-treasury-maritime",
+    "source_type": "government",
+    "publisher": "U.S. Department of the Treasury",
+    "source_name": "Russia oil production and export sanctions",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://home.treasury.gov/news/press-releases/jy2777",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T13:59:08Z",
+    "published_at": "2025-01-10T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TREASURY-RUSSIA-JY2777.html",
+    "content_hash": "6127d355f7ad9b6a5a29dc0ae48fbb7e7ee96d71d6610a5431ebfae6b72f27e8",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public Treasury press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "maritime_sanctions",
+    "event_subtype": "us-treasury-maritime",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T13:59:08Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W4-20260909-06: keep."
+  }
+}

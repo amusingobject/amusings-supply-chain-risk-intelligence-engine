@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T1200",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "USGS-HUALIEN-FOLLOWUP-0406T1200",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 4.8 - 34 km NE of Hualien City, Taiwan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-04-06T12:00:00&endtime=2024-04-06T16:00:00&minlatitude=20&maxlatitude=26&minlongitude=119&maxlongitude=123&minmagnitude=4",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-08T04:20:40Z",
+    "published_at": "2024-04-06T15:53:12Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "effective_at": "2024-04-06T15:53:12Z",
+    "observed_at": "2024-04-06T15:53:12Z",
+    "raw_ref": "raw/wave2/ATOM-USGS-HUALIEN-FOLLOWUP-WINDOW-0406T1200.json",
+    "content_hash": "e65a1c8847b65ef09d77dc0150d750d27f2facc319ad24009ca539c969bda4c5",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "taiwan_hualien_earthquake_followup",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_bounded_query",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T04:20:40Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Bounded official FDSN query. Provisional label requires review. Human review W13-14: keep."
+  }
+}

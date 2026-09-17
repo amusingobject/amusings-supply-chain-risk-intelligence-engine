@@ -1,0 +1,3 @@
+SOURCE A (synthetic government-style): Keelung Port is CLOSED due to Typhoon Gaemi as of 2024-07-24T00:00:00Z.
+SOURCE B (synthetic carrier-style): Keelung Port is OPEN; vessels are berthing normally as of 2024-07-24T00:30:00Z.
+Both statements are synthetic and conflicting. Do not resolve by invention.

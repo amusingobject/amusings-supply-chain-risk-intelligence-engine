@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-09-09T15:01:14Z",
+  "registry_id": "RSIB-collection-registry-wave5",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-BARRIER-REPORT-2026.json",
+      "content_hash": "71674c4b0c1d730739c253f6ee2ce4290103ee47d1138f50ca978452d6b579d4",
+      "sample_id": "ATOM-TWTRADE-BARRIER-REPORT-2026"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-RUSSIA-CONTROLS-2025.json",
+      "content_hash": "8dd632bc2646b118adda0eca05c94545f608209f5018727f5cabd3510b0ce9d3",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWTRADE-RUSSIA-HITECH-2022.json",
+      "content_hash": "7a3075b94dcdd11561afec2d3daab04c475aea3027f85e6517f8bcc35a185dbd",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-HITECH-2022"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-GAEMI-FERRY-RECOVERY-2024.json",
+      "content_hash": "cb90a26972f5d86b962ace0b47f37a2182e51867165f17fa99a189bde2f41cf4",
+      "sample_id": "ATOM-MPB-GAEMI-FERRY-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-MACRO-PORT-BAN-2025.json",
+      "content_hash": "25b7c1f505f013c705392763b37550b76c052b7b40a7b73da126b6d5671bacf3",
+      "sample_id": "ATOM-MPB-MACRO-PORT-BAN-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-CORPORACION-SUSPENSION-2025.json",
+      "content_hash": "adc8a3cd0e279ac3d18740ac8bfeb2ab8aaadf85715cbf5f5602f9a64914b341",
+      "sample_id": "ATOM-USTR-CORPORACION-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-FREIXENET-SUSPENSION-2025.json",
+      "content_hash": "bae0b67f4ced83a30590078b0b8b2d57b4d48ed79bfed4429b1e43d2b996a6fe",
+      "sample_id": "ATOM-USTR-FREIXENET-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-USTR-GROLE-SUSPENSION-2025.json",
+      "content_hash": "410099ee6988c6ff43849bce61a33ef98223418776f08b1ee5ec7da57010d77f",
+      "sample_id": "ATOM-USTR-GROLE-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-USTR-MONDELEZ-SUSPENSION-2025.json",
+      "content_hash": "49b7aa3f581ff8c07498483108d2fd75726672a8f891ebe347e5c5eefae25f2d",
+      "sample_id": "ATOM-USTR-MONDELEZ-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-HOUTHI-SB0113.json",
+      "content_hash": "ceafed3fab72482534ad1f6c374fbca389016503f6803b5c6690c92e39e9121d",
+      "sample_id": "ATOM-TREASURY-HOUTHI-SB0113"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-HOUTHI-SB0174.json",
+      "content_hash": "237a8b9b27713f0e0226e1ad4632643c1e452e689ac17c6724fbc8e8f2e06fb2",
+      "sample_id": "ATOM-TREASURY-HOUTHI-SB0174"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-IRAN-FLEET-SB0215.json",
+      "content_hash": "b54768c431f7362bc181ca845ea7a4c971c265d1d244b875a682a8f1df5b159e",
+      "sample_id": "ATOM-TREASURY-IRAN-FLEET-SB0215"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-IRAN-OIL-SB0139.json",
+      "content_hash": "7ce361cdc5edd60069d778dcf2d4bc0e9ed51048b1c5cb3931a0c023c6f20121",
+      "sample_id": "ATOM-TREASURY-IRAN-OIL-SB0139"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-IRAN-SMUGGLING-SB0233.json",
+      "content_hash": "93c430202ffe6613e3bab0ad519bfdf612cba2d4e4fafc47392da3ed3994ebe5",
+      "sample_id": "ATOM-TREASURY-IRAN-SMUGGLING-SB0233"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-SHADOW-SB0229.json",
+      "content_hash": "790f51b587869a509533fa78069d313f5bb45054cd2bab2cdba632e05e5b7df0",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0229"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-STS-SB0082.json",
+      "content_hash": "b533d3f2ff44635c8268224ec9cba1b9806c64bd141e449ab75bb26408482976",
+      "sample_id": "ATOM-TREASURY-STS-SB0082"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-CARGO-TRADE-2025.json",
+      "content_hash": "340edaa44b40bcfeca03077b6ec40d513b2cd85f0bcdd540ac281d332500d9dc",
+      "sample_id": "ATOM-POLA-CARGO-TRADE-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-CLEAN-TRUCKS-2025.json",
+      "content_hash": "f6f32aeaa37d36b82b5b8702e3751573c1952dc29feb5f80ca6aa84e42330825",
+      "sample_id": "ATOM-POLA-CLEAN-TRUCKS-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-MARCH-NORMAL-2026.json",
+      "content_hash": "767f15e80c96a67f118173fd284606c5243e7820cf646d1b62b356b73657f518",
+      "sample_id": "ATOM-POLA-MARCH-NORMAL-2026"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-OPERATIONS-VIDEO-2025.json",
+      "content_hash": "99d77dcd184d16352d256b1167b18b41f6bb5e9a8a5b1aeb7ab850596c1dee2b",
+      "sample_id": "ATOM-POLA-OPERATIONS-VIDEO-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-AMPHENOL-SUSPENSION-2025.json",
+      "content_hash": "86e3ecfc1aa7bffbb797ca6bf5acbb85492da7f248500d13e7f9a2c8ebb79fc0",
+      "sample_id": "ATOM-USTR-AMPHENOL-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-AUTOLIV-RECOVERY-2024.json",
+      "content_hash": "1a5ce05f0664194cb851dac20ddec6d585c579f1bb98d309de2a2af63248c5c3",
+      "sample_id": "ATOM-USTR-AUTOLIV-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-DRAXTON-RECOVERY-2024.json",
+      "content_hash": "85a9c24938d9f59eaa6a3c6bd40bdb2eeb33f95657d20041bec07d6514692b19",
+      "sample_id": "ATOM-USTR-DRAXTON-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-FUJIKURA-RECOVERY-2024.json",
+      "content_hash": "5846131bd7d177236996b4fdfbbf5974f97d997a9f82530dc15c3677aa9af9f3",
+      "sample_id": "ATOM-USTR-FUJIKURA-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-GOODYEAR-RECOVERY-2024.json",
+      "content_hash": "d4e203bfaf372317ff79cf344abb11252d07cc1e674324afad1c6bc51e436ff6",
+      "sample_id": "ATOM-USTR-GOODYEAR-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-IMPRO-RECOVERY-2024.json",
+      "content_hash": "b155743adffec7d413013b49c5ffe3803c0069fd9a07562287645631ea96a3d8",
+      "sample_id": "ATOM-USTR-IMPRO-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-PIRELLELI-PANEL-2024.json",
+      "content_hash": "f27e0528a7a1f4bd98e45e94fe45f4ba5df8d155faaf3ffd91bed53efd2db4ae",
+      "sample_id": "ATOM-USTR-PIRELLELI-PANEL-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-PIRELLELI-SUSPENSION-2024.json",
+      "content_hash": "26d5c2cc09d3d5129f2a60f8a6b19feed99aa77c5e400a71ca4710340e330f57",
+      "sample_id": "ATOM-USTR-PIRELLELI-SUSPENSION-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-SUPERIOR-SUSPENSION-2025.json",
+      "content_hash": "6c0a05da49002c8a23e090ded7325b8affc4c192d9ba61c81f2428526198d7c4",
+      "sample_id": "ATOM-USTR-SUPERIOR-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-TEKLAS-RECOVERY-2024.json",
+      "content_hash": "33d6376011e2c9d7339fc90d4e6bca698a00c82ab03b28905a3e5e9ee3f3ba09",
+      "sample_id": "ATOM-USTR-TEKLAS-RECOVERY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-THYSSENKRUPP-SUSPENSION-2025.json",
+      "content_hash": "15a2b68649fb701c66d84f9b71f603ca9f7d0e99af3fbaa07df57c1d275e3cdf",
+      "sample_id": "ATOM-USTR-THYSSENKRUPP-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-USTR-YAZAKI-SUSPENSION-2025.json",
+      "content_hash": "08f3798e9092b6401575c764bd7960e225cc297d08a6cab4285b24de843b62c7",
+      "sample_id": "ATOM-USTR-YAZAKI-SUSPENSION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-KAOHSIUNG-BREAKWATER-2025.json",
+      "content_hash": "0eee1ffd9dd84a958ff0efd344424aa63f8022afdec72ff7d33018f04b786c02",
+      "sample_id": "ATOM-MPB-KAOHSIUNG-BREAKWATER-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TPNET-MAINTENANCE-2025.json",
+      "content_hash": "89f455cd887809272807f5ccb383274078ca525819155a1d28c840e4bf6cd5dc",
+      "sample_id": "ATOM-TPNET-MAINTENANCE-2025"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-WINDFARM-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 349,
+  "raw_bodies_retained": 446,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T150114Z.md"
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-NLRB-STRIKES-GUIDANCE",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "nlrb-wave4",
+    "source_type": "government",
+    "publisher": "National Labor Relations Board",
+    "source_name": "General information about strikes",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.nlrb.gov/news-outreach/news-story/important-information-about-strikes",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T13:59:04Z",
+    "published_at": "2012-08-02T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-NLRB-STRIKES-GUIDANCE.html",
+    "content_hash": "d9acc0d1034b2d2c31962d8a5ab0b2c1e3a8c9b71b80b7ddc0c3438cdb2bcaa8",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct agency page"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_guidance_control",
+    "event_subtype": "nlrb-wave4",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T13:59:04Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W4-20260909-04: keep."
+  }
+}

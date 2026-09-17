@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-NASA-SPHEREX-LAUNCH-2025",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "nasa-world-controls-wave5",
+    "source_type": "government",
+    "publisher": "National Aeronautics and Space Administration",
+    "source_name": "SPHEREx and PUNCH science missions launch",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:47Z",
+    "published_at": "2025-03-12T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-NASA-SPHEREX-LAUNCH-2025.html",
+    "content_hash": "275e1aba5d32a2b227a128244c5d41cad33481b962872e0114db705b24da20fb",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct NASA news release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "irrelevant_general_world",
+    "event_type": "astronomy_control",
+    "event_subtype": "nasa-world-controls-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:47Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-28: keep."
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "$defs": {
+    "ExternalId": {
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "title": "System",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "system",
+        "value"
+      ],
+      "title": "ExternalId",
+      "type": "object"
+    },
+    "ShipmentLeg": {
+      "additionalProperties": false,
+      "description": "A discrete leg of freight transit. 1-based and immutable within shipment.",
+      "properties": {
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
+        "schema_version": {
+          "const": "0.1",
+          "default": "0.1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "tenant_id": {
+          "default": "sunlighten-shadow",
+          "title": "Tenant Id",
+          "type": "string"
+        },
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "updated_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Updated At"
+        },
+        "leg_sequence": {
+          "minimum": 1,
+          "title": "Leg Sequence",
+          "type": "integer"
+        },
+        "mode": {
+          "enum": [
+            "ocean",
+            "air",
+            "road",
+            "rail",
+            "parcel",
+            "multimodal"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "origin": {
+          "title": "Origin",
+          "type": "string"
+        },
+        "destination": {
+          "title": "Destination",
+          "type": "string"
+        },
+        "origin_locode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Origin Locode"
+        },
+        "destination_locode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Destination Locode"
+        },
+        "planned_departure": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Planned Departure"
+        },
+        "planned_arrival": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Planned Arrival"
+        },
+        "actual_departure": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Actual Departure"
+        },
+        "actual_arrival": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Actual Arrival"
+        },
+        "status": {
+          "enum": [
+            "planned",
+            "booked",
+            "in_transit",
+            "arrived",
+            "delivered",
+            "cancelled",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "carrier_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Carrier Id"
+        },
+        "vessel_or_flight_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Vessel Or Flight Ref"
+        },
+        "route_geometry": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Route Geometry"
+        },
+        "handoff_location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Handoff Location"
+        },
+        "transit_baseline": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Transit Baseline"
+        },
+        "related_events": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Related Events",
+          "type": "array"
+        }
+      },
+      "required": [
+        "leg_sequence",
+        "mode",
+        "origin",
+        "destination",
+        "status"
+      ],
+      "title": "ShipmentLeg",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "tenant_id": {
+      "default": "sunlighten-shadow",
+      "title": "Tenant Id",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "retracted",
+        "archived",
+        "draft"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "title": "Updated At",
+      "type": "string"
+    },
+    "external_ids": {
+      "items": {
+        "$ref": "#/$defs/ExternalId"
+      },
+      "title": "External Ids",
+      "type": "array"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "shipment_number": {
+      "title": "Shipment Number",
+      "type": "string"
+    },
+    "shipment_status": {
+      "default": "booked",
+      "enum": [
+        "planned",
+        "booked",
+        "in_transit",
+        "arrived",
+        "delivered",
+        "cancelled",
+        "unknown"
+      ],
+      "title": "Shipment Status",
+      "type": "string"
+    },
+    "mode": {
+      "default": "ocean",
+      "enum": [
+        "ocean",
+        "air",
+        "road",
+        "rail",
+        "parcel",
+        "multimodal"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "origin": {
+      "title": "Origin",
+      "type": "string"
+    },
+    "destination": {
+      "title": "Destination",
+      "type": "string"
+    },
+    "origin_locode": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Origin Locode"
+    },
+    "destination_locode": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Destination Locode"
+    },
+    "planned_departure": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Planned Departure"
+    },
+    "planned_arrival": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Planned Arrival"
+    },
+    "actual_departure": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Actual Departure"
+    },
+    "actual_arrival": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Actual Arrival"
+    },
+    "carrier_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Carrier Id"
+    },
+    "booking_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Booking Ref"
+    },
+    "bill_of_lading": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Bill Of Lading"
+    },
+    "po_refs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Po Refs",
+      "type": "array"
+    },
+    "container_refs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Container Refs",
+      "type": "array"
+    },
+    "legs": {
+      "items": {
+        "$ref": "#/$defs/ShipmentLeg"
+      },
+      "title": "Legs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "created_at",
+    "updated_at",
+    "shipment_number",
+    "origin",
+    "destination"
+  ],
+  "title": "Canonical Shipment v0.1",
+  "type": "object"
+}

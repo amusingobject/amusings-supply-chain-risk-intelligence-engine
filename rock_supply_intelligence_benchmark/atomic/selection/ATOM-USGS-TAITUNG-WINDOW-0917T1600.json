@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-TAITUNG-WINDOW-0917T1600",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "USGS-TAITUNG-0917T1600",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 4.4 - 56 km SSW of Yonakuni, Japan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-09-17T16:00:00&endtime=2022-09-17T20:00:00&minlatitude=20&maxlatitude=26&minlongitude=119&maxlongitude=123&minmagnitude=4",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-08T03:47:25Z",
+    "published_at": "2022-09-17T19:25:57Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "effective_at": "2022-09-17T19:25:57Z",
+    "observed_at": "2022-09-17T19:25:57Z",
+    "raw_ref": "raw/wave2/ATOM-USGS-TAITUNG-WINDOW-0917T1600.json",
+    "content_hash": "6eeacfdac63511f67d2f1a5b41264266d151edd9f118588e1447a421c6e0482b",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "taiwan_taitung_earthquake_window",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_bounded_query",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T03:47:25Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Bounded Taiwan-region Taitung event window. Provisional label requires review. Human review W13-41: keep."
+  }
+}

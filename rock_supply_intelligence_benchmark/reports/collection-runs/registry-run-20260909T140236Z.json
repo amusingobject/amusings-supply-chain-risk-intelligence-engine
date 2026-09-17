@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-09-09T14:02:36Z",
+  "registry_id": "RSIB-collection-registry-wave3",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-YU-GROUNDING-2024.json",
+      "content_hash": "d96d60f29ad2e9180810f8d3e11e2f5dfedc007b9f66195b233b3bbe9309f770",
+      "sample_id": "ATOM-MPB-YU-GROUNDING-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWPORT-CLIMATE-INTERRUPTION-2024.json",
+      "content_hash": "d9c79bafe2c818d3fe31b680abb1cfe69f4d4c2a954c245eece31e126efce37d",
+      "sample_id": "ATOM-TWPORT-CLIMATE-INTERRUPTION-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-DOL-ILA-AGREEMENT-2025",
+      "reason": "fetch_failed:HTTPError"
+    },
+    {
+      "sample_id": "ATOM-TWPORT-DANAS-PREP-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 286,
+  "raw_bodies_retained": 383,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T140236Z.md"
+}

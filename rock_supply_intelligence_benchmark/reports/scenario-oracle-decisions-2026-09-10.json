@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "review_type": "human_scenario_oracle_decision",
+  "reviewed_at": "2026-09-10T18:45:00Z",
+  "reviewer": "human-reviewer-unspecified",
+  "packet": "reports/scenario-oracle-remediation-packet-2026-09-10.md",
+  "packet_sha256": "94306605daaf1ff0e394acaefaf3c8dbec200fc2a73b6d9781dd6e142787117f",
+  "decisions": [
+    {
+      "id": "18A",
+      "scenario_id": "E2E-PANAMA-DROUGHT-13",
+      "decision": "approved",
+      "scope": "Attach the reviewed Panama source and route assertion; narrow the external outcome to a monitor."
+    },
+    {
+      "id": "18B",
+      "scenario_id": "E2E-PANAMA-NEGATIVE-14",
+      "decision": "approved",
+      "scope": "Attach the reviewed Panama source as context and declare the benchmark route outside the Canal path."
+    },
+    {
+      "id": "18C",
+      "scenario_id": "E2E-LALB-CONGESTION-08",
+      "decision": "approved",
+      "scope": "Replace the unsupported disruption oracle with a port-operations monitor and candidate-only route linkage."
+    },
+    {
+      "id": "18D",
+      "scenario_id": "E2E-LALB-NEGATIVE-09",
+      "decision": "approved",
+      "scope": "Attach the reviewed Port source as context and declare the Seattle route outside Long Beach."
+    },
+    {
+      "id": "18E",
+      "scenario_ids": [
+        "E2E-GAEMI-KEELUNG-01",
+        "E2E-GAEMI-KHH-02",
+        "E2E-GAEMI-RECOVERY-03"
+      ],
+      "decision": "continue_source_collection",
+      "scope": "No oracle, timestamp, or expected-result change is authorized until exact pre-cutoff primary evidence is reviewed."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "plan_id": "RSIB-v0.1-collection",
+  "schema_version": "0.1",
+  "status": "in_progress",
+  "target_samples": 420,
+  "note": "This is a quota allocation plan, not a claim of 420 collected fixtures.",
+  "split_targets": {"dev": 120, "selection": 150, "holdout": 150},
+  "primary_class_targets": {
+    "materially_relevant": 150,
+    "monitor": 50,
+    "irrelevant": 130,
+    "ambiguous_conflicting": 50,
+    "prompt_injection": 40
+  },
+  "language_targets": {"en": 250, "zh-TW": 120, "mixed": 50},
+  "source_families": [
+    {"family": "cwa_typhoon_earthquake", "language": "zh-TW", "target": 70, "priority": 1},
+    {"family": "taiwan_port_open_data", "language": "zh-TW", "target": 40, "priority": 1},
+    {"family": "usgs_gdacs", "language": "en", "target": 50, "priority": 1},
+    {"family": "noaa_nhc_nws", "language": "en", "target": 40, "priority": 2},
+    {"family": "uscg_navcen", "language": "en", "target": 20, "priority": 2},
+    {"family": "maritime_ais_notices", "language": "en", "target": 25, "priority": 2},
+    {"family": "faa_511_transport", "language": "en", "target": 20, "priority": 3},
+    {"family": "reliefweb_gdelt_metadata", "language": "en", "target": 30, "priority": 3},
+    {"family": "ofac_csl_trade", "language": "en", "target": 20, "priority": 3},
+    {"family": "negative_control_world_events", "language": "mixed", "target": 65, "priority": 1},
+    {"family": "synthetic_adversarial", "language": "mixed", "target": 40, "priority": 1, "synthetic": true}
+  ],
+  "rules": [
+    "Do not fabricate source bodies or hashes.",
+    "Hash only retained bytes.",
+    "Mark synthetic fixtures synthetic=true.",
+    "Do not treat news copy as redistributable body unless license permits.",
+    "Historical e2e scenarios may use only evidence known at evaluation_timestamp."
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "$defs": {
+    "ExternalId": {
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "title": "System",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "system",
+        "value"
+      ],
+      "title": "ExternalId",
+      "type": "object"
+    },
+    "SalesOrderLine": {
+      "additionalProperties": false,
+      "properties": {
+        "sku_id": {
+          "title": "Sku Id",
+          "type": "string"
+        },
+        "ordered": {
+          "exclusiveMinimum": 0,
+          "title": "Ordered",
+          "type": "number"
+        },
+        "allocated": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Allocated",
+          "type": "number"
+        },
+        "shipped": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Shipped",
+          "type": "number"
+        }
+      },
+      "required": [
+        "sku_id",
+        "ordered"
+      ],
+      "title": "SalesOrderLine",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "tenant_id": {
+      "default": "sunlighten-shadow",
+      "title": "Tenant Id",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "retracted",
+        "archived",
+        "draft"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "title": "Updated At",
+      "type": "string"
+    },
+    "external_ids": {
+      "items": {
+        "$ref": "#/$defs/ExternalId"
+      },
+      "title": "External Ids",
+      "type": "array"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "sales_order_number": {
+      "title": "Sales Order Number",
+      "type": "string"
+    },
+    "order_status": {
+      "default": "open",
+      "title": "Order Status",
+      "type": "string"
+    },
+    "order_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Order Date"
+    },
+    "requested_ship_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Requested Ship Date"
+    },
+    "promised_ship_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Promised Ship Date"
+    },
+    "customer_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Customer Id"
+    },
+    "priority": {
+      "anyOf": [
+        {
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "urgent"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Priority"
+    },
+    "ship_to_location_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ship To Location Id"
+    },
+    "currency": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Currency"
+    },
+    "lines": {
+      "items": {
+        "$ref": "#/$defs/SalesOrderLine"
+      },
+      "title": "Lines",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "created_at",
+    "updated_at",
+    "sales_order_number"
+  ],
+  "title": "Canonical SalesOrder v0.1",
+  "type": "object"
+}

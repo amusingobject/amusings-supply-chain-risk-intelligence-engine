@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-10T03:15:19Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-W15-USGS-US6000MT0S-2024.json",
+      "content_hash": "c1c381036f9fa9d88a6829fc37806a4ed5973b0aaf7713f0695fccdfc80f056c",
+      "sample_id": "ATOM-W15-USGS-US6000MT0S-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W15-USGS-US7000N7B8-2024.json",
+      "content_hash": "9e24227d7c4729a9d5677f2af30d93b886393d0785c2a11d52649a728b4b0f64",
+      "sample_id": "ATOM-W15-USGS-US7000N7B8-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-W15-POLA-WORKFORCE-2024.json",
+      "content_hash": "f39c0f66fd64b15abfa538056b9a9193eac0bf07f7677eae8a59e5d675ba2338",
+      "sample_id": "ATOM-W15-POLA-WORKFORCE-2024"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 420,
+  "raw_bodies_retained": 520,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260910T031519Z.md"
+}

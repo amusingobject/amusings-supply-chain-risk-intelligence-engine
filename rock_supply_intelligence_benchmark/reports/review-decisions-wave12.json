@@ -1,0 +1,543 @@
+[
+  {
+    "decision_id": "W12-01",
+    "sample_id": "ATOM-SYN-AMB-EN-002",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "5503c198736611af31df6227dbb0be55dcfff15b4b43ed5b99bcbeba5faab48d",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-02",
+    "sample_id": "ATOM-SYN-AMB-EN-003",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "e3a84291e0e892b0df2e0cd687c99403bbf60efcdb58f4ffaacb9e51d2dc669f",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-03",
+    "sample_id": "ATOM-SYN-AMB-EN-005",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "59de6046f3eddff6531d3f3f7b2ef3aca6956daef2e845ed2bb7d83eb56bfe46",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-04",
+    "sample_id": "ATOM-SYN-AMB-EN-006",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "84e2b8096e4d75ececf3bde293954ec462762253bbcc6d9e15bd71aa48d91cb9",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-05",
+    "sample_id": "ATOM-SYN-AMB-EN-008",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "3a1c3b3322f8e776aaa3ac19d8073795124d6bcbdc836c5c620f261546335667",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-06",
+    "sample_id": "ATOM-SYN-AMB-EN-009",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "07144dc3f0fd38b0e9515efa0e63e9588ed0a89a9e0f82a3bf0901d97f81b973",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-07",
+    "sample_id": "ATOM-SYN-AMB-EN-011",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "3059b017efe2d016e4a2679315f42d3de9ae150004bf8ae3699f8a77533c78fe",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-08",
+    "sample_id": "ATOM-SYN-AMB-EN-012",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "d0358a50ea75a939614f5ddc81f2878107f4a2b7111117aaef281b8deb2a7856",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-09",
+    "sample_id": "ATOM-SYN-AMB-EN-014",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "81360ff69b29a98a77fd944349c6a15da7b4709c575402a13a3aec3ebfe103eb",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-10",
+    "sample_id": "ATOM-SYN-AMB-EN-015",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "3e87af55e3dd63aac05314cf8b415210f875f00970056afc48121aeb8c7258ed",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-11",
+    "sample_id": "ATOM-SYN-AMB-EN-035",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "096fd6d33b37cfb1b4078289ce569c1dd11224093faca52c26348aeab2722b08",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-12",
+    "sample_id": "ATOM-SYN-AMB-EN-036",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "2341fc8f7b972b3fd4bc10bdc7fdad33a134105f1177e13ad378c0b970b280f5",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-13",
+    "sample_id": "ATOM-SYN-AMB-EN-038",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "d6cfd41e5b2df54044889e593d24c8735310fa812e8bc69b718bc9134a731068",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-14",
+    "sample_id": "ATOM-SYN-AMB-EN-039",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "3eea8c150dfe8cbdcfdb567df0b89d73b65f51344fdbcd407e2f087528a7212f",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-15",
+    "sample_id": "ATOM-SYN-AMB-EN-041",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "92b1dc6c3857f565601c954f4add66243462c05e176c9059b1719537f94d290d",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-16",
+    "sample_id": "ATOM-SYN-AMB-EN-042",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "afeeaf6d2d587a344009c7b0ecfdcac90417289e5042e33e7d5bd3863309b203",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-17",
+    "sample_id": "ATOM-SYN-AMB-EN-044",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "85639846cbced8ce56d30491e2e6e499b602e7df1d17b6114e9708edffae33e6",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-18",
+    "sample_id": "ATOM-SYN-AMB-EN-047",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "2164246a9c49ef51d876d5691b9b5759642e4a7446a38ca0014cb8a894b74766",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-19",
+    "sample_id": "ATOM-SYN-AMB-MIXED-024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "b18ffb9eca3009ef10fcfbbb2bae55b73f51ef4d3d363b0baed09c4ee87c090e",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-20",
+    "sample_id": "ATOM-SYN-AMB-MIXED-026",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "b0185050d7fbe0365c0dcfbed0fbfb0f93546f64bffc4e2a85948f84aa9cfdfc",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-21",
+    "sample_id": "ATOM-SYN-AMB-MIXED-027",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "c98dcbd261b3d3800d55a069833ee359c001a11b9fb7bc466b8bd0c257ee530c",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-22",
+    "sample_id": "ATOM-SYN-AMB-MIXED-029",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "f38c2f35010ac31fea981909be1529e5eb08357844c97cd9cdb27e19a13e58aa",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-23",
+    "sample_id": "ATOM-SYN-AMB-MIXED-030",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "98980effaaefafdfa0c91aade600df881610ed0e61fc901666f3e6076a5e0c95",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-24",
+    "sample_id": "ATOM-SYN-AMB-MIXED-032",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "e53186b7dbfc4393af36d5ce3dbf67d7718ddbdc7a6700eaa5b2894d949f300f",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-25",
+    "sample_id": "ATOM-SYN-AMB-MIXED-033",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "be4345ef5b4e5e06d6282867fed8fab23caff8c10ca43694b7eb9e6a08fc3cad",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-26",
+    "sample_id": "ATOM-SYN-AMB-ZHTW-017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "ccbb29d5017b73bd53df578c319801dfe4d1e1973beeb360a539945c6198691b",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-27",
+    "sample_id": "ATOM-SYN-AMB-ZHTW-018",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "d01f068dc0de40dfca3b61b686425bc2c0bb79a475db9d98215e13c8b4c08288",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-28",
+    "sample_id": "ATOM-SYN-AMB-ZHTW-020",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "6c718ddd8a74a334ca1b657f3a0fbf9eb353efe93a3bd08994d681be24aafae1",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-29",
+    "sample_id": "ATOM-SYN-AMB-ZHTW-021",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "4f4e989854cb75890b26cefd9a9c0e1778eb6ac09145349e843acd3c7ae7469b",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-30",
+    "sample_id": "ATOM-SYN-AMB-ZHTW-023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "1c4478fb00116d5d8978c53c0ac849f96fd74574a3f585d04d529872bc22404c",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-31",
+    "sample_id": "ATOM-SYN-AMBIG-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "e81ae58ae11f9d4f3216e893d22fabad0ab842170dfb78a3691069a2d07a268c",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-32",
+    "sample_id": "ATOM-SYN-AMBIG-02",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "6124f5309fee5079dd7984e3bb362b291438a63cdb5bc85ba16cfb220647daba",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-33",
+    "sample_id": "ATOM-SYN-CONFLICT-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "79816de0ac148286bcb6a3634aaee07a7cff87c09b7eff1ff3fbe27ed1c82bd9",
+    "rationale": "Human reviewer approved Wave 12A with the proposed ambiguous/conflicting abstain label."
+  },
+  {
+    "decision_id": "W12-34",
+    "sample_id": "ATOM-SYN-INJ-EN-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "9ba53dfb8532ad4b24ff216574eb2659f8e5135d6c5b825f26278bf96f5009df",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-35",
+    "sample_id": "ATOM-SYN-INJ-EN-02",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "6aa3435d33314d2f95d93d18a27da002578a8f23a69a056b39eeb5db7c37c474",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-36",
+    "sample_id": "ATOM-SYN-INJ-EN-04",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "92406003f2defd8484997923df4212d2d570c9b40047d4daee0eddaed17d4bea",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-37",
+    "sample_id": "ATOM-SYN-INJ-EN-05",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "87da4401cb6669e19e5fdedc3bf9745b51cf13aa7622d1ab62e475c95615c821",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-38",
+    "sample_id": "ATOM-SYN-INJ-ZHTW-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "9ccb8434bf57f0e76000b65b99fa448aed2af9f0da2ee9cf88f2be6c4c32eb39",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-39",
+    "sample_id": "ATOM-SYN-INJ-ZHTW-02",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "a6f3b7db5d69611f27e35d712a67d0fd5acd8e665d9884ff9a371bf55833b69c",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-40",
+    "sample_id": "ATOM-SYN-PRO-EN-001",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "06ec2adbda2876b2ea9ef9a5f71aa78bb7700729090ac330720e31ba0969af69",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-41",
+    "sample_id": "ATOM-SYN-PRO-EN-002",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "b0428da3c584bf5b665da7f115b1db5d947fb2808641b4192927681bb1223265",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-42",
+    "sample_id": "ATOM-SYN-PRO-EN-004",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "1f67620a87f7cb80e0bff4251b911fdf7d4ae973b1e43fb2155e497fadc43eee",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-43",
+    "sample_id": "ATOM-SYN-PRO-EN-005",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "58b379243adba6a66bf04a22e770aa321ff80e505ad4c1f10ca091a70972b732",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-44",
+    "sample_id": "ATOM-SYN-PRO-EN-007",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "e8886a3471333cbebd9507b7c3fec608c864c1e748258082a8f9711c3664ea2c",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-45",
+    "sample_id": "ATOM-SYN-PRO-EN-008",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "21b13e4c8023ba7a378dc380cb4cf5eb12b0d6d72fdb47c203e1c6551a968b9f",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-46",
+    "sample_id": "ATOM-SYN-PRO-EN-010",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "8b87157362262684e4c1b6947514b7f2d39d7af615efbfe8f8d867b6a989b444",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-47",
+    "sample_id": "ATOM-SYN-PRO-EN-011",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "520af049e37b1165255ef1720d0447ddd0ce2016c2180edf485ffd7d508a7324",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-48",
+    "sample_id": "ATOM-SYN-PRO-EN-013",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "8a67d870f5701474fe58a5847f28687d32b4a0f87585b9f401031dec8c2c110c",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-49",
+    "sample_id": "ATOM-SYN-PRO-EN-014",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "4a83ac1d01b7efc50cfb0b7e7a2bd9c3e1ce9fab3ba0a64ba4eb80343ba64718",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-50",
+    "sample_id": "ATOM-SYN-PRO-EN-025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "4f07a57155e27e8a9895253630d4d0383ebece70eab2bbeec88315d3a536efac",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-51",
+    "sample_id": "ATOM-SYN-PRO-EN-026",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "32d05f61d380c63bf3189a6b9aff4a5e6e30b42edc6d433e09d9dafbaa6c36a8",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-52",
+    "sample_id": "ATOM-SYN-PRO-EN-028",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "457abe81826be588edd024f57f4df14fc3cc554e96beb2d3071c642faaacccd9",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-53",
+    "sample_id": "ATOM-SYN-PRO-EN-029",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "f3244499e413dcd241cc0e7b57cb429b8ed3194e0d15c559f0ecad85d01b3627",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-54",
+    "sample_id": "ATOM-SYN-PRO-EN-030",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "f952b2445d53be1ac973a3fce6c2f49a88b2f2f414b210283f893ae0f70556bc",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-55",
+    "sample_id": "ATOM-SYN-PRO-MIXED-020",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "cc159d8f0783579988d2f79e3a8af96e6dc3ed937da1e0e48d8f7bae288cd8cd",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-56",
+    "sample_id": "ATOM-SYN-PRO-MIXED-022",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "bd6862a644a826173aea3f7e7adaf992930ac7e510bdc0e1ea018b3e140475a8",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-57",
+    "sample_id": "ATOM-SYN-PRO-MIXED-023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "6897856e54f703e30c9669fddbf9de3c38e4d042848d253ad7a0daba7d56f421",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-58",
+    "sample_id": "ATOM-SYN-PRO-ZHTW-016",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "28fd31ac5b4054ab9f59661ae18dddf8b7a9136ab7dd6d738c80a2b306b00554",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-59",
+    "sample_id": "ATOM-SYN-PRO-ZHTW-017",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "b5adf451f767a9b984858add611edc2a42d4d09844020ba20bc00551687fb87b",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  },
+  {
+    "decision_id": "W12-60",
+    "sample_id": "ATOM-SYN-PRO-ZHTW-019",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T02:55:53Z",
+    "manifest_hash": "3673ab7c0662e30c581e8dc9d20ca8f0924135515a1a987ef59905e2c799afd8",
+    "rationale": "Human reviewer approved Wave 12B with the proposed prompt-injection quarantine label."
+  }
+]
+

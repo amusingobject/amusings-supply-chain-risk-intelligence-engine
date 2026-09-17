@@ -42,6 +42,16 @@
         "expected_atomic_labels_reviewed": {"type": "integer", "minimum": 0, "maximum": 420}
       }
     },
+    "label_review": {
+      "type": "object",
+      "required": ["state", "reviewed_count"],
+      "properties": {
+        "state": {"enum": ["not_complete", "in_progress", "complete"]},
+        "reviewed_count": {"type": "integer", "minimum": 0, "maximum": 420},
+        "completed_at": {"type": ["string", "null"]},
+        "reviewer": {"type": ["string", "null"]}
+      }
+    },
     "freeze": {
       "type": "object",
       "required": ["hash_algorithm", "tree_hash", "locked_at", "lock_policy"],

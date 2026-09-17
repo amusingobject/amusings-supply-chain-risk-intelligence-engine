@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-FAA-NAS-XML",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "FAA-NAS-STATUS",
+    "source_type": "government",
+    "publisher": "Federal Aviation Administration",
+    "source_name": "FAA NAS status snapshot",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://nasstatus.faa.gov/api/airport-status-information",
+    "language": "en",
+    "content_type": "application/xml",
+    "retrieved_at": "2026-09-07T20:58:33Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FAA XML feed; snapshot is retrieval-time, not a 2024 historical freeze",
+    "raw_ref": "raw/wave2/ATOM-FAA-NAS-XML.xml",
+    "content_hash": "7dc51253a6c6d4e5ddb5f70f50d2279ad2ecc37ef4b742404a64495e2f39decb",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "faa_nas_status",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "aviation_disruption",
+    "event_subtype": "nas_status_xml",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:58:33Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "FAA airport-status XML snapshot at retrieval time. Not valid as historical evidence for 2024 e2e scenarios. Human review W15-02: keep."
+  }
+}

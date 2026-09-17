@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-RRM-RESPONSE-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave5",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "General USTR response concerning Rapid Response Labor Mechanism",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.ustr.gov/about-us/policy-offices/press-office/press-releases/2025/january/ustr-responds-mexico-usmca-rapid-response-mechanism",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:28Z",
+    "published_at": "2025-01-20T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-RRM-RESPONSE-2025.html",
+    "content_hash": "9e4e023959569923f7daead7ab6d3ef9400ce3268ef6b0879f470436344bd085",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_policy_control",
+    "event_subtype": "ustr-labor-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:28Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-22: keep."
+  }
+}

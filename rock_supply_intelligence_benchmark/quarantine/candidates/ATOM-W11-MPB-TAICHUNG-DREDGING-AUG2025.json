@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-W11-MPB-TAICHUNG-DREDGING-AUG2025",
+  "source_id": "taiwan-maritime-mixed-wave11",
+  "url": "https://www.motcmpb.gov.tw/En/ServerFile/Get/21a9bb57-2992-40f7-801f-e0c15fdd5f4e?DLCount=1&attachTable=8",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T21:39:53Z",
+  "content_hash": null
+}

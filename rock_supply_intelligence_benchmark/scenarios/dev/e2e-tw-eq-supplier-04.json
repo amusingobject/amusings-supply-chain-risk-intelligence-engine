@@ -16,21 +16,29 @@
     {
       "id": "EVD-E2E-TW-EQ-SUPPLIER-04-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-TW-EQ-SUPPLIER-04/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-TW-EQ-SUPPLIER-04/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "M 7.4 - 15 km S of Hualien City, Taiwan",
+      "source_type": "authoritative_feed",
+      "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9g4",
+      "publisher": "U.S. Geological Survey",
+      "retrieved_at": "2026-09-07T19:47:30Z",
+      "published_at": "2024-04-02T23:58:12Z",
+      "effective_at": "2024-04-02T23:58:12Z",
+      "observed_at": "2024-04-02T23:58:12Z",
+      "content_hash": "1dd4e8f91179e0cef3e2b359151693ba400754fe5a9bd9a743a255cc9a1ac780",
+      "raw_ref": "raw/first20/ATOM-USGS-01.json",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "atomic-link-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": false,
+      "license": "U.S. Government work / public domain",
+      "access_constraints": "public API",
+      "provenance": "linked atomic sample ATOM-USGS-01"
     }
   ],
   "synthetic_business_state": {

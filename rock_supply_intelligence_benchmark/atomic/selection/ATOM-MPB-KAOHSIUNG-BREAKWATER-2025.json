@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-KAOHSIUNG-BREAKWATER-2025",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave6",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Kaohsiung second-port breakwater marine notice",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/1921d50f-2b5c-4e55-96a9-61f1579bde24?DLCount=1",
+    "language": "mixed",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T14:58:31Z",
+    "published_at": "2025-09-30T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-KAOHSIUNG-BREAKWATER-2025.pdf",
+    "content_hash": "0eee1ffd9dd84a958ff0efd344424aa63f8022afdec72ff7d33018f04b786c02",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government notice or bilingual marine notice"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "planned_operations_control",
+    "event_subtype": "taiwan-maritime-wave6",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:58:31Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-29: keep."
+  }
+}

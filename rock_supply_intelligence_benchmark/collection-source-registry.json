@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "sources": [
+    {
+      "source_id": "port-of-los-angeles", "enabled": true, "publisher": "Port of Los Angeles", "domain": "portoflosangeles.org", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public official port notice", "access_constraints": "Public HTTPS page",
+      "candidates": [
+        {"sample_id":"ATOM-POLA-TRUCK-OPS-2024","url":"https://portoflosangeles.org/references/2024-news-releases/news_092724_truck_accident","title":"Truck Accident Impacts Operations at the Port of Los Angeles","published_at":"2024-09-27T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["cargo operations","resume"]},
+        {"sample_id":"ATOM-POLA-SHIP-FIRE-SUSPEND-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_112125_ship_fire","title":"Container ship fire suspends four terminal operations","published_at":"2025-11-21T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["container ship","suspended operations"]},
+        {"sample_id":"ATOM-POLA-SHIP-FIRE-RESUME-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_112225_ship_fire","title":"Port operations resume after container ship fire","published_at":"2025-11-22T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["work restrictions","operations have resumed"]},
+        {"sample_id":"ATOM-POLA-TARIFF-SLOWDOWN-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_061325_may_cargo","title":"Tariffs slow Port of Los Angeles cargo volume","published_at":"2025-06-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"trade_volume_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["lowest monthly cargo output","imports dropped"]},
+        {"sample_id":"ATOM-POLA-TARIFF-WHIPSAW-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_071425_june_cargo","title":"Tariff whipsaw changes Port of Los Angeles cargo timing","published_at":"2025-07-14T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"trade_volume_shift","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["ahead of potential higher tariffs","trade uncertainty"]},
+        {"sample_id":"ATOM-POLA-NO-DELAY-JULY-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_081325_july_cargo","title":"Record July cargo processed without delay","published_at":"2025-08-13T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["processed without any delay","busiest month"]},
+        {"sample_id":"ATOM-POLA-NO-BACKUP-FEB-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_031925_feb_cargo","title":"Strong February cargo without ship delays","published_at":"2025-03-19T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["without ship delays","cargo volume remained strong"]},
+        {"sample_id":"ATOM-POLA-NO-CONGESTION-NOV-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_121625_nov_cargo","title":"November cargo moved without congestion","published_at":"2025-12-16T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["without congestion","not a single ship backed up"]},
+        {"sample_id":"ATOM-POLA-WHARF-UNINTERRUPTED-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_061825_wharf_restoration","title":"Wharf restoration completed with operations uninterrupted","published_at":"2025-06-18T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"normal_infrastructure_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["operations remain uninterrupted","completed construction"]},
+        {"sample_id":"ATOM-POLA-CONGESTION-CLEAR-CARGO-2021","url":"https://portoflosangeles.org/references/2021-news-releases/news_102521_jointclearcargo","title":"Ports announce measures to improve cargo movement amid congestion","published_at":"2021-10-25T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_congestion","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["cargo movement","congestion"]}
+      ]
+    },
+    {
+      "source_id": "cbp-csms", "enabled": true, "publisher": "U.S. Customs and Border Protection", "domain": "cbp.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public CBP archive PDF",
+      "candidates": [
+        {"sample_id":"ATOM-CBP-CSMS-CROWDSTRIKE-2024","url":"https://www.cbp.gov/sites/default/files/2024-08/CSMS%20ArchiveJuly2024_508.pdf","title":"CSMS Archive July 2024 - CrowdStrike Impact","published_at":"2024-07-19T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"regulatory_trade_customs","event_type":"customs_regulatory","expected_disposition":"normalize","preferred_split":"selection","accept_terms":["CrowdStrike Outage","Impact to CBP Operations"]}
+      ]
+    },
+    {
+      "source_id": "ofac-maritime", "enabled": true, "publisher": "U.S. Treasury Office of Foreign Assets Control", "domain": "ofac.treasury.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public OFAC action page",
+      "candidates": [
+        {"sample_id":"ATOM-OFAC-SOVCOMFLOT-2024","url":"https://ofac.treasury.gov/recent-actions/20240223_33","title":"Russia-related Designations and Sovcomflot Licenses","published_at":"2024-02-23T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"geopolitical","expected_disposition":"normalize","preferred_split":"holdout","accept_terms":["Sovcomflot","Offloading of Cargo"]},
+        {"sample_id":"ATOM-OFAC-OCEANLINK-2024","url":"https://ofac.treasury.gov/recent-actions/20240404","title":"Iran-related Oceanlink Maritime Designations","published_at":"2024-04-04T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"geopolitical","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["OCEANLINK MARITIME","vessels"]},
+        {"sample_id":"ATOM-OFAC-SHADOW-FLEET-2024","url":"https://ofac.treasury.gov/recent-actions/20241203","title":"Iran-related Shadow Fleet Designations","published_at":"2024-12-03T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"geopolitical","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["shadow fleet","shipping"]}
+      ]
+    },
+    {
+      "source_id": "ilwu-primary", "enabled": true, "publisher": "International Longshore and Warehouse Union", "domain": "ilwu.org", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public organizational publication", "access_constraints": "Public HTTPS article",
+      "discovery": {
+        "index_urls": ["https://www.ilwu.org/"],
+        "max_links_per_index": 30,
+        "profiles": [
+          {
+            "profile_id": "labor-operations-disruption",
+            "path_prefixes": ["/"],
+            "exclude_path_prefixes": ["/history/", "/about/"],
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["strike", "operations"],
+            "candidate_template": {"language": "en", "primary_class": "materially_relevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_operations_disruption", "expected_disposition": "normalize", "accept_terms": ["strike", "operations"]}
+          },
+          {
+            "profile_id": "labor-agreement-control",
+            "path_prefixes": ["/"],
+            "exclude_path_prefixes": ["/history/", "/about/"],
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["agreement", "shipping"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_agreement_control", "expected_disposition": "suppress", "accept_terms": ["agreement", "shipping"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-ILWU-WWL-STRIKE-2024","url":"https://www.ilwu.org/logistics-workers-use-supply-chain-power-to-win/","title":"Logistics workers use supply chain power to win","published_at":"2024-05-01T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["walked off the job","offload operations"]},
+        {"sample_id":"ATOM-ILWU-WWL-CONTRACT-2025","url":"https://www.ilwu.org/wwl-tacoma-contract/","title":"Heat and Hammer wins first contract at Wallenius Tacoma","published_at":"2025-08-01T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Operations at the facility","ground to a halt"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-customs", "enabled": true, "publisher": "Taiwan Customs Administration", "domain": "web.customs.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government notice", "access_constraints": "Public HTTPS page", "candidates": []
+    },
+    {
+      "source_id": "taiwan-port", "enabled": false, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 1, "license": "Public government data", "access_constraints": "Disabled pending DNS/source-health recovery", "candidates": []
+    },
+    {
+      "source_id": "taiwan-customs-wave4", "enabled": true, "publisher": "Taiwan Customs Administration", "domain": "web.customs.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government notice", "access_constraints": "Public direct Traditional Chinese page",
+      "candidates": [
+        {"sample_id":"ATOM-TWCUSTOMS-ECFA-RULE-2024","url":"https://web.customs.gov.tw/singlehtml/698?cntId=afd06e3cb2674e959b7dbec740374721","title":"ECFA import customs operating rule amendment","published_at":"2024-07-18T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"regulatory_trade_customs","event_type":"customs_rule_change","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["進口貨物通關作業要點","自即日生效"]},
+        {"sample_id":"ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024","url":"https://web.customs.gov.tw/singlehtml/2222?cntId=ba275701e3d7497983fb82b77a137549","title":"Single Window remains available during holiday","published_at":"2024-02-07T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"normal_customs_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["全年無休","維持通關順暢"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-port-company", "enabled": true, "publisher": "Taiwan International Ports Corporation", "domain": "twport.com.tw", "adapter": "direct_urls", "rate_limit_s": 1.5, "max_retries": 2, "license": "Public state-owned port publication", "access_constraints": "Public direct Traditional Chinese page or report",
+      "discovery": {
+        "index_urls": ["https://www.twport.com.tw/zh-tw/news/News?A=29&P=1"],
+        "max_links_per_index": 40,
+        "profiles": [
+          {
+            "profile_id": "port-incident-response",
+            "path_prefixes": ["/zh-tw/news/News", "/news/News"],
+            "include_terms": ["港區", "應變"],
+            "candidate_template": {"language": "zh-TW", "primary_class": "materially_relevant", "event_category": "port_vessel_carrier", "event_type": "port_incident_response", "expected_disposition": "normalize", "accept_terms": ["港區", "應變"]}
+          },
+          {
+            "profile_id": "port-normal-safety-control",
+            "path_prefixes": ["/zh-tw/news/News", "/news/News"],
+            "include_terms": ["港區", "安全"],
+            "candidate_template": {"language": "zh-TW", "primary_class": "irrelevant", "event_category": "port_vessel_carrier", "event_type": "normal_port_safety_control", "expected_disposition": "suppress", "accept_terms": ["港區", "安全"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-TWPORT-DANAS-PREP-2025","url":"https://www.twport.com.tw/news/News?A=29&Id=10194&P=4","title":"Danas typhoon port preparedness","published_at":"2025-07-06T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"preparedness_no_disruption","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["防颱整備","港埠運作不中斷"]},
+        {"sample_id":"ATOM-TWPORT-WEATHER-MOU-2025","url":"https://www.twport.com.tw/news/News?A=29&Id=10336&P=3","title":"Port and weather agency cooperation memorandum","published_at":"2025-09-16T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"preparedness_no_disruption","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["氣象資料共享","港口運作不中斷"]},
+        {"sample_id":"ATOM-TWPORT-PHOENIX-PREP-2025","url":"https://www.twport.com.tw/zh-tw/news/News?A=29&Id=10490&P=1","title":"Phoenix typhoon commercial-port preparations","published_at":"2025-11-13T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"preparedness_no_disruption","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["防颱整備會議","掌握各港營運"]},
+        {"sample_id":"ATOM-TWPORT-CLIMATE-INTERRUPTION-2024","url":"https://www.twport.com.tw/fapi/AttFile?id=14974&l=2&type=AttFile","title":"Taiwan Ports report on extreme-weather operational interruption","published_at":"2025-01-01T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["營運中斷","極端天氣"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-wave4", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct Traditional Chinese page",
+      "candidates": [
+        {"sample_id":"ATOM-MPB-YU-GROUNDING-2024","url":"https://www.motcmpb.gov.tw/Information/Detail/0e178d5c-1ff8-42e8-acce-dc064447d086?NodeId=15&SiteId=1","title":"Maritime bureau response to Yu Lun grounding","published_at":"2024-11-08T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"vessel_incident","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["擱淺事件","應變小組"]},
+        {"sample_id":"ATOM-MPB-BALLAST-INSPECTION-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/77655508-3c98-4909-8429-6e7c0a40acf5?NodeId=15&SiteId=1","title":"Port-state ballast water inspection campaign","published_at":"2025-08-29T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"regulatory_trade_customs","event_type":"port_state_inspection","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["港口國管制","抽查超過200艘"]},
+        {"sample_id":"ATOM-MPB-DISASTER-DRILL-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/c1018a30-ac23-4c6c-8274-5133de29faf4?NodeId=15&SiteId=1","title":"Kaohsiung port disaster-response exercise","published_at":"2025-09-03T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"exercise_no_disruption","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["災害防救演習","緊急應變能力"]},
+        {"sample_id":"ATOM-MPB-AIS-SUBSIDY-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/6c54a084-fabc-41a8-be6f-54cf27ad69cb?NodeId=15&SiteId=1","title":"AIS installation subsidy program","published_at":"2025-08-01T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["補助","船舶自動識別系統"]}
+      ]
+    },
+    {
+      "source_id": "us-treasury-maritime", "enabled": true, "publisher": "U.S. Department of the Treasury", "domain": "home.treasury.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public Treasury press release",
+      "candidates": [
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0341","url":"https://home.treasury.gov/news/press-releases/sb0341","title":"Pressure on Iran sanctions-evading shadow fleet","published_at":"2025-12-18T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["shadow fleet","29 shadow fleet vessels"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0026","url":"https://home.treasury.gov/news/press-releases/sb0026","title":"Additional sanctions on Iran shadow fleet","published_at":"2025-02-24T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["over 30 persons and vessels","shipping tens of millions"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0049","url":"https://home.treasury.gov/news/press-releases/sb0049","title":"Iranian oil minister and shadow fleet operators sanctioned","published_at":"2025-03-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["shadow fleet oil shipments","POLARIS 1"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0322","url":"https://home.treasury.gov/news/press-releases/sb0322","title":"Iran oil-network shipping facilitators sanctioned","published_at":"2025-11-20T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["six vessels","shadow fleet"]},
+        {"sample_id":"ATOM-TREASURY-ENERGY-SB0275","url":"https://home.treasury.gov/news/press-releases/sb0275","title":"Iran energy export network and vessels sanctioned","published_at":"2025-10-09T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["nearly two dozen shadow fleet vessels","crude oil terminal"]},
+        {"sample_id":"ATOM-TREASURY-OIL-SB0188","url":"https://home.treasury.gov/news/press-releases/sb0188","title":"Networks facilitating Iranian oil trade targeted","published_at":"2025-07-03T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["covert delivery of Iranian oil","shadow fleet"]},
+        {"sample_id":"ATOM-TREASURY-RUSSIA-JY2777","url":"https://home.treasury.gov/news/press-releases/jy2777","title":"Russia oil production and export sanctions","published_at":"2025-01-10T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["more than 180 vessels","shadow fleet"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0405","url":"https://home.treasury.gov/news/press-releases/sb0405","title":"Iran shadow fleet and weapons-supply networks targeted","published_at":"2026-02-25T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["12 shadow fleet vessels","Iranian petroleum"]}
+      ]
+    },
+    {
+      "source_id": "ilwu-wave4", "enabled": true, "publisher": "International Longshore and Warehouse Union", "domain": "ilwu.org", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public organizational publication", "access_constraints": "Public direct article",
+      "candidates": [
+        {"sample_id":"ATOM-ILWU-SOUTH-SEATTLE-STRIKE","url":"https://www.ilwu.org/south-seattle-intermodal-workers-win-first-ilwu-contract-through-strategy-solidarity/","title":"South Seattle intermodal workers strike shuts yard","published_at":"2022-01-01T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["lightning strike","operations at the Tukwila yard were shut down"]}
+      ]
+    },
+    {
+      "source_id": "us-labor-wave4", "enabled": true, "publisher": "U.S. Department of Labor", "domain": "dol.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct news release",
+      "discovery": {
+        "index_urls": ["https://www.dol.gov/newsroom/releases/whd"],
+        "max_links_per_index": 40,
+        "profiles": [
+          {
+            "profile_id": "transport-labor-operations-disruption",
+            "path_prefixes": ["/newsroom/releases/whd/"],
+            "min_path_segments": 4,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["transportation", "operations"],
+            "candidate_template": {"language": "en", "primary_class": "materially_relevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_operations_disruption", "expected_disposition": "normalize", "accept_terms": ["transportation", "operations"]}
+          },
+          {
+            "profile_id": "transport-labor-enforcement-control",
+            "path_prefixes": ["/newsroom/releases/whd/"],
+            "min_path_segments": 4,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["transportation", "investigation"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_enforcement_control", "expected_disposition": "suppress", "accept_terms": ["transportation", "investigation"]}
+          },
+          {
+            "profile_id": "logistics-labor-enforcement-control",
+            "path_prefixes": ["/newsroom/releases/whd/"],
+            "min_path_segments": 4,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["logistics", "investigation"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_enforcement_control", "expected_disposition": "suppress", "accept_terms": ["logistics", "investigation"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-DOL-ILA-AGREEMENT-2025","url":"https://www.dol.gov/newsroom/releases/osec/osec20250108","title":"ILA and maritime alliance tentative agreement","published_at":"2025-01-08T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"agreement_no_disruption","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["tentative agreement","shipping industry"]},
+        {"sample_id":"ATOM-DOL-ILA-PORT-REOPEN-2024","url":"https://www.dol.gov/newsroom/releases/osec/osec20241003","title":"East Coast and Gulf ports reopen after tentative labor agreement","published_at":"2024-10-03T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["ports to reopen","tentative agreement"]}
+      ]
+    },
+    {
+      "source_id": "nlrb-wave4", "enabled": true, "publisher": "National Labor Relations Board", "domain": "nlrb.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct agency page",
+      "discovery": {
+        "index_urls": ["https://www.nlrb.gov/news-outreach/news-story"],
+        "max_links_per_index": 40,
+        "profiles": [
+          {
+            "profile_id": "transport-labor-case-control",
+            "path_prefixes": ["/news-outreach/news-story/"],
+            "min_path_segments": 3,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["transportation", "unfair labor practice"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_case_control", "expected_disposition": "suppress", "accept_terms": ["transportation", "unfair labor practice"]}
+          },
+          {
+            "profile_id": "logistics-labor-case-control",
+            "path_prefixes": ["/news-outreach/news-story/"],
+            "min_path_segments": 3,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["logistics", "unfair labor practice"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_case_control", "expected_disposition": "suppress", "accept_terms": ["logistics", "unfair labor practice"]}
+          },
+          {
+            "profile_id": "transport-labor-operations-disruption",
+            "path_prefixes": ["/news-outreach/news-story/"],
+            "min_path_segments": 3,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["transportation", "strike", "operations"],
+            "candidate_template": {"language": "en", "primary_class": "materially_relevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_operations_disruption", "expected_disposition": "normalize", "accept_terms": ["transportation", "strike", "operations"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-NLRB-INJUNCTION-GENERAL-2024","url":"https://www.nlrb.gov/news-outreach/news-story/nlrb-general-counsel-reaffirms-commitment-to-seeking-injunctions-to","title":"General labor injunction policy","published_at":"2024-07-16T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Section 10(j) injunctions","Starbucks Corp"]},
+        {"sample_id":"ATOM-NLRB-STRIKES-GUIDANCE","url":"https://www.nlrb.gov/news-outreach/news-story/important-information-about-strikes","title":"General information about strikes","published_at":"2012-08-02T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_guidance_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["no-strike clause","sympathy strikes"]},
+        {"sample_id":"ATOM-NLRB-HAMPTON-CASE-2024","url":"https://www.nlrb.gov/case/05-CB-347064","title":"Closed Hampton Roads ILA representation case","published_at":"2024-08-05T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"administrative_case_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Virginia International Terminals","Status: Closed"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-customs-bilingual-wave5", "enabled": true, "publisher": "Taiwan Customs Administration", "domain": "web.customs.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct bilingual document",
+      "candidates": [
+        {"sample_id":"ATOM-TWCUSTOMS-GLOSSARY-EN-2025","url":"https://web.customs.gov.tw/en/download/48b34e09030f42d6855b19ef32e16d63","title":"Taiwan Customs bilingual terminology reference","published_at":"2025-08-15T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["Customs","關務"]},
+        {"sample_id":"ATOM-TWCUSTOMS-GLOSSARY-ZH-B-2025","url":"https://web.customs.gov.tw/download/61a91a78e040446a9da01d85d4145ac7","title":"Taiwan Customs Chinese-English glossary edition B","published_at":"2025-08-13T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["關務","Customs"]},
+        {"sample_id":"ATOM-TWCUSTOMS-REPORT-2018","url":"https://web.customs.gov.tw/WEB/ecustoms/ebook_71906/pdf/full.pdf","title":"Taiwan Customs bilingual annual publication 2018","published_at":"2018-09-01T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["關務","Customs"]},
+        {"sample_id":"ATOM-TWCUSTOMS-REPORT-2019","url":"https://web.customs.gov.tw/WEB/ecustoms/ebook_77763/pdf/full.pdf","title":"Taiwan Customs bilingual annual publication 2019","published_at":"2019-09-01T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["關務","Customs"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-bilingual-wave5", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct bilingual form or process document",
+      "candidates": [
+        {"sample_id":"ATOM-MPB-FTZ-APPLICATION-2021","url":"https://www.motcmpb.gov.tw/ServerFile/Get/eae32b3e-b00b-4a30-8ef9-b6b73acbbbc5?DLCount=1&attachTable=4","title":"Free Trade Zone enterprise application form","published_at":"2021-03-18T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["自由貿易港區","Free Trade Zone"]},
+        {"sample_id":"ATOM-MPB-FTZ-PROPOSAL-2021","url":"https://www.motcmpb.gov.tw/ServerFile/Get/b772d5c9-6b33-40be-a250-59d346e0c827?DLCount=1&attachTable=4","title":"Free Trade Zone business-operation proposal form","published_at":"2021-03-18T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["營利事業","Proposal of profit-seeking enterprises"]},
+        {"sample_id":"ATOM-MPB-FTZ-APPLICATION-INSTRUCTIONS-2021","url":"https://www.motcmpb.gov.tw/ServerFile/Get/8d65653f-69ff-4959-b609-e5c53bcb116b?DLCount=1&attachTable=4","title":"Free Trade Zone application instructions","published_at":"2021-03-18T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["申請","Application"]},
+        {"sample_id":"ATOM-MPB-FTZ-PROPOSAL-INSTRUCTIONS-2021","url":"https://www.motcmpb.gov.tw/ServerFile/Get/baaeb3a8-0388-4e47-a9d8-ce96b26e3424?DLCount=1&attachTable=4","title":"Free Trade Zone proposal instructions","published_at":"2021-03-18T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["營利事業","Profit-seeking enterprise"]},
+        {"sample_id":"ATOM-MPB-FTZ-STORAGE-APPLICATION-2018","url":"https://www.motcmpb.gov.tw/ServerFile/Get/13e49870-a19c-4b4d-a384-d76f56154a23?DLCount=1&attachTable=4","title":"Free Trade Zone storage-location application","published_at":"2018-11-15T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["儲存處所","Storage"]},
+        {"sample_id":"ATOM-MPB-FTZ-STORAGE-PROCESS-2018","url":"https://www.motcmpb.gov.tw/ServerFile/Get/bff9f324-dca3-4d37-95e0-9a367fb0cbb7?DLCount=1&attachTable=4","title":"Free Trade Zone storage-location application process","published_at":"2018-11-15T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["儲存處所","Application Process"]},
+        {"sample_id":"ATOM-MPB-FTZ-COMMISSIONED-PROCESS-2018","url":"https://www.motcmpb.gov.tw/ServerFile/Get/671b926b-bf7d-49b4-b861-d8999a75e96c?DLCount=1&attachTable=4","title":"Free Trade Zone commissioned-processing workflow","published_at":"2018-11-15T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["委託加工","Commissioned Processing"]},
+        {"sample_id":"ATOM-MPB-FTZ-ESTABLISHMENT-PROCESS-2018","url":"https://www.motcmpb.gov.tw/Information/Detail/78369f19-6461-4540-9044-b39a148949fa?NodeId=506&SiteId=1","title":"Free Trade Zone enterprise establishment-permit process","published_at":"2018-11-09T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["籌設","Application Documents"]},
+        {"sample_id":"ATOM-MPB-FTZ-OPERATION-PROCESS-2018","url":"https://www.motcmpb.gov.tw/Information/Detail/ed57e3e4-fc81-49bf-a1aa-fa3872d90239?NodeId=506&SiteId=1","title":"Free Trade Zone enterprise operation-permit process","published_at":"2018-11-09T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["營運","Application Form"]},
+        {"sample_id":"ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018","url":"https://www.motcmpb.gov.tw/Information/Detail/e7e11d09-afaa-4a43-992f-9b1f54c4b0b8?NodeId=506&SiteId=1","title":"Free Trade Zone non-processing certificate application process","published_at":"2018-11-09T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"regulatory_trade_customs","event_type":"administrative_bilingual_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["出口無加工證明書","Certification of Non-processing"]}
+      ]
+    },
+    {
+      "source_id": "ustr-labor-wave5", "enabled": true, "publisher": "Office of the United States Trade Representative", "domain": "ustr.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct press release",
+      "candidates": [
+        {"sample_id":"ATOM-USTR-VW-RESOLUTION-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/august/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-volkswagen-de","title":"Volkswagen Mexico labor matter resolved and liquidation resumed","published_at":"2024-08-26T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Volkswagen de México","resume liquidation"]},
+        {"sample_id":"ATOM-USTR-TAMSA-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/june/united-states-seeks-mexicos-review-alleged-denial-workers-rights-tubos-de-acero-de-mexico-sa","title":"TAMSA labor review suspends tariff liquidation on steel pipes","published_at":"2025-06-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["suspended liquidation","steel pipes"]},
+        {"sample_id":"ATOM-USTR-MMA-SUSPENSION-2025","url":"https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/april/united-states-seeks-mexican-review-alleged-denial-workers-rights-modern-metal-alloys-sa-de-cv","title":"Modern Metal Alloys labor review suspends tariff liquidation","published_at":"2025-04-16T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["suspended liquidation","aluminum"]},
+        {"sample_id":"ATOM-USTR-MMA-RESOLUTION-2025","url":"https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/july/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-modern-metal","title":"Modern Metal Alloys labor matter resolved and liquidation resumed","published_at":"2025-07-21T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["resumed liquidation","aluminum"]},
+        {"sample_id":"ATOM-USTR-ALUDYNE-RESOLUTION-2025","url":"https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/june/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-aludyne","title":"Aludyne labor matter resolved and liquidation resumed","published_at":"2025-06-02T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["resumed liquidation","auto parts"]},
+        {"sample_id":"ATOM-USTR-ASIAWAY-RESOLUTION-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/february/united-states-announces-successful-resolution-rapid-response-mechanism-labor-matter-asiaway","title":"Asiaway Automotive labor matter resolved","published_at":"2024-02-16T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Asiaway Automotive Components","freedom of association"]},
+        {"sample_id":"ATOM-USTR-ATENTO-PANEL-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/august/usmca-rapid-response-labor-mechanism-panel-finds-denial-rights-atento-servicios","title":"Atento call-center labor-rights panel decision","published_at":"2025-08-21T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_non_supply_chain_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Denial of Rights","anti-union discrimination"]},
+        {"sample_id":"ATOM-USTR-RRM-RESPONSE-2025","url":"https://www.ustr.gov/about-us/policy-offices/press-office/press-releases/2025/january/ustr-responds-mexico-usmca-rapid-response-mechanism","title":"General USTR response concerning Rapid Response Labor Mechanism","published_at":"2025-01-20T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Rapid Response Labor Mechanism","workers’ rights"]}
+      ]
+    },
+    {
+      "source_id": "us-treasury-maritime-wave5", "enabled": true, "publisher": "U.S. Department of the Treasury", "domain": "home.treasury.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct Treasury press release",
+      "candidates": [
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0472","url":"https://home.treasury.gov/news/press-releases/sb0472","title":"Iran oil-trade network and forty shipping firms and vessels targeted","published_at":"2026-04-24T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["40 shipping firms and vessels","shadow fleet"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0502","url":"https://home.treasury.gov/news/press-releases/sb0502","title":"Iran revenue network and nineteen vessels blocked","published_at":"2026-05-19T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["blocked 19 vessels","petroleum and petrochemicals shipments"]},
+        {"sample_id":"ATOM-TREASURY-HORMUZ-SB0581","url":"https://home.treasury.gov/news/press-releases/sb0581","title":"Strait of Hormuz maritime insurance and shadow-fleet sanctions","published_at":"2026-07-29T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Strait of Hormuz","shadow fleet vessels"]},
+        {"sample_id":"ATOM-TREASURY-OUTCAST-SB0613","url":"https://home.treasury.gov/news/press-releases/sb0613","title":"Economic Outcast expands sanctions risk to shipping","published_at":"2026-08-24T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["aviation, and shipping","nearly 60 entities, individuals, and vessels"]}
+      ]
+    },
+    {
+      "source_id": "nasa-world-controls-wave5", "enabled": true, "publisher": "National Aeronautics and Space Administration", "domain": "nasa.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct NASA news release",
+      "candidates": [
+        {"sample_id":"ATOM-NASA-BENNU-2025","url":"https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/","title":"Asteroid Bennu sample science findings","published_at":"2025-01-29T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"irrelevant_general_world","event_type":"astronomy_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["Asteroid Bennu","ingredients for life"]},
+        {"sample_id":"ATOM-NASA-SPHEREX-LAUNCH-2025","url":"https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/","title":"SPHEREx and PUNCH science missions launch","published_at":"2025-03-12T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"irrelevant_general_world","event_type":"astronomy_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["SPHEREx","origins of our universe"]},
+        {"sample_id":"ATOM-NASA-HUBBLE-BLACK-HOLE-2025","url":"https://science.nasa.gov/missions/hubble/nasas-hubble-pinpoints-roaming-massive-black-hole/","title":"Hubble observation of roaming massive black hole","published_at":"2025-05-08T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"irrelevant_general_world","event_type":"astronomy_control","expected_disposition":"suppress","preferred_split":"dev","accept_terms":["Hubble Space Telescope","supermassive black hole"]}
+      ]
+    },
+    {
+      "source_id": "ustr-labor-wave6", "enabled": true, "publisher": "Office of the United States Trade Representative", "domain": "ustr.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct press release",
+      "discovery": {
+        "index_urls": ["https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026"],
+        "max_links_per_index": 50,
+        "profiles": [
+          {
+            "profile_id": "labor-trade-suspension",
+            "path_prefixes": ["/about/policy-offices/press-office/press-releases/"],
+            "min_path_segments": 7,
+            "require_url_date_match": true,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["denial of workers' rights", "suspended liquidation"],
+            "candidate_template": {"language": "en", "primary_class": "materially_relevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_trade_disruption", "expected_disposition": "normalize", "accept_terms": ["denial of workers' rights", "suspended liquidation"]}
+          },
+          {
+            "profile_id": "labor-public-comment-control",
+            "path_prefixes": ["/about/policy-offices/press-office/press-releases/"],
+            "min_path_segments": 7,
+            "require_url_date_match": true,
+            "not_before": "2020-01-01T00:00:00Z",
+            "include_terms": ["public comment", "labor"],
+            "candidate_template": {"language": "en", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_policy_control", "expected_disposition": "suppress", "accept_terms": ["public comment", "labor"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-USTR-TEKLAS-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/april/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-teklas","title":"Teklas Automotive labor matter resolved","published_at":"2024-04-09T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Teklas Automotive","resume liquidation"]},
+        {"sample_id":"ATOM-USTR-FUJIKURA-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/february/united-states-announces-successful-resolution-rapid-response-mechanism-labor-matter-fujikura","title":"Fujikura Automotive Mexico labor matter resolved","published_at":"2024-02-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Fujikura Automotive Mexico","successful resolution"]},
+        {"sample_id":"ATOM-USTR-IMPRO-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/september/united-states-announces-successful-resolution-rapid-response-mechanism-labor-matter-impro-industries","title":"Impro Industries Mexico labor matter resolved","published_at":"2024-09-17T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Impro Industries Mexico","automotive"]},
+        {"sample_id":"ATOM-USTR-AUTOLIV-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/january/united-states-announces-successful-resolution-rapid-response-mechanism-labor-matter-autoliv-steering","title":"Autoliv Steering Wheels Mexico labor matter resolved","published_at":"2024-01-22T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Autoliv Steering Wheels Mexico","successful resolution"]},
+        {"sample_id":"ATOM-USTR-GOODYEAR-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/february/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-goodyear-slp","title":"Goodyear SLP labor matter resolved","published_at":"2024-02-05T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Goodyear-SLP","resume liquidation"]},
+        {"sample_id":"ATOM-USTR-PIRELLELI-SUSPENSION-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/august/united-states-seeks-mexicos-review-alleged-denial-workers-rights-pirelli-neumaticos-sa-de-cv","title":"Pirelli Neumaticos labor review suspends tariff liquidation","published_at":"2024-08-23T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Pirelli","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-PIRELLELI-PANEL-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/december/united-states-requests-usmca-rapid-response-labor-mechanism-dispute-settlement-panel-pirelli","title":"Pirelli Neumaticos labor dispute panel","published_at":"2024-12-18T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Pirelli Neumáticos","car tires"]},
+        {"sample_id":"ATOM-USTR-DRAXTON-RECOVERY-2024","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/april/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-draxton-facility","title":"Draxton labor matter resolved","published_at":"2024-04-09T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Draxton","resume liquidation"]},
+        {"sample_id":"ATOM-USTR-AMPHENOL-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/may/united-states-seeks-mexicos-review-alleged-denial-workers-rights-amphenol-optimize-mexico-sa-de-cv","title":"Amphenol labor review suspends tariff liquidation","published_at":"2025-05-09T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Amphenol","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-THYSSENKRUPP-SUSPENSION-2025","url":"https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/november/united-states-seeks-mexicos-review-alleged-denial-workers-rights-thyssenkrupp-facility","title":"ThyssenKrupp labor review suspends tariff liquidation","published_at":"2025-11-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["ThyssenKrupp","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-YAZAKI-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/november/united-states-seeks-mexicos-review-alleged-denial-workers-rights-yazaki-facility","title":"Yazaki labor review suspends tariff liquidation","published_at":"2025-11-19T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Yazaki","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-SUPERIOR-SUSPENSION-2025","url":"https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/june/united-states-seeks-mexicos-review-alleged-denial-workers-rights-superior-industries-de-mexico-s-de","title":"Superior Industries labor review suspends tariff liquidation","published_at":"2025-06-04T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["Superior Industries","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-CORPORACION-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/november/united-states-seeks-mexicos-review-alleged-denial-workers-rights-corporacion-de-occidente-facility","title":"Corporacion de Occidente labor review suspends tariff liquidation","published_at":"2025-11-26T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Corporación de Occidente","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-MONDELEZ-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/december/united-states-seeks-mexicos-review-alleged-denial-workers-rights-mondelez-mexico-facility","title":"Mondelez labor review suspends tariff liquidation","published_at":"2025-12-12T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Mondelez","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-GROLE-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/august/united-states-seeks-mexicos-review-alleged-denial-workers-rights-alimentos-grole-sa-de-cv","title":"Alimentos Grole labor review suspends tariff liquidation","published_at":"2025-08-08T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Alimentos Grole","suspended liquidation"]},
+        {"sample_id":"ATOM-USTR-FREIXENET-SUSPENSION-2025","url":"https://ustr.gov/about/policy-offices/press-office/press-releases/2025/november/united-states-seeks-mexicos-review-alleged-denial-workers-rights-freixenet-facility","title":"Freixenet labor review suspends tariff liquidation","published_at":"2025-11-26T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_trade_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Freixenet","suspended liquidation"]}
+      ]
+    },
+    {
+      "source_id": "us-treasury-maritime-wave6", "enabled": true, "publisher": "U.S. Department of the Treasury", "domain": "home.treasury.gov", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "U.S. Government work / public domain", "access_constraints": "Public direct Treasury press release",
+      "candidates": [
+        {"sample_id":"ATOM-TREASURY-IRAN-FLEET-SB0215","url":"https://home.treasury.gov/news/press-releases/sb0215","title":"Treasury targets Iran shipping empire and vessels","published_at":"2025-07-30T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["50 vessels","shipping empire"]},
+        {"sample_id":"ATOM-TREASURY-HOUTHI-SB0174","url":"https://home.treasury.gov/news/press-releases/sb0174","title":"Treasury targets Houthi oil trading and shipping network","published_at":"2025-06-20T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["oil and other illicit goods","two vessels"]},
+        {"sample_id":"ATOM-TREASURY-IRAN-OIL-SB0139","url":"https://home.treasury.gov/news/press-releases/sb0139","title":"Treasury targets Iran oil trade network","published_at":"2025-05-13T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["illicit international oil trade","nearly two dozen firms"]},
+        {"sample_id":"ATOM-TREASURY-SHADOW-SB0229","url":"https://home.treasury.gov/news/press-releases/sb0229","title":"Treasury targets shadow-fleet vessels","published_at":"2025-08-21T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["nearly a dozen vessels","shadow fleet"]},
+        {"sample_id":"ATOM-TREASURY-HOUTHI-SB0113","url":"https://home.treasury.gov/news/press-releases/sb0113","title":"Treasury targets Houthi network and vessels","published_at":"2025-04-28T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["three vessels","Red Sea"]},
+        {"sample_id":"ATOM-TREASURY-IRAN-SMUGGLING-SB0233","url":"https://home.treasury.gov/news/press-releases/sb0233","title":"Treasury targets Iranian oil-smuggling shipping companies","published_at":"2025-09-02T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["shipping companies and vessels","smuggling Iranian oil"]},
+        {"sample_id":"ATOM-TREASURY-STS-SB0082","url":"https://home.treasury.gov/news/press-releases/sb0082","title":"Treasury targets Iran ship-to-ship oil network","published_at":"2025-04-10T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"maritime_sanctions","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["nearly 30 vessels","ship-to-ship"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-trade-controls-wave6", "enabled": true, "publisher": "Taiwan International Trade Administration", "domain": "trade.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government notice or report",
+      "candidates": [
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-CONTROLS-2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=799760","title":"Taiwan strengthens export controls concerning Russia","published_at":"2025-03-31T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["出口管制措施","俄羅斯"]},
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-HITECH-2022","url":"https://publicinfo.trade.gov.tw/icp/billboards/30365","title":"Taiwan high-technology export controls concerning Russia and Belarus","published_at":"2022-05-06T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["俄羅斯及白俄羅斯高科技貨品清單","非經許可，不得輸出"]},
+        {"sample_id":"ATOM-TWTRADE-BARRIER-REPORT-2026","url":"https://www.trade.gov.tw/Files/PageFile/803530/803530cruwd20260611153035.pdf","title":"Taiwan trade-barriers report addressing Russian retaliatory tariffs","published_at":"2026-06-11T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"trade_barrier","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["俄羅斯","反制裁高關稅"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-wave6", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government notice or bilingual marine notice",
+      "candidates": [
+        {"sample_id":"ATOM-MPB-MACRO-PORT-BAN-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/5fb5db44-80e8-4134-9238-4f0ac409f4b0?NodeId=103&SiteId=1","title":"Taiwan bars MACRO vessel from international commercial ports","published_at":"2025-09-15T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"port_entry_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["禁止進入我國國際商港","管制檢查"]},
+        {"sample_id":"ATOM-MPB-GAEMI-FERRY-RECOVERY-2024","url":"https://www.motcmpb.gov.tw/Information/Detail/8d0d6fb3-5dc0-4666-90a2-1b23bd75891c?NodeId=15&SiteId=1","title":"Typhoon Gaemi ferry cancellations and recovery","published_at":"2024-07-27T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"ferry_service_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["基隆馬祖航線停航","恢復正常開航"]},
+        {"sample_id":"ATOM-MPB-KAOHSIUNG-BREAKWATER-2025","url":"https://www.motcmpb.gov.tw/ServerFile/Get/1921d50f-2b5c-4e55-96a9-61f1579bde24?DLCount=1","title":"Kaohsiung second-port breakwater marine notice","published_at":"2025-09-30T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Kaohsiung","Notice to Mariners"]}
+      ]
+    },
+    {
+      "source_id": "port-of-los-angeles-wave6", "enabled": true, "publisher": "Port of Los Angeles", "domain": "portoflosangeles.org", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public official port notice", "access_constraints": "Public direct port news release",
+      "candidates": [
+        {"sample_id":"ATOM-POLA-CARGO-TRADE-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_101525_sept_cargo","title":"Port of Los Angeles cargo reflects trade-policy changes","published_at":"2025-10-15T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"trade_volume_shift","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["importers abruptly stopped their orders","cargo volume"]},
+        {"sample_id":"ATOM-POLA-OPERATIONS-VIDEO-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_012425_pov_videos","title":"Port of Los Angeles normal cargo operations control","published_at":"2025-01-24T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["cargo operations","terminals in action"]},
+        {"sample_id":"ATOM-POLA-CLEAN-TRUCKS-2025","url":"https://portoflosangeles.org/references/2025-news-releases/news_052225_ctf","title":"Port of Los Angeles clean-truck infrastructure plan","published_at":"2025-05-22T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["drayage fleet","charging and fueling infrastructure"]},
+        {"sample_id":"ATOM-POLA-MARCH-NORMAL-2026","url":"https://portoflosangeles.org/references/2026-news-releases/news_041326_march_cargo","title":"Port of Los Angeles steady cargo-flow control","published_at":"2026-04-13T00:00:00Z","language":"en","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["cargo flow in March was solid","reliable, efficient operations"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-port-network-wave6", "enabled": true, "publisher": "Taiwan PortNET", "domain": "twport.com.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public official port-network notice", "access_constraints": "Public direct port-network notice",
+      "candidates": [
+        {"sample_id":"ATOM-TPNET-MAINTENANCE-2025","url":"https://tpnet.twport.com.tw/SYSWeb/sys/SYSAnnounce/Show?seqNo=473","title":"MTNet single-window planned maintenance notice","published_at":"2025-01-20T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["服務將會暫時中斷","TPNet"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-labor-wave7", "enabled": true, "publisher": "Taiwan Ministry of Labor", "domain": "mol.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "candidates": [
+        {"sample_id":"ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024","url":"https://www.mol.gov.tw/1607/1632/1640/77378/","title":"China Steel Express labor dispute resolved and strike cancelled","published_at":"2024-12-17T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_recovery","expected_disposition":"normalize","preferred_split":"dev","accept_terms":["取消罷工","中鋼運通"]},
+        {"sample_id":"ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024","url":"https://www.mol.gov.tw/1607/1632/1640/76473/","title":"China Steel Express seafarer labor dispute","published_at":"2024-10-09T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_dispute","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["中鋼運通公司","船員"]},
+        {"sample_id":"ATOM-TWMOL-CSC-TRANSPORT-INSPECTION-2024","url":"https://www.mol.gov.tw/1607/1632/1640/76936/post","title":"Joint seafarer labor-conditions inspection","published_at":"2024-11-14T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["船員勞動條件聯合稽查","中鋼運通"]},
+        {"sample_id":"ATOM-TWMOL-TRANSPORT-INSPECTIONS-2024","url":"https://www.mol.gov.tw/1607/1632/1640/68164/post","title":"Transportation-industry labor inspection program","published_at":"2024-03-26T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["交通運輸業","聯合稽查"]},
+        {"sample_id":"ATOM-TWMOL-LOGISTICS-NIGHT-INSPECTION-2024","url":"https://www.mol.gov.tw/1607/1632/1640/66154/","title":"Night safety inspections at logistics centers","published_at":"2024-01-31T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["大型物流中心","運輸倉儲業"]},
+        {"sample_id":"ATOM-TWMOL-UNION-GUIDANCE-2024","url":"https://www.mol.gov.tw/1607/1632/1640/77212/?cprint=pt","title":"General union bargaining compliance guidance","published_at":"2024-12-03T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["不當勞動行為","工會"]},
+        {"sample_id":"ATOM-TWMOL-DISPUTE-STATISTICS-2025","url":"https://www.mol.gov.tw/1607/1632/1640/77731/?cprint=pt","title":"General labor-dispute statistics and compliance guidance","published_at":"2025-01-03T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["勞資爭議案件數","積欠工資"]},
+        {"sample_id":"ATOM-TWMOL-PARTTIME-INSPECTIONS-2025","url":"https://www.mol.gov.tw/1607/1632/1640/81086/","title":"Part-time worker inspection results","published_at":"2025-07-01T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["工讀生","專案勞檢"]},
+        {"sample_id":"ATOM-TWMOL-LAYOFF-WARNING-GUIDANCE","url":"https://www.mol.gov.tw/1607/1632/1640/10877/","title":"Mass-layoff early-warning policy guidance","published_at":"2016-03-01T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["大量解僱預警機制","營運及財務異常"]},
+        {"sample_id":"ATOM-TWMOL-BOOKSELLER-DISPUTE-2022","url":"https://www.mol.gov.tw/1607/1632/1640/57145/post","title":"Book retailer employment-status dispute control","published_at":"2022-12-24T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_non_supply_chain_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["博客來","勞資爭議"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-trade-wave7", "enabled": true, "publisher": "Taiwan International Trade Administration", "domain": "trade.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release or notice",
+      "candidates": [
+        {"sample_id":"ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=775880","title":"Expanded export controls concerning Russia and Belarus","published_at":"2023-12-26T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["45項HS Code","出口管制"]},
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-CONTROLS-NOV2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=792781","title":"Additional goods subjected to Russia and Belarus export controls","published_at":"2024-11-05T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["5項稅則","12月4日起生效"]},
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-CONTROLS-MAY2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?dl_DateRange=all&history=&nodeID=39&pageindex=2&pid=784722&txt_ED=&txt_Keyword=&txt_SD=","title":"Nitrocellulose added to Russia and Belarus export controls","published_at":"2024-05-31T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["硝化纖維素","非經許可，不得輸出"]},
+        {"sample_id":"ATOM-TWTRADE-SHTC-RULES-2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=5135&pid=782048","title":"Strategic high-technology export-control requirements","published_at":"2024-04-16T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["禁止放電加工機","俄羅斯及白俄羅斯"]},
+        {"sample_id":"ATOM-TWTRADE-GEOPOLITICAL-MEETING-2025","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=808634","title":"Government meeting on geopolitical risk and supply-chain strategy","published_at":"2025-11-21T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["地緣政治風險","全球供應鏈重組"]},
+        {"sample_id":"ATOM-TWTRADE-CZECH-COOPERATION-2025","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=806166","title":"Taiwan-Czech economic consultation control","published_at":"2025-09-17T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺捷經技諮商會議","地緣政治變局"]},
+        {"sample_id":"ATOM-TWTRADE-CZECH-SUPPLYCHAIN-2025","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=809185","title":"Taiwan-Czech supply-chain cooperation control","published_at":"2025-12-05T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["供應鏈重組","捷克"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-wave7", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "candidates": [
+        {"sample_id":"ATOM-MPB-COSTA-GAEMI-REROUTE-2024","url":"https://www.motcmpb.gov.tw/Information/Detail/6f21b67a-ee13-4145-ba4f-58501ef469ba?NodeId=15&SiteId=1","title":"Cruise itinerary rerouted during Typhoon Gaemi","published_at":"2024-07-24T00:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"carrier_service_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["變更行程","高雄港"]},
+        {"sample_id":"ATOM-MPB-MTNET-SEAFARER-SERVICE-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/9ef25e97-8338-4dd0-b032-232da4e6b025?NodeId=15&SiteId=1","title":"MTNet seafarer online-service enhancement","published_at":"2025-06-20T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["MTNet","線上化申辦服務"]},
+        {"sample_id":"ATOM-MPB-MIDAUTUMN-SAFETY-2024","url":"https://www.motcmpb.gov.tw/Information/Detail/3f392dcb-3d57-48cc-ba77-2d853824bd20?NodeId=15&SiteId=1","title":"Holiday ferry safety inspection control","published_at":"2024-09-09T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"normal_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["中秋假期海運安全","抽查"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-wave8", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct bilingual notice to mariners",
+      "discovery": {
+        "index_urls": ["https://www.motcmpb.gov.tw/Information?NodeId=10016&SiteId=2"],
+        "max_links_per_index": 45,
+        "profiles": [
+          {
+            "profile_id": "navigation-restriction",
+            "path_prefixes": ["/Information/Detail/", "/En/Information/Detail/"],
+            "include_terms": ["NOTICE TO MARINERS", "prohibited"],
+            "candidate_template": {"language": "mixed", "primary_class": "materially_relevant", "event_category": "port_vessel_carrier", "event_type": "navigation_restriction", "expected_disposition": "normalize", "accept_terms": ["NOTICE TO MARINERS", "prohibited"]}
+          },
+          {
+            "profile_id": "military-navigation-restriction",
+            "path_prefixes": ["/Information/Detail/", "/En/Information/Detail/"],
+            "include_terms": ["NOTICE TO MARINERS", "Military exercise"],
+            "candidate_template": {"language": "mixed", "primary_class": "materially_relevant", "event_category": "geopolitical_security", "event_type": "military_navigation_restriction", "expected_disposition": "normalize", "accept_terms": ["NOTICE TO MARINERS", "Military exercise"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-MPB-TAICHUNG-DREDGING-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/2eeacb83-4bf0-4a95-bf6e-39dfe0d74bf6?NodeId=10016&SiteId=2","title":"Taichung Port water-dredging navigation notice","published_at":"2025-07-04T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Taichung port","navigate with caution"]},
+        {"sample_id":"ATOM-MPB-NORTHEAST-WRECK-OPS-2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/5ac9e827-f30c-46d7-b849-ee1259fded91?NodeId=10016&SiteId=2","title":"Northeast waters wreck-removal operations restriction","published_at":"2025-06-09T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["all vessels are prohibited","operation waters"]},
+        {"sample_id":"ATOM-MPB-TAICHUNG-MAINTENANCE-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/b4e9820b-2e75-4c48-a48e-2813da13bc79?NodeId=10016&SiteId=2","title":"Port of Taichung dredging and maintenance restriction","published_at":"2025-04-16T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Port of Taichung","prohibited from sailing"]},
+        {"sample_id":"ATOM-MPB-TAIPEI-BUOY-WORK-2025","url":"https://www.motcmpb.gov.tw/Information/Detail/3f3cef70-3758-4a94-80c3-989d56e7d90c?NodeId=10016&SiteId=2","title":"Taipei Port buoy redeployment operation","published_at":"2025-06-09T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Taipei Port","Mariners are advised"]},
+        {"sample_id":"ATOM-MPB-NORTHEAST-CABLE-REPAIR-2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/29cdda0e-2669-4ec3-ae62-8a06d429d414?NodeId=10016&SiteId=2","title":"Northeast waters emergency cable-repair restriction","published_at":"2025-09-30T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["all vessels are prohibited","October 5"]},
+        {"sample_id":"ATOM-MPB-NORTHEAST-MET-MAINTENANCE-2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/a3e56eb4-e3bd-49b3-974f-54bce232d53d?NodeId=10016&SiteId=2","title":"Northeast maritime observation maintenance restriction","published_at":"2025-11-04T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["all vessels are prohibited","November 12"]},
+        {"sample_id":"ATOM-MPB-TAIPEI-BREAKWATER-WORK-2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/6a1e4bf7-302d-411f-9d9f-61218e7fd146?NodeId=10016&SiteId=2","title":"Taipei Port breakwater construction navigation notice","published_at":"2025-12-31T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Taipei Port","navigate with caution"]},
+        {"sample_id":"ATOM-MPB-NORTHEAST-OPS-JUNE2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/7e2fb50d-bad8-4e67-ab5b-b4d1e743f660?NodeId=10016&SiteId=2","title":"Northeast waters June operations restriction","published_at":"2025-06-05T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["all vessels are prohibited","12 June"]},
+        {"sample_id":"ATOM-MPB-TAICHUNG-PIERS-WORK-2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/af314852-c812-4527-a6d1-c2de1c7afa3a?NodeId=10016&SiteId=2","title":"Taichung Port piers 37 and 38 construction warning","published_at":"2025-12-24T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Piers 37 and 38","navigation safety"]},
+        {"sample_id":"ATOM-MPB-TAICHUNG-CABLE-WORK-2026","url":"https://www.motcmpb.gov.tw/ServerFile/Get/34f588fa-6241-47ff-8584-a978916b0b90?DLCount=1","title":"Taichung offshore cable installation navigation warning","published_at":"2026-01-16T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["航船布告","2026"]},
+        {"sample_id":"ATOM-MPB-CCP-EXERCISE-WARNING-2025","url":"https://www.motcmpb.gov.tw/ServerFile/Get/10596867-66a5-473c-98ce-f2e1fdc11725?DLCount=1","title":"Navigation warning for CCP military exercises around Taiwan","published_at":"2025-12-29T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["NOTICE TO MARINERS","military exercises"]},
+        {"sample_id":"ATOM-MPB-FIRING-EXERCISE-JUNE2025","url":"https://www.motcmpb.gov.tw/Information/Detail/6b700edb-069a-41bc-b85e-4f6915453f1e?NodeId=10016&SiteId=2","title":"Taiwan waters firing-exercise navigation restriction","published_at":"2025-05-08T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["live ammunition","all vessels are prohibited"]},
+        {"sample_id":"ATOM-MPB-MILITARY-EXERCISE-MAY2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/78eb03a9-f17e-456f-8018-42161ee550cd?NodeId=10016&SiteId=2","title":"Taiwan restricted-area military exercise notice","published_at":"2025-04-02T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Military exercise","prohibited from sailing"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-trade-wave9", "enabled": true, "publisher": "Taiwan International Trade Administration", "domain": "trade.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "discovery": {
+        "index_urls": ["https://www.trade.gov.tw/Pages/List.aspx?nodeID=40"],
+        "max_links_per_index": 30,
+        "profiles": [
+          {
+            "profile_id": "russia-export-control",
+            "path_prefixes": ["/Pages/Detail.aspx", "/Pages/detail.aspx"],
+            "include_terms": ["俄羅斯", "出口管制"],
+            "candidate_template": {"language": "zh-TW", "primary_class": "materially_relevant", "event_category": "geopolitical_security", "event_type": "export_control", "expected_disposition": "normalize", "accept_terms": ["俄羅斯", "出口管制"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=792623","title":"Taiwan confirms export controls on machine tools to Russia and Belarus","published_at":"2024-11-01T17:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["77項工具機稅則","出口至俄羅斯及白俄羅斯"]},
+        {"sample_id":"ATOM-TWTRADE-RUSSIA-NITROCELLULOSE-CONTROLS-2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=784798","title":"Taiwan restricts nitrocellulose exports to Russia and Belarus","published_at":"2024-06-03T11:00:00Z","language":"zh-TW","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"export_control","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["硝酸纖維產品","今年6月14日起生效"]}
+      ]
+    },
+    {
+      "source_id": "panama-canal-authority-wave10", "enabled": true, "publisher": "Panama Canal Authority", "domain": "pancanal.com", "adapter": "direct_urls", "rate_limit_s": 1.5, "max_retries": 2, "license": "Public canal authority advisory", "access_constraints": "Public direct advisory PDF",
+      "candidates": [
+        {"sample_id":"ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023","url":"https://pancanal.com/wp-content/uploads/2023/01/ADV48-2023-Reduction-in-Transits-Due-to-the-Ongoing-Deficit-in-Precipitation-in-the-Canal-Watershed.pdf","title":"Panama Canal reduces transit booking slots amid watershed precipitation deficit","published_at":"2023-10-30T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"canal_capacity_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["number of booking slots","18 per day"]}
+      ]
+    },
+    {
+      "source_id": "ila-east-gulf-wave10", "enabled": true, "publisher": "International Longshoremen's Association", "domain": "ilaunion.org", "adapter": "direct_urls", "rate_limit_s": 1.5, "max_retries": 2, "license": "Public labor organization publication", "access_constraints": "Public direct organizational article",
+      "candidates": [
+        {"sample_id":"ATOM-ILA-EAST-GULF-STRIKE-2024","url":"https://ilaunion.org/ila-president-harold-j-daggett-joins-picket-lines-throughout-port-newark-elizabeth-at-start-of-strike-rallies-tens-of-thousands-of-ila-members-to-stay-strong-and-united/","title":"ILA launches coastwide East and Gulf Coast port strike","published_at":"2024-10-01T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"labor_disruption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["coastwide strike","Atlantic and Gulf Coasts"]},
+        {"sample_id":"ATOM-ILA-STRIKE-EXEMPTIONS-2024","url":"https://ilaunion.org/ila-will-maintain-pledge-to-handle-military-cargo-during-strike-passenger-cruise-ships-to-be-unaffected-by-10-1-strike/","title":"ILA identifies military-cargo and passenger-cruise exemptions during strike","published_at":"2024-09-25T00:00:00Z","language":"en","primary_class":"materially_relevant","event_category":"labor_infrastructure_transportation","event_type":"operational_exemption","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["military cargo","passenger cruise ships"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-labor-wave9", "enabled": true, "publisher": "Taiwan Ministry of Labor", "domain": "mol.gov.tw", "adapter": "direct_urls", "rate_limit_s": 2.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "discovery": {
+        "index_urls": ["https://www.mol.gov.tw/1607/1632/1640/?Page=1&PageSize=10&q_attribute=01"],
+        "max_links_per_index": 20,
+        "profiles": [
+          {
+            "profile_id": "transport-labor-inspection-control",
+            "path_prefixes": ["/1607/1632/1640/"],
+            "include_terms": ["交通", "勞動"],
+            "candidate_template": {"language": "zh-TW", "primary_class": "irrelevant", "event_category": "labor_infrastructure_transportation", "event_type": "labor_inspection_control", "expected_disposition": "suppress", "accept_terms": ["勞動", "檢查"]}
+          }
+        ]
+      },
+      "candidates": [
+        {"sample_id":"ATOM-TWMOL-KUO-KUANG-INSPECTION-2018","url":"https://www.mol.gov.tw/1607/1632/1640/20209/post","title":"Kuo-Kuang Bus transportation labor inspection control","published_at":"2018-03-01T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["國光客運臺北車站","勞動條件聯合檢查"]},
+        {"sample_id":"ATOM-TWMOL-TAIPEI-TERMINAL-INSPECTION-2010","url":"https://www.mol.gov.tw/1607/1632/1640/16600/?cprint=pt","title":"Taipei transit-terminal driver-hours inspection control","published_at":"2010-02-04T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["台北轉運站","無預警勞動檢查"]},
+        {"sample_id":"ATOM-TWMOL-TOURBUS-INSPECTION-2017","url":"https://www.mol.gov.tw/1607/1632/1640/19860/","title":"Tour-bus labor and safety inspection control","published_at":"2017-02-16T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["旅行社及遊覽車客運業聯合稽查","保障駕駛員勞動權益"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-labor-controls-wave11", "enabled": true, "publisher": "Taiwan Ministry of Labor", "domain": "mol.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "candidates": [
+        {"sample_id":"ATOM-W11-MOL-HIGHWAY-FREIGHT-SAFETY-2009","url":"https://www.mol.gov.tw/1607/1632/1640/16271/post","title":"Highway passenger and freight driver safety guidance","published_at":"2009-10-22T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_guidance_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["貨運業者","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-FREIGHT-DRIVER-HOURS-2018","url":"https://www.mol.gov.tw/1607/1632/1640/20297/post","title":"Freight and bus driver-hours enforcement control","published_at":"2018-04-24T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_enforcement_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["汽車貨運業","駕駛工時"]},
+        {"sample_id":"ATOM-W11-MOL-SPRING-SAFETY-LOGISTICS-2022","url":"https://www.mol.gov.tw/1607/1632/1640/48397/post","title":"Spring safety inspections include logistics operators","published_at":"2022-01-26T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["汽車貨運","聯合檢查"]},
+        {"sample_id":"ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012","url":"https://www.mol.gov.tw/1607/1632/1640/18720/post","title":"Labor complaint and inspection guidance","published_at":"2012-07-19T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_guidance_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["儲配運輸物流","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-TRANSPORT-INSPECTION-CAPACITY-2016","url":"https://www.mol.gov.tw/1607/1632/1640/43779/?cprint=pt","title":"Transport labor inspection capacity guidance","published_at":"2016-07-15T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["交通運輸業","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-DELIVERY-PLATFORM-INSPECTION-2019","url":"https://www.mol.gov.tw/1607/1632/1640/12374/","title":"Food-delivery platform labor inspection results","published_at":"2019-10-30T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["食物外送平台業","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-BUS-OVERWORK-PREVENTION-2017","url":"https://www.mol.gov.tw/1607/1632/1640/11315/","title":"Bus-driver overwork prevention inspections","published_at":"2017-03-01T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["汽車貨運","物流業"]},
+        {"sample_id":"ATOM-W11-MOL-DOCK-SAFETY-STANDARD-2010","url":"https://www.mol.gov.tw/1607/1632/1640/16509/?cprint=pt","title":"Dock loading safety standard amendment","published_at":"2010-01-12T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_regulatory_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["碼頭裝卸","安全衛生設施標準"]},
+        {"sample_id":"ATOM-W11-MOL-AIRLINE-INSPECTION-LAUNCH-2015","url":"https://www.mol.gov.tw/1607/1632/1640/19213/","title":"Airline labor-hours inspection launch","published_at":"2015-02-06T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["航空業者","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-FOREIGN-FISHER-RULES-2017","url":"https://www.mol.gov.tw/1607/1632/1640/19846/post","title":"Overseas-employed foreign fisher labor rules","published_at":"2017-01-17T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_regulatory_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["境外僱用","外籍漁工"]},
+        {"sample_id":"ATOM-W11-MOL-AIRLINE-HOURS-RESULTS-2015","url":"https://www.mol.gov.tw/1607/1632/1640/19228/post","title":"Airline working-hours inspection results","published_at":"2015-02-16T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_enforcement_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["航空運輸業","工時"]},
+        {"sample_id":"ATOM-W11-MOL-RAIL-LABOR-DECISION-2017","url":"https://www.mol.gov.tw/1607/1632/1640/11412/","title":"Taiwan Railways labor adjudication decision","published_at":"2017-07-28T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_adjudication_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺灣鐵路產業工會","裁決"]},
+        {"sample_id":"ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021","url":"https://www.mol.gov.tw/1607/1632/1640/33018/post","title":"Rail safety improvement project inspection results","published_at":"2021-05-08T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_inspection_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["鐵路行車安全改善","專案檢查"]},
+        {"sample_id":"ATOM-W11-MOL-SUPPLIER-LABOR-COMPLIANCE-2024","url":"https://www.mol.gov.tw/1607/1632/1640/69976/post","title":"Supplier labor-compliance oversight guidance","published_at":"2024-06-11T00:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"labor_infrastructure_transportation","event_type":"labor_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["勞務供應商","勞動法令"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-trade-policy-controls-wave11", "enabled": true, "publisher": "Taiwan International Trade Administration", "domain": "trade.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct government release",
+      "candidates": [
+        {"sample_id":"ATOM-W11-TRADE-TAIWAN-SELECT-APR2025","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=800552","title":"Taiwan Select international buyer event","published_at":"2025-04-24T09:36:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Taiwan Select全球搶單大會","全球供應鏈重組"]},
+        {"sample_id":"ATOM-W11-TRADE-AAPEX-SEMA-2025","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=807994","title":"Taiwan automotive exhibitors at AAPEX and SEMA","published_at":"2025-11-05T18:50:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["AAPEX","臺美產業鏈合作"]},
+        {"sample_id":"ATOM-W11-TRADE-TENNESSEE-MOU-2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=807509","title":"Taiwan-Tennessee economic cooperation memorandum","published_at":"2025-10-23T11:45:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["田納西州","供應鏈的韌性"]},
+        {"sample_id":"ATOM-W11-TRADE-CANADA-FRAMEWORK-2023","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=775031","title":"Taiwan-Canada supply-chain cooperation framework","published_at":"2023-12-07T10:30:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺加經貿對話會議","供應鏈韌性合作架構"]},
+        {"sample_id":"ATOM-W11-TRADE-US-BUSINESS-DAY-2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=806442","title":"Taiwan-US business matching event","published_at":"2025-09-24T18:55:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["美國場","強化供應鏈韌性"]},
+        {"sample_id":"ATOM-W11-TRADE-JAPAN-COOPERATION-2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=803027","title":"Taiwan-Japan technology and supply-chain cooperation","published_at":"2025-06-27T09:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺日","供應鏈重組"]},
+        {"sample_id":"ATOM-W11-TRADE-SEMICONDUCTOR-EXPO-2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=805849","title":"Semiconductor expo cooperation statement","published_at":"2025-09-09T16:30:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["全球半導體供應鏈","國際合作"]},
+        {"sample_id":"ATOM-W11-TRADE-US-BUSINESS-DAY-2024","url":"https://www.trade.gov.tw/Pages/detail.aspx?nodeID=40&pid=791090","title":"Taiwan-US business day cooperation memorandum","published_at":"2024-10-01T20:07:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["美國商機日","經貿合作"]},
+        {"sample_id":"ATOM-W11-TRADE-TAIWAN-SELECT-OCT2025","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=806989","title":"Taiwan Select Taichung buyer event","published_at":"2025-10-07T20:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Taiwan Select全球搶單大會臺中場","全球供應鏈重組"]},
+        {"sample_id":"ATOM-W11-TRADE-LITHUANIA-DIALOGUE-2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=782759","title":"Taiwan-Lithuania economic dialogue","published_at":"2024-04-28T10:00:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺立經濟對話會議","供應鏈韌性"]},
+        {"sample_id":"ATOM-W11-TRADE-CANADA-DIALOGUE-2024","url":"https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=794294","title":"Taiwan-Canada economic dialogue","published_at":"2024-12-06T15:30:00Z","language":"zh-TW","primary_class":"irrelevant","event_category":"geopolitical_security","event_type":"geopolitical_policy_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["臺加經貿對話會議","供應鏈韌性"]}
+      ]
+    },
+    {
+      "source_id": "taiwan-maritime-mixed-wave11", "enabled": true, "publisher": "Taiwan Maritime and Port Bureau", "domain": "motcmpb.gov.tw", "adapter": "direct_urls", "rate_limit_s": 1.0, "max_retries": 2, "license": "Public government publication", "access_constraints": "Public direct bilingual notice or notice PDF",
+      "candidates": [
+        {"sample_id":"ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024","url":"https://www.motcmpb.gov.tw/En/Information/Detail/f9ca1d1c-b780-4aef-958d-815dd2767876?NodeId=10016&SiteId=2","title":"Taichung Kan lighthouse extinguished notice","published_at":"2024-02-26T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"port_vessel_carrier","event_type":"navigation_hazard","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Taichung Kan Lighthouse","EXTINGUISHED"]},
+        {"sample_id":"ATOM-W11-MPB-DONGYIN-EXERCISE-AUG2025","url":"https://www.motcmpb.gov.tw/ServerFile/Get/088979a7-324a-4b52-bccf-babfa5baca7b?DLCount=1","title":"Dongyin military exercise navigation restriction","published_at":"2025-08-11T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Military exercise","all vessels are prohibited"]},
+        {"sample_id":"ATOM-W11-MPB-SOUTHEAST-FIRING-NOV2025","url":"https://www.motcmpb.gov.tw/ServerFile/Get/e848b6d1-415d-4f38-9f3c-4057132e0229?DLCount=1","title":"Taiwan southeast waters firing-test restriction","published_at":"2025-11-17T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Firing test","all vessels are prohibited"]},
+        {"sample_id":"ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025","url":"https://www.motcmpb.gov.tw/ServerFile/Get/bac05a2b-61a5-411f-9913-313352fce0e7?DLCount=1","title":"Taiwan around-waters military exercise restriction","published_at":"2025-10-01T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Military exercise","all vessels are prohibited"]},
+        {"sample_id":"ATOM-W11-MPB-PENGHU-FIRING-APR2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/02f1c97d-a339-40db-abd6-d1f483be16cb?NodeId=10016&SiteId=2","title":"Penghu waters firing-exercise notice","published_at":"2025-04-15T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"auto","accept_terms":["Penghu area Waters","Firing Exercise"]},
+        {"sample_id":"ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024","url":"https://www.motcmpb.gov.tw/ServerFile/Get/4669eaa8-102c-454c-aae6-4dc2fb8cfc6b?DLCount=1","title":"Northern waters submarine-cable maintenance caution","published_at":"2024-01-02T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["Submarine Cable Maintenance","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-TAICHUNG-DREDGING-JUL2025","url":"https://www.motcmpb.gov.tw/Information/Detail/2eeacb83-4bf0-4a95-bf6e-39dfe0d74bf6?NodeId=10016&SiteId=2","title":"Taichung port planned dredging caution","published_at":"2025-07-04T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["water dredging project","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-FENGMIAO-SURVEY-JUL2025","url":"https://www.motcmpb.gov.tw/Information/Detail/16ee6b12-b131-4739-8b6c-8e22a52cffcc?NodeId=10016&SiteId=2","title":"Feng Miao offshore-wind survey caution","published_at":"2025-07-21T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"auto","accept_terms":["geophysical survey","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-TAICHUNG-DREDGING-AUG2025","url":"https://www.motcmpb.gov.tw/En/ServerFile/Get/21a9bb57-2992-40f7-801f-e0c15fdd5f4e?DLCount=1&attachTable=8","title":"Taichung port planned dredging caution attachment","published_at":"2025-08-14T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"holdout","accept_terms":["water dredging project","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-FENGMIAO-SURVEY-PDF-JUL2025","url":"https://www.motcmpb.gov.tw/En/ServerFile/Get/232fbd1d-2eae-42d4-83fc-c67d7f4841a0?DLCount=1&attachTable=8","title":"Feng Miao offshore-wind geophysical survey caution attachment","published_at":"2025-07-17T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"holdout","accept_terms":["geophysical survey","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-LIVE-FIRING-DEC2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/b1079730-181b-489a-af8f-4d23e115f00b?NodeId=10016&SiteId=2","title":"Taiwan waters live-firing exercise navigation restriction","published_at":"2025-11-28T00:00:00Z","language":"mixed","primary_class":"materially_relevant","event_category":"geopolitical_security","event_type":"military_navigation_restriction","expected_disposition":"normalize","preferred_split":"selection","accept_terms":["Firing practice","all vessels are prohibited"]},
+        {"sample_id":"ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/7d804846-0a23-482c-be7b-8069577b6fd3?NodeId=10016&SiteId=2","title":"Changhua offshore wind installation campaign caution","published_at":"2025-09-19T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"holdout","accept_terms":["estimated vessel operation duration","navigate with caution"]},
+        {"sample_id":"ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025","url":"https://www.motcmpb.gov.tw/En/Information/Detail/edd7bdea-c1aa-445a-80fd-94e643e49f4b?NodeId=10016&SiteId=2","title":"Taichung Feng Miao planned offshore construction caution","published_at":"2025-08-28T00:00:00Z","language":"mixed","primary_class":"irrelevant","event_category":"port_vessel_carrier","event_type":"planned_operations_control","expected_disposition":"suppress","preferred_split":"holdout","accept_terms":["pipeline terminus","navigate with caution"]}
+      ]
+    },
+    {
+      "source_id": "wave15-replacement-usgs-events",
+      "enabled": true,
+      "publisher": "U.S. Geological Survey",
+      "domain": "earthquake.usgs.gov",
+      "adapter": "direct_urls",
+      "rate_limit_s": 1.0,
+      "max_retries": 2,
+      "license": "U.S. Government work / public domain",
+      "access_constraints": "Public, immutable single-event FDSN GeoJSON endpoint",
+      "candidates": [
+        {
+          "sample_id": "ATOM-W15-USGS-US6000MT0S-2024",
+          "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us6000mt0s",
+          "title": "M 6.1 - 13 km SSW of Hualien City, Taiwan",
+          "published_at": "2024-04-22T18:32:48Z",
+          "language": "en",
+          "primary_class": "materially_relevant",
+          "event_category": "weather_natural_disaster",
+          "event_type": "earthquake",
+          "expected_disposition": "normalize",
+          "preferred_split": "dev",
+          "accept_terms": ["M 6.1 - 13 km SSW of Hualien City, Taiwan", "2024-04-22T18:32:48.000Z"]
+        },
+        {
+          "sample_id": "ATOM-W15-USGS-US7000N7B8-2024",
+          "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000n7b8",
+          "title": "M 6.1 - 30 km SSE of Hualien City, Taiwan",
+          "published_at": "2024-08-15T23:35:53Z",
+          "language": "en",
+          "primary_class": "materially_relevant",
+          "event_category": "weather_natural_disaster",
+          "event_type": "earthquake",
+          "expected_disposition": "normalize",
+          "preferred_split": "selection",
+          "accept_terms": ["M 6.1 - 30 km SSE of Hualien City, Taiwan", "2024-08-15T23:35:53.000Z"]
+        }
+      ]
+    },
+    {
+      "source_id": "wave15-replacement-pola-workforce",
+      "enabled": true,
+      "publisher": "Port of Los Angeles",
+      "domain": "portoflosangeles.org",
+      "adapter": "direct_urls",
+      "rate_limit_s": 1.0,
+      "max_retries": 2,
+      "license": "Public official port notice",
+      "access_constraints": "Public direct port news release",
+      "candidates": [
+        {
+          "sample_id": "ATOM-W15-POLA-WORKFORCE-2024",
+          "url": "https://portoflosangeles.org/references/2024-news-releases/news_020824_nop_gm_training_facility",
+          "title": "Port of Los Angeles goods-movement workforce training facility notice",
+          "published_at": "2024-02-08T00:00:00Z",
+          "language": "en",
+          "primary_class": "monitor",
+          "event_category": "labor_infrastructure_transportation",
+          "event_type": "workforce_infrastructure_notice",
+          "expected_disposition": "monitor",
+          "preferred_split": "dev",
+          "accept_terms": ["Goods Movement Workforce Training Facility", "longshore work, trucking, and warehousing"]
+        }
+      ]
+    }
+  ]
+}

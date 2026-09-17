@@ -1,0 +1,23 @@
+{
+  "ok": [
+    {
+      "sample_id": "ATOM-POLA-TRUCK-OPS-2024",
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-POLA-TRUCK-OPS-2024.json",
+      "bytes": 114458
+    },
+    {
+      "sample_id": "ATOM-OFAC-SOVCOMFLOT-2024",
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-OFAC-SOVCOMFLOT-2024.json",
+      "bytes": 51743
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-CBP-CSMS-CROWDSTRIKE-2024",
+      "error": "source payload did not satisfy the fixture acceptance check",
+      "url": "https://www.cbp.gov/sites/default/files/2024-08/CSMS%20ArchiveJuly2024_508.pdf"
+    }
+  ],
+  "collected_samples": 252,
+  "raw_bodies_retained": 349
+}

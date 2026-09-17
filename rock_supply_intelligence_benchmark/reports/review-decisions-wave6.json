@@ -1,0 +1,308 @@
+[
+  {
+    "decision_id": "W6-01",
+    "sample_id": "ATOM-USTR-TEKLAS-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "0d73bad7832063bed107e3f309aafb4a8ea52d49a310d3d407c28be2bd4e410e",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-02",
+    "sample_id": "ATOM-USTR-FUJIKURA-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "bad64059b79ea37fec65c013dd15600bdc941f3cb640afc0008f81fecfe19d78",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-03",
+    "sample_id": "ATOM-USTR-IMPRO-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "e284accf469027ad5fb81e86fac9a780feaaedadfd85d8a45d89a7892d614244",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-04",
+    "sample_id": "ATOM-USTR-AUTOLIV-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "1ef1d708ecc3239e78e5f5e79cda2e88ff011cf0908c03a9ee5da278a9de1cfa",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-05",
+    "sample_id": "ATOM-USTR-GOODYEAR-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "7e19d2a77fd5f3e1970424d10cecb3032818f5c979389e0b9c6c4f5cf6a8bb98",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-06",
+    "sample_id": "ATOM-USTR-PIRELLELI-SUSPENSION-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "2ba9eeab8c26c20336933b71e0cb4aaf67ccddb6e369852604ec93f80e981716",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-07",
+    "sample_id": "ATOM-USTR-PIRELLELI-PANEL-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "f9d484f9bd124c3fd95e198034e3ace3205cee6f7acee626c8e5f24e9e32d460",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-08",
+    "sample_id": "ATOM-USTR-DRAXTON-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "3e03bba013b945ef15e7a4ce4c8c02e96e8dd0d5e32972ea246ad4cda4afe947",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-09",
+    "sample_id": "ATOM-USTR-AMPHENOL-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "3900ce704be9a5f8c211119b88c0b6b59b5f92d2e4cec3ac1e136a8189edc3c3",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-10",
+    "sample_id": "ATOM-USTR-THYSSENKRUPP-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "485d5c008d19a56e755432c79d99cf55ab8188ca496ebd53d75f24ceb034d136",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-11",
+    "sample_id": "ATOM-USTR-YAZAKI-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "e59ce3e72f7cf6ac3917605fe456d3fe270330498d1ce94349497270c555ec96",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-12",
+    "sample_id": "ATOM-USTR-SUPERIOR-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "f1adb967a2024cd92358ade80bb95c0056bf71ac5f85c6ff8c8eebf886efb406",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-13",
+    "sample_id": "ATOM-USTR-CORPORACION-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "4099a81ab394cf1fe1fa50501b872824b775c339b380b2bd639f212515938e03",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-14",
+    "sample_id": "ATOM-USTR-MONDELEZ-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "9adbda48dcfddcb07748bedde4baf4c2ecdcfa8248a561a5bd7e304bf6745bea",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-15",
+    "sample_id": "ATOM-USTR-GROLE-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "4595729f90b00e6eba763476a29c456c2855622da1422d60bec53e05aadef72e",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-16",
+    "sample_id": "ATOM-USTR-FREIXENET-SUSPENSION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "56b94f4c724b990db18e9bda5e95142598f5e7f584e3705d303fb02aec6c668c",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-17",
+    "sample_id": "ATOM-TREASURY-IRAN-FLEET-SB0215",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "7516b1679262a07c2a03277497a1c4a3f37c9f7ebec01a9fd745d7ca0b4fa09f",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-18",
+    "sample_id": "ATOM-TREASURY-HOUTHI-SB0174",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "d9efc5d6c5d57fe8d294706ceca22cce8ec3fbbd72185a8bdea724852fe43d12",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-19",
+    "sample_id": "ATOM-TREASURY-IRAN-OIL-SB0139",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "130f8601e719fe92810f66e04eb51e139022c1fefb538ee6fc3e4a010fa08c2e",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-20",
+    "sample_id": "ATOM-TREASURY-SHADOW-SB0229",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "474dde7c23db3d90d9bb2be456e3dcd3c2ffc46c83dd0374c30debacbbb55d18",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-21",
+    "sample_id": "ATOM-TREASURY-HOUTHI-SB0113",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "036d98e34057afc5ad8aaa07e84a77747af6bce7173009d2e1439fbf71c5d22a",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-22",
+    "sample_id": "ATOM-TREASURY-IRAN-SMUGGLING-SB0233",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "d9a53776e90361f937a1f05123b52a564ea433e7002145889aa3268b2d63284e",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-23",
+    "sample_id": "ATOM-TREASURY-STS-SB0082",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "e9cf7b2614a20d4ade4e916f94a0ddc7cd67f2315c174ad578fc97fcc4dbb120",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-24",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "5534b1574e2ae1fceeb645775ad3d6c11948717636fbeed74040edcd2ca3d0d1",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-25",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-HITECH-2022",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "1c22926e71720966ff03f6cb8b29196c8eab1469c843ed6ca1f470cb3c9c1ee8",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-26",
+    "sample_id": "ATOM-TWTRADE-BARRIER-REPORT-2026",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "48d1ee1bfd2916ae71b3d74813901a061e224a44d8ea61850d8d2c2bdaf54532",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-27",
+    "sample_id": "ATOM-MPB-MACRO-PORT-BAN-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "7096e791622058ccf4dfe3bf26dee7af6ec5918d12ce60f4aeff613d0f21b3fe",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-28",
+    "sample_id": "ATOM-MPB-GAEMI-FERRY-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "d84a5695ad99b563214d59fae579e10be75529105389bb5091aa01432312d831",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-29",
+    "sample_id": "ATOM-MPB-KAOHSIUNG-BREAKWATER-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "e92494ef3b1b8954dbab727efefbe41e48f5e4cf481bbea79fec9bdd7aa251c4",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-30",
+    "sample_id": "ATOM-POLA-CARGO-TRADE-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "778c6a673c338558af99bb4df754c8886cb6833592e28f8821a7e77e54786f2d",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-31",
+    "sample_id": "ATOM-POLA-OPERATIONS-VIDEO-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "517c5d53214ecb11aa462926e6786b2aded446b4a68fa2771e10913cd30bec6f",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-32",
+    "sample_id": "ATOM-POLA-CLEAN-TRUCKS-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "9ccb83201b6275a8672a515f2dff448eea42bf79821e0f4a6d9b671add6b50d5",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-33",
+    "sample_id": "ATOM-POLA-MARCH-NORMAL-2026",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "4c22eb3a65226b87d8cbb204bc95add2e37771551f7e61c3f07237164158fc23",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  },
+  {
+    "decision_id": "W6-34",
+    "sample_id": "ATOM-TPNET-MAINTENANCE-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T15:20:00Z",
+    "manifest_hash": "93c63a4491db2fcbdade4c97e2b1fc8b31efc77320041491a730709baa8c4992",
+    "rationale": "Human reviewer approved the assistant recommendation after independent assessment."
+  }
+]

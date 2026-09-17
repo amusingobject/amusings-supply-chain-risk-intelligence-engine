@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-W11-MPB-FENGMIAO-SURVEY-PDF-JUL2025",
+  "source_id": "taiwan-maritime-mixed-wave11",
+  "url": "https://www.motcmpb.gov.tw/En/ServerFile/Get/232fbd1d-2eae-42d4-83fc-c67d7f4841a0?DLCount=1&attachTable=8",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T21:39:24Z",
+  "content_hash": null
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-09T13:17:15Z",
+  "registry_id": "RSIB-collection-registry-wave3",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-ILWU-WWL-CONTRACT-2025.json",
+      "content_hash": "f7ce95022f14ba31ccd7363b9d272ae4ebe525184cfc7330b8cec0a372385ca3",
+      "sample_id": "ATOM-ILWU-WWL-CONTRACT-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-ILWU-WWL-STRIKE-2024.json",
+      "content_hash": "7b36f5b3237261147b6f2e75fe544282111a2fd65a2d4cb8c39da9430f8217a5",
+      "sample_id": "ATOM-ILWU-WWL-STRIKE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-OFAC-OCEANLINK-2024.json",
+      "content_hash": "a408c3f1f944f6f705ff39d355f25eef2773eafffda47ef5b7e8c62791514c34",
+      "sample_id": "ATOM-OFAC-OCEANLINK-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-OFAC-SHADOW-FLEET-2024.json",
+      "content_hash": "de716ffd41670eb906c10dd20c88c228e5d64aaae7c0742e2d348f119f8008d7",
+      "sample_id": "ATOM-OFAC-SHADOW-FLEET-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-CBP-CSMS-CROWDSTRIKE-2024.json",
+      "content_hash": "ac737b2024c3565e50b810dc4c16e479e0060252943c0fa7f0083b6a19f2576f",
+      "sample_id": "ATOM-CBP-CSMS-CROWDSTRIKE-2024"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 257,
+  "raw_bodies_retained": 354,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T131715Z.md"
+}

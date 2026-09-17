@@ -1,0 +1,554 @@
+{
+  "$defs": {
+    "FilterAudit": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_version": {
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "model_invoked": {
+          "default": false,
+          "title": "Model Invoked",
+          "type": "boolean"
+        },
+        "model_blocked_by_hard_gate": {
+          "default": false,
+          "title": "Model Blocked By Hard Gate",
+          "type": "boolean"
+        },
+        "hard_gate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hard Gate"
+        },
+        "notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Notes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "rule_version"
+      ],
+      "title": "FilterAudit",
+      "type": "object"
+    },
+    "QualitySignals": {
+      "additionalProperties": false,
+      "description": "Deterministic feature snapshot. Audit-only; not a business fact.",
+      "properties": {
+        "content_kind": {
+          "enum": [
+            "html",
+            "json",
+            "xml",
+            "text",
+            "pdf_placeholder",
+            "binary",
+            "empty"
+          ],
+          "title": "Content Kind",
+          "type": "string"
+        },
+        "char_count": {
+          "default": 0,
+          "title": "Char Count",
+          "type": "integer"
+        },
+        "extracted_char_count": {
+          "default": 0,
+          "title": "Extracted Char Count",
+          "type": "integer"
+        },
+        "token_count": {
+          "default": 0,
+          "title": "Token Count",
+          "type": "integer"
+        },
+        "unique_token_ratio": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Unique Token Ratio",
+          "type": "number"
+        },
+        "boilerplate_ratio": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Boilerplate Ratio",
+          "type": "number"
+        },
+        "repeated_paragraph_ratio": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Repeated Paragraph Ratio",
+          "type": "number"
+        },
+        "html_to_text_ratio": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Html To Text Ratio"
+        },
+        "malformed_markup": {
+          "default": false,
+          "title": "Malformed Markup",
+          "type": "boolean"
+        },
+        "missing_body": {
+          "default": false,
+          "title": "Missing Body",
+          "type": "boolean"
+        },
+        "promotional_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Promotional Score",
+          "type": "number"
+        },
+        "affiliate_link_ratio": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Affiliate Link Ratio",
+          "type": "number"
+        },
+        "seo_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Seo Score",
+          "type": "number"
+        },
+        "social_spam_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Social Spam Score",
+          "type": "number"
+        },
+        "clickbait_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Clickbait Score",
+          "type": "number"
+        },
+        "ai_filler_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ai Filler Score",
+          "type": "number"
+        },
+        "headline_body_support": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Headline Body Support"
+        },
+        "operational_keyword_density": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Operational Keyword Density",
+          "type": "number"
+        },
+        "structured_fact_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Structured Fact Score",
+          "type": "number"
+        },
+        "prompt_injection_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Prompt Injection Score",
+          "type": "number"
+        },
+        "stale_days": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stale Days"
+        },
+        "reputation_tier": {
+          "default": "unknown",
+          "enum": [
+            "very_high",
+            "high",
+            "moderate_high",
+            "moderate",
+            "low",
+            "very_low",
+            "blocked",
+            "unknown"
+          ],
+          "title": "Reputation Tier",
+          "type": "string"
+        },
+        "reputation_score": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reputation Score",
+          "type": "number"
+        },
+        "domain": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Domain"
+        },
+        "canonical_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Url"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "simhash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Simhash"
+        },
+        "title_normalized": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Title Normalized"
+        }
+      },
+      "required": [
+        "content_kind"
+      ],
+      "title": "QualitySignals",
+      "type": "object"
+    },
+    "SourceQuality": {
+      "additionalProperties": false,
+      "description": "Canonical quality object attached to a filtered source / Evidence.",
+      "properties": {
+        "spam_class": {
+          "title": "Spam Class",
+          "type": "string"
+        },
+        "quality_score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Quality Score",
+          "type": "number"
+        },
+        "spam_score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Spam Score",
+          "type": "number"
+        },
+        "operational_value_score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Operational Value Score",
+          "type": "number"
+        },
+        "duplicate_probability": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Duplicate Probability",
+          "type": "number"
+        },
+        "prompt_injection_score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Prompt Injection Score",
+          "type": "number"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "decision": {
+          "enum": [
+            "accept",
+            "accept_with_penalty",
+            "quarantine",
+            "reject",
+            "review"
+          ],
+          "title": "Decision",
+          "type": "string"
+        },
+        "method": {
+          "default": "deterministic",
+          "enum": [
+            "deterministic",
+            "hybrid",
+            "local_ai",
+            "human"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "model_used": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Used"
+        }
+      },
+      "required": [
+        "spam_class",
+        "quality_score",
+        "spam_score",
+        "operational_value_score",
+        "duplicate_probability",
+        "prompt_injection_score",
+        "decision"
+      ],
+      "title": "SourceQuality",
+      "type": "object"
+    },
+    "SyndicationInfo": {
+      "additionalProperties": false,
+      "description": "Syndicated copies share one canonical intelligence document.",
+      "properties": {
+        "cluster_id": {
+          "title": "Cluster Id",
+          "type": "string"
+        },
+        "is_canonical": {
+          "title": "Is Canonical",
+          "type": "boolean"
+        },
+        "canonical_source_id": {
+          "title": "Canonical Source Id",
+          "type": "string"
+        },
+        "demotes_source_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Demotes Source Id"
+        },
+        "alternate_source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Alternate Source Ids",
+          "type": "array"
+        },
+        "original_publisher": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Publisher"
+        },
+        "match_method": {
+          "title": "Match Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "cluster_id",
+        "is_canonical",
+        "canonical_source_id",
+        "match_method"
+      ],
+      "title": "SyndicationInfo",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Pipeline result: classify, score, and gate Evidence / ExternalEvent.",
+  "properties": {
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_locator": {
+      "title": "Source Locator",
+      "type": "string"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Content Hash"
+    },
+    "source_quality": {
+      "$ref": "#/$defs/SourceQuality"
+    },
+    "signals": {
+      "$ref": "#/$defs/QualitySignals"
+    },
+    "syndication": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SyndicationInfo"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "evidence_eligible": {
+      "title": "Evidence Eligible",
+      "type": "boolean"
+    },
+    "event_eligible": {
+      "title": "Event Eligible",
+      "type": "boolean"
+    },
+    "duplicate_of": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Duplicate Of"
+    },
+    "canonical_source_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Canonical Source Id"
+    },
+    "alternate_source_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Alternate Source Ids",
+      "type": "array"
+    },
+    "audit": {
+      "$ref": "#/$defs/FilterAudit"
+    }
+  },
+  "required": [
+    "source_id",
+    "source_locator",
+    "source_quality",
+    "signals",
+    "evidence_eligible",
+    "event_eligible",
+    "audit"
+  ],
+  "title": "Canonical SourceQualityAssessment v0.1",
+  "type": "object"
+}

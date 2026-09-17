@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-09-09T21:34:28Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024.json",
+      "content_hash": "4c6ec444d347f5409da31a498c97b323bee8b7698b4cee2bb2062fe857f294eb",
+      "sample_id": "ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021.json",
+      "content_hash": "cab87f5c54f9f2fe4d0210e8fe59bb9f9774288f38f9dacd49a93fe193eea750",
+      "sample_id": "ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-W11-MPB-TAICHUNG-DREDGING-JUL2025",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-DOL-ILA-PORT-REOPEN-2024",
+      "reason": "fetch_failed:HTTPError"
+    }
+  ],
+  "corpus_collected": 417,
+  "raw_bodies_retained": 514,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T213428Z.md"
+}

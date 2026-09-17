@@ -1,0 +1,11 @@
+{
+  "candidate_id": "GROUND-GAEMI-KEELUNG-MATSU-2024",
+  "scenario_id": "E2E-GAEMI-KEELUNG-01",
+  "publisher": "Matsu Sea Transportation Booking System",
+  "locator": "https://matsuebs.com/news/Detail/202407230000008?isLayoutForApp=False&pageIndex=98",
+  "published_at": "2024-07-23T23:59:59Z",
+  "supported_claims": [
+    "carrier_service"
+  ],
+  "excerpt": "7月23日長程(基隆-馬袓)航班停航"
+}

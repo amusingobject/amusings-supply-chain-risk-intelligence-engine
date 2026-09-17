@@ -1,0 +1,163 @@
+{
+  "scenario_id": "E2E-SUEZ-EVERGIVEN-17",
+  "scenario_version": "0.1",
+  "split": "selection",
+  "evaluation_timestamp": "2021-03-24T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "infrastructure",
+    "title": "Suez blockage / Suez-dependent route",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "evidence": [
+    {
+      "id": "EVD-E2E-SUEZ-EVERGIVEN-17-A",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Suez blockage / Suez-dependent route",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-SUEZ-EVERGIVEN-17",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2021-03-24T12:00:00Z",
+      "effective_at": "2021-03-24T12:00:00Z",
+      "observed_at": "2021-03-24T12:00:00Z",
+      "content_hash": "b5f22de3dc2ebbf549d8629c42702fca4d9aad1c18c403db44ae3826f9c5e3e4",
+      "raw_ref": "raw/e2e-synthetic/E2E-SUEZ-EVERGIVEN-17.txt",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-17",
+        "supplier_code": "SYN-17",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-17",
+        "supplier_id": "SUP-17",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-17",
+            "quantity_ordered": 24,
+            "promised_date": "2021-03-24"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-SUZ-A",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "New York",
+        "via": "Suez",
+        "po_refs": [
+          "PO-SYN-17"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "New York",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-17",
+        "location_id": "LOC-NEWYORK",
+        "snapshot_at": "2021-03-24T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-17",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-17",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "infrastructure",
+      "severity": "severe",
+      "disposition": "affected",
+      "evidence_required": true
+    },
+    "affected_shipments": [
+      "SHP-SYN-SUZ-A"
+    ],
+    "unaffected_shipments": [],
+    "exposures": [
+      {
+        "exposure_type": "delay",
+        "status": "candidate",
+        "linkage_method": "deterministic_geospatial",
+        "confidence_band": "strong"
+      }
+    ],
+    "recommendation": {
+      "action_type": "verify",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "autonomous operational action"
+    ]
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-E2E-SUEZ-EVERGIVEN-17",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "adjudication_status": "provisional_synthetic_evidence"
+  }
+}

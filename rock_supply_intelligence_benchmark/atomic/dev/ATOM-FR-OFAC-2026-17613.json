@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-FR-OFAC-2026-17613",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "FR-2026-17613",
+    "source_type": "government",
+    "publisher": "Office of the Federal Register / U.S. Treasury OFAC",
+    "source_name": "Notice of OFAC Sanctions Action",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.federalregister.gov/api/v1/documents/2026-17613.json",
+    "language": "en",
+    "content_type": "application/json",
+    "retrieved_at": "2026-09-08T23:15:51Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public Federal Register API individual document record",
+    "raw_ref": "raw/wave2/ATOM-FR-OFAC-2026-17613.json",
+    "content_hash": "803e5b060df7ff6ad980257084d9c54c6f7b1d6ffe2b23897661aae9bec9eced",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "ofac_sanctions_or_general_license_notice",
+    "event_category": "geopolitical_security",
+    "event_type": "geopolitical_security",
+    "event_subtype": "ofac_federal_register_notice",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T23:15:51Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Individual dated OFAC Federal Register record. Applicability to an entity, vessel, commodity, and transaction remains a human-review question."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-TWPORT-CLIMATE-INTERRUPTION-2024",
+  "source_id": "taiwan-port-company",
+  "url": "https://www.twport.com.tw/fapi/AttFile?id=14974&l=2&type=AttFile",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T13:59:54Z",
+  "content_hash": "d9c79bafe2c818d3fe31b680abb1cfe69f4d4c2a954c245eece31e126efce37d",
+  "raw_ref": "quarantine/raw/ATOM-TWPORT-CLIMATE-INTERRUPTION-2024.bin"
+}

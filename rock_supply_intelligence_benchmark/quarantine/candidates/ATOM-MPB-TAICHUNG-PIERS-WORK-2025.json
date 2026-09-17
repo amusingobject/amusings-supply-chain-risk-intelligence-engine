@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-MPB-TAICHUNG-PIERS-WORK-2025",
+  "source_id": "taiwan-maritime-wave8",
+  "url": "https://www.motcmpb.gov.tw/En/Information/Detail/af314852-c812-4527-a6d1-c2de1c7afa3a?NodeId=10016&SiteId=2",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T19:35:54Z",
+  "content_hash": "d2eea4cbd7f7bafa1907acdb1c213d270b8ccae4815517155a376ad434dacf9d",
+  "raw_ref": "quarantine/raw/ATOM-MPB-TAICHUNG-PIERS-WORK-2025.bin"
+}

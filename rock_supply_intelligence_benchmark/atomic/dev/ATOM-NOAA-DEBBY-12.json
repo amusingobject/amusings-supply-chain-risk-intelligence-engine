@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-NOAA-DEBBY-12",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "NHC-AL042024-ADV012",
+    "source_type": "government",
+    "publisher": "NOAA National Hurricane Center",
+    "source_name": "NHC public advisory al042024 #12",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.nhc.noaa.gov/archive/2024/al04/al042024.public.012.shtml",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-07T20:53:55Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public NHC archive",
+    "raw_ref": "raw/wave2/ATOM-NOAA-DEBBY-12.html",
+    "content_hash": "1a796cd939e06f6f9ccce2bd9a63a7a1bbb98e54d0af7feef0265befb7d1694b",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "nhc_public_advisory",
+    "event_category": "irrelevant_general_world",
+    "event_type": "tropical_cyclone",
+    "event_subtype": "NHC_public_advisory",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:53:55Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Hurricane Debby 2024 U.S. East/Gulf — not TW-Pacific. Human review W14-55: keep."
+  }
+}

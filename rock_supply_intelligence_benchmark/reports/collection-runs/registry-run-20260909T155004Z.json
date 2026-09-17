@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-09T15:50:04Z",
+  "registry_id": "RSIB-collection-registry-wave7",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-BOOKSELLER-DISPUTE-2022.json",
+      "content_hash": "aadaa554660ae50dd40c6497c7c454d82d3abbe86e5f38350ae3b76d67b5ff53",
+      "sample_id": "ATOM-TWMOL-BOOKSELLER-DISPUTE-2022"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWMOL-CSC-TRANSPORT-INSPECTION-2024.json",
+      "content_hash": "b1112eb6f6335d5c3989776c739c3153c5f78c6b580c48ac97ae8d87ae57358a",
+      "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-INSPECTION-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWMOL-DISPUTE-STATISTICS-2025.json",
+      "content_hash": "0b547a20a4912b7b7f7d953c600a7c932c4573de102b92e9d50749f9a538a44b",
+      "sample_id": "ATOM-TWMOL-DISPUTE-STATISTICS-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWMOL-LAYOFF-WARNING-GUIDANCE.json",
+      "content_hash": "6b32c889a440d3bc78a6766605d894af5eefaa0f77f3074ea8cbd53340839c2c",
+      "sample_id": "ATOM-TWMOL-LAYOFF-WARNING-GUIDANCE"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWMOL-LOGISTICS-NIGHT-INSPECTION-2024.json",
+      "content_hash": "66e2b4637a3b41274597b1de4e32f7d534a1b24cacb298cf79268167de74caad",
+      "sample_id": "ATOM-TWMOL-LOGISTICS-NIGHT-INSPECTION-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-PARTTIME-INSPECTIONS-2025.json",
+      "content_hash": "127a41f402d990ee2434575c05334223d8c434556ab3d87b572e84532188e50c",
+      "sample_id": "ATOM-TWMOL-PARTTIME-INSPECTIONS-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-TRANSPORT-INSPECTIONS-2024.json",
+      "content_hash": "20b51cb0ca66de52a3b0def442b884bb5f37ec5df45a2eb2414f8fd181d2a60f",
+      "sample_id": "ATOM-TWMOL-TRANSPORT-INSPECTIONS-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-UNION-GUIDANCE-2024.json",
+      "content_hash": "5506e1dc01dfd6ddf24a90b6d88e6065111657f67e5e8cfb9be8b6f7a1a92ce1",
+      "sample_id": "ATOM-TWMOL-UNION-GUIDANCE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-CZECH-COOPERATION-2025.json",
+      "content_hash": "453dfe9f92cad0efb79d375409c5d16a83096b47bc6ba8f5909e75ebfa60e65d",
+      "sample_id": "ATOM-TWTRADE-CZECH-COOPERATION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWTRADE-CZECH-SUPPLYCHAIN-2025.json",
+      "content_hash": "83d2eeded5fd5156a79bc3e3704b0e678ca8d0e908706fa978af1658af8c2a47",
+      "sample_id": "ATOM-TWTRADE-CZECH-SUPPLYCHAIN-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWTRADE-GEOPOLITICAL-MEETING-2025.json",
+      "content_hash": "a8ce0fd6778893886805460251e3e7215d9f097d9cfe0232e6359220d48c8f56",
+      "sample_id": "ATOM-TWTRADE-GEOPOLITICAL-MEETING-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-MIDAUTUMN-SAFETY-2024.json",
+      "content_hash": "250924922704c699bb8ff73905511687088fe14091cffb220f82eb5949742b04",
+      "sample_id": "ATOM-MPB-MIDAUTUMN-SAFETY-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-MTNET-SEAFARER-SERVICE-2025.json",
+      "content_hash": "58295d06ae3a5d1acac1096295efe39e977394c3db4f30e4e912b0ad94393f05",
+      "sample_id": "ATOM-MPB-MTNET-SEAFARER-SERVICE-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024.json",
+      "content_hash": "9778ce6ffcd550ed2bf985a47feef272b5a0d99dca091eea9e3b14977000ff5e",
+      "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWTRADE-RUSSIA-CONTROLS-MAY2024.json",
+      "content_hash": "c06400d4d59f022e7cdb19d643b55682c61d79e5d0079186f8f17607074c2a5f",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-MAY2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-RUSSIA-CONTROLS-NOV2024.json",
+      "content_hash": "072774f6e34a48eeaf45757090babea918fa468de279f827420d6d016e9b28d5",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-NOV2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-SHTC-RULES-2024.json",
+      "content_hash": "ad24334471671b99244450d6d00bb9bf581c353407efde9146eff31f54a74415",
+      "sample_id": "ATOM-TWTRADE-SHTC-RULES-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023.json",
+      "content_hash": "6836e37b1416adb417892044dec7f05c09026b6706ff19ae85908a427d93ad94",
+      "sample_id": "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-COSTA-GAEMI-REROUTE-2024.json",
+      "content_hash": "3883fed72d75895153695e7d38339da73c6f679f48b257018c425ac918369699",
+      "sample_id": "ATOM-MPB-COSTA-GAEMI-REROUTE-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-JAN2023",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 371,
+  "raw_bodies_retained": 466,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T155004Z.md"
+}

@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-MPB-TAICHUNG-MAINTENANCE-2025",
+  "source_id": "taiwan-maritime-wave8",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/b4e9820b-2e75-4c48-a48e-2813da13bc79?NodeId=10016&SiteId=2",
+  "reason": "accept_terms_missing",
+  "observed_at": "2026-09-09T19:36:08Z",
+  "content_hash": "ec4a5eea534d110027c2bdd4ff3190e1bf460a5f619e2f5f161388814f99faf0",
+  "raw_ref": "quarantine/raw/ATOM-MPB-TAICHUNG-MAINTENANCE-2025.bin"
+}

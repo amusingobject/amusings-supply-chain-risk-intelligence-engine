@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Benchmark review decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["decision_id", "sample_id", "decision", "reviewer", "reviewed_at", "manifest_hash", "rationale"],
+  "properties": {
+    "decision_id": {"type": "string", "minLength": 1},
+    "sample_id": {"type": "string", "minLength": 1},
+    "decision": {"enum": ["keep", "relabel", "reject", "escalate"]},
+    "reviewer": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "manifest_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "rationale": {"type": "string", "minLength": 1},
+    "labels": {"type": ["object", "null"]}
+  }
+}

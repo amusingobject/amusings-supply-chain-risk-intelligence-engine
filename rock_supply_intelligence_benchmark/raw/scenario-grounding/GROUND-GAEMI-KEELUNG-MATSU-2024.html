@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <title>馬祖海上交通訂位購票系統-詳細內容</title>
+    <style>
+        button.MuiIconButton-sizeMedium {
+            width: 40px;
+        }
+    </style>
+    <link href="/Content/_css?v=7s65fYQfFmo__U0AMikd6IGMXcNnvNYoOS3C7F4x8j81" rel="stylesheet"/>
+
+
+
+    <link href="/Content/fa/css/all.css" rel="stylesheet">
+    <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script src="/bundles/jsFile?v=ZTVW19VpZqs8QnFtVpSXKuL7gOwqrTmsydTk6LXbHck1"></script>
+
+    
+    <script>
+          var systemSetting = {
+            RootUrl: '/',
+            Alert: function (msg) { Swal('', msg, 'warning');},
+            getBoatSchadule: '/Ship/Get',
+            getBoatSchaduleForArtIsland: '/Ship/GetForArtIsland',
+            getEndPost:'/api/Station/TerminalStations',
+            APIUrlRoot:'/news',
+            isPOS: 'WEB' == 'POS',
+            ajaxDefaultObj: {
+                url:'',// mandatory
+                data: {},
+                success: null,
+                dataType: 'json',
+                async: false // to make it synchronous
+            },
+            UrlPath: {
+                Order: {
+                    Refund: '/order/Refund',
+                    UpdateOrdererInfo: '/order/UpdateOrdererInfo',
+                    UpdatePassenger: '/order/UpdatePassenger',
+                    SelectShip: '/Home/SelectShip',
+                    ChecePIDIsRepeat: '/Home/ChecePIDIsRepeat',
+                    ValidateFamilyCabinComposition: '/Home/ValidateFamilyCabinComposition',
+
+                },
+                Ticket: {
+                    GetDefaultPriceType: '/TicketInfo/GetDefaultPriceType',
+                    VerifyPriceType:'/TicketInfo/VerifyPriceType',
+                },
+
+            }
+        };
+    </script>
+</head>
+<body>
+    
+<nav class="navbar  navbar-expand-lg navbar-dark bg-info ">
+    <div class="" style="max-width:75%">
+        <a class="navbar-brand Logo " href="/"><img src="/Content/img/馬祖logo.png" alt="" style="max-width:100%"></a>
+
+
+
+    </div>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width:56px">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse  ">
+        <ul class="navbar-nav  ml-auto">
+
+
+
+
+            
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="selectShipDropdown" role="button" data-toggle="dropdown" aria-expanded="false">線上訂票<span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="selectShipDropdown">
+                    <a class="dropdown-item" href="/home/SelectShip">線上訂票</a>
+                    
+                    <a class="dropdown-item" href="/DaChiu/SelectShip">南竿大坵航線訂票</a>
+                        <a class="dropdown-item" href="/NationalTourismSubsidy">國旅補助優惠票</a>
+                </div>
+            </li>
+
+            <li class="nav-item  ">
+                <a class="nav-link" href="/order">訂單查詢</a>
+            </li>
+
+            
+            <li class="nav-item  ">
+                <a class="nav-link" href="/Faq">常見問答</a>
+            </li>
+
+            <li class="nav-item dropdown  ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">乘船須知<span class="sr-only">(current)</span></a>
+
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice01">票價</a>
+                    
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice03">乘船地點</a>
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice04">注意事項</a>
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice05">定型化契約</a>
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice06">航商資訊</a>
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice09">退票須知</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/BoatNotice?contentType=notice07">輪運費</a>
+                    
+                </div>
+            </li>
+
+            <li class="nav-item active ">
+                <a class="nav-link" href="/news">最新消息</a>
+            </li>
+
+
+
+
+            
+
+        </ul>
+
+    </div>
+</nav>
+
+    
+
+
+
+
+<div class="container mt-4">
+
+    <h2>
+        <span class="badge badge-secondary">航班公告</span>
+        <h5 class="my-2 text-danger float-right">2024/07/23</h5>
+    </h2>
+
+
+
+    <h4 class="my-3 ">【7/23-7/27 臺馬之星航班停航公告】</h4>
+    <div class=" mt-2" id="infoContent">
+        <p>因受凱米颱風影響，海象不佳，臺馬之星航班停航取消如下:<br />
+一、7月23日長程(基隆-馬袓)航班停航。<br />
+二、7月24日至7月27日短程(南竿&harr;️東引)航班停航。<br />
+<br />
+據中央氣象局預報海象：6至7雷雨區陣風10級晨轉8至9陣風11級下午再轉10至11陣風13級<br />
+★原訂位之旅客將全額退費，請勿手動退票，以免被扣除手續費★<br />
+<br />
+南竿客服處 電話0836-22815<br />
+東引客服處 電話0836-76185<br />
+基隆客服處 電話2436-7812<br />
+<br />
+洋民(臺馬之星)官網<br />
+<a href="https://www.alsealand.com/" target="_blank">https://www.alsealand.com/</a><br />
+<br />
+世洋官方Line<br />
+<a href="https://page.line.me/600wjhe" target="_blank">https://page.line.me/600wjhe</a></p>
+    </div>
+    <div class="text-center mt-5">
+            <a href="https://matsuebs.com/" class="btn btn-info btn-lg text-light"> 上一頁</a>
+    </div>
+
+</div>
+<script>
+    $(document).ready(function () {
+        $('#infoContent img').each(function () {
+            $(this).attr('style', 'max-width:100%');
+        });
+    });
+</script>
+    <footer>
+    <p class="text-center mt-5">連江縣交通旅遊局版權所有</p>
+    <p class="text-center">客服電話：0800-888230</p>
+    <p class="text-center">服務時間：上午08:00至12:00；下午13:30至17:30　</p>
+    <p class="text-center">
+        本專線受理範圍：<br/>
+    </p>
+    <p class="text-center">線上訂票系統操作、訂位查詢與異動、退票及票務相關問題。　</p>
+    <p class="text-center">
+        非本專線受理事項：<br/>
+    </p>
+    <p class="text-center">
+        ．船班異動、停航及開航動態 → 請洽各航運公司或本局最新公告<br>
+        ．現場候補、劃位及登船作業 → 請洽各港口售票櫃檯<br>
+        ．住宿、觀光行程等旅遊諮詢 → 請洽本局旅遊服務窗口<br>
+    </p>
+    <div class="text-center">
+        <img src="/Content/img/lineQrcode1.png" style="max-width:100px">
+    </div>
+
+</footer>
+
+
+
+    <script>
+        var qubbyDiv = document.createElement('div');
+        qubbyDiv.id = 'qubby_float_button';
+        qubbyDiv.setAttribute('space-id', '43373804');
+        document.body.appendChild(qubbyDiv);
+        var script = document.createElement('script');
+        script.src = 'https://cdn-files-sg.qubby.io/js/qubby_float_button.js';
+        document.body.appendChild(script);
+
+        $('[data-toggle="dropdown"]').on('click', (e) => $(`[aria-labelledby="${$(e.currentTarget).attr('id')}"]`).toggle());
+
+        //navbar-toggler
+        $('.navbar-toggler').on('click', (e) => $($(e.currentTarget).attr('data-target')).toggle());
+
+        if (location.hash.length > 0) {
+            console.log('Clear')
+            window.history.pushState(null, null, "#");
+            location.reload();
+        } else {
+
+            console.log('Set')
+            window.history.pushState(null, null, "#reset");
+        }
+
+
+        (function ($) {
+            $('form').on('submit', function (e) {
+                Swal.fire({
+                    title: '處理中',
+                    html: '請稍後...',
+                    allowEscapeKey: false,
+                    allowOutsideClick: false,
+
+                    didOpen: () => {
+                        Swal.showLoading()
+                        const b = Swal.getHtmlContainer().querySelector('b')
+
+                    }
+                });
+            })
+
+        })(jQuery)
+    </script>
+    <script src="/bundles/service/schadule?v=10Rik7Nm2G3-VBQLvPP91lddJcnx7GH674_TqczDRc81"></script>
+
+    <script src="/bundles/service/PriceService?v=EEsAFK6S2a1R4CeUhtdzXZXpq5C6BZCORH3r9AhUp_Y1"></script>
+
+    <script src="/bundles/service/ArtIslandService?v=zOhcci2DuTWgXUPF9m94-_yfLv2d5AnJXNrrbrm2qsI1"></script>
+
+
+    <script src="/Scripts/services/GeneralService.js?v=20260911174145"></script>
+    
+
+</body>
+</html>
+

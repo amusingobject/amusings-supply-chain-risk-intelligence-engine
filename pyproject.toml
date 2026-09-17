@@ -1,0 +1,22 @@
+[project]
+name = "rock-supply-intelligence"
+version = "0.1.0"
+description = "Local-model-first supply-chain disruption intelligence (shadow POC)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.6",
+  "jsonschema>=4.22",
+]
+
+[project.optional-dependencies]
+collect = ["httpx>=0.27"]
+eval = ["httpx>=0.27"]
+dev = ["httpx>=0.27", "pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["rock_supply_intelligence*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-DISASTER-DRILL-2025",
+  "source_id": "taiwan-maritime-wave4",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/c1018a30-ac23-4c6c-8274-5133de29faf4?NodeId=15&SiteId=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:57:54Z",
+  "content_hash": null
+}

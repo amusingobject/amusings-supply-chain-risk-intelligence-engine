@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-HUALIEN-M5-A",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us7000m9hk",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 5.1 - 11 km SSW of Hualien City, Taiwan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9hk",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-07T20:58:33Z",
+    "published_at": "2024-04-03T01:53:57Z",
+    "effective_at": "2024-04-03T01:53:57Z",
+    "observed_at": "2024-04-03T01:53:57Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "raw_ref": "raw/wave2/ATOM-USGS-HUALIEN-M5-A.json",
+    "content_hash": "8111f16f3f3318828605f4209825e3136bcfc60fff79ec62ca494877c91a8350",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "earthquake",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_origin",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:58:33Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Taiwan aftershock series near Hualien, 2024-04-03. Human review W13-15: keep."
+  }
+}

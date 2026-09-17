@@ -1,0 +1,183 @@
+[
+  {
+    "decision_id": "W15-01",
+    "sample_id": "ATOM-FAA-NAS-SNAPSHOT",
+    "decision": "reject",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "b2ae6b9edc25395d5848aafbb200225c86c3aa34084b7e7e49bcf6c77b944b3a",
+    "rationale": "Human reviewer rejected the fixture: its retrieved source is an empty SPA shell, not a usable NAS status record."
+  },
+  {
+    "decision_id": "W15-02",
+    "sample_id": "ATOM-FAA-NAS-XML",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "1ecc41109d5281716bedd37d3a186bd22d5ef7c7c2055859735d39e31f1a4d25",
+    "rationale": "Human reviewer approved the XML NAS status fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-03",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-03",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "67c576656d2f342c6016bfcccd87778b129d070f4344fe73b77b792f035955eb",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-04",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-04",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "519765283d4d0c231eff80f68c434f3a7c97ab818f43ba5f7938d016c4ca040f",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-05",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-05",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "c63fba75bd30157e40ebabfdd5a576c4bd0ed05e9b98be9d99f05308c7742035",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-06",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-06",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "9c9a487befccefbd3af9ccbf168b3947ae6249b2f19386f2d55a248cb675e77c",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-07",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-07",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "32353d144a0d56ca4e89bc4dc0fb4e2ccb229fa195f18437766bf1c6e6fde06f",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-08",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-08",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "b99ac9e4e1fbf3d92b42c0792d899ebe5f3c233fde8551104a24d7428776dcc7",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-09",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-09",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "197049771be475c86ff788347d29b6bfa492e600a37645fc65312e6f275f3b45",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-10",
+    "sample_id": "ATOM-FR-TARIFF-PAGE-10",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "67d67db72604c993b66d04e512c9bf7394923495bc31cdf60069ef8206fcc133",
+    "rationale": "Human reviewer approved the Federal Register search-page fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-11",
+    "sample_id": "ATOM-GDACS-EQ-TW-2024",
+    "decision": "reject",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "d0eed9d266d05c85c748603fe32901ce1cc2d031bae3c234f92b0ec5e02a0ec8",
+    "rationale": "Human reviewer rejected the fixture: the raw API payload contains rolling 2025–2026 data rather than the claimed 2024 event."
+  },
+  {
+    "decision_id": "W15-12",
+    "sample_id": "ATOM-GDACS-TC-GAEMI",
+    "decision": "reject",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "3b959d32a00a62e7a5a2f75b6975dc53d43c0509d9c38905ba0f0ba4dd0a3933",
+    "rationale": "Human reviewer rejected the fixture: the raw API payload contains rolling 2025–2026 data rather than the claimed 2024 event."
+  },
+  {
+    "decision_id": "W15-13",
+    "sample_id": "ATOM-NAVCEN-LNM-11-12-24",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "d36af7fb7abeb3cbeef56dffe034fe3e9c45a9d7829b43160866b511951b700c",
+    "rationale": "Human reviewer approved the fixture with its proposed monitor label."
+  },
+  {
+    "decision_id": "W15-14",
+    "sample_id": "ATOM-OFAC-RECENT-ACTIONS",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "9f15cb4dbd7963e076bd7c550abefe0648fd03e21f0f296e6736ecafb8811236",
+    "rationale": "Human reviewer approved the fixture with its proposed monitor label."
+  },
+  {
+    "decision_id": "W15-15",
+    "sample_id": "ATOM-OFAC-SOVCOMFLOT-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "c82f4bcdeca518e23f22af492a53e36ddc42007032c112ab656a4afa02f3af28",
+    "rationale": "Human reviewer approved the narrow materially relevant sanctions evidence label; this is not a legal applicability decision."
+  },
+  {
+    "decision_id": "W15-16",
+    "sample_id": "ATOM-POLA-TRUCK-OPS-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "8b9f43b902ff59072fedc3b836948cb9a38a7005c298847b2ad9fbf7ac414ab3",
+    "rationale": "Human reviewer approved the materially relevant Port of Los Angeles operational-incident evidence label."
+  },
+  {
+    "decision_id": "W15-17",
+    "sample_id": "ATOM-TWPORT-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "7c282ca8482e470671eff6b4dab9ae06c24f3e9f0dce6e504cb397ad1b07a8da",
+    "rationale": "Human reviewer approved the Taiwan port dynamic-data fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-18",
+    "sample_id": "ATOM-TWPORT-02",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "da0e5e2b6431ce1b78d26f9c0cde4a92fd08c444cdd93b6d8cf84452aa8a8bc3",
+    "rationale": "Human reviewer approved the Taiwan port dynamic-data fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-19",
+    "sample_id": "ATOM-TWPORT-03",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "635b8476739b7c6f94d06a8277c767870cb61b58e2f2795e5309672f075df5e6",
+    "rationale": "Human reviewer approved the Taiwan port dynamic-data fixture as a monitor record."
+  },
+  {
+    "decision_id": "W15-20",
+    "sample_id": "ATOM-TWPORT-04",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:19:00Z",
+    "manifest_hash": "ec8753dc3ffaf77ff790db1c7922290db01588fbef92415ecda6e5860c792ffc",
+    "rationale": "Human reviewer approved the Taiwan port dynamic-data fixture as a monitor record."
+  }
+]
+

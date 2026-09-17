@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-GDACS-TC-GAEMI",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ATOM-GDACS-TC-GAEMI",
+    "source_type": "authoritative_feed",
+    "publisher": "GDACS / European Commission",
+    "source_name": "GDACS event search payload",
+    "source_authority": "intergovernmental",
+    "source_reliability": "high",
+    "source_locator": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=TC&fromDateTime=2024-07-20&toDateTime=2024-07-28",
+    "language": "en",
+    "content_type": "application/json",
+    "retrieved_at": "2026-09-07T20:53:55Z",
+    "published_at": null,
+    "license": "see GDACS terms; retained search payload",
+    "access_constraints": "public API",
+    "raw_ref": "raw/wave2/ATOM-GDACS-TC-GAEMI.json",
+    "content_hash": "f3516903c25160bba67721dbd0ad5c9eff2cbf629c2c02cc2ced77df310b9770",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "gdacs_event_search",
+    "event_category": "weather_natural_disaster",
+    "event_type": "other",
+    "event_subtype": "gdacs_search",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:53:55Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "GDACS tropical cyclone search covering Typhoon Gaemi. Human review W15-12: reject."
+  }
+}

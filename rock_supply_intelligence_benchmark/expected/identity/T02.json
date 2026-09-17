@@ -1,0 +1,85 @@
+{
+  "task_id": "T02",
+  "task_name": "identity_pair_matching",
+  "schema_version": "0.1",
+  "benchmark_version": "0.1.1-draft",
+  "profile_version": "identity-aliases-v0.1",
+  "notes": "Fail-closed identity oracle. Blank, duplicate, and colliding aliases never produce MATCH, NEW_SKU, or REMOVED_SKU.",
+  "profile": {
+    "profile_id": "identity-aliases-v0.1",
+    "version": "identity-aliases-v0.1",
+    "casefold": true,
+    "fields": [
+      {
+        "canonical": "sku_code",
+        "aliases": ["sku_id", "sku_code", "stock_keeping_unit"]
+      },
+      {
+        "canonical": "product_id",
+        "aliases": ["product", "product_code"]
+      },
+      {
+        "canonical": "item_id",
+        "aliases": ["item", "item_code"]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "T02-POS-001",
+      "kind": "positive_pair",
+      "left": "SKU-SUN-001",
+      "right": "SKU-SUN-001",
+      "expected_status": "VALID",
+      "expected_value": "MATCH"
+    },
+    {
+      "case_id": "T02-POS-002",
+      "kind": "positive_pair_normalized",
+      "left": "SKU-SUN-001",
+      "right": "sku-sun-001",
+      "expected_status": "VALID",
+      "expected_value": "MATCH"
+    },
+    {
+      "case_id": "T02-NEG-001",
+      "kind": "negative_pair",
+      "left": "SKU-SUN-001",
+      "right": "SKU-SUN-002",
+      "expected_status": "VALID",
+      "expected_value": "NO_MATCH"
+    },
+    {
+      "case_id": "T02-BLANK-001",
+      "kind": "blank_identity",
+      "left": "   ",
+      "right": "SKU-SUN-001",
+      "expected_status": "INVALID_PROFILE",
+      "expected_value": null,
+      "expected_classification": null
+    },
+    {
+      "case_id": "T02-BLANK-002",
+      "kind": "null_identity",
+      "left": null,
+      "right": "SKU-SUN-001",
+      "expected_status": "INVALID_PROFILE",
+      "expected_value": null,
+      "expected_classification": null
+    },
+    {
+      "case_id": "T02-DUP-001",
+      "kind": "duplicate_identity_set",
+      "values": ["SKU-SUN-001", "SKU-SUN-001"],
+      "expected_status": "AMBIGUOUS",
+      "expected_classification": null
+    },
+    {
+      "case_id": "T02-DUP-002",
+      "kind": "duplicate_identity_normalized",
+      "values": ["SKU-SUN-001", "sku-sun-001"],
+      "expected_status": "AMBIGUOUS",
+      "expected_classification": null
+    }
+  ]
+}

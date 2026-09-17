@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-TWCUSTOMS-GLOSSARY-ZH-A-2025",
+  "source_id": "taiwan-customs-bilingual-wave5",
+  "url": "https://web.customs.gov.tw/download/983409b4da514bd594bff07c9172ab6d",
+  "reason": "duplicate_content_hash",
+  "observed_at": "2026-09-09T14:31:24Z",
+  "content_hash": "0230ed6929a99bc15349b2019607029562c55111a89333789184217ac7e70bfe",
+  "raw_ref": "quarantine/raw/ATOM-TWCUSTOMS-GLOSSARY-ZH-A-2025.bin"
+}

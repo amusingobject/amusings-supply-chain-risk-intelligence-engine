@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TREASURY-HOUTHI-SB0174",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us-treasury-maritime-wave6",
+    "source_type": "government",
+    "publisher": "U.S. Department of the Treasury",
+    "source_name": "Treasury targets Houthi oil trading and shipping network",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://home.treasury.gov/news/press-releases/sb0174",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:59Z",
+    "published_at": "2025-06-20T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TREASURY-HOUTHI-SB0174.html",
+    "content_hash": "237a8b9b27713f0e0226e1ad4632643c1e452e689ac17c6724fbc8e8f2e06fb2",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct Treasury press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "maritime_sanctions",
+    "event_subtype": "us-treasury-maritime-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:59Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-18: keep."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-09T21:42:20Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MPB-LIVE-FIRING-DEC2025.json",
+      "content_hash": "cfcd8b7f2a13e7531e75f538a40f569c21cea6b856d5e8d164bbd41db513e5a7",
+      "sample_id": "ATOM-W11-MPB-LIVE-FIRING-DEC2025"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 418,
+  "raw_bodies_retained": 515,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T214220Z.md"
+}

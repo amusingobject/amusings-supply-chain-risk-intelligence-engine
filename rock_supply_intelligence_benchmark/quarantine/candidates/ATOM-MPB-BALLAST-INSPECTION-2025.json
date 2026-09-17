@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-BALLAST-INSPECTION-2025",
+  "source_id": "taiwan-maritime-wave4",
+  "url": "https://www.motcmpb.gov.tw/Information/Detail/77655508-3c98-4909-8429-6e7c0a40acf5?NodeId=15&SiteId=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:58:09Z",
+  "content_hash": null
+}

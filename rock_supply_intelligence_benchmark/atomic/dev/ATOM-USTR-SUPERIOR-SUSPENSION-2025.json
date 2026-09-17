@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-SUPERIOR-SUSPENSION-2025",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave6",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "Superior Industries labor review suspends tariff liquidation",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/june/united-states-seeks-mexicos-review-alleged-denial-workers-rights-superior-industries-de-mexico-s-de",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:58:23Z",
+    "published_at": "2025-06-04T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-SUPERIOR-SUSPENSION-2025.html",
+    "content_hash": "6c0a05da49002c8a23e090ded7325b8affc4c192d9ba61c81f2428526198d7c4",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_trade_disruption",
+    "event_subtype": "ustr-labor-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:58:23Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-12: keep."
+  }
+}

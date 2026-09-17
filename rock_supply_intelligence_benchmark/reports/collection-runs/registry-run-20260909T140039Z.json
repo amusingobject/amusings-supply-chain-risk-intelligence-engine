@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-09-09T14:00:39Z",
+  "registry_id": "RSIB-collection-registry-wave3",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-ILWU-SOUTH-SEATTLE-STRIKE.json",
+      "content_hash": "d370dfd5b14b52b7afb68b05d545e8b73278d6de0c12fcefe0b679dd8254315f",
+      "sample_id": "ATOM-ILWU-SOUTH-SEATTLE-STRIKE"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-NLRB-HAMPTON-CASE-2024.json",
+      "content_hash": "adb213e6053cc71ba4ba5fda2f4515e3151cccac543f7314073c2401d54ad93f",
+      "sample_id": "ATOM-NLRB-HAMPTON-CASE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-NLRB-INJUNCTION-GENERAL-2024.json",
+      "content_hash": "c76db6d095f0c8b4783f82b5fdde0c6ab7018e1a4fd50718d5e898e4125c2f0e",
+      "sample_id": "ATOM-NLRB-INJUNCTION-GENERAL-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-NLRB-STRIKES-GUIDANCE.json",
+      "content_hash": "d9acc0d1034b2d2c31962d8a5ab0b2c1e3a8c9b71b80b7ddc0c3438cdb2bcaa8",
+      "sample_id": "ATOM-NLRB-STRIKES-GUIDANCE"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-WHARF-UNINTERRUPTED-2025.json",
+      "content_hash": "03f10d0016552b3eee0b426c00df511dac9c68467ae5bcada22345209720d3fc",
+      "sample_id": "ATOM-POLA-WHARF-UNINTERRUPTED-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-ENERGY-SB0275.json",
+      "content_hash": "bea06e573706eceba6a1d56c6efe23896dc7f2b5955a8d94af2d56ae39ae397f",
+      "sample_id": "ATOM-TREASURY-ENERGY-SB0275"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-RUSSIA-JY2777.json",
+      "content_hash": "6127d355f7ad9b6a5a29dc0ae48fbb7e7ee96d71d6610a5431ebfae6b72f27e8",
+      "sample_id": "ATOM-TREASURY-RUSSIA-JY2777"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-SHADOW-SB0049.json",
+      "content_hash": "cd93d5b5558bca4ac4f9f44f8b6f9f83fd7f0f8daa51c9efac239cf65ed028d1",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0049"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TREASURY-SHADOW-SB0341.json",
+      "content_hash": "419948bcb1580fca26165b964fba9b80586437d52f530121516fa57eb537e961",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0341"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-OIL-SB0188.json",
+      "content_hash": "9923ddf035c84e62617868a43480cdd880e2d4fb4ff278c6fb9e50c6b7f006b9",
+      "sample_id": "ATOM-TREASURY-OIL-SB0188"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-SHADOW-SB0026.json",
+      "content_hash": "d50363e57a407389c1d941dd59df8a5dade97b9d16e3757eb1f6b79efb6c47ab",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0026"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-SHADOW-SB0322.json",
+      "content_hash": "f0b0755f83e99a6132838fd9e22bc4209f66a75a12c3fec843ab27a75e178683",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0322"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TREASURY-SHADOW-SB0405.json",
+      "content_hash": "787e582abc24f6bab254a845c2ad06033e56c17a0b1da553b321ac7945910a27",
+      "sample_id": "ATOM-TREASURY-SHADOW-SB0405"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-SHIP-FIRE-SUSPEND-2025.json",
+      "content_hash": "e6d6de2e89e91dc64273ff85740d96a84120e09832e76f5ead100c1fc8d491d0",
+      "sample_id": "ATOM-POLA-SHIP-FIRE-SUSPEND-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-TARIFF-SLOWDOWN-2025.json",
+      "content_hash": "77b303decf3a18805a1f628826c03234960136dfcd40f505569cf678641453fa",
+      "sample_id": "ATOM-POLA-TARIFF-SLOWDOWN-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-SHIP-FIRE-RESUME-2025.json",
+      "content_hash": "e03c6b2c4f569d01f4038539573fdd742ad34442ee2c1b9dffbc2a853eefcd72",
+      "sample_id": "ATOM-POLA-SHIP-FIRE-RESUME-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-TARIFF-WHIPSAW-2025.json",
+      "content_hash": "4414037991a7093a21d9a8c9d4c5d298e0db36a24823063cc040d5607df75d7f",
+      "sample_id": "ATOM-POLA-TARIFF-WHIPSAW-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-NO-CONGESTION-NOV-2025.json",
+      "content_hash": "6e8b027d60f7853ee1d323790fbec184b4d2b133d80c714e086b241cf044b6fe",
+      "sample_id": "ATOM-POLA-NO-CONGESTION-NOV-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-NO-DELAY-JULY-2025.json",
+      "content_hash": "c1978e6d43e2fcd48aa2934a8109e7ce39928ce9e1d671efc834e295f9d18da5",
+      "sample_id": "ATOM-POLA-NO-DELAY-JULY-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-POLA-NO-BACKUP-FEB-2025.json",
+      "content_hash": "d8d017338ae134a2887fd4f111395db4b232650d4513c78fcb015df1de639761",
+      "sample_id": "ATOM-POLA-NO-BACKUP-FEB-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-MPB-DISASTER-DRILL-2025.json",
+      "content_hash": "ac09fba30b1ba798c9564d1a41deb6ddb1ff1ce32cfc158868916322966715eb",
+      "sample_id": "ATOM-MPB-DISASTER-DRILL-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWPORT-PHOENIX-PREP-2025.json",
+      "content_hash": "621f0b9342f44bc7572e18fca196994dbc3eebfb94986b17f6e1549db4621662",
+      "sample_id": "ATOM-TWPORT-PHOENIX-PREP-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWPORT-WEATHER-MOU-2025.json",
+      "content_hash": "33c2d0f6fea4844645bb77bfce167f875f45d6e547c7508cf631460db0a2679a",
+      "sample_id": "ATOM-TWPORT-WEATHER-MOU-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWCUSTOMS-ECFA-RULE-2024.json",
+      "content_hash": "c8a91a3f7fd94c29f9e120523d5ff56135b749c15d6d6fbe7d228c4136ac8104",
+      "sample_id": "ATOM-TWCUSTOMS-ECFA-RULE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-BALLAST-INSPECTION-2025.json",
+      "content_hash": "a558e8f701fa106962a4cdb7a96990a1a207b576b8cea75d296204eee54e6627",
+      "sample_id": "ATOM-MPB-BALLAST-INSPECTION-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-AIS-SUBSIDY-2025.json",
+      "content_hash": "0a5357a7978216c2be0e92b65d7323ae3afc0f82b87e5fa2a1a7989fc6730db7",
+      "sample_id": "ATOM-MPB-AIS-SUBSIDY-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024.json",
+      "content_hash": "9f5da365a88218d6efed9167142d7957f3c517575c6f833f80fcaefa84fc55e0",
+      "sample_id": "ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-DOL-ILA-AGREEMENT-2025",
+      "reason": "fetch_failed:HTTPError"
+    },
+    {
+      "sample_id": "ATOM-MPB-YU-GROUNDING-2024",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-TWPORT-CLIMATE-INTERRUPTION-2024",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-TWPORT-DANAS-PREP-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 284,
+  "raw_bodies_retained": 381,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T140039Z.md"
+}

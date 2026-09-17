@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-TWPORT-PHOENIX-PREP-2025",
+  "source_id": "taiwan-port-company",
+  "url": "https://www.twport.com.tw/zh-tw/news/News?A=29&Id=10490&P=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:58:00Z",
+  "content_hash": null
+}

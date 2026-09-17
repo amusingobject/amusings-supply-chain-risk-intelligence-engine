@@ -1,0 +1,182 @@
+[
+  {
+    "decision_id": "W7-01",
+    "sample_id": "ATOM-MPB-COSTA-GAEMI-REROUTE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "7241d708470309f77414ec3c94582c8e8775f65ec57ccffc002a798c537f1030",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-02",
+    "sample_id": "ATOM-MPB-MIDAUTUMN-SAFETY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "c03cef9ec10d9989712b2a14b967d028441fe605af75602889349e034c309a34",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-03",
+    "sample_id": "ATOM-MPB-MTNET-SEAFARER-SERVICE-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "24dd825ec1f77c3319f587fdbd846f05f48ff9471cb6047789ad3c1a7eab52ca",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-04",
+    "sample_id": "ATOM-TWMOL-BOOKSELLER-DISPUTE-2022",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "5f7f10f707618c118b3a8f0349f83ba21fb08159eefef6b205fe68b088fa778a",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-05",
+    "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "7fb48a01e2dd63ad87823a80c21df5f14753b3d2cf26077de688f03e24110117",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-06",
+    "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-INSPECTION-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "86256146f549f0c510e10c4d76c4e340443357ac281f7511cab5b302c282c89c",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-07",
+    "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "db51f5f0a873348248118562a6d8ee63280d5fff94480ecff59fcd0d32dea618",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-08",
+    "sample_id": "ATOM-TWMOL-DISPUTE-STATISTICS-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "85319c52ac399b6d268cce504788c0d94cac9a69e38b106fde73016b18dbe35c",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-09",
+    "sample_id": "ATOM-TWMOL-LAYOFF-WARNING-GUIDANCE",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "616b10465b4fca9a032dab494e8617ee2f04bb9bd78772281d2ef95170ff1a78",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-10",
+    "sample_id": "ATOM-TWMOL-LOGISTICS-NIGHT-INSPECTION-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "aba2e7d188a2bd5a07a130ee8a76975ec8b801d4afae47fad31c77d38620f72b",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-11",
+    "sample_id": "ATOM-TWMOL-PARTTIME-INSPECTIONS-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "6e05ab8e3767346f5dec868fc6a9e1267477296b55b9e0f483eb956380e1cd7d",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-12",
+    "sample_id": "ATOM-TWMOL-TRANSPORT-INSPECTIONS-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "2674dc1b7b2a1c29f9b0a413aeaf9625801dfe89dab178dcf2bed4e3556a54e9",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-13",
+    "sample_id": "ATOM-TWMOL-UNION-GUIDANCE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "3da3bd7407228723e56afc7e43dca527b8320c5198e5ccbaf8ac02accff6e4e7",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-14",
+    "sample_id": "ATOM-TWTRADE-CZECH-COOPERATION-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "bde4b43ddbb357895306609c34e36460101be88d569eef20dd0e2c3c3f69efc1",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-15",
+    "sample_id": "ATOM-TWTRADE-CZECH-SUPPLYCHAIN-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "0c2cb75c33d0aff794f0c8aed3891875ad2126caef07f582cd94d25f10aceeda",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-16",
+    "sample_id": "ATOM-TWTRADE-GEOPOLITICAL-MEETING-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "e4a125d1ae828b042a392d1a939b4dbab2be365f3d914aef71de5497cf68a5e0",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-17",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-MAY2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "154c7a96cc2c8f8189d9f306a8108e79a0f651d06db79e1de836ff1ccb330edf",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-18",
+    "sample_id": "ATOM-TWTRADE-RUSSIA-CONTROLS-NOV2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "6b6a4762cb7a2c23813779ff6079899b0ca78697fde5fc38393d691f5b7555aa",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-19",
+    "sample_id": "ATOM-TWTRADE-SHTC-RULES-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "c4508d1f440a2f8330ee12fb771ed4c5c4d16e0d344352120711c1805d300561",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  },
+  {
+    "decision_id": "W7-20",
+    "sample_id": "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:00:00Z",
+    "manifest_hash": "68b9f8778d4f019e4d8518e3edae1e84bbe37dd3aca5f38b859a15e8b6baebe8",
+    "rationale": "Human reviewer approved the proposed Wave 7 label after assessment."
+  }
+]

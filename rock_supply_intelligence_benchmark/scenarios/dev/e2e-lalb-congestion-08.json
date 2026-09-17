@@ -8,29 +8,66 @@
     "tenant_id": "sunlighten-shadow"
   },
   "historical_anchor": {
-    "event_type": "port_disruption",
-    "title": "Los Angeles–Long Beach congestion / inbound shipment",
+    "event_type": "port_operations",
+    "title": "Los Angeles–Long Beach operational-capacity monitor / inbound shipment",
     "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
   },
   "evidence": [
     {
       "id": "EVD-E2E-LALB-CONGESTION-08-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-LALB-CONGESTION-08/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-LALB-CONGESTION-08/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Los Angeles–Long Beach congestion / inbound shipment",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-LALB-CONGESTION-08",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2021-10-18T12:00:00Z",
+      "effective_at": "2021-10-18T12:00:00Z",
+      "observed_at": "2021-10-18T12:00:00Z",
+      "content_hash": "a92b83e018bce3f445edbbb6164659776054ffc4064ab50b5c22880a04bf4ebb",
+      "raw_ref": "raw/e2e-synthetic/E2E-LALB-CONGESTION-08.txt",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    },
+    {
+      "id": "EVD-GROUND-LALB-247-2021",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Port of Los Angeles 24/7 operations statement",
+      "source_type": "government",
+      "source_locator": "https://portoflosangeles.org/references/2021-news-releases/news_101321_portstatement",
+      "publisher": "Port of Los Angeles",
+      "retrieved_at": "2026-09-10T18:37:07Z",
+      "published_at": "2021-10-13T00:00:00Z",
+      "observed_at": "2021-10-13T00:00:00Z",
+      "content_hash": "5ce3f7fd0e0f1a91c055fce2c591310597add6a788b0d56719f2369041c8790a",
+      "raw_ref": "raw/scenario-grounding/GROUND-LALB-247-2021.html",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-grounding-capture-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": false,
+      "license": "Public official publication",
+      "access_constraints": "Public direct government page",
+      "provenance": "Reviewed scenario-grounding candidate GROUND-LALB-247-2021; decision 18C limits this evidence to port-operations context.",
+      "supported_claims": [
+        "port_operations"
+      ]
     }
   ],
   "synthetic_business_state": {
@@ -107,35 +144,54 @@
       }
     ]
   },
+  "grounding": {
+    "decision_ref": "reports/scenario-oracle-decisions-2026-09-10.json#18C",
+    "external_evidence_candidate_ids": [
+      "GROUND-LALB-247-2021"
+    ],
+    "route_assertions": [
+      {
+        "assertion_id": "ROUTE-E2E-LALB-CONGESTION-08-01",
+        "shipment_number": "SHP-SYN-008",
+        "kind": "declared_destination_alignment",
+        "field": "synthetic_business_state.shipments[0].destination",
+        "value": "Long Beach",
+        "deterministic": true,
+        "supports": "route_entity_linkage",
+        "limitations": [
+          "Does not prove congestion, berth unavailability, or delay."
+        ]
+      }
+    ]
+  },
   "expected": {
     "external_event": {
-      "event_type": "port_disruption",
-      "severity": "high",
-      "disposition": "affected",
+      "event_type": "port_operations",
+      "severity": "moderate",
+      "disposition": "monitor",
       "evidence_required": true
     },
-    "affected_shipments": [
-      "SHP-SYN-008"
-    ],
+    "affected_shipments": [],
     "unaffected_shipments": [],
     "exposures": [
       {
-        "exposure_type": "destination_capacity_delay",
+        "exposure_type": "destination_capacity_monitor",
         "status": "candidate",
         "linkage_method": "deterministic_entity",
-        "confidence_band": "strong"
+        "confidence_band": "provisional"
       }
     ],
     "recommendation": {
       "action_type": "monitor",
       "status": "draft",
       "human_approval": "not_requested",
-      "constraint": "No operational action; monitor berth and carrier ETA"
+      "constraint": "No operational action; monitor published Port operations and carrier ETA"
     },
     "prohibited_claims": [
       "exact delay without evidence",
       "invented business facts",
       "unsupported causality",
+      "congestion, berth-unavailability, or delay claim without evidence",
       "autonomous operational action"
     ]
   },

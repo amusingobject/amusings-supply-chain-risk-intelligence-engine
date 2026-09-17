@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "port-of-los-angeles",
+    "source_type": "government",
+    "publisher": "Port of Los Angeles",
+    "source_name": "Ports announce measures to improve cargo movement amid congestion",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://portoflosangeles.org/references/2021-news-releases/news_102521_jointclearcargo",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T20:57:25Z",
+    "published_at": "2021-10-25T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-POLA-CONGESTION-CLEAR-CARGO-2021.html",
+    "content_hash": "775ad56fdfb1e16931ef147ef76c09467620c0bb489d0a376e20b7c245973b99",
+    "hash_method": "sha256",
+    "license": "Public official port notice",
+    "access_constraints": "Public HTTPS page"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "port_congestion",
+    "event_subtype": "port-of-los-angeles",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T20:57:25Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W10-04: keep."
+  }
+}

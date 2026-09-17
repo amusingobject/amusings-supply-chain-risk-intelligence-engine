@@ -1,0 +1,1128 @@
+{
+  "version": 1,
+  "candidates": {
+    "ATOM-ILWU-WWL-CONTRACT-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:17:06Z",
+      "content_hash": "f7ce95022f14ba31ccd7363b9d272ae4ebe525184cfc7330b8cec0a372385ca3"
+    },
+    "ATOM-ILWU-WWL-STRIKE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:17:10Z",
+      "content_hash": "7b36f5b3237261147b6f2e75fe544282111a2fd65a2d4cb8c39da9430f8217a5"
+    },
+    "ATOM-OFAC-OCEANLINK-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:17:11Z",
+      "content_hash": "a408c3f1f944f6f705ff39d355f25eef2773eafffda47ef5b7e8c62791514c34"
+    },
+    "ATOM-OFAC-SHADOW-FLEET-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:17:12Z",
+      "content_hash": "de716ffd41670eb906c10dd20c88c228e5d64aaae7c0742e2d348f119f8008d7"
+    },
+    "ATOM-CBP-CSMS-CROWDSTRIKE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:17:14Z",
+      "content_hash": "ac737b2024c3565e50b810dc4c16e479e0060252943c0fa7f0083b6a19f2576f"
+    },
+    "ATOM-ILWU-SOUTH-SEATTLE-STRIKE": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:58:52Z",
+      "content_hash": "d370dfd5b14b52b7afb68b05d545e8b73278d6de0c12fcefe0b679dd8254315f"
+    },
+    "ATOM-NLRB-HAMPTON-CASE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:58:55Z",
+      "content_hash": "adb213e6053cc71ba4ba5fda2f4515e3151cccac543f7314073c2401d54ad93f"
+    },
+    "ATOM-NLRB-INJUNCTION-GENERAL-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:58:58Z",
+      "content_hash": "c76db6d095f0c8b4783f82b5fdde0c6ab7018e1a4fd50718d5e898e4125c2f0e"
+    },
+    "ATOM-DOL-ILA-AGREEMENT-2025": {
+      "status": "failed",
+      "attempts": 5,
+      "last_error": "fetch_failed:HTTPError",
+      "last_attempt_at": "2026-09-09T20:09:26Z",
+      "retry_after": "2026-09-10T04:09:26Z"
+    },
+    "ATOM-NLRB-STRIKES-GUIDANCE": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:04Z",
+      "content_hash": "d9acc0d1034b2d2c31962d8a5ab0b2c1e3a8c9b71b80b7ddc0c3438cdb2bcaa8"
+    },
+    "ATOM-POLA-WHARF-UNINTERRUPTED-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:05Z",
+      "content_hash": "03f10d0016552b3eee0b426c00df511dac9c68467ae5bcada22345209720d3fc"
+    },
+    "ATOM-TREASURY-ENERGY-SB0275": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:07Z",
+      "content_hash": "bea06e573706eceba6a1d56c6efe23896dc7f2b5955a8d94af2d56ae39ae397f"
+    },
+    "ATOM-TREASURY-RUSSIA-JY2777": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:08Z",
+      "content_hash": "6127d355f7ad9b6a5a29dc0ae48fbb7e7ee96d71d6610a5431ebfae6b72f27e8"
+    },
+    "ATOM-TREASURY-SHADOW-SB0049": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:10Z",
+      "content_hash": "cd93d5b5558bca4ac4f9f44f8b6f9f83fd7f0f8daa51c9efac239cf65ed028d1"
+    },
+    "ATOM-TREASURY-SHADOW-SB0341": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:11Z",
+      "content_hash": "419948bcb1580fca26165b964fba9b80586437d52f530121516fa57eb537e961"
+    },
+    "ATOM-TREASURY-OIL-SB0188": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:12Z",
+      "content_hash": "9923ddf035c84e62617868a43480cdd880e2d4fb4ff278c6fb9e50c6b7f006b9"
+    },
+    "ATOM-TREASURY-SHADOW-SB0026": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:13Z",
+      "content_hash": "d50363e57a407389c1d941dd59df8a5dade97b9d16e3757eb1f6b79efb6c47ab"
+    },
+    "ATOM-TREASURY-SHADOW-SB0322": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:15Z",
+      "content_hash": "f0b0755f83e99a6132838fd9e22bc4209f66a75a12c3fec843ab27a75e178683"
+    },
+    "ATOM-TREASURY-SHADOW-SB0405": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:16Z",
+      "content_hash": "787e582abc24f6bab254a845c2ad06033e56c17a0b1da553b321ac7945910a27"
+    },
+    "ATOM-POLA-SHIP-FIRE-SUSPEND-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:17Z",
+      "content_hash": "e6d6de2e89e91dc64273ff85740d96a84120e09832e76f5ead100c1fc8d491d0"
+    },
+    "ATOM-POLA-TARIFF-SLOWDOWN-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:19Z",
+      "content_hash": "77b303decf3a18805a1f628826c03234960136dfcd40f505569cf678641453fa"
+    },
+    "ATOM-POLA-SHIP-FIRE-RESUME-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:20Z",
+      "content_hash": "e03c6b2c4f569d01f4038539573fdd742ad34442ee2c1b9dffbc2a853eefcd72"
+    },
+    "ATOM-POLA-TARIFF-WHIPSAW-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:22Z",
+      "content_hash": "4414037991a7093a21d9a8c9d4c5d298e0db36a24823063cc040d5607df75d7f"
+    },
+    "ATOM-MPB-YU-GROUNDING-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:02:06Z",
+      "content_hash": "d96d60f29ad2e9180810f8d3e11e2f5dfedc007b9f66195b233b3bbe9309f770"
+    },
+    "ATOM-POLA-NO-CONGESTION-NOV-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:28Z",
+      "content_hash": "6e8b027d60f7853ee1d323790fbec184b4d2b133d80c714e086b241cf044b6fe"
+    },
+    "ATOM-POLA-NO-DELAY-JULY-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:29Z",
+      "content_hash": "c1978e6d43e2fcd48aa2934a8109e7ce39928ce9e1d671efc834e295f9d18da5"
+    },
+    "ATOM-TWPORT-CLIMATE-INTERRUPTION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:02:29Z",
+      "content_hash": "d9c79bafe2c818d3fe31b680abb1cfe69f4d4c2a954c245eece31e126efce37d"
+    },
+    "ATOM-POLA-NO-BACKUP-FEB-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T13:59:54Z",
+      "content_hash": "d8d017338ae134a2887fd4f111395db4b232650d4513c78fcb015df1de639761"
+    },
+    "ATOM-MPB-DISASTER-DRILL-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:05Z",
+      "content_hash": "ac09fba30b1ba798c9564d1a41deb6ddb1ff1ce32cfc158868916322966715eb"
+    },
+    "ATOM-TWPORT-DANAS-PREP-2025": {
+      "status": "failed",
+      "attempts": 5,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T20:09:22Z",
+      "retry_after": "2026-09-10T04:09:22Z"
+    },
+    "ATOM-TWPORT-PHOENIX-PREP-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:14Z",
+      "content_hash": "621f0b9342f44bc7572e18fca196994dbc3eebfb94986b17f6e1549db4621662"
+    },
+    "ATOM-TWPORT-WEATHER-MOU-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:16Z",
+      "content_hash": "33c2d0f6fea4844645bb77bfce167f875f45d6e547c7508cf631460db0a2679a"
+    },
+    "ATOM-TWCUSTOMS-ECFA-RULE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:24Z",
+      "content_hash": "c8a91a3f7fd94c29f9e120523d5ff56135b749c15d6d6fbe7d228c4136ac8104"
+    },
+    "ATOM-MPB-BALLAST-INSPECTION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:29Z",
+      "content_hash": "a558e8f701fa106962a4cdb7a96990a1a207b576b8cea75d296204eee54e6627"
+    },
+    "ATOM-MPB-AIS-SUBSIDY-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:34Z",
+      "content_hash": "0a5357a7978216c2be0e92b65d7323ae3afc0f82b87e5fa2a1a7989fc6730db7"
+    },
+    "ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:00:38Z",
+      "content_hash": "9f5da365a88218d6efed9167142d7957f3c517575c6f833f80fcaefa84fc55e0"
+    },
+    "ATOM-USTR-ATENTO-PANEL-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:27Z",
+      "content_hash": "7523c0a6cd050852edaa13806d8b67fc557244bd50dfc9bc390d3cbfc24df392"
+    },
+    "ATOM-USTR-RRM-RESPONSE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:28Z",
+      "content_hash": "9e4e023959569923f7daead7ab6d3ef9400ce3268ef6b0879f470436344bd085"
+    },
+    "ATOM-USTR-ALUDYNE-RESOLUTION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:30Z",
+      "content_hash": "64416c8834745bf8838d11996db8f1a5ffa701de146efc6fbe61fae55d1fa820"
+    },
+    "ATOM-USTR-ASIAWAY-RESOLUTION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:31Z",
+      "content_hash": "567282d80f273d6f6b58b5bf451c7d9b9b38df0169a86798eef2fa0221880a2a"
+    },
+    "ATOM-USTR-MMA-RESOLUTION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:33Z",
+      "content_hash": "d9007a0211e1b1ab8381417c7dad6cac7598b021fcb3381a1ff8bde54231814a"
+    },
+    "ATOM-USTR-MMA-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:34Z",
+      "content_hash": "57f913a322d33d570a75568f8701218437fa7cbe3880149ceacf9f16ccd1df8e"
+    },
+    "ATOM-USTR-TAMSA-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:35Z",
+      "content_hash": "44804b57d43359484d7e140851e83dfb23db8a11b69faedac985f8f1f474d8ea"
+    },
+    "ATOM-USTR-VW-RESOLUTION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:36Z",
+      "content_hash": "1e705180720a3d1cbcfe784cdbae953d697ae15079793e01635fb0c67bb7d23d"
+    },
+    "ATOM-TREASURY-HORMUZ-SB0581": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:38Z",
+      "content_hash": "79cbaf421a7d057782b7264593355216cc881b1e2cb4cc4049e40daee34a7637"
+    },
+    "ATOM-TREASURY-OUTCAST-SB0613": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:39Z",
+      "content_hash": "cf525a85c9b09062837c2bcea5b89f232623ce729a8ad56c77a5ce9e2b662ee0"
+    },
+    "ATOM-TREASURY-SHADOW-SB0472": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:40Z",
+      "content_hash": "cf1e00638604ab71efb4aa45ec396dca6702de24442f748d3797107362c7d025"
+    },
+    "ATOM-TREASURY-SHADOW-SB0502": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:42Z",
+      "content_hash": "7ce3f7cfa755f7e06db3d7715f6f673d7fc54a6c5b28b0996bf5b66d6511591c"
+    },
+    "ATOM-NASA-BENNU-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:43Z",
+      "content_hash": "e8fa92c1a52741da18d59450cdd14f1055004805b30ff5d06d3caa46001d8e99"
+    },
+    "ATOM-NASA-HUBBLE-BLACK-HOLE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:45Z",
+      "content_hash": "1dfe526b4588fa3378bf9fa704e26bd930599755b85ace5ac7a2d1599e224e3d"
+    },
+    "ATOM-NASA-SPHEREX-LAUNCH-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:47Z",
+      "content_hash": "275e1aba5d32a2b227a128244c5d41cad33481b962872e0114db705b24da20fb"
+    },
+    "ATOM-MPB-FTZ-APPLICATION-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:51Z",
+      "content_hash": "5968d6a4a60bd58c7cc46ac28f62c97fea2442ccc39191b5c114b0444ef7198e"
+    },
+    "ATOM-MPB-FTZ-APPLICATION-INSTRUCTIONS-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:55Z",
+      "content_hash": "b34ffa398499e0bc0c67174698f5e3853f508f276194984f50a6377f81b56cfc"
+    },
+    "ATOM-MPB-FTZ-COMMISSIONED-PROCESS-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:30:59Z",
+      "content_hash": "5f1b806b236c18a21ec424bf40992fae7aa41fb77bfe0f01858f897fa56ffa05"
+    },
+    "ATOM-MPB-FTZ-PROPOSAL-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:34:47Z",
+      "content_hash": "6f38d2f7fadda261df8d30ab83621717a0983ae640001098b245efcbca86e960"
+    },
+    "ATOM-MPB-FTZ-PROPOSAL-INSTRUCTIONS-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:05Z",
+      "content_hash": "43eed77c3740b3a5647257604e39441a0e7fc20daaabf49af54d816b75aea4f7"
+    },
+    "ATOM-MPB-FTZ-STORAGE-APPLICATION-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:09Z",
+      "content_hash": "9fbe2d83a0ff6214cefecac9fd2060f4c51bf9ba5f349f89ab8cd5b0eb9910d4"
+    },
+    "ATOM-MPB-FTZ-STORAGE-PROCESS-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:14Z",
+      "content_hash": "91e677468e5d447f4ee2acf40d4a8db3123299252afa2180df034bb9732a9ff6"
+    },
+    "ATOM-TWCUSTOMS-DECLARATION-A-2026": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "unextractable_payload",
+      "last_attempt_at": "2026-09-09T14:31:19Z",
+      "retry_after": "2026-09-09T15:01:19Z"
+    },
+    "ATOM-TWCUSTOMS-DECLARATION-B-2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "unextractable_payload",
+      "last_attempt_at": "2026-09-09T14:31:21Z",
+      "retry_after": "2026-09-09T15:01:21Z"
+    },
+    "ATOM-TWCUSTOMS-GLOSSARY-EN-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:22Z",
+      "content_hash": "0230ed6929a99bc15349b2019607029562c55111a89333789184217ac7e70bfe"
+    },
+    "ATOM-TWCUSTOMS-GLOSSARY-ZH-A-2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "duplicate_content_hash",
+      "last_attempt_at": "2026-09-09T14:31:24Z",
+      "retry_after": "2026-09-09T15:01:24Z"
+    },
+    "ATOM-TWCUSTOMS-GLOSSARY-ZH-B-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:26Z",
+      "content_hash": "aec9fdd90647b3a1a85c51e0f00269bd6eea85db4538530ead3a8a3c581879a8"
+    },
+    "ATOM-TWCUSTOMS-REPORT-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:29Z",
+      "content_hash": "3f22811e2627a28364b0b05aca58cf436258d562958ed000ab9477ab6f758755"
+    },
+    "ATOM-TWCUSTOMS-REPORT-2019": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:31:39Z",
+      "content_hash": "1d4ea3184081cc3dffd83484d83f858034b294507f0aaa95f78269ba9ab457e4"
+    },
+    "ATOM-MPB-FTZ-ESTABLISHMENT-PROCESS-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:34:32Z",
+      "content_hash": "db2186c05e47fd1b7f346087f9665248987eb0b8fb4bf9adaa815d3b576683c5"
+    },
+    "ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:34:37Z",
+      "content_hash": "7d919d21169e0590283d6150ec0d12441e28337923e6ff30ec5519c18d29857b"
+    },
+    "ATOM-MPB-FTZ-OPERATION-PROCESS-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:34:43Z",
+      "content_hash": "425cca4918155f112c840f390bfb8e7c592a6f6a5618b47a80dbd82442518182"
+    },
+    "ATOM-TWTRADE-BARRIER-REPORT-2026": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:32Z",
+      "content_hash": "71674c4b0c1d730739c253f6ee2ce4290103ee47d1138f50ca978452d6b579d4"
+    },
+    "ATOM-TWTRADE-RUSSIA-CONTROLS-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:35Z",
+      "content_hash": "8dd632bc2646b118adda0eca05c94545f608209f5018727f5cabd3510b0ce9d3"
+    },
+    "ATOM-TWTRADE-RUSSIA-HITECH-2022": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:39Z",
+      "content_hash": "7a3075b94dcdd11561afec2d3daab04c475aea3027f85e6517f8bcc35a185dbd"
+    },
+    "ATOM-MPB-GAEMI-FERRY-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:45Z",
+      "content_hash": "cb90a26972f5d86b962ace0b47f37a2182e51867165f17fa99a189bde2f41cf4"
+    },
+    "ATOM-MPB-MACRO-PORT-BAN-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:50Z",
+      "content_hash": "25b7c1f505f013c705392763b37550b76c052b7b40a7b73da126b6d5671bacf3"
+    },
+    "ATOM-USTR-CORPORACION-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:52Z",
+      "content_hash": "adc8a3cd0e279ac3d18740ac8bfeb2ab8aaadf85715cbf5f5602f9a64914b341"
+    },
+    "ATOM-USTR-FREIXENET-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:53Z",
+      "content_hash": "bae0b67f4ced83a30590078b0b8b2d57b4d48ed79bfed4429b1e43d2b996a6fe"
+    },
+    "ATOM-USTR-GROLE-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:55Z",
+      "content_hash": "410099ee6988c6ff43849bce61a33ef98223418776f08b1ee5ec7da57010d77f"
+    },
+    "ATOM-USTR-MONDELEZ-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:56Z",
+      "content_hash": "49b7aa3f581ff8c07498483108d2fd75726672a8f891ebe347e5c5eefae25f2d"
+    },
+    "ATOM-TREASURY-HOUTHI-SB0113": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:57Z",
+      "content_hash": "ceafed3fab72482534ad1f6c374fbca389016503f6803b5c6690c92e39e9121d"
+    },
+    "ATOM-TREASURY-HOUTHI-SB0174": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:57:59Z",
+      "content_hash": "237a8b9b27713f0e0226e1ad4632643c1e452e689ac17c6724fbc8e8f2e06fb2"
+    },
+    "ATOM-TREASURY-IRAN-FLEET-SB0215": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:00Z",
+      "content_hash": "b54768c431f7362bc181ca845ea7a4c971c265d1d244b875a682a8f1df5b159e"
+    },
+    "ATOM-TREASURY-IRAN-OIL-SB0139": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:01Z",
+      "content_hash": "7ce361cdc5edd60069d778dcf2d4bc0e9ed51048b1c5cb3931a0c023c6f20121"
+    },
+    "ATOM-TREASURY-IRAN-SMUGGLING-SB0233": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:02Z",
+      "content_hash": "93c430202ffe6613e3bab0ad519bfdf612cba2d4e4fafc47392da3ed3994ebe5"
+    },
+    "ATOM-TREASURY-SHADOW-SB0229": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:04Z",
+      "content_hash": "790f51b587869a509533fa78069d313f5bb45054cd2bab2cdba632e05e5b7df0"
+    },
+    "ATOM-TREASURY-STS-SB0082": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:05Z",
+      "content_hash": "b533d3f2ff44635c8268224ec9cba1b9806c64bd141e449ab75bb26408482976"
+    },
+    "ATOM-POLA-CARGO-TRADE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:07Z",
+      "content_hash": "340edaa44b40bcfeca03077b6ec40d513b2cd85f0bcdd540ac281d332500d9dc"
+    },
+    "ATOM-POLA-CLEAN-TRUCKS-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:08Z",
+      "content_hash": "f6f32aeaa37d36b82b5b8702e3751573c1952dc29feb5f80ca6aa84e42330825"
+    },
+    "ATOM-POLA-MARCH-NORMAL-2026": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:10Z",
+      "content_hash": "767f15e80c96a67f118173fd284606c5243e7820cf646d1b62b356b73657f518"
+    },
+    "ATOM-POLA-OPERATIONS-VIDEO-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:11Z",
+      "content_hash": "99d77dcd184d16352d256b1167b18b41f6bb5e9a8a5b1aeb7ab850596c1dee2b"
+    },
+    "ATOM-USTR-AMPHENOL-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:12Z",
+      "content_hash": "86e3ecfc1aa7bffbb797ca6bf5acbb85492da7f248500d13e7f9a2c8ebb79fc0"
+    },
+    "ATOM-USTR-AUTOLIV-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:14Z",
+      "content_hash": "1a5ce05f0664194cb851dac20ddec6d585c579f1bb98d309de2a2af63248c5c3"
+    },
+    "ATOM-USTR-DRAXTON-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:15Z",
+      "content_hash": "85a9c24938d9f59eaa6a3c6bd40bdb2eeb33f95657d20041bec07d6514692b19"
+    },
+    "ATOM-USTR-FUJIKURA-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:16Z",
+      "content_hash": "5846131bd7d177236996b4fdfbbf5974f97d997a9f82530dc15c3677aa9af9f3"
+    },
+    "ATOM-USTR-GOODYEAR-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:18Z",
+      "content_hash": "d4e203bfaf372317ff79cf344abb11252d07cc1e674324afad1c6bc51e436ff6"
+    },
+    "ATOM-USTR-IMPRO-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:19Z",
+      "content_hash": "b155743adffec7d413013b49c5ffe3803c0069fd9a07562287645631ea96a3d8"
+    },
+    "ATOM-USTR-PIRELLELI-PANEL-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:20Z",
+      "content_hash": "f27e0528a7a1f4bd98e45e94fe45f4ba5df8d155faaf3ffd91bed53efd2db4ae"
+    },
+    "ATOM-USTR-PIRELLELI-SUSPENSION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:21Z",
+      "content_hash": "26d5c2cc09d3d5129f2a60f8a6b19feed99aa77c5e400a71ca4710340e330f57"
+    },
+    "ATOM-USTR-SUPERIOR-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:23Z",
+      "content_hash": "6c0a05da49002c8a23e090ded7325b8affc4c192d9ba61c81f2428526198d7c4"
+    },
+    "ATOM-USTR-TEKLAS-RECOVERY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:24Z",
+      "content_hash": "33d6376011e2c9d7339fc90d4e6bca698a00c82ab03b28905a3e5e9ee3f3ba09"
+    },
+    "ATOM-USTR-THYSSENKRUPP-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:25Z",
+      "content_hash": "15a2b68649fb701c66d84f9b71f603ca9f7d0e99af3fbaa07df57c1d275e3cdf"
+    },
+    "ATOM-USTR-YAZAKI-SUSPENSION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:27Z",
+      "content_hash": "08f3798e9092b6401575c764bd7960e225cc297d08a6cab4285b24de843b62c7"
+    },
+    "ATOM-MPB-KAOHSIUNG-BREAKWATER-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T14:58:31Z",
+      "content_hash": "0eee1ffd9dd84a958ff0efd344424aa63f8022afdec72ff7d33018f04b786c02"
+    },
+    "ATOM-MPB-PORT-SCHEDULE-2025": {
+      "status": "failed",
+      "attempts": 2,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T15:50:04Z",
+      "retry_after": "2026-09-09T16:50:04Z"
+    },
+    "ATOM-MPB-TAICHUNG-WINDFARM-2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T15:01:10Z",
+      "retry_after": "2026-09-09T15:31:10Z"
+    },
+    "ATOM-TPNET-MAINTENANCE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:01:12Z",
+      "content_hash": "89f455cd887809272807f5ccb383274078ca525819155a1d28c840e4bf6cd5dc"
+    },
+    "ATOM-TWMOL-BOOKSELLER-DISPUTE-2022": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:38Z",
+      "content_hash": "aadaa554660ae50dd40c6497c7c454d82d3abbe86e5f38350ae3b76d67b5ff53"
+    },
+    "ATOM-TWMOL-CSC-TRANSPORT-INSPECTION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:41Z",
+      "content_hash": "b1112eb6f6335d5c3989776c739c3153c5f78c6b580c48ac97ae8d87ae57358a"
+    },
+    "ATOM-TWMOL-DISPUTE-STATISTICS-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:45Z",
+      "content_hash": "0b547a20a4912b7b7f7d953c600a7c932c4573de102b92e9d50749f9a538a44b"
+    },
+    "ATOM-TWMOL-LAYOFF-WARNING-GUIDANCE": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:48Z",
+      "content_hash": "6b32c889a440d3bc78a6766605d894af5eefaa0f77f3074ea8cbd53340839c2c"
+    },
+    "ATOM-TWMOL-LOGISTICS-NIGHT-INSPECTION-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:52Z",
+      "content_hash": "66e2b4637a3b41274597b1de4e32f7d534a1b24cacb298cf79268167de74caad"
+    },
+    "ATOM-TWMOL-PARTTIME-INSPECTIONS-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:55Z",
+      "content_hash": "127a41f402d990ee2434575c05334223d8c434556ab3d87b572e84532188e50c"
+    },
+    "ATOM-TWMOL-TRANSPORT-INSPECTIONS-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:47:59Z",
+      "content_hash": "20b51cb0ca66de52a3b0def442b884bb5f37ec5df45a2eb2414f8fd181d2a60f"
+    },
+    "ATOM-TWMOL-UNION-GUIDANCE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:02Z",
+      "content_hash": "5506e1dc01dfd6ddf24a90b6d88e6065111657f67e5e8cfb9be8b6f7a1a92ce1"
+    },
+    "ATOM-TWTRADE-CZECH-COOPERATION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:08Z",
+      "content_hash": "453dfe9f92cad0efb79d375409c5d16a83096b47bc6ba8f5909e75ebfa60e65d"
+    },
+    "ATOM-TWTRADE-CZECH-SUPPLYCHAIN-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:11Z",
+      "content_hash": "83d2eeded5fd5156a79bc3e3704b0e678ca8d0e908706fa978af1658af8c2a47"
+    },
+    "ATOM-TWTRADE-GEOPOLITICAL-MEETING-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:15Z",
+      "content_hash": "a8ce0fd6778893886805460251e3e7215d9f097d9cfe0232e6359220d48c8f56"
+    },
+    "ATOM-MPB-MIDAUTUMN-SAFETY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:21Z",
+      "content_hash": "250924922704c699bb8ff73905511687088fe14091cffb220f82eb5949742b04"
+    },
+    "ATOM-MPB-MTNET-SEAFARER-SERVICE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:26Z",
+      "content_hash": "58295d06ae3a5d1acac1096295efe39e977394c3db4f30e4e912b0ad94393f05"
+    },
+    "ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:30Z",
+      "content_hash": "9778ce6ffcd550ed2bf985a47feef272b5a0d99dca091eea9e3b14977000ff5e"
+    },
+    "ATOM-TWTRADE-RUSSIA-CONTROLS-JAN2023": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T15:48:33Z",
+      "retry_after": "2026-09-09T16:18:33Z"
+    },
+    "ATOM-TWTRADE-RUSSIA-CONTROLS-MAY2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:34Z",
+      "content_hash": "c06400d4d59f022e7cdb19d643b55682c61d79e5d0079186f8f17607074c2a5f"
+    },
+    "ATOM-TWTRADE-RUSSIA-CONTROLS-NOV2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:37Z",
+      "content_hash": "072774f6e34a48eeaf45757090babea918fa468de279f827420d6d016e9b28d5"
+    },
+    "ATOM-TWTRADE-SHTC-RULES-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:40Z",
+      "content_hash": "ad24334471671b99244450d6d00bb9bf581c353407efde9146eff31f54a74415"
+    },
+    "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:44Z",
+      "content_hash": "6836e37b1416adb417892044dec7f05c09026b6706ff19ae85908a427d93ad94"
+    },
+    "ATOM-MPB-COSTA-GAEMI-REROUTE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T15:48:49Z",
+      "content_hash": "3883fed72d75895153695e7d38339da73c6f679f48b257018c425ac918369699"
+    },
+    "ATOM-MPB-FIRING-EXERCISE-JUNE2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:06:15Z",
+      "content_hash": "497533a6ff06ecd5efe813b419bd5b0e8bba523b413d9b6eba6f8c44bfdf8e66"
+    },
+    "ATOM-MPB-CCP-EXERCISE-WARNING-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:06:20Z",
+      "content_hash": "5d13b40f3957589968b1b9be3e731022d93529b4873f09257a4b7697609e086b"
+    },
+    "ATOM-MPB-MILITARY-EXERCISE-MAY2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:06:26Z",
+      "content_hash": "c01d63d7bbc9899c34f3e41f29343344a21cf2ce5c293a4ab7d4b9160195eee6"
+    },
+    "ATOM-MPB-NORTHEAST-MET-MAINTENANCE-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:06:32Z",
+      "content_hash": "50a29f0e1bf1c2ee388c96e0c374db14b666a0e0118dbb2d1e37257effd40477"
+    },
+    "ATOM-MPB-NORTHEAST-WRECK-OPS-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:06:54Z",
+      "content_hash": "01ac9d9a30e29b9a47cb2494440b221c395a3e8ce8fc8cd14262135f185a3fcb"
+    },
+    "ATOM-MPB-TAICHUNG-DREDGING-2025": {
+      "status": "failed",
+      "attempts": 4,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T21:39:55Z",
+      "retry_after": "2026-09-10T01:39:55Z"
+    },
+    "ATOM-MPB-TAICHUNG-PIERS-WORK-2025": {
+      "status": "failed",
+      "attempts": 3,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T19:35:54Z",
+      "retry_after": "2026-09-09T21:35:54Z"
+    },
+    "ATOM-MPB-TAIPEI-BREAKWATER-WORK-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:07:03Z",
+      "content_hash": "b9904dddf37ae98025c6c1a1352bc6a4ea1501984eecf27743babc5d356b5a94"
+    },
+    "ATOM-MPB-NORTHEAST-CABLE-REPAIR-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:07:32Z",
+      "content_hash": "856fabb78dd0c11bc3bf967874f366eedfdb7841d6202e8e0075de7c3c413c28"
+    },
+    "ATOM-MPB-TAICHUNG-CABLE-WORK-2026": {
+      "status": "failed",
+      "attempts": 3,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T19:36:05Z",
+      "retry_after": "2026-09-09T21:36:05Z"
+    },
+    "ATOM-MPB-TAICHUNG-MAINTENANCE-2025": {
+      "status": "failed",
+      "attempts": 3,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T19:36:08Z",
+      "retry_after": "2026-09-09T21:36:08Z"
+    },
+    "ATOM-MPB-NORTHEAST-OPS-JUNE2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:09:08Z",
+      "content_hash": "12ee110884c3c6dc64561855f2d386ecfc324c99d3b22a789b0a1617de349010"
+    },
+    "ATOM-MPB-TAIPEI-BUOY-WORK-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:09:13Z",
+      "content_hash": "33aa2b8d4dd53ceda638113351d414531798480026e259e83ef7aa833957d3ad"
+    },
+    "ATOM-TWMOL-TAIPEI-TERMINAL-INSPECTION-2010": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:53:50Z",
+      "content_hash": "d681e1953b9bc29ed410907894b6e438d653c3c7adf534685a85c079f6f20f00"
+    },
+    "ATOM-TWMOL-KUO-KUANG-INSPECTION-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:53:54Z",
+      "content_hash": "1600733485262a5fb2a40e1f89101fe90a4a9df0f0038c81f20b0579cf39e03a"
+    },
+    "ATOM-TWMOL-TOURBUS-INSPECTION-2017": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:53:57Z",
+      "content_hash": "bd3ebf9ba65c6bb39b3368ceed6f9d3361d7cca0b68a41c491f1aa3a38582a77"
+    },
+    "ATOM-TWTRADE-RUSSIA-NITROCELLULOSE-CONTROLS-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:54:05Z",
+      "content_hash": "75db44f6fe7f5670cb4ce193d563b2a31230b7fc99fdc24a158003d0eff48821"
+    },
+    "ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T16:54:08Z",
+      "content_hash": "6485c201bfcec278691053e12172f56aeea9ce6153756995c7b4b494f92f3f56"
+    },
+    "ATOM-ILA-STRIKE-EXEMPTIONS-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T20:57:15Z",
+      "content_hash": "b7962cd5911558ee4682344d6e0c4fe352c952f8240f5372a7417a23ab6eae21"
+    },
+    "ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023": {
+      "status": "collected",
+      "collected_at": "2026-09-09T20:57:17Z",
+      "content_hash": "29c4b82c57d19d3f344ed0151f47d8f1f2a1c87be83c84be4b3c27182b51d13d"
+    },
+    "ATOM-DOL-ILA-PORT-REOPEN-2024": {
+      "status": "failed",
+      "attempts": 2,
+      "last_error": "fetch_failed:HTTPError",
+      "last_attempt_at": "2026-09-09T21:34:28Z",
+      "retry_after": "2026-09-09T22:34:28Z"
+    },
+    "ATOM-ILA-EAST-GULF-STRIKE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T20:57:23Z",
+      "content_hash": "10f563ba10b41b356f1af0a986afefd9db26773c408e89bc2e14aade37c2dea4"
+    },
+    "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T20:57:25Z",
+      "content_hash": "775ad56fdfb1e16931ef147ef76c09467620c0bb489d0a376e20b7c245973b99"
+    },
+    "ATOM-W11-TRADE-CANADA-DIALOGUE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:33Z",
+      "content_hash": "85f6ab374475391d16de58533a2af5b79e3e9f43919dca8200daa7d886668846"
+    },
+    "ATOM-W11-TRADE-SEMICONDUCTOR-EXPO-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:35Z",
+      "content_hash": "4f5a694aa0120f59f5b53754c71f8b791af7013978be74df2bc83329346c2570"
+    },
+    "ATOM-W11-TRADE-TAIWAN-SELECT-APR2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:37Z",
+      "content_hash": "86192d61cf6fe4707a20153bd1e9fb6ae92acab78b33463b2bad2450db923b34"
+    },
+    "ATOM-W11-TRADE-TAIWAN-SELECT-OCT2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:39Z",
+      "content_hash": "ba742a646299e3306273ac3872b4e68f7af29354e7fd5041757ca161df64b152"
+    },
+    "ATOM-W11-TRADE-TENNESSEE-MOU-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:41Z",
+      "content_hash": "7d1307551ceec53e7d4c44e7fac777fa9bb0b7f05a08835ecee21dd6690a1c52"
+    },
+    "ATOM-W11-TRADE-US-BUSINESS-DAY-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:43Z",
+      "content_hash": "31b9fc7e273ebc318db9d6d763f2b851150c976186542d3175669d75faf6cfcd"
+    },
+    "ATOM-W11-MOL-AIRLINE-HOURS-RESULTS-2015": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:46Z",
+      "content_hash": "9c4840c86fec47f669809ff96a59189719e694c9dcc7933c0cebe21c21311baa"
+    },
+    "ATOM-W11-MOL-AIRLINE-INSPECTION-LAUNCH-2015": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:48Z",
+      "content_hash": "e89acd93fd9b536bc63b63f7cbe2b0d329a284d13ae786545532727096a5fe67"
+    },
+    "ATOM-W11-MOL-BUS-OVERWORK-PREVENTION-2017": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:50Z",
+      "content_hash": "4bcaee8493b62ae1afab19fc92548536e2af65d6897347ac77bcb686bb670f6f"
+    },
+    "ATOM-W11-MOL-HIGHWAY-FREIGHT-SAFETY-2009": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:31:53Z",
+      "content_hash": "891c5641ab874fc5a23fe6e7398c76684e2210c815467533072bcd84c58606cd"
+    },
+    "ATOM-W11-MOL-DELIVERY-PLATFORM-INSPECTION-2019": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:20Z",
+      "content_hash": "b9c32c64495041320c88936a494e2ab4477c0d76208370bd99ca5ed1b3f69aee"
+    },
+    "ATOM-W11-MOL-DOCK-SAFETY-STANDARD-2010": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:22Z",
+      "content_hash": "8adb9ba8931f155bd648c1f40280193c09433827246959fa96860dc71a78ab10"
+    },
+    "ATOM-W11-MOL-FOREIGN-FISHER-RULES-2017": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:25Z",
+      "content_hash": "d5a0d8ae4ec1882a228d133accc146b335cd34b6415f9298d717b5b158eda1d7"
+    },
+    "ATOM-W11-MOL-FREIGHT-DRIVER-HOURS-2018": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:28Z",
+      "content_hash": "86786c270faa1e35cdc41bedba18742b640d587d2ee38a9a608af09b00caa1fa"
+    },
+    "ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:30Z",
+      "content_hash": "f13e767ef41139ed73d1e64efff7250951c3e515a9d126a7d9927366bb0b84c7"
+    },
+    "ATOM-W11-MOL-RAIL-LABOR-DECISION-2017": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:32Z",
+      "content_hash": "24a3ba0214cd12b2e1a7a00039c27ce71507b4bd1f569fc62ba0eddd2ae17d92"
+    },
+    "ATOM-W11-MOL-SPRING-SAFETY-LOGISTICS-2022": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:34Z",
+      "content_hash": "c3f1b5d6e06f1816d6d8364b57a322154598b5d7cc34b3ef3d52e8b0b7765959"
+    },
+    "ATOM-W11-MOL-SUPPLIER-LABOR-COMPLIANCE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:37Z",
+      "content_hash": "809dff295e79e22b46a0b34e5f25261047fdbf51869b2f8dc19f1f529b189886"
+    },
+    "ATOM-W11-MOL-TRANSPORT-INSPECTION-CAPACITY-2016": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:39Z",
+      "content_hash": "e4e0c0c84c71d4078c83736248e7d5a37da793b35925ea954a2f52c853dcbee4"
+    },
+    "ATOM-W11-TRADE-CANADA-FRAMEWORK-2023": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:32:42Z",
+      "content_hash": "014a5992fd64452411633106052a148ef6b78dfe3bfd0699b57f76c01a14d5b9"
+    },
+    "ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:04Z",
+      "content_hash": "93dbb8c1afa31511954dfc69bd0397ded893ac1c7534121aa45074e5d70454b1"
+    },
+    "ATOM-W11-MPB-DONGYIN-EXERCISE-AUG2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:07Z",
+      "content_hash": "9f13ebad88a3efe45f10d1198be12f67f986f15cecfb96d673773b732016f930"
+    },
+    "ATOM-W11-TRADE-JAPAN-COOPERATION-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:09Z",
+      "content_hash": "55133a16dc05a888f88648128380dc27e9842db1e96cabf78c65cbe937015a7f"
+    },
+    "ATOM-W11-TRADE-LITHUANIA-DIALOGUE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:11Z",
+      "content_hash": "816bbb0c191b8220478ca06ad76b6e578d5b56156efba0c544dc382fd6cfc4c5"
+    },
+    "ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:15Z",
+      "content_hash": "dff1cd4291919573333c7433d9e33042eca151feb6f0c7bd29ee4f59e2536f2f"
+    },
+    "ATOM-W11-MPB-FENGMIAO-SURVEY-JUL2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T21:33:18Z",
+      "retry_after": "2026-09-09T22:03:18Z"
+    },
+    "ATOM-W11-MPB-PENGHU-FIRING-APR2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:22Z",
+      "content_hash": "6be3116c04c1a2f7696cc652d65dd418798bd5fe49e77a144dffeae88896e170"
+    },
+    "ATOM-W11-MPB-SOUTHEAST-FIRING-NOV2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T21:33:37Z",
+      "retry_after": "2026-09-09T22:03:37Z"
+    },
+    "ATOM-W11-TRADE-AAPEX-SEMA-2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:38Z",
+      "content_hash": "e1883666fe4a53e8da650cd7b6d03de4906d893837d030320ffa91657b9a47ee"
+    },
+    "ATOM-W11-TRADE-US-BUSINESS-DAY-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:33:40Z",
+      "content_hash": "ca2cf019550aa861b1e170c501e2932679a0aafb15f67b260b2494baeae139fa"
+    },
+    "ATOM-W11-MPB-TAICHUNG-DREDGING-JUL2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "accept_terms_missing",
+      "last_attempt_at": "2026-09-09T21:34:17Z",
+      "retry_after": "2026-09-09T22:04:17Z"
+    },
+    "ATOM-W11-MPB-TAICHUNG-LIGHT-OUT-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:34:20Z",
+      "content_hash": "4c6ec444d347f5409da31a498c97b323bee8b7698b4cee2bb2062fe857f294eb"
+    },
+    "ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:34:23Z",
+      "content_hash": "cab87f5c54f9f2fe4d0210e8fe59bb9f9774288f38f9dacd49a93fe193eea750"
+    },
+    "ATOM-W11-MPB-FENGMIAO-SURVEY-PDF-JUL2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T21:39:24Z",
+      "retry_after": "2026-09-09T22:09:24Z"
+    },
+    "ATOM-W11-MPB-TAICHUNG-DREDGING-AUG2025": {
+      "status": "failed",
+      "attempts": 1,
+      "last_error": "fetch_failed:URLError",
+      "last_attempt_at": "2026-09-09T21:39:53Z",
+      "retry_after": "2026-09-09T22:09:53Z"
+    },
+    "ATOM-W11-MPB-LIVE-FIRING-DEC2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:42:19Z",
+      "content_hash": "cfcd8b7f2a13e7531e75f538a40f569c21cea6b856d5e8d164bbd41db513e5a7"
+    },
+    "ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:45:11Z",
+      "content_hash": "43a59d4d12810c9fc0a53e3e290e9fe7e064eebc256246dd79e187ce39fe2e5d"
+    },
+    "ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025": {
+      "status": "collected",
+      "collected_at": "2026-09-09T21:45:16Z",
+      "content_hash": "a374b1837e6096fdbb9e461880a835abc87d354c24c5ef52c4ce857cfd18ebf2"
+    },
+    "ATOM-W15-USGS-US6000MT0S-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-10T03:15:15Z",
+      "content_hash": "c1c381036f9fa9d88a6829fc37806a4ed5973b0aaf7713f0695fccdfc80f056c"
+    },
+    "ATOM-W15-USGS-US7000N7B8-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-10T03:15:16Z",
+      "content_hash": "9e24227d7c4729a9d5677f2af30d93b886393d0785c2a11d52649a728b4b0f64"
+    },
+    "ATOM-W15-POLA-WORKFORCE-2024": {
+      "status": "collected",
+      "collected_at": "2026-09-10T03:15:18Z",
+      "content_hash": "f39c0f66fd64b15abfa538056b9a9193eac0bf07f7677eae8a59e5d675ba2338"
+    }
+  },
+  "updated_at": "2026-09-10T03:15:19Z",
+  "sources": {
+    "ilwu-primary": {
+      "last_checked_at": "2026-09-09T13:17:06Z",
+      "last_sample_id": "ATOM-ILWU-WWL-CONTRACT-2025"
+    },
+    "ofac-maritime": {
+      "last_checked_at": "2026-09-09T13:17:11Z",
+      "last_sample_id": "ATOM-OFAC-OCEANLINK-2024"
+    },
+    "cbp-csms": {
+      "last_checked_at": "2026-09-09T13:17:14Z",
+      "last_sample_id": "ATOM-CBP-CSMS-CROWDSTRIKE-2024"
+    },
+    "ilwu-wave4": {
+      "last_checked_at": "2026-09-09T13:58:52Z",
+      "last_sample_id": "ATOM-ILWU-SOUTH-SEATTLE-STRIKE"
+    },
+    "nlrb-wave4": {
+      "last_checked_at": "2026-09-09T13:59:04Z",
+      "last_sample_id": "ATOM-NLRB-STRIKES-GUIDANCE"
+    },
+    "us-labor-wave4": {
+      "last_checked_at": "2026-09-09T21:34:28Z",
+      "last_sample_id": "ATOM-DOL-ILA-PORT-REOPEN-2024",
+      "last_error": "fetch_failed:HTTPError"
+    },
+    "port-of-los-angeles": {
+      "last_checked_at": "2026-09-09T20:57:25Z",
+      "last_sample_id": "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021"
+    },
+    "us-treasury-maritime": {
+      "last_checked_at": "2026-09-09T13:59:16Z",
+      "last_sample_id": "ATOM-TREASURY-SHADOW-SB0405"
+    },
+    "taiwan-maritime-wave4": {
+      "last_checked_at": "2026-09-09T14:02:06Z",
+      "last_sample_id": "ATOM-MPB-YU-GROUNDING-2024"
+    },
+    "taiwan-port-company": {
+      "last_checked_at": "2026-09-09T20:09:22Z",
+      "last_sample_id": "ATOM-TWPORT-DANAS-PREP-2025",
+      "last_error": "fetch_failed:URLError"
+    },
+    "taiwan-customs-wave4": {
+      "last_checked_at": "2026-09-09T14:00:38Z",
+      "last_sample_id": "ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024"
+    },
+    "ustr-labor-wave5": {
+      "last_checked_at": "2026-09-09T14:30:36Z",
+      "last_sample_id": "ATOM-USTR-VW-RESOLUTION-2024"
+    },
+    "us-treasury-maritime-wave5": {
+      "last_checked_at": "2026-09-09T14:30:42Z",
+      "last_sample_id": "ATOM-TREASURY-SHADOW-SB0502"
+    },
+    "nasa-world-controls-wave5": {
+      "last_checked_at": "2026-09-09T14:30:47Z",
+      "last_sample_id": "ATOM-NASA-SPHEREX-LAUNCH-2025"
+    },
+    "taiwan-maritime-bilingual-wave5": {
+      "last_checked_at": "2026-09-09T14:34:47Z",
+      "last_sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021"
+    },
+    "taiwan-customs-bilingual-wave5": {
+      "last_checked_at": "2026-09-09T14:31:39Z",
+      "last_sample_id": "ATOM-TWCUSTOMS-REPORT-2019"
+    },
+    "taiwan-trade-controls-wave6": {
+      "last_checked_at": "2026-09-09T14:57:39Z",
+      "last_sample_id": "ATOM-TWTRADE-RUSSIA-HITECH-2022"
+    },
+    "taiwan-maritime-wave6": {
+      "last_checked_at": "2026-09-09T15:50:04Z",
+      "last_sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+      "last_error": "fetch_failed:URLError"
+    },
+    "ustr-labor-wave6": {
+      "last_checked_at": "2026-09-09T14:58:27Z",
+      "last_sample_id": "ATOM-USTR-YAZAKI-SUSPENSION-2025"
+    },
+    "us-treasury-maritime-wave6": {
+      "last_checked_at": "2026-09-09T14:58:05Z",
+      "last_sample_id": "ATOM-TREASURY-STS-SB0082"
+    },
+    "port-of-los-angeles-wave6": {
+      "last_checked_at": "2026-09-09T14:58:11Z",
+      "last_sample_id": "ATOM-POLA-OPERATIONS-VIDEO-2025"
+    },
+    "taiwan-port-network-wave6": {
+      "last_checked_at": "2026-09-09T15:01:12Z",
+      "last_sample_id": "ATOM-TPNET-MAINTENANCE-2025"
+    },
+    "taiwan-labor-wave7": {
+      "last_checked_at": "2026-09-09T15:48:30Z",
+      "last_sample_id": "ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024"
+    },
+    "taiwan-trade-wave7": {
+      "last_checked_at": "2026-09-09T15:48:44Z",
+      "last_sample_id": "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023"
+    },
+    "taiwan-maritime-wave7": {
+      "last_checked_at": "2026-09-09T15:48:49Z",
+      "last_sample_id": "ATOM-MPB-COSTA-GAEMI-REROUTE-2024"
+    },
+    "taiwan-maritime-wave8": {
+      "last_checked_at": "2026-09-09T21:39:55Z",
+      "last_sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+      "last_error": "accept_terms_missing"
+    },
+    "taiwan-labor-wave9": {
+      "last_checked_at": "2026-09-09T16:53:57Z",
+      "last_sample_id": "ATOM-TWMOL-TOURBUS-INSPECTION-2017"
+    },
+    "taiwan-trade-wave9": {
+      "last_checked_at": "2026-09-09T16:54:08Z",
+      "last_sample_id": "ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024"
+    },
+    "ila-east-gulf-wave10": {
+      "last_checked_at": "2026-09-09T20:57:23Z",
+      "last_sample_id": "ATOM-ILA-EAST-GULF-STRIKE-2024"
+    },
+    "panama-canal-authority-wave10": {
+      "last_checked_at": "2026-09-09T20:57:17Z",
+      "last_sample_id": "ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023"
+    },
+    "taiwan-trade-policy-controls-wave11": {
+      "last_checked_at": "2026-09-09T21:33:40Z",
+      "last_sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2024"
+    },
+    "taiwan-labor-controls-wave11": {
+      "last_checked_at": "2026-09-09T21:34:23Z",
+      "last_sample_id": "ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021"
+    },
+    "taiwan-maritime-mixed-wave11": {
+      "last_checked_at": "2026-09-09T21:45:16Z",
+      "last_sample_id": "ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025"
+    },
+    "wave15-replacement-usgs-events": {
+      "last_checked_at": "2026-09-10T03:15:16Z",
+      "last_sample_id": "ATOM-W15-USGS-US7000N7B8-2024"
+    },
+    "wave15-replacement-pola-workforce": {
+      "last_checked_at": "2026-09-10T03:15:18Z",
+      "last_sample_id": "ATOM-W15-POLA-WORKFORCE-2024"
+    }
+  }
+}

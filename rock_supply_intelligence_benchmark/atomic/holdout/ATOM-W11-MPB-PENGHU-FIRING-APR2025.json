@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MPB-PENGHU-FIRING-APR2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-mixed-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Penghu waters firing-exercise notice",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/En/Information/Detail/02f1c97d-a339-40db-abd6-d1f483be16cb?NodeId=10016&SiteId=2",
+    "language": "mixed",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T21:33:22Z",
+    "published_at": "2025-04-15T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MPB-PENGHU-FIRING-APR2025.html",
+    "content_hash": "6be3116c04c1a2f7696cc652d65dd418798bd5fe49e77a144dffeae88896e170",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice or notice PDF"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "military_navigation_restriction",
+    "event_subtype": "taiwan-maritime-mixed-wave11",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:33:22Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-21: keep."
+  }
+}

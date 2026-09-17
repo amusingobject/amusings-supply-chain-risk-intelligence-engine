@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-09T15:49:53Z",
+  "registry_id": "RSIB-collection-registry-wave7",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-SHTC-RULES-2024.json",
+      "content_hash": "1e22f8a3ba27c0cbb45969549bcdb4be86664583e085a54b52d5ee4558c7ce4c",
+      "sample_id": "ATOM-TWTRADE-SHTC-RULES-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023.json",
+      "content_hash": "df507977f54a19b4346625dd317114b78c32673dee88caeca3a98ec9ff59e857",
+      "sample_id": "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-MPB-COSTA-GAEMI-REROUTE-2024.json",
+      "content_hash": "47153ca84e381f0773036ae9a826ac49238542f2b162397684f59bcb00441a92",
+      "sample_id": "ATOM-MPB-COSTA-GAEMI-REROUTE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024.json",
+      "content_hash": "4b23c461400f584050fc533ce74cdd551e9d96c5c319cefc760783fd503376ba",
+      "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-WINDFARM-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 371,
+  "raw_bodies_retained": 466,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T154953Z.md"
+}

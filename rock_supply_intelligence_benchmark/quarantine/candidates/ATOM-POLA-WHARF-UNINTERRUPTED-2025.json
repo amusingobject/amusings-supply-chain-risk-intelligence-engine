@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-POLA-WHARF-UNINTERRUPTED-2025",
+  "source_id": "port-of-los-angeles",
+  "url": "https://portoflosangeles.org/references/2025-news-releases/news_061825_wharf_restoration",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:56:59Z",
+  "content_hash": null
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W15-USGS-US7000N7B8-2024",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "wave15-replacement-usgs-events",
+    "source_type": "government",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 6.1 - 30 km SSE of Hualien City, Taiwan",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000n7b8",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-10T03:15:16Z",
+    "published_at": "2024-08-15T23:35:53Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W15-USGS-US7000N7B8-2024.html",
+    "content_hash": "9e24227d7c4729a9d5677f2af30d93b886393d0785c2a11d52649a728b4b0f64",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public, immutable single-event FDSN GeoJSON endpoint"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "wave15-replacement-usgs-events",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-10T03:15:16Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W16-02: keep."
+  }
+}

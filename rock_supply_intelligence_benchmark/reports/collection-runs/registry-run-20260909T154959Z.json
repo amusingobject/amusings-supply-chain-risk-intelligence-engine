@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-09T15:49:59Z",
+  "registry_id": "RSIB-collection-registry-wave7",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/dev/ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024.json",
+      "content_hash": "4b23c461400f584050fc533ce74cdd551e9d96c5c319cefc760783fd503376ba",
+      "sample_id": "ATOM-TWMOL-CSC-TRANSPORT-RECOVERY-2024"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-WINDFARM-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 371,
+  "raw_bodies_retained": 466,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T154959Z.md"
+}

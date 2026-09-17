@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-mixed-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Changhua offshore wind installation campaign caution",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/En/Information/Detail/7d804846-0a23-482c-be7b-8069577b6fd3?NodeId=10016&SiteId=2",
+    "language": "mixed",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T21:45:11Z",
+    "published_at": "2025-09-19T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025.html",
+    "content_hash": "43a59d4d12810c9fc0a53e3e290e9fe7e064eebc256246dd79e187ce39fe2e5d",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice or notice PDF"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "planned_operations_control",
+    "event_subtype": "taiwan-maritime-mixed-wave11",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:45:11Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-17: keep."
+  }
+}

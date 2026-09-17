@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-W11-MPB-SOUTHEAST-FIRING-NOV2025",
+  "source_id": "taiwan-maritime-mixed-wave11",
+  "url": "https://www.motcmpb.gov.tw/ServerFile/Get/e848b6d1-415d-4f38-9f3c-4057132e0229?DLCount=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T21:33:37Z",
+  "content_hash": null
+}

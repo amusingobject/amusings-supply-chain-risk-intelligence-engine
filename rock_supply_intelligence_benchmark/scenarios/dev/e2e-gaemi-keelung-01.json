@@ -9,28 +9,36 @@
   },
   "historical_anchor": {
     "event_type": "weather",
-    "title": "Typhoon Gaemi / Keelung closure",
+    "title": "Typhoon Gaemi / Keelung weather monitor",
     "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
   },
   "evidence": [
     {
       "id": "EVD-E2E-GAEMI-KEELUNG-01-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Typhoon Database: Gaemi (202403)",
       "source_type": "government",
-      "source_locator": "collection-plan://E2E-GAEMI-KEELUNG-01/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-GAEMI-KEELUNG-01/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202403",
+      "publisher": "Central Weather Administration, Taiwan",
+      "retrieved_at": "2026-09-07T19:47:30Z",
+      "published_at": "2024-07-22T15:30:00Z",
+      "effective_at": "2024-07-22T23:30:00+08:00",
+      "observed_at": "2024-07-22T15:30:00Z",
+      "content_hash": "17268d01321d772444b5a17c258012973f9ee8209e0a2db4a4a0915d37e3d9a7",
+      "raw_ref": "raw/first20/ATOM-CWA-GAEMI-2024.html",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "atomic-link-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
-      "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "collection_status": "collected",
+      "language": "zh-TW",
+      "synthetic": false,
+      "license": "not stated on retained page",
+      "access_constraints": "public web page",
+      "provenance": "linked atomic sample ATOM-CWA-GAEMI-2024"
     }
   ],
   "synthetic_business_state": {
@@ -107,35 +115,45 @@
       }
     ]
   },
+  "grounding": {
+    "decision_ref": "reports/gaemi-weather-only-decisions-2026-09-15.json#22A",
+    "weather_evidence_ids": [
+      "EVD-E2E-GAEMI-KEELUNG-01-A"
+    ],
+    "limitations": [
+      "Weather evidence does not prove a Keelung port closure or terminal restriction.",
+      "Weather evidence does not prove an actual shipment delay."
+    ]
+  },
   "expected": {
     "external_event": {
       "event_type": "weather",
       "severity": "high",
-      "disposition": "affected",
+      "disposition": "monitor",
       "evidence_required": true
     },
-    "affected_shipments": [
-      "SHP-SYN-001"
-    ],
+    "affected_shipments": [],
     "unaffected_shipments": [],
     "exposures": [
       {
-        "exposure_type": "departure_delay",
+        "exposure_type": "weather_monitoring",
         "status": "candidate",
-        "linkage_method": "deterministic_entity",
-        "confidence_band": "strong"
+        "linkage_method": "rule_based",
+        "confidence_band": "provisional"
       }
     ],
     "recommendation": {
       "action_type": "monitor",
       "status": "draft",
       "human_approval": "not_requested",
-      "constraint": "No operational action; confirm revised departure and monitor"
+      "constraint": "No operational action; monitor official weather notices and request carrier confirmation"
     },
     "prohibited_claims": [
       "exact delay without evidence",
       "invented business facts",
       "unsupported causality",
+      "port-closure or terminal-restriction claim without separate evidence",
+      "actual shipment-delay claim without separate evidence",
       "autonomous operational action"
     ]
   },
@@ -155,6 +173,6 @@
       "exposure": 0.25,
       "recommendation_constraint": 0.2
     },
-    "adjudication_status": "pending_source_collection"
+    "adjudication_status": "human_approved_weather_only_monitor"
   }
 }

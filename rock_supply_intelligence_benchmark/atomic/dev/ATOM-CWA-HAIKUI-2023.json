@@ -1,0 +1,52 @@
+{
+  "sample_id": "ATOM-CWA-HAIKUI-2023",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "CWA-TDB-202311",
+    "source_type": "government",
+    "publisher": "Central Weather Administration, Taiwan",
+    "source_name": "Typhoon Database: Haikui (202311)",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202311",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": null,
+    "effective_at": "2023-09-01T20:30:00+08:00",
+    "observed_at": "2023-09-01T20:30:00+08:00",
+    "raw_ref": "raw/first20/ATOM-CWA-HAIKUI-2023.html",
+    "content_hash": "05158f6401da9a8626317b7ad591f9167a858e55b7936990a539ca2dbb12d56e",
+    "hash_method": "sha256",
+    "license": "not stated on retained page",
+    "access_constraints": "public web page"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "taiwan_typhoon_warning",
+    "event_category": "weather_natural_disaster",
+    "event_type": "tropical_cyclone",
+    "event_subtype": "CWA_sea_and_land_warning",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "event_extraction",
+      "supply_chain_impact_assessment"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "notes": "Retained record states sea-warning issuance at 2023-09-01 20:30 Taiwan time; no source publication timestamp is asserted. Human review W14-05: keep.",
+    "adjudication_status": "reviewed"
+  }
+}

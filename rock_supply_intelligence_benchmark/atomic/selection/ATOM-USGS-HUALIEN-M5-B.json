@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-HUALIEN-M5-B",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us7000m9j3",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 5.1 - 40 km ENE of Hinatuan, Philippines",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9j3",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-07T20:53:55Z",
+    "published_at": "2024-04-03T04:51:22Z",
+    "effective_at": "2024-04-03T04:51:22Z",
+    "observed_at": "2024-04-03T04:51:22Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "raw_ref": "raw/wave2/ATOM-USGS-HUALIEN-M5-B.json",
+    "content_hash": "252b4c55238dc024241d4f6c4e8c7b0fe6f7e7fc24baaeecff38737bf8ad564a",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "earthquake",
+    "event_category": "irrelevant_general_world",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_origin",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:53:55Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Retained USGS payload is M 5.1 near Hinatuan, Philippines (us7000m9j3), not a Hualien event. Sample ID is historical; label follows retained geography. Negative control. Human review W13-16: keep."
+  }
+}

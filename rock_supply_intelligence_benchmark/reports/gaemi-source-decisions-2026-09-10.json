@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "review_type": "human_scenario_grounding_decision",
+  "reviewed_at": "2026-09-10T19:30:00Z",
+  "reviewer": "human-reviewer-unspecified",
+  "decisions": [
+    {
+      "id": "20A",
+      "candidate_id": "GROUND-GAEMI-KHH-MOTC-2024",
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "decision": "keep_as_narrow_carrier_service_evidence",
+      "limitations": [
+        "Does not prove a general Kaohsiung port closure.",
+        "Does not prove terminal restriction, shipment delay, or recovery.",
+        "Does not authorize a scenario-oracle change by itself."
+      ]
+    },
+    {
+      "id": "20B",
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "decision": "redesign_as_carrier_service_monitor",
+      "reviewed_at": "2026-09-15T00:33:06Z",
+      "scope": [
+        "Use the approved source only for a Kaohsiung–Magong carrier-service monitor.",
+        "Remove the asserted general port-disruption outcome and affected-shipment conclusion.",
+        "Retain only a candidate, non-deterministically linked advisory exposure.",
+        "Prohibit claims of a general closure, terminal restriction, or actual shipment delay."
+      ]
+    },
+    {
+      "id": "20C",
+      "candidate_id": "GROUND-GAEMI-KHH-MOTC-2024",
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "decision": "rejected",
+      "reviewed_at": "2026-09-15T00:45:00Z",
+      "supersedes": [
+        "20A",
+        "20B"
+      ],
+      "effect": "Candidate is not attached; the scenario returns to pending source collection. Raw capture is retained for provenance."
+    },
+    {
+      "id": "21A",
+      "candidate_id": "GROUND-GAEMI-KEELUNG-MATSU-2024",
+      "scenario_id": "E2E-GAEMI-KEELUNG-01",
+      "decision": "rejected",
+      "reviewed_at": "2026-09-15T00:45:00Z",
+      "effect": "Candidate is not attached. Raw capture is retained for provenance."
+    }
+  ]
+}

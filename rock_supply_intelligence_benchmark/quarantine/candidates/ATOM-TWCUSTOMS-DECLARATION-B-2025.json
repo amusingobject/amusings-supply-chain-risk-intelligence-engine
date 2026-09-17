@@ -1,0 +1,9 @@
+{
+  "sample_id": "ATOM-TWCUSTOMS-DECLARATION-B-2025",
+  "source_id": "taiwan-customs-bilingual-wave5",
+  "url": "https://web.customs.gov.tw/taipei/download/ae37f814f4c94131834b2065c294b691",
+  "reason": "unextractable_payload",
+  "observed_at": "2026-09-09T14:31:21Z",
+  "content_hash": "a9550e53eae3bbb5f52ca5f1bcf6f46b497ef35b5627441aa430e09632d67bb6",
+  "raw_ref": "quarantine/raw/ATOM-TWCUSTOMS-DECLARATION-B-2025.bin"
+}

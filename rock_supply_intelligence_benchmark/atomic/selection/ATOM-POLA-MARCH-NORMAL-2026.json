@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-POLA-MARCH-NORMAL-2026",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "port-of-los-angeles-wave6",
+    "source_type": "government",
+    "publisher": "Port of Los Angeles",
+    "source_name": "Port of Los Angeles steady cargo-flow control",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://portoflosangeles.org/references/2026-news-releases/news_041326_march_cargo",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:58:10Z",
+    "published_at": "2026-04-13T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-POLA-MARCH-NORMAL-2026.html",
+    "content_hash": "767f15e80c96a67f118173fd284606c5243e7820cf646d1b62b356b73657f518",
+    "hash_method": "sha256",
+    "license": "Public official port notice",
+    "access_constraints": "Public direct port news release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "normal_operations_control",
+    "event_subtype": "port-of-los-angeles-wave6",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:58:10Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-33: keep."
+  }
+}

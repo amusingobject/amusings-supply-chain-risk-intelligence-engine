@@ -16,21 +16,62 @@
     {
       "id": "EVD-E2E-LABOR-EAST-COAST-16-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-LABOR-EAST-COAST-16/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-LABOR-EAST-COAST-16/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Synthetic historical notice: East Coast labor disruption / Baltimore route",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-LABOR-EAST-COAST-16",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2024-10-02T12:00:00Z",
+      "effective_at": "2024-10-02T12:00:00Z",
+      "observed_at": "2024-10-02T12:00:00Z",
+      "content_hash": "d59ebf28c8ab1b9d903745f43006aa531f21f8f0e8cb90b0205be55d651cfb48",
+      "raw_ref": "raw/e2e-synthetic/E2E-LABOR-EAST-COAST-16.txt",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    },
+    {
+      "id": "EVD-E2E-LABOR-EAST-COAST-16-B",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "ILA launches coastwide East and Gulf Coast port strike",
+      "source_type": "news",
+      "source_locator": "https://ilaunion.org/ila-president-harold-j-daggett-joins-picket-lines-throughout-port-newark-elizabeth-at-start-of-strike-rallies-tens-of-thousands-of-ila-members-to-stay-strong-and-united/",
+      "publisher": "International Longshoremen's Association",
+      "source_authority": "primary_organization",
+      "retrieved_at": "2026-09-09T20:57:23Z",
+      "published_at": "2024-10-01T00:00:00Z",
+      "effective_at": "2024-10-01T00:00:00Z",
+      "observed_at": "2024-10-01T00:00:00Z",
+      "content_hash": "10f563ba10b41b356f1af0a986afefd9db26773c408e89bc2e14aade37c2dea4",
+      "raw_ref": "raw/registry-wave3/ATOM-ILA-EAST-GULF-STRIKE-2024.html",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "human",
+        "model_or_rule": "scenario-grounding-review-v0.1",
+        "execution_class": "human",
+        "reviewer": "human-reviewer-unspecified"
+      },
+      "collection_status": "collected",
+      "supported_claims": [
+        "labor",
+        "port_operations"
+      ],
+      "language": "en",
+      "synthetic": false,
+      "license": "Public labor organization publication",
+      "access_constraints": "Public direct organizational article",
+      "provenance": "Human-approved scenario evidence candidate GROUND-ILA-EAST-GULF-STRIKE-2024; linked atomic sample ATOM-ILA-EAST-GULF-STRIKE-2024."
     }
   ],
   "synthetic_business_state": {

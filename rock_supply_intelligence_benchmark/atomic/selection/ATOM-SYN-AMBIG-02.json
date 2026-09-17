@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-SYN-AMBIG-02",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ATOM-SYN-AMBIG-02",
+    "source_type": "analyst",
+    "publisher": "Rock Supply Intelligence benchmark authors",
+    "source_name": "Synthetic adversarial OSINT fixture",
+    "source_authority": "none",
+    "source_reliability": "not_applicable",
+    "source_locator": "synthetic://ATOM-SYN-AMBIG-02",
+    "language": "zh-TW",
+    "content_type": "text/plain",
+    "retrieved_at": "2026-09-07T20:58:33Z",
+    "published_at": "2026-09-07T20:58:33Z",
+    "license": "benchmark-internal synthetic fixture",
+    "access_constraints": "synthetic; not a real-world source",
+    "raw_ref": "raw/wave2/ATOM-SYN-AMBIG-02.txt",
+    "content_hash": "048b0c0251c4f8a076649791c25ea19614a5b8f1b1a2b1ba6866fcdd81f6392d",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "ambiguous_conflicting",
+    "primary_label": "synthetic_ambiguous_rumor",
+    "event_category": "port_vessel_carrier",
+    "event_type": "port_disruption",
+    "event_subtype": "ambiguous_conflicting",
+    "expected_relevance_class": "ambiguous_conflicting",
+    "expected_disposition": "abstain",
+    "tasks": [
+      "relevance",
+      "conflict_preservation",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "authored_synthetic",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:58:33Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": true,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Synthetic zh-TW rumor without identifiers. Human review W12-32: keep."
+  }
+}

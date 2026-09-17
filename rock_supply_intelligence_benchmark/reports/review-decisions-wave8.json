@@ -1,0 +1,83 @@
+[
+  {
+    "decision_id": "W8-01",
+    "sample_id": "ATOM-MPB-FIRING-EXERCISE-JUNE2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "2856dd655dd8291a8442a7c58bc5f23c52b987ceb6cbba3696b9db8b2856b614",
+    "rationale": "Human reviewer approved Wave 8A with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-02",
+    "sample_id": "ATOM-MPB-CCP-EXERCISE-WARNING-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "2c7f08e7ed92d9f78787f4a9324b1fe3ed6bb6c9335bcb332a4ae894b27a683e",
+    "rationale": "Human reviewer approved Wave 8A with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-03",
+    "sample_id": "ATOM-MPB-MILITARY-EXERCISE-MAY2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "9922303311d2015605cb821f746359f63a7e5e99d6aeb828d7bd4fc5c58ce152",
+    "rationale": "Human reviewer approved Wave 8A with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-04",
+    "sample_id": "ATOM-MPB-NORTHEAST-MET-MAINTENANCE-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "5c491439826953c40f414915dbeb56d5fd62c446b651f2d9ee53b9f2819745ae",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-05",
+    "sample_id": "ATOM-MPB-NORTHEAST-WRECK-OPS-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "12048efe629b94ad9fceb7f1d2cf64a0f86e56bab65965181579a3fd47e63abf",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-06",
+    "sample_id": "ATOM-MPB-TAIPEI-BREAKWATER-WORK-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "bea726ced7d1001701c16782c5835e311b91178f85d689b9726b48ccfe76ada3",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-07",
+    "sample_id": "ATOM-MPB-NORTHEAST-CABLE-REPAIR-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "09e023b033ee5e4dd0e27823d55219950c839998dda21c5f4ecb6799b3c9a375",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-08",
+    "sample_id": "ATOM-MPB-NORTHEAST-OPS-JUNE2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "2fd04eb0c912ba423061956d4bf184dbd22d95717dc2b4b94320857af3b2f5bd",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  },
+  {
+    "decision_id": "W8-09",
+    "sample_id": "ATOM-MPB-TAIPEI-BUOY-WORK-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T16:16:48Z",
+    "manifest_hash": "db0e312e318b068b712011efcf94aba2c8556db5aa430cf2d9cae405aff85430",
+    "rationale": "Human reviewer approved Wave 8B with the proposed narrow label."
+  }
+]

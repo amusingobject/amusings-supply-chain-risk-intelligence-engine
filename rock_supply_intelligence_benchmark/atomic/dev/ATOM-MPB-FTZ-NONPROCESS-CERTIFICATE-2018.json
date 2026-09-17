@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-bilingual-wave5",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Free Trade Zone non-processing certificate application process",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/e7e11d09-afaa-4a43-992f-9b1f54c4b0b8?NodeId=506&SiteId=1",
+    "language": "mixed",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:34:37Z",
+    "published_at": "2018-11-09T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-FTZ-NONPROCESS-CERTIFICATE-2018.html",
+    "content_hash": "7d919d21169e0590283d6150ec0d12441e28337923e6ff30ec5519c18d29857b",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual form or process document"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "administrative_bilingual_control",
+    "event_subtype": "taiwan-maritime-bilingual-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:34:37Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-14: keep."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-ILWU-WWL-CONTRACT-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ilwu-primary",
+    "source_type": "news",
+    "publisher": "International Longshore and Warehouse Union",
+    "source_name": "Heat and Hammer wins first contract at Wallenius Tacoma",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.ilwu.org/wwl-tacoma-contract/",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T13:17:06Z",
+    "published_at": "2025-08-01T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-ILWU-WWL-CONTRACT-2025.html",
+    "content_hash": "f7ce95022f14ba31ccd7363b9d272ae4ebe525184cfc7330b8cec0a372385ca3",
+    "hash_method": "sha256",
+    "license": "Public organizational publication",
+    "access_constraints": "Public HTTPS article"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor",
+    "event_subtype": "ilwu-primary",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T13:17:06Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-B3-20260909-01: keep."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-09T20:12:08Z",
+  "registry_id": "RSIB-collection-registry-wave9",
+  "deficits": {
+    "split": {
+      "dev": 0,
+      "selection": 18,
+      "holdout": 19
+    },
+    "primary_class": {
+      "materially_relevant": 9,
+      "monitor": 0,
+      "irrelevant": 28,
+      "ambiguous_conflicting": 0,
+      "prompt_injection": 0
+    },
+    "language": {
+      "en": 4,
+      "zh-TW": 25,
+      "mixed": 8
+    },
+    "event_category": {
+      "weather_natural_disaster": 0,
+      "port_vessel_carrier": 5,
+      "labor_infrastructure_transportation": 17,
+      "geopolitical_security": 15,
+      "regulatory_trade_customs": 0,
+      "irrelevant_general_world": 0
+    }
+  },
+  "proposals": []
+}

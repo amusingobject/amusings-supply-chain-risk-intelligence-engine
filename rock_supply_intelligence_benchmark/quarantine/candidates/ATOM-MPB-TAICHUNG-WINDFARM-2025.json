@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-TAICHUNG-WINDFARM-2025",
+  "source_id": "taiwan-maritime-wave6",
+  "url": "https://www.motcmpb.gov.tw/ServerFile/Get/2b2c5c30-dd49-45d2-868b-2f8c54676a97?DLCount=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T15:49:57Z",
+  "content_hash": null
+}

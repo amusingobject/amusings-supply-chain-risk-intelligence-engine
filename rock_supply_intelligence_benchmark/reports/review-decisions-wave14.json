@@ -1,0 +1,525 @@
+[
+  {
+    "decision_id": "W14-01",
+    "sample_id": "ATOM-CWA-BEBINCA-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "d6915a8cd28a3d44bd824fdfcd000bc5ae21dba181f93a5e4d844833ba00b49a",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-02",
+    "sample_id": "ATOM-CWA-DOKSURI-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "32a963c288593a304b75d14720f5e5f010aad9a1f6c8dfa1394ba09050475a90",
+    "rationale": "Human reviewer approved Wave 14 with the proposed Taiwan-area material-weather evidence label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-03",
+    "sample_id": "ATOM-CWA-EWINIAR-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "1ed9e975630ac9ba8f233e21d42c31e298456cf8d7fe0118037906fcbcc26e68",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-04",
+    "sample_id": "ATOM-CWA-GAEMI-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "3f3c12fd24f3fab163c0600dd6e90bdc2d55948a82ee1bfadeec891c1eda0b4e",
+    "rationale": "Human reviewer approved Wave 14 with the proposed Taiwan-area material-weather evidence label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-05",
+    "sample_id": "ATOM-CWA-HAIKUI-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "636612f593925aa12961afcb8bf433c52d39dd796e7ddd765968e90790d82a73",
+    "rationale": "Human reviewer approved Wave 14 with the proposed Taiwan-area material-weather evidence label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-06",
+    "sample_id": "ATOM-CWA-KONGREY-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "0cbb02be64b5b65e216d2fe3733262cfbfb7a8410648c385f67441110f080023",
+    "rationale": "Human reviewer approved Wave 14 with the proposed Taiwan-area material-weather evidence label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-07",
+    "sample_id": "ATOM-CWA-KRATHON-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "7964a7eacee5bab6d345d721a93179ff0af85a6d5b83198625082848826b6700",
+    "rationale": "Human reviewer approved Wave 14 with the proposed Taiwan-area material-weather evidence label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-08",
+    "sample_id": "ATOM-CWA-TDB-202301",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "4911e44b4dc3020f491fbbf03c1fce9270813e80ca389d66db1e6e60bc293db9",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-09",
+    "sample_id": "ATOM-CWA-TDB-202302",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "1964488e01dc2be70ec5316b2133a9485b80050f47e8ee0caa2c51a3d78f95fc",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-10",
+    "sample_id": "ATOM-CWA-TDB-202303",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "6dd021fcbd7d64287f9d7093d0362dfeb2a49dbafe2f1a5771c7f2f636cd8719",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-11",
+    "sample_id": "ATOM-CWA-TDB-202304",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "18b11a665152ba4340384bad148977af25f1ebe6b615a6e694cbec2f2f305a19",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-12",
+    "sample_id": "ATOM-CWA-TDB-202306",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "25500fcb5d82cf78f23ad87041b952459166b33bbfa8415ed578a844b0d7ed89",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-13",
+    "sample_id": "ATOM-CWA-TDB-202307",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "5f9b0d7e2756193ddc875be61a11e2a649d0d6992360d79d6a068f5a1cc0601f",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-14",
+    "sample_id": "ATOM-CWA-TDB-202308",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "8ce58551bdced34bda0cabb9807c45fdb92a73f17607519bec7a434de0b979f8",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-15",
+    "sample_id": "ATOM-CWA-TDB-202309",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "05bf68bcc6fad399d12ef12a3471420e0485f1362fea12d26f3f2cd9ab01dc90",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-16",
+    "sample_id": "ATOM-CWA-TDB-202310",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "a28708f919e6d14f7e3bd6b9444e4ffa918b4a9764c0647c595745e37ba207db",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-17",
+    "sample_id": "ATOM-CWA-TDB-202402",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "340f87f2b3157391123db28c5bb718165820d1ed5a3363080808baac434ca155",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-18",
+    "sample_id": "ATOM-CWA-TDB-202404",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "a8b32a3ffca5b272e34db8fc58fb06d1ff893fdfab67b6ae812417028e4fb509",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-19",
+    "sample_id": "ATOM-CWA-TDB-202405",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "18d532f140828181ad999ca13001bf91956dd58a7b6f9ecf3119a5fdd4d74305",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-20",
+    "sample_id": "ATOM-CWA-TDB-202406",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "a900d2e33dfa05b43969f4600a38cc04a10903e20242c28c028f87f8a1b51d45",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-21",
+    "sample_id": "ATOM-CWA-TDB-202407",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "d69337b7ae892f28d5f74030fa65134d99f9452fe5d49cae01356e0c4cdf9872",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-22",
+    "sample_id": "ATOM-CWA-TDB-202408",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "cdafc909f0137eb2bb10f68f16e93a6ee713362b9c0fc7320b996a5a014d0c9d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-23",
+    "sample_id": "ATOM-CWA-TDB-202409",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "ea5332b78cae5a5b40bfdac210d3dd4253b2ef42c39189918f9f6e24a33eca1d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-24",
+    "sample_id": "ATOM-CWA-TDB-202412",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "0209cce296236c0c83f8afec51248547595fd4e27587366c6b65d50fe8325aca",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-25",
+    "sample_id": "ATOM-CWA-TDB-202414",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "f7b99cb5f7a37f2bf0b99c9baae8ebc32cd71edbcaf95a3fa973f83775947541",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-26",
+    "sample_id": "ATOM-CWA-TRAMI-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "9dc00203871b5c20a83ce457a51cf192f81b3eca6e27c009d55992976c6a51fd",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-27",
+    "sample_id": "ATOM-CWA-YAGI-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "341a38b8711d77133bcf1cdd214099c309c617130b35553725a5ff4dc906769d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-28",
+    "sample_id": "ATOM-NOAA-BERYL-01",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "405b13907fe91e04780f768bed7ffe58f70c779a6fc6f168729f178ac4c8551e",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-29",
+    "sample_id": "ATOM-NOAA-BERYL-03",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "516e99649b27c4106f4d9cb4912f5f98add268326859c87dedcc01f19b19d884",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-30",
+    "sample_id": "ATOM-NOAA-BERYL-05",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "644bb67195e386784b8b2c3148238922ddb9e2561e0ffd2ad01b5fdd1c001dd1",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-31",
+    "sample_id": "ATOM-NOAA-BERYL-07",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "da583f9bb9f724fc514cf283b57c1834646e9cf44b7b1f5db64b95ad3dfba99a",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-32",
+    "sample_id": "ATOM-NOAA-BERYL-09",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "75230edca7f3def1d07e3f3b15c1c5010d4aa97df0d5c70623c52f103938a33e",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-33",
+    "sample_id": "ATOM-NOAA-BERYL-11",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "12ce8a10902d251d44e009d62c6eaa23eb87c96f7771dd19197f47be609d1c0b",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-34",
+    "sample_id": "ATOM-NOAA-BERYL-13",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "2915af936e6762ec4b011aeab5134321f60254c15e7c9f2a72ef22989ff3f66f",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-35",
+    "sample_id": "ATOM-NOAA-BERYL-15",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "361fa39514c8c94dc5ae8cc7d9d1aa3ff5ea6036767be1a0e3121204b319d82d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-36",
+    "sample_id": "ATOM-NOAA-BERYL-17",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "077f6a837027e08e6116a0e9d654f1cafc129d9fd7685d289ca2d647c4f2567b",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-37",
+    "sample_id": "ATOM-NOAA-BERYL-19",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "ac28394db5772bbe7dc42d48941f7a445fffb35c29231d9dbd03bf0c055c7cc3",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-38",
+    "sample_id": "ATOM-NOAA-BERYL-21",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "183dfd98c91f5f0237fd977a5df63052edaa5603aed4acedccbeb99ed50a3c02",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-39",
+    "sample_id": "ATOM-NOAA-BERYL-23",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "da013e47baeafa1c6c1f83a0e3c192592f51a00529dab3c6d8ade422c534a8be",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-40",
+    "sample_id": "ATOM-NOAA-BERYL-25",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "faa3a4a56d20212cda004f5537fa94dac1a0d56f8d0c73948b71dbde1913db5d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-41",
+    "sample_id": "ATOM-NOAA-BERYL-26",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "4233357e8ae88ccfa8a60a6038fb50f1bc2411efa44eeee41893f8c173643793",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-42",
+    "sample_id": "ATOM-NOAA-BERYL-27",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "1df6441a0829df0326977696f1b237e9f8fde070e5c78dc877ee03f1379c6648",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-43",
+    "sample_id": "ATOM-NOAA-BERYL-28",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "96fc5766dcdac14bbd2a9f5ac88dac3f85e76113e3ee704442a7431d3d999b43",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-44",
+    "sample_id": "ATOM-NOAA-BERYL-29",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "c669b191bf4bdf641b82a9c0e6c47ee8b6ba4c1cfe5803e53cb2fce8c8dfeec0",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-45",
+    "sample_id": "ATOM-NOAA-BERYL-30",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "f165a11017473b5f5156c5c4e9599ff4b1adb02cd8259b132d30907724084577",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-46",
+    "sample_id": "ATOM-NOAA-BERYL-31",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "036e875bb7f2451e6b806eef0cec4185e76ba401c4c4fcf86aaf62e027e87826",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-47",
+    "sample_id": "ATOM-NOAA-BERYL-32",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "911b65a675c6d88b3d2f2136d9b8c0cfedbff3480f2df8594de5e2ef9b952a14",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-48",
+    "sample_id": "ATOM-NOAA-BERYL-34",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "2f7bebbeb3208b287289866527c7b391f26800508175175246f2cb5d868dee73",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-49",
+    "sample_id": "ATOM-NOAA-BERYL-36",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "b9038d216c0ec7e808e48248fdeec819cc404ebcf71c56f5c46d96d06060ef21",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-50",
+    "sample_id": "ATOM-NOAA-BERYL-38",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "3634b105aa6461976a4ec35dafa5745c3e95b052557680f75797da365e12885f",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-51",
+    "sample_id": "ATOM-NOAA-BERYL-39",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "56add87bfb7b052bfce0692bfe551301210b96ce56b17fcb97e991edd18df46d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-52",
+    "sample_id": "ATOM-NOAA-BERYL-40",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "cf52363bb8b7445cd5a0b2d2de71226ab6f0a36a7a7b05dc5e1d791011fcf341",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-53",
+    "sample_id": "ATOM-NOAA-BERYL-42",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "a1585d7b646052879cd4a7f276532140db8b70edc0fbb68f185366df6069cd6d",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-54",
+    "sample_id": "ATOM-NOAA-BERYL-44",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "0c0497a86bcf49a6c8bcf97002882597394c82018b99bb81fad8d9d3c939f598",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-55",
+    "sample_id": "ATOM-NOAA-DEBBY-12",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "30f5b94ce4c860cfcb6c5a5b667c1d7e338f5900bfd5c6fc4fd6c39648acb086",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  },
+  {
+    "decision_id": "W14-56",
+    "sample_id": "ATOM-NOAA-HELENE-15",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "57508592ba2860b50fdff1f83909ae147f3fb25c062510ba4e8ed3619713557b",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-57",
+    "sample_id": "ATOM-NOAA-MILTON-10",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "0b4f39e92ffc0052087839ebc11afd929f4bcdfb97ded41fc7971d6cb7462e32",
+    "rationale": "Human reviewer approved Wave 14 with the proposed weather monitoring label; this does not establish operational impact."
+  },
+  {
+    "decision_id": "W14-58",
+    "sample_id": "ATOM-NOAA-OSCAR-05",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:10:00Z",
+    "manifest_hash": "649a2e6d7e6f88d219ddf5fe2dec8ea3222b63e4f4cbff3850224fc9aaae864c",
+    "rationale": "Human reviewer approved Wave 14 with the proposed out-of-scope weather control label."
+  }
+]
+

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-DISASTER-DRILL-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave4",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Kaohsiung port disaster-response exercise",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/c1018a30-ac23-4c6c-8274-5133de29faf4?NodeId=15&SiteId=1",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:00:05Z",
+    "published_at": "2025-09-03T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-DISASTER-DRILL-2025.html",
+    "content_hash": "ac09fba30b1ba798c9564d1a41deb6ddb1ff1ce32cfc158868916322966715eb",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct Traditional Chinese page"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "exercise_no_disruption",
+    "event_subtype": "taiwan-maritime-wave4",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:00:05Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W4-20260909-25: keep."
+  }
+}

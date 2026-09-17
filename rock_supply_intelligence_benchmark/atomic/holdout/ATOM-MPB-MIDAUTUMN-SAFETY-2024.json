@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-MIDAUTUMN-SAFETY-2024",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave7",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Holiday ferry safety inspection control",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/3f392dcb-3d57-48cc-ba77-2d853824bd20?NodeId=15&SiteId=1",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T15:48:21Z",
+    "published_at": "2024-09-09T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-MIDAUTUMN-SAFETY-2024.html",
+    "content_hash": "250924922704c699bb8ff73905511687088fe14091cffb220f82eb5949742b04",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "normal_operations_control",
+    "event_subtype": "taiwan-maritime-wave7",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T15:48:21Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W7-02: keep."
+  }
+}

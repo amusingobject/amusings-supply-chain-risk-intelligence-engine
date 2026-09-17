@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-07T21:00:00Z",
+  "policy": "Discrepancies are reported. Ground-truth labels already present on the original 13 first-batch samples were not rewritten.",
+  "findings": [
+    {
+      "id": "truncated-first20-json",
+      "severity": "error-fixed-construction",
+      "summary": "atomic/first20_fixtures.json was truncated after 13 objects and was invalid JSON. 19 raw files existed. Six NOAA/NAVCEN files had no manifests. There was no 20th body.",
+      "action": "Rebuilt the batch index and materialized per-sample manifests. Original 13 label fields copied unchanged. Six new provisional labels added from retained bytes."
+    },
+    {
+      "id": "completeness-fields-stale",
+      "severity": "error-fixed-construction",
+      "summary": "manifest.json and corpus_manifest.json reported 0 collected while raw bodies existed.",
+      "action": "Counts now derived from collected manifests and retained files. Still far below 420."
+    },
+    {
+      "id": "usgs-01-observed-at-mapping",
+      "severity": "warning",
+      "summary": "ATOM-USGS-01 observed_at=2026-06-25T10:54:32Z is USGS properties.updated, not origin time. published_at/effective_at correctly use origin 2024-04-02T23:58:12Z. Label unchanged.",
+      "action": "Documented only. New USGS samples map origin time to published_at/effective_at/observed_at."
+    },
+    {
+      "id": "scenario-set-vs-handoff",
+      "severity": "warning",
+      "summary": "Repository 28 scenarios are not the same 28 listed in the implementation handoff. Missing from repo: Taiwan military exercises (+ negative), LA/LB congestion negative, Ever Given/Suez (+ negative), Vancouver flood (+ negative), Yantian congestion, Shanghai lockdown, Maersk cyberattack. Present instead: FAA, 511, customs hold, sanctions name-match, port reopening, geopolitical news, wildfire, NAVCEN, inventory stockout, prompt-injection, conflict.",
+      "action": "Kept repository 28 as the established scaffold. Did not replace scenario IDs."
+    },
+    {
+      "id": "gates-vs-handoff",
+      "severity": "warning",
+      "summary": "scoring/gates.json omits several handoff hard gates (schema-valid 99%/99.9%, material recall 95%, precision 90%, critical-event recall 98%, entity F1, port F1, grounding 99%, exposure recall/precision 95%, geographic correlation 97%). zh-TW recall 0.93 is present. Quality geographic matching is 0.95 not 0.97.",
+      "action": "Did not silently rewrite gates.json. Bakeoff harness computes the missing metrics so they can be added in a reviewed scoring revision."
+    },
+    {
+      "id": "exposure-type-enum-drift",
+      "severity": "warning",
+      "summary": "Scenario expected.exposures use types such as departure_delay, monitor_only, quarantine_untrusted_instruction. Canonical Exposure types are delay, capacity_loss, inventory_stockout, customer_commitment, financial, compliance, route_disruption.",
+      "action": "Documented. Scenario expected blocks left unchanged."
+    },
+    {
+      "id": "no-canonical-json-for-most-records",
+      "severity": "info",
+      "summary": "Contract exists as DOCX. JSON schemas existed only for Evidence (thin), atomic samples, scenarios, and benchmark manifest. ExternalEvent JSON schema was added additively.",
+      "action": "Do not treat DOCX tables as silently redefined."
+    },
+    {
+      "id": "navcen-pdf-title-metadata",
+      "severity": "info",
+      "summary": "LNM PDF Title metadata is Delay_Report_11-2017.pdf because that form is an enclosure. Page 1 text is District 11 LNM week 12/24 and 33/24.",
+      "action": "Manifest notes record the enclosure. Labels based on page-1 identity."
+    },
+    {
+      "id": "faa-html-spa-shell",
+      "severity": "info",
+      "summary": "ATOM-FAA-NAS-SNAPSHOT retained bytes are the NAS status SPA shell, not airport rows. ATOM-FAA-NAS-XML holds the structured XML feed snapshot.",
+      "action": "Documented on the HTML sample. XML sample added."
+    },
+    {
+      "id": "usgs-hualien-m5-b-geography",
+      "severity": "label-correction-new-sample",
+      "summary": "Wave-2 sample ATOM-USGS-HUALIEN-M5-B retained body is M 5.1 Hinatuan, Philippines. Initial collector note called it Hualien.",
+      "action": "Corrected labels to irrelevant to match retained geography. Sample ID left as assigned."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-TREASURY-RUSSIA-JY2777",
+  "source_id": "us-treasury-maritime",
+  "url": "https://home.treasury.gov/news/press-releases/jy2777",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:57:05Z",
+  "content_hash": null
+}

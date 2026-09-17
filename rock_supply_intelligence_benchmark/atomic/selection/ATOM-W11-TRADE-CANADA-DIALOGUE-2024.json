@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-TRADE-CANADA-DIALOGUE-2024",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-trade-policy-controls-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan International Trade Administration",
+    "source_name": "Taiwan-Canada economic dialogue",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.trade.gov.tw/Pages/Detail.aspx?nodeid=40&pid=794294",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T21:31:33Z",
+    "published_at": "2024-12-06T15:30:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-TRADE-CANADA-DIALOGUE-2024.html",
+    "content_hash": "85f6ab374475391d16de58533a2af5b79e3e9f43919dca8200daa7d886668846",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "geopolitical_policy_control",
+    "event_subtype": "taiwan-trade-policy-controls-wave11",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:31:33Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-24: keep."
+  }
+}

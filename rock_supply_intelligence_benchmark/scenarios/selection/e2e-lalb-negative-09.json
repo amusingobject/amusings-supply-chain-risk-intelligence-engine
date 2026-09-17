@@ -1,0 +1,214 @@
+{
+  "scenario_id": "E2E-LALB-NEGATIVE-09",
+  "scenario_version": "0.1",
+  "split": "selection",
+  "evaluation_timestamp": "2021-10-18T12:00:00Z",
+  "canonical_contract": {
+    "version": "0.1",
+    "tenant_id": "sunlighten-shadow"
+  },
+  "historical_anchor": {
+    "event_type": "port_operations",
+    "title": "Los Angeles–Long Beach operational-capacity monitor / Seattle shipment",
+    "temporal_integrity": "evidence_limited_to_evaluation_timestamp"
+  },
+  "evidence": [
+    {
+      "id": "EVD-E2E-LALB-NEGATIVE-09-A",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Los Angeles–Long Beach congestion / Seattle shipment",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-LALB-NEGATIVE-09",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2021-10-18T12:00:00Z",
+      "effective_at": "2021-10-18T12:00:00Z",
+      "observed_at": "2021-10-18T12:00:00Z",
+      "content_hash": "9c883bff9970b2bf655fe56ce915d864c79c8f573e5391e76e7280791e82362a",
+      "raw_ref": "raw/e2e-synthetic/E2E-LALB-NEGATIVE-09.txt",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
+    },
+    {
+      "id": "EVD-GROUND-LALB-247-2021",
+      "schema_version": "0.1",
+      "status": "active",
+      "source_name": "Port of Los Angeles 24/7 operations statement",
+      "source_type": "government",
+      "source_locator": "https://portoflosangeles.org/references/2021-news-releases/news_101321_portstatement",
+      "publisher": "Port of Los Angeles",
+      "retrieved_at": "2026-09-10T18:37:07Z",
+      "published_at": "2021-10-13T00:00:00Z",
+      "observed_at": "2021-10-13T00:00:00Z",
+      "content_hash": "5ce3f7fd0e0f1a91c055fce2c591310597add6a788b0d56719f2369041c8790a",
+      "raw_ref": "raw/scenario-grounding/GROUND-LALB-247-2021.html",
+      "excerpt_or_payload_path": "$",
+      "extraction": {
+        "method": "deterministic",
+        "model_or_rule": "scenario-grounding-capture-v0.1",
+        "execution_class": "deterministic"
+      },
+      "collection_status": "collected",
+      "language": "en",
+      "synthetic": false,
+      "license": "Public official publication",
+      "access_constraints": "Public direct government page",
+      "provenance": "Reviewed scenario-grounding candidate GROUND-LALB-247-2021; decision 18D limits this evidence to external port-operations context.",
+      "supported_claims": [
+        "port_operations"
+      ]
+    }
+  ],
+  "synthetic_business_state": {
+    "suppliers": [
+      {
+        "supplier_id": "SUP-09",
+        "supplier_code": "SYN-09",
+        "status": "active",
+        "facility_location": "Kaohsiung"
+      }
+    ],
+    "purchase_orders": [
+      {
+        "po_number": "PO-SYN-09",
+        "supplier_id": "SUP-09",
+        "status": "open",
+        "currency": "USD",
+        "lines": [
+          {
+            "sku_id": "SKU-09",
+            "quantity_ordered": 24,
+            "promised_date": "2021-10-18"
+          }
+        ]
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-SYN-LALB-N",
+        "status": "booked",
+        "mode": "ocean",
+        "origin": "Kaohsiung",
+        "destination": "Seattle",
+        "via": "North Pacific",
+        "po_refs": [
+          "PO-SYN-09"
+        ],
+        "legs": [
+          {
+            "leg_sequence": 1,
+            "mode": "ocean",
+            "origin": "Kaohsiung",
+            "destination": "Seattle",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "inventory_positions": [
+      {
+        "sku_id": "SKU-09",
+        "location_id": "LOC-SEATTLE",
+        "snapshot_at": "2021-10-18T12:00:00Z",
+        "on_hand": 40,
+        "allocated": 8,
+        "available": 32,
+        "on_order": 24,
+        "in_transit": 24,
+        "safety_stock": 8,
+        "unit": "EA"
+      }
+    ],
+    "sales_orders": [
+      {
+        "sales_order_number": "SO-SYN-09",
+        "status": "open",
+        "lines": [
+          {
+            "sku_id": "SKU-09",
+            "ordered": 6,
+            "allocated": 2,
+            "shipped": 0
+          }
+        ]
+      }
+    ]
+  },
+  "grounding": {
+    "decision_ref": "reports/scenario-oracle-decisions-2026-09-10.json#18D",
+    "external_evidence_candidate_ids": [
+      "GROUND-LALB-247-2021"
+    ],
+    "route_assertions": [
+      {
+        "assertion_id": "ROUTE-E2E-LALB-NEGATIVE-09-01",
+        "shipment_number": "SHP-SYN-LALB-N",
+        "kind": "declared_out_of_route",
+        "field": "synthetic_business_state.shipments[0].destination",
+        "value": "Seattle",
+        "excludes": "Long Beach",
+        "deterministic": true,
+        "supports": "negative_route_linkage",
+        "limitations": [
+          "This establishes only the declared benchmark route."
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "external_event": {
+      "event_type": "port_operations",
+      "severity": "moderate",
+      "disposition": "monitor",
+      "evidence_required": true
+    },
+    "affected_shipments": [],
+    "unaffected_shipments": [
+      "SHP-SYN-LALB-N"
+    ],
+    "exposures": [
+      {
+        "exposure_type": "delay",
+        "status": "dismissed",
+        "linkage_method": "rule_based",
+        "confidence_band": "provisional"
+      }
+    ],
+    "recommendation": {
+      "action_type": "no_action",
+      "status": "draft",
+      "human_approval": "not_requested",
+      "constraint": "No operational action"
+    },
+    "prohibited_claims": [
+      "exact delay without evidence",
+      "invented business facts",
+      "unsupported causality",
+      "congestion, berth-unavailability, or delay claim without evidence",
+      "autonomous operational action"
+    ]
+  },
+  "hard_negative_pair": {
+    "pair_id": "HN-E2E-LALB-NEGATIVE-09",
+    "assertion": "A valid event outside the fixture route/entity/time window must not create material exposure for this shipment."
+  },
+  "scoring_metadata": {
+    "required_gates": [
+      "e2e-no-invented-business-facts",
+      "e2e-evidence-coverage",
+      "e2e-no-autonomy"
+    ],
+    "adjudication_status": "provisional_synthetic_evidence"
+  }
+}

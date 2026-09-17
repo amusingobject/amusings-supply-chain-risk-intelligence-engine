@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-09T20:09:26Z",
+  "registry_id": "RSIB-collection-registry-wave9",
+  "collected": [],
+  "failed": [
+    {
+      "sample_id": "ATOM-TWPORT-DANAS-PREP-2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-DOL-ILA-AGREEMENT-2025",
+      "reason": "fetch_failed:HTTPError"
+    }
+  ],
+  "corpus_collected": 383,
+  "raw_bodies_retained": 480,
+  "review_packet": null
+}

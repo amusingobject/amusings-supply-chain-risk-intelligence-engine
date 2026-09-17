@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-NOAA-BERYL-39",
+  "split": "dev",
+  "source": {
+    "source_id": "NHC-AL022024-ADV39",
+    "source_type": "government",
+    "publisher": "NOAA National Hurricane Center",
+    "source_name": "Hurricane Beryl Advisory Number 39 (AL022024)",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.nhc.noaa.gov/archive/2024/al02/al022024.public.039.shtml",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": "2024-07-08T09:00:00Z",
+    "effective_at": "2024-07-08T09:00:00Z",
+    "observed_at": "2024-07-08T09:00:00Z",
+    "raw_ref": "raw/first20/ATOM-NOAA-BERYL-39.html",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public NHC archive page",
+    "content_hash": "5d4a2a4b6bc3cd932b5b14343e4259afe560a20ef2f3bf5d755c0aaab0f767dc"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "gulf_hurricane_landfall_texas",
+    "event_category": "weather_natural_disaster",
+    "event_type": "tropical_cyclone",
+    "event_subtype": "NHC_public_advisory",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Retained NHC public advisory: 400 AM CDT 8 Jul 2024, landfall near Matagorda, Texas. Monitor for Gulf-port exposure; not a Taiwan origin-port event. Human review W14-51: keep."
+  },
+  "schema_version": "0.1",
+  "collection_status": "collected"
+}

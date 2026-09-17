@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": "GROUND-ILA-EAST-GULF-STRIKE-2024",
+    "scenario_id": "E2E-LABOR-EAST-COAST-16",
+    "state": "reviewed",
+    "source": {
+      "publisher": "International Longshoremen's Association",
+      "locator": "https://ilaunion.org/ila-president-harold-j-daggett-joins-picket-lines-throughout-port-newark-elizabeth-at-start-of-strike-rallies-tens-of-thousands-of-ila-members-to-stay-strong-and-united/",
+      "published_at": "2024-10-01T00:00:00Z",
+      "raw_ref": "raw/registry-wave3/ATOM-ILA-EAST-GULF-STRIKE-2024.html",
+      "content_hash": "10f563ba10b41b356f1af0a986afefd9db26773c408e89bc2e14aade37c2dea4"
+    },
+    "supported_claims": [
+      "labor",
+      "port_operations"
+    ],
+    "excerpt": "launched the first coastwide strike in the ILA in nearly a half century.",
+    "reviewer": "human-reviewer-unspecified"
+  },
+  {
+    "candidate_id": "GROUND-PANAMA-A48-2023",
+    "scenario_id": "E2E-PANAMA-DROUGHT-13",
+    "state": "reviewed",
+    "source": {
+      "publisher": "Panama Canal Authority",
+      "locator": "https://pancanal.com/en/the-driest-month-of-october-since-1950/",
+      "published_at": "2023-10-31T23:26:32Z",
+      "raw_ref": "raw/scenario-grounding/GROUND-PANAMA-A48-2023.html",
+      "content_hash": "3c49b7acd782b4fb531d6e011a6454b8555d9d5d9e2e1f0434144c8cde964ec6"
+    },
+    "supported_claims": [
+      "infrastructure"
+    ],
+    "excerpt": "December 1 to 31",
+    "reviewer": "human-reviewer-unspecified"
+  },
+  {
+    "candidate_id": "GROUND-LALB-247-2021",
+    "scenario_id": "E2E-LALB-CONGESTION-08",
+    "state": "reviewed",
+    "source": {
+      "publisher": "Port of Los Angeles",
+      "locator": "https://portoflosangeles.org/references/2021-news-releases/news_101321_portstatement",
+      "published_at": "2021-10-13T00:00:00Z",
+      "raw_ref": "raw/scenario-grounding/GROUND-LALB-247-2021.html",
+      "content_hash": "5ce3f7fd0e0f1a91c055fce2c591310597add6a788b0d56719f2369041c8790a"
+    },
+    "supported_claims": [
+      "port_operations"
+    ],
+    "excerpt": "moving to 24/7 operations at the Port of Los Angeles",
+    "reviewer": "human-reviewer-unspecified"
+  },
+  {
+    "candidate_id": "GROUND-GAEMI-KHH-MOTC-2024",
+    "scenario_id": "E2E-GAEMI-KHH-02",
+    "state": "rejected",
+    "source": {
+      "publisher": "Ministry of Transportation and Communications, Taiwan",
+      "locator": "https://www.motc.gov.tw/ch/app/data/view?id=14&module=news&serno=d1c1dd95-ed5e-4ee8-9d1f-067867e2fbb6",
+      "published_at": "2024-07-22T23:59:59Z",
+      "raw_ref": "raw/scenario-grounding/GROUND-GAEMI-KHH-MOTC-2024.html",
+      "content_hash": "8e0dde227853e4c84f4276dfb86b29d9b94ad02ae21fd62595beb565560019a4"
+    },
+    "supported_claims": [
+      "carrier_service"
+    ],
+    "excerpt": "24日(星期三)高雄往馬公航線停航",
+    "reviewer": "human-reviewer-unspecified"
+  },
+  {
+    "candidate_id": "GROUND-GAEMI-KEELUNG-MATSU-2024",
+    "scenario_id": "E2E-GAEMI-KEELUNG-01",
+    "state": "rejected",
+    "source": {
+      "publisher": "Matsu Sea Transportation Booking System",
+      "locator": "https://matsuebs.com/news/Detail/202407230000008?isLayoutForApp=False&pageIndex=98",
+      "published_at": "2024-07-23T23:59:59Z",
+      "raw_ref": "raw/scenario-grounding/GROUND-GAEMI-KEELUNG-MATSU-2024.html",
+      "content_hash": "ccc0c843ff67dbd322073f33d9868c24ca6a90f5a36cd900d7353d70c1404d1c"
+    },
+    "supported_claims": [
+      "carrier_service"
+    ],
+    "excerpt": "7月23日長程(基隆-馬袓)航班停航",
+    "reviewer": "human-reviewer-unspecified"
+  }
+]

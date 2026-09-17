@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-NOAA-BERYL-36",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "NHC-AL022024-ADV036",
+    "source_type": "government",
+    "publisher": "NOAA National Hurricane Center",
+    "source_name": "Hurricane Beryl public advisory #36",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.nhc.noaa.gov/archive/2024/al02/al022024.public.036.shtml",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-08T03:06:41Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public NHC archive",
+    "raw_ref": "raw/wave2/ATOM-NOAA-BERYL-36.html",
+    "content_hash": "adc26a4f3d9b6daa5c5a4a36ea68be9b7268b0eda4e64c9b769bf26aaa1b4a71",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "nhc_hurricane_beryl_archive",
+    "event_category": "weather_natural_disaster",
+    "event_type": "tropical_cyclone",
+    "event_subtype": "NHC_public_advisory",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T03:06:41Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Dated NHC archive advisory. Provisional routing classification; requires label review. Human review W14-49: keep."
+  }
+}

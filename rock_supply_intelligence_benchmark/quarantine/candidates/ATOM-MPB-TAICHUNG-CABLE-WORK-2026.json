@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-MPB-TAICHUNG-CABLE-WORK-2026",
+  "source_id": "taiwan-maritime-wave8",
+  "url": "https://www.motcmpb.gov.tw/ServerFile/Get/34f588fa-6241-47ff-8584-a978916b0b90?DLCount=1",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T19:36:05Z",
+  "content_hash": null
+}

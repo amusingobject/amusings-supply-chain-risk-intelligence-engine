@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-09T21:45:17Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025.json",
+      "content_hash": "43a59d4d12810c9fc0a53e3e290e9fe7e064eebc256246dd79e187ce39fe2e5d",
+      "sample_id": "ATOM-W11-MPB-CHANGHUA-WIND-INSTALLATION-SEP2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025.json",
+      "content_hash": "a374b1837e6096fdbb9e461880a835abc87d354c24c5ef52c4ce857cfd18ebf2",
+      "sample_id": "ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 420,
+  "raw_bodies_retained": 517,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T214517Z.md"
+}

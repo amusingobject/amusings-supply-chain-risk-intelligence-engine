@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-NLRB-STRIKES-GUIDANCE",
+  "source_id": "nlrb-wave4",
+  "url": "https://www.nlrb.gov/news-outreach/news-story/important-information-about-strikes",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:56:56Z",
+  "content_hash": null
+}

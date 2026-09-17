@@ -1,0 +1,729 @@
+{
+  "fixture_batch_id": "RSIB-v0.1-first20-20260907T194730Z",
+  "schema_version": "0.1",
+  "retrieval_timestamp": "2026-09-07T19:47:30Z",
+  "status": "partial_batch_materialized",
+  "notes": "Original first20_fixtures.json was truncated after 13 objects. 19 raw files were retained. This rebuilt index includes the original 13 unchanged plus 6 newly manifested files. There is no 20th retained body. Holdout fixtures removed from the open batch index.",
+  "fixtures": [
+    {
+      "sample_id": "ATOM-CWA-GAEMI-2024",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "CWA-TDB-202403",
+        "source_type": "government",
+        "publisher": "Central Weather Administration, Taiwan",
+        "source_name": "Typhoon Database: Gaemi (202403)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202403",
+        "language": "zh-TW",
+        "content_type": "text/html",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": null,
+        "effective_at": "2024-07-22T23:30:00+08:00",
+        "observed_at": "2024-07-22T23:30:00+08:00",
+        "raw_ref": "raw/first20/ATOM-CWA-GAEMI-2024.html",
+        "content_hash": "17268d01321d772444b5a17c258012973f9ee8209e0a2db4a4a0915d37e3d9a7",
+        "hash_method": "sha256",
+        "license": "not stated on retained page",
+        "access_constraints": "public web page"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_typhoon_warning",
+        "event_category": "weather_natural_disaster",
+        "event_type": "tropical_cyclone",
+        "event_subtype": "CWA_sea_and_land_warning",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Retained landing record states sea-warning issuance at 2024-07-22 23:30 Taiwan time; no source publication timestamp is asserted."
+      }
+    },
+    {
+      "sample_id": "ATOM-CWA-KONGREY-2024",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "CWA-TDB-202421",
+        "source_type": "government",
+        "publisher": "Central Weather Administration, Taiwan",
+        "source_name": "Typhoon Database: Kong-rey (202421)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202421",
+        "language": "zh-TW",
+        "content_type": "text/html",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": null,
+        "effective_at": "2024-10-29T17:30:00+08:00",
+        "observed_at": "2024-10-29T17:30:00+08:00",
+        "raw_ref": "raw/first20/ATOM-CWA-KONGREY-2024.html",
+        "content_hash": "bbe1721ca320e817db50a8cf0456b6b16c8800d70a8d24f462590ddea4c84f90",
+        "hash_method": "sha256",
+        "license": "not stated on retained page",
+        "access_constraints": "public web page"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_typhoon_warning",
+        "event_category": "weather_natural_disaster",
+        "event_type": "tropical_cyclone",
+        "event_subtype": "CWA_sea_and_land_warning",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Retained record states sea-warning issuance at 2024-10-29 17:30 Taiwan time; no source publication timestamp is asserted."
+      }
+    },
+    {
+      "sample_id": "ATOM-CWA-HAIKUI-2023",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "CWA-TDB-202311",
+        "source_type": "government",
+        "publisher": "Central Weather Administration, Taiwan",
+        "source_name": "Typhoon Database: Haikui (202311)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202311",
+        "language": "zh-TW",
+        "content_type": "text/html",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": null,
+        "effective_at": "2023-09-01T20:30:00+08:00",
+        "observed_at": "2023-09-01T20:30:00+08:00",
+        "raw_ref": "raw/first20/ATOM-CWA-HAIKUI-2023.html",
+        "content_hash": "05158f6401da9a8626317b7ad591f9167a858e55b7936990a539ca2dbb12d56e",
+        "hash_method": "sha256",
+        "license": "not stated on retained page",
+        "access_constraints": "public web page"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_typhoon_warning",
+        "event_category": "weather_natural_disaster",
+        "event_type": "tropical_cyclone",
+        "event_subtype": "CWA_sea_and_land_warning",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Retained record states sea-warning issuance at 2023-09-01 20:30 Taiwan time; no source publication timestamp is asserted."
+      }
+    },
+    {
+      "sample_id": "ATOM-TWPORT-01",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "TW-MPB-99641-A100F444",
+        "source_type": "open_data",
+        "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+        "source_name": "International commercial port ship inbound and outbound dynamic data (release A100F444)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/a100f444-007e-4080-b07b-066b57097fcc?DLCount=1",
+        "language": "zh-TW",
+        "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2021-01-11T12:13:21.315000000",
+        "effective_at": null,
+        "observed_at": null,
+        "raw_ref": "raw/first20/ATOM-TWPORT-01.ods",
+        "content_hash": "22e18f8fcdb13a1f6540619876c62f5eeb12736abc620113075a4931d9e8f49f",
+        "hash_method": "sha256",
+        "license": "Open Government Data License, version 1.0",
+        "access_constraints": "public download; retained as delivered ODS"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "taiwan_port_vessel_record",
+        "event_category": "port_vessel_carrier",
+        "event_type": "vessel_movement",
+        "event_subtype": "international_port_entry_exit_dataset",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "structured_data_extraction",
+          "vessel_port_monitoring"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Publication timestamp taken from retained ODS metadata; no row-level event time is asserted in this fixture metadata."
+      }
+    },
+    {
+      "sample_id": "ATOM-TWPORT-02",
+      "schema_version": "0.1",
+      "split": "selection",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "TW-MPB-99641-3CA720A3",
+        "source_type": "open_data",
+        "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+        "source_name": "International commercial port ship inbound and outbound dynamic data (release 3CA720A3)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/3ca720a3-cf17-4d9e-a6a3-45a7a404d1ee?DLCount=1",
+        "language": "zh-TW",
+        "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2021-02-03T16:32:09.712000000",
+        "effective_at": null,
+        "observed_at": null,
+        "raw_ref": "raw/first20/ATOM-TWPORT-02.ods",
+        "content_hash": "af7b2579796430f2f22cb90d5fce3639243a3c5187264a5fba92d3ee0bd06a5c",
+        "hash_method": "sha256",
+        "license": "Open Government Data License, version 1.0",
+        "access_constraints": "public download; retained as delivered ODS"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "taiwan_port_vessel_record",
+        "event_category": "port_vessel_carrier",
+        "event_type": "vessel_movement",
+        "event_subtype": "international_port_entry_exit_dataset",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "structured_data_extraction",
+          "vessel_port_monitoring"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Publication timestamp taken from retained ODS metadata; no row-level event time is asserted in this fixture metadata."
+      }
+    },
+    {
+      "sample_id": "ATOM-TWPORT-03",
+      "schema_version": "0.1",
+      "split": "selection",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "TW-MPB-99641-EC6DCEA7",
+        "source_type": "open_data",
+        "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+        "source_name": "International commercial port ship inbound and outbound dynamic data (release EC6DCEA7)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/ec6dcea7-4807-4d14-a71a-f539faa2ab53?DLCount=1",
+        "language": "zh-TW",
+        "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2021-02-03T16:36:30.342000000",
+        "effective_at": null,
+        "observed_at": null,
+        "raw_ref": "raw/first20/ATOM-TWPORT-03.ods",
+        "content_hash": "e239737d6bd54d6f88495cd508a96d46351b9db2a66f994a119c8431f5a4152e",
+        "hash_method": "sha256",
+        "license": "Open Government Data License, version 1.0",
+        "access_constraints": "public download; retained as delivered ODS"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "taiwan_port_vessel_record",
+        "event_category": "port_vessel_carrier",
+        "event_type": "vessel_movement",
+        "event_subtype": "international_port_entry_exit_dataset",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "structured_data_extraction",
+          "vessel_port_monitoring"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Publication timestamp taken from retained ODS metadata; no row-level event time is asserted in this fixture metadata."
+      }
+    },
+    {
+      "sample_id": "ATOM-TWPORT-04",
+      "schema_version": "0.1",
+      "split": "selection",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "TW-MPB-99641-A37ADB7A",
+        "source_type": "open_data",
+        "publisher": "Maritime and Port Bureau, Ministry of Transportation and Communications, Taiwan",
+        "source_name": "International commercial port ship inbound and outbound dynamic data (release A37ADB7A)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/a37adb7a-7eef-4480-8215-36e353f9e642?DLCount=1",
+        "language": "zh-TW",
+        "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2021-02-03T16:40:31.364000000",
+        "effective_at": null,
+        "observed_at": null,
+        "raw_ref": "raw/first20/ATOM-TWPORT-04.ods",
+        "content_hash": "6d349f2b342e7a75c8c98e779c2ae5a90fad1d5664155e70ea0839040aa6c0fb",
+        "hash_method": "sha256",
+        "license": "Open Government Data License, version 1.0",
+        "access_constraints": "public download; retained as delivered ODS"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "taiwan_port_vessel_record",
+        "event_category": "port_vessel_carrier",
+        "event_type": "vessel_movement",
+        "event_subtype": "international_port_entry_exit_dataset",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "structured_data_extraction",
+          "vessel_port_monitoring"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Publication timestamp taken from retained ODS metadata; no row-level event time is asserted in this fixture metadata."
+      }
+    },
+    {
+      "sample_id": "ATOM-USGS-01",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "USGS-us7000m9g4",
+        "source_type": "authoritative_feed",
+        "publisher": "U.S. Geological Survey",
+        "source_name": "M 7.4 - 15 km S of Hualien City, Taiwan",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9g4",
+        "language": "en",
+        "content_type": "application/geo+json",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-04-02T23:58:12Z",
+        "effective_at": "2024-04-02T23:58:12Z",
+        "observed_at": "2026-06-25T10:54:32Z",
+        "raw_ref": "raw/first20/ATOM-USGS-01.json",
+        "content_hash": "1dd4e8f91179e0cef3e2b359151693ba400754fe5a9bd9a743a255cc9a1ac780",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public API"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_major_earthquake",
+        "event_category": "weather_natural_disaster",
+        "event_type": "earthquake",
+        "event_subtype": "M7_plus_mainshock",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Event, source-update, magnitude, and place are retained in the USGS GeoJSON payload."
+      }
+    },
+    {
+      "sample_id": "ATOM-USGS-02",
+      "schema_version": "0.1",
+      "split": "dev",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "USGS-us7000m9gc",
+        "source_type": "authoritative_feed",
+        "publisher": "U.S. Geological Survey",
+        "source_name": "M 6.4 - 15 km NNE of Hualien City, Taiwan",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9gc",
+        "language": "en",
+        "content_type": "application/geo+json",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-04-03T00:11:25Z",
+        "effective_at": "2024-04-03T00:11:25Z",
+        "observed_at": "2024-06-12T21:51:51Z",
+        "raw_ref": "raw/first20/ATOM-USGS-02.json",
+        "content_hash": "932d46ed614bc31fab454027b2ce47b8e0aa40a37fcbf3c81773a8c36d8f324c",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public API"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_earthquake_aftershock",
+        "event_category": "weather_natural_disaster",
+        "event_type": "earthquake",
+        "event_subtype": "M6_aftershock",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Event, source-update, magnitude, and place are retained in the USGS GeoJSON payload."
+      }
+    },
+    {
+      "sample_id": "ATOM-USGS-03",
+      "schema_version": "0.1",
+      "split": "selection",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "USGS-us7000m9gh",
+        "source_type": "authoritative_feed",
+        "publisher": "U.S. Geological Survey",
+        "source_name": "M 5.6 - 21 km NNE of Hualien City, Taiwan",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9gh",
+        "language": "en",
+        "content_type": "application/geo+json",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-04-03T00:35:36Z",
+        "effective_at": "2024-04-03T00:35:36Z",
+        "observed_at": "2024-06-12T21:51:51Z",
+        "raw_ref": "raw/first20/ATOM-USGS-03.json",
+        "content_hash": "bb8f4d5d3a30c838041dcda4b1b0f37e2b87cda4e7dda424cd23ebdfa1392ecc",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public API"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_earthquake_aftershock",
+        "event_category": "weather_natural_disaster",
+        "event_type": "earthquake",
+        "event_subtype": "M5_aftershock",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Event, source-update, magnitude, and place are retained in the USGS GeoJSON payload."
+      }
+    },
+    {
+      "sample_id": "ATOM-USGS-04",
+      "schema_version": "0.1",
+      "split": "selection",
+      "collection_status": "collected",
+      "source": {
+        "source_id": "USGS-us7000m9gp",
+        "source_type": "authoritative_feed",
+        "publisher": "U.S. Geological Survey",
+        "source_name": "M 5.6 - 24 km NNE of Hualien City, Taiwan",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us7000m9gp",
+        "language": "en",
+        "content_type": "application/geo+json",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-04-03T00:46:44Z",
+        "effective_at": "2024-04-03T00:46:44Z",
+        "observed_at": "2024-06-12T21:51:52Z",
+        "raw_ref": "raw/first20/ATOM-USGS-04.json",
+        "content_hash": "dde8204d0b8520b5afee25f8ddad0a515d0cd59f763324215defdfdf9df6c5e5",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public API"
+      },
+      "labels": {
+        "primary_class": "materially_relevant",
+        "primary_label": "taiwan_earthquake_aftershock",
+        "event_category": "weather_natural_disaster",
+        "event_type": "earthquake",
+        "event_subtype": "M5_aftershock",
+        "expected_relevance_class": "materially_relevant",
+        "expected_disposition": "normalize",
+        "tasks": [
+          "event_extraction",
+          "supply_chain_impact_assessment"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "notes": "Event, source-update, magnitude, and place are retained in the USGS GeoJSON payload."
+      }
+    },
+    {
+      "sample_id": "ATOM-NOAA-BERYL-25",
+      "split": "selection",
+      "source": {
+        "source_id": "NHC-AL022024-ADV25",
+        "source_type": "government",
+        "publisher": "NOAA National Hurricane Center",
+        "source_name": "Hurricane Beryl Advisory Number 25 (AL022024)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.nhc.noaa.gov/archive/2024/al02/al022024.public.025.shtml",
+        "language": "en",
+        "content_type": "text/html",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-07-04T21:00:00Z",
+        "effective_at": "2024-07-04T21:00:00Z",
+        "observed_at": "2024-07-04T21:00:00Z",
+        "raw_ref": "raw/first20/ATOM-NOAA-BERYL-25.html",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public NHC archive page",
+        "content_hash": "fe159baf81fd085b7162ce336715a3e5d74ad38dbb728b84aa0474aef6b9979f"
+      },
+      "labels": {
+        "primary_class": "irrelevant",
+        "primary_label": "atlantic_hurricane_yucatan",
+        "event_category": "weather_natural_disaster",
+        "event_type": "tropical_cyclone",
+        "event_subtype": "NHC_public_advisory",
+        "expected_relevance_class": "irrelevant",
+        "expected_disposition": "suppress",
+        "tasks": [
+          "relevance",
+          "event_extraction",
+          "grounding"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "adjudication_status": "provisional",
+        "notes": "Retained NHC public advisory: 500 PM EDT 4 Jul 2024, Beryl approaching Yucatan. Added after truncated first20 JSON; hash is of retained bytes."
+      },
+      "schema_version": "0.1",
+      "collection_status": "collected"
+    },
+    {
+      "sample_id": "ATOM-NOAA-BERYL-39",
+      "split": "dev",
+      "source": {
+        "source_id": "NHC-AL022024-ADV39",
+        "source_type": "government",
+        "publisher": "NOAA National Hurricane Center",
+        "source_name": "Hurricane Beryl Advisory Number 39 (AL022024)",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.nhc.noaa.gov/archive/2024/al02/al022024.public.039.shtml",
+        "language": "en",
+        "content_type": "text/html",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-07-08T09:00:00Z",
+        "effective_at": "2024-07-08T09:00:00Z",
+        "observed_at": "2024-07-08T09:00:00Z",
+        "raw_ref": "raw/first20/ATOM-NOAA-BERYL-39.html",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public NHC archive page",
+        "content_hash": "5d4a2a4b6bc3cd932b5b14343e4259afe560a20ef2f3bf5d755c0aaab0f767dc"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "gulf_hurricane_landfall_texas",
+        "event_category": "weather_natural_disaster",
+        "event_type": "tropical_cyclone",
+        "event_subtype": "NHC_public_advisory",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "relevance",
+          "event_extraction",
+          "grounding"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "adjudication_status": "provisional",
+        "notes": "Retained NHC public advisory: 400 AM CDT 8 Jul 2024, landfall near Matagorda, Texas. Monitor for Gulf-port exposure; not a Taiwan origin-port event."
+      },
+      "schema_version": "0.1",
+      "collection_status": "collected"
+    },
+    {
+      "sample_id": "ATOM-NAVCEN-LNM-11-12-24",
+      "split": "selection",
+      "source": {
+        "source_id": "USCG-LNM-11-12-24",
+        "source_type": "government",
+        "publisher": "U.S. Coast Guard District 11",
+        "source_name": "Local Notice to Mariners District 11 Week 12/24",
+        "source_authority": "official_government",
+        "source_reliability": "high",
+        "source_locator": "https://www.navcen.uscg.gov/local-notices-to-mariners-by-cg-district",
+        "language": "en",
+        "content_type": "application/pdf",
+        "retrieved_at": "2026-09-07T19:47:30Z",
+        "published_at": "2024-03-20",
+        "effective_at": "2024-03-20",
+        "observed_at": null,
+        "raw_ref": "raw/first20/ATOM-NAVCEN-LNM-11-12-24.pdf",
+        "hash_method": "sha256",
+        "license": "U.S. Government work / public domain",
+        "access_constraints": "public LNM PDF; item-level download URL was not recorded in truncated batch metadata",
+        "content_hash": "ffdbcbc3521e8cfa483984f96a280bdddde3bc5dada2ac32164f991c651d6641"
+      },
+      "labels": {
+        "primary_class": "monitor",
+        "primary_label": "district11_weekly_lnm",
+        "event_category": "port_vessel_carrier",
+        "event_type": "navigation_notice",
+        "event_subtype": "local_notice_to_mariners",
+        "expected_relevance_class": "monitor",
+        "expected_disposition": "monitor",
+        "tasks": [
+          "relevance",
+          "event_extraction",
+          "grounding"
+        ]
+      },
+      "provenance": {
+        "collection_plan_id": "RSIB-v0.1-first20",
+        "collector_id": "rock-ai-solutions",
+        "collector_version": "osint-fixture-ingest/0.1.0",
+        "ingestion_method": "direct_https_get",
+        "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+        "transformations": [],
+        "ai_used": false,
+        "synthetic": false,
+        "content_status": "lawful_capture",
+        "adjudication_status": "provisional",
+        "notes": "PDF first page identifies LOCAL NOTICE TO MARINERS District 11 Week 12/24 dated 20 March 2024. Embedded Delay_Report_11-2017.pdf enclosure explains misleading PDF Title metadata. Hash is of the full retained PDF."
+      },
+      "schema_version": "0.1",
+      "collection_status": "collected"
+    }
+  ]
+}

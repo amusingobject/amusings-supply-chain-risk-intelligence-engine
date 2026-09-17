@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-09T16:50:36Z",
+  "registry_id": "RSIB-collection-registry-wave8",
+  "collected": [],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-CABLE-WORK-2026",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-MAINTENANCE-2025",
+      "reason": "accept_terms_missing"
+    },
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-PIERS-WORK-2025",
+      "reason": "accept_terms_missing"
+    }
+  ],
+  "corpus_collected": 378,
+  "raw_bodies_retained": 475,
+  "review_packet": null
+}

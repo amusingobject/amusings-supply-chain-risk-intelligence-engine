@@ -1,0 +1,315 @@
+{
+  "$defs": {
+    "CanonicalRef": {
+      "additionalProperties": false,
+      "properties": {
+        "ref_type": {
+          "title": "Ref Type",
+          "type": "string"
+        },
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
+        "code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Code"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "locode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Locode"
+        },
+        "raw_value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Raw Value"
+        }
+      },
+      "required": [
+        "ref_type"
+      ],
+      "title": "CanonicalRef",
+      "type": "object"
+    },
+    "ExternalId": {
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "title": "System",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "system",
+        "value"
+      ],
+      "title": "ExternalId",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "External disruption signal normalized to canonical types.",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "tenant_id": {
+      "default": "sunlighten-shadow",
+      "title": "Tenant Id",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "superseded",
+        "retracted",
+        "archived",
+        "draft"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "title": "Updated At",
+      "type": "string"
+    },
+    "external_ids": {
+      "items": {
+        "$ref": "#/$defs/ExternalId"
+      },
+      "title": "External Ids",
+      "type": "array"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "event_type": {
+      "enum": [
+        "weather",
+        "port_disruption",
+        "vessel_anomaly",
+        "earthquake",
+        "labor",
+        "geopolitical",
+        "infrastructure",
+        "carrier_exception",
+        "customs_regulatory",
+        "wildfire",
+        "aviation_disruption",
+        "road_disruption",
+        "other"
+      ],
+      "title": "Event Type",
+      "type": "string"
+    },
+    "event_state": {
+      "enum": [
+        "reported",
+        "confirmed",
+        "ongoing",
+        "resolved",
+        "cancelled",
+        "unknown"
+      ],
+      "title": "Event State",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "start_time": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Start Time"
+    },
+    "end_time": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "End Time"
+    },
+    "geometry": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Geometry"
+    },
+    "locations": {
+      "items": {
+        "$ref": "#/$defs/CanonicalRef"
+      },
+      "title": "Locations",
+      "type": "array"
+    },
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/CanonicalRef"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "severity": {
+      "enum": [
+        "none",
+        "low",
+        "moderate",
+        "high",
+        "severe",
+        "unknown"
+      ],
+      "title": "Severity",
+      "type": "string"
+    },
+    "source_event_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Event Ids",
+      "type": "array"
+    },
+    "observed_or_inferred": {
+      "enum": [
+        "observed",
+        "extracted",
+        "inferred",
+        "calculated"
+      ],
+      "title": "Observed Or Inferred",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "source_severity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Severity"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "created_at",
+    "updated_at",
+    "event_type",
+    "event_state",
+    "title",
+    "severity",
+    "observed_or_inferred"
+  ],
+  "title": "Canonical ExternalEvent v0.1",
+  "type": "object"
+}

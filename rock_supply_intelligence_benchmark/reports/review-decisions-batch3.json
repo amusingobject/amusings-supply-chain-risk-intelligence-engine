@@ -1,0 +1,47 @@
+[
+  {
+    "decision_id": "HR-B3-20260909-01",
+    "sample_id": "ATOM-ILWU-WWL-CONTRACT-2025",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T13:45:39Z",
+    "manifest_hash": "657e24f965ff72a6b7b139b4482ab779fa36f93ec9d6a912dca08ce835707813",
+    "rationale": "Reviewer approved Batch 3A; retained as a narrow labor and operational-disruption fixture."
+  },
+  {
+    "decision_id": "HR-B3-20260909-02",
+    "sample_id": "ATOM-ILWU-WWL-STRIKE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T13:45:39Z",
+    "manifest_hash": "c6ee0277a6544b31d64e0572fd3cf614e96957b28afadd45a6f3d8e5f54d775f",
+    "rationale": "Reviewer approved Batch 3A; retained as a narrow labor and offload-disruption fixture."
+  },
+  {
+    "decision_id": "HR-B3-20260909-03",
+    "sample_id": "ATOM-OFAC-OCEANLINK-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T13:45:39Z",
+    "manifest_hash": "22c6f3d0a9c5dfe625f47a210f38e607add86493d95c3877cfb44de43dc0ec66",
+    "rationale": "Reviewer approved Batch 3B as a geopolitical and maritime-compliance signal, not a transaction-specific legal conclusion."
+  },
+  {
+    "decision_id": "HR-B3-20260909-04",
+    "sample_id": "ATOM-OFAC-SHADOW-FLEET-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T13:45:39Z",
+    "manifest_hash": "7c461fd48f8cf0d419bdd045816b7d60416c5f731cc6ce1a84004d707ff192c3",
+    "rationale": "Reviewer approved Batch 3B as a geopolitical and maritime-compliance signal, not a transaction-specific legal conclusion."
+  },
+  {
+    "decision_id": "HR-B3-20260909-05",
+    "sample_id": "ATOM-CBP-CSMS-CROWDSTRIKE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T13:45:39Z",
+    "manifest_hash": "f5ff30327b15e32574e42a3dec7cc697460ff30c5862d148fb366a56b5a92250",
+    "rationale": "Reviewer approved Batch 3C as a narrow customs-operations disruption fixture."
+  }
+]

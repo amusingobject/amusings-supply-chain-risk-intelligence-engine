@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-09-09T15:00:44Z",
+  "registry_id": "RSIB-collection-registry-wave5",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TPNET-MAINTENANCE-2025.json",
+      "content_hash": "89f455cd887809272807f5ccb383274078ca525819155a1d28c840e4bf6cd5dc",
+      "sample_id": "ATOM-TPNET-MAINTENANCE-2025"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-MPB-TAICHUNG-WINDFARM-2025",
+      "reason": "fetch_failed:URLError"
+    },
+    {
+      "sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+      "reason": "fetch_failed:URLError"
+    }
+  ],
+  "corpus_collected": 349,
+  "raw_bodies_retained": 446,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T150044Z.md"
+}

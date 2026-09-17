@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-NAVCEN-LNM-11-12-24",
+  "split": "selection",
+  "source": {
+    "source_id": "USCG-LNM-11-12-24",
+    "source_type": "government",
+    "publisher": "U.S. Coast Guard District 11",
+    "source_name": "Local Notice to Mariners District 11 Week 12/24",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.navcen.uscg.gov/local-notices-to-mariners-by-cg-district",
+    "language": "en",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-07T19:47:30Z",
+    "published_at": "2024-03-20",
+    "effective_at": "2024-03-20",
+    "observed_at": null,
+    "raw_ref": "raw/first20/ATOM-NAVCEN-LNM-11-12-24.pdf",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public LNM PDF; item-level download URL was not recorded in truncated batch metadata",
+    "content_hash": "ffdbcbc3521e8cfa483984f96a280bdddde3bc5dada2ac32164f991c651d6641"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "district11_weekly_lnm",
+    "event_category": "port_vessel_carrier",
+    "event_type": "navigation_notice",
+    "event_subtype": "local_notice_to_mariners",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-first20",
+    "collector_id": "rock-ai-solutions",
+    "collector_version": "osint-fixture-ingest/0.1.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-first20-20260907T194730Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "PDF first page identifies LOCAL NOTICE TO MARINERS District 11 Week 12/24 dated 20 March 2024. Embedded Delay_Report_11-2017.pdf enclosure explains misleading PDF Title metadata. Hash is of the full retained PDF. Human review W15-13: keep."
+  },
+  "schema_version": "0.1",
+  "collection_status": "collected"
+}

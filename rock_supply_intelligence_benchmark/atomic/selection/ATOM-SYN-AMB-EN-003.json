@@ -1,0 +1,49 @@
+{
+  "sample_id": "ATOM-SYN-AMB-EN-003",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ATOM-SYN-AMB-EN-003",
+    "source_type": "analyst",
+    "publisher": "Rock Supply Intelligence benchmark authors",
+    "source_name": "Synthetic quota fixture",
+    "source_authority": "none",
+    "source_reliability": "not_applicable",
+    "source_locator": "synthetic://ATOM-SYN-AMB-EN-003",
+    "language": "en",
+    "content_type": "text/plain",
+    "retrieved_at": "2026-09-07T21:35:01Z",
+    "published_at": "2026-09-07T21:35:01Z",
+    "raw_ref": "raw/synthetic-quota/ATOM-SYN-AMB-EN-003.txt",
+    "content_hash": "5a06a0dee4dd74bc8f879133b736361a67364f6a5cc9af4784a2d0164b94fa62",
+    "hash_method": "sha256",
+    "license": "benchmark-internal synthetic fixture",
+    "access_constraints": "synthetic; not a real-world source"
+  },
+  "labels": {
+    "primary_class": "ambiguous_conflicting",
+    "primary_label": "synthetic_quota",
+    "event_category": "port_vessel_carrier",
+    "event_type": "other",
+    "event_subtype": "ambiguous_conflicting",
+    "expected_relevance_class": "ambiguous_conflicting",
+    "expected_disposition": "abstain",
+    "tasks": [
+      "relevance",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-synthetic-quota",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "synthetic-quota/0.1.0",
+    "ingestion_method": "authored_synthetic",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": true,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Authored synthetic fixture to fill specified adversarial/ambiguity quotas. Human review W12-02: keep."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TW-CUSTOMS-2025-1223",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "TW-CUSTOMS-794cd409d66d4a24b4fe3d754bee5669",
+    "source_type": "government",
+    "publisher": "財政部關務署 Ministry of Finance Customs Administration, Taiwan",
+    "source_name": "公告修正進出口貨物申請書及出口貨物退關申請書",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://web.customs.gov.tw/singlehtml/698?cntId=794cd409d66d4a24b4fe3d754bee5669",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T00:50:12Z",
+    "published_at": null,
+    "license": "public government notice; terms not separately stated",
+    "access_constraints": "public Taiwan Customs web page",
+    "raw_ref": "raw/wave2/ATOM-TW-CUSTOMS-2025-1223.html",
+    "content_hash": "ebcaa10a2ddd32f3de5137256094bffc38adf37a447dc8e586bb265cfc20f706",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "taiwan_customs_regulatory_notice",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "customs_regulatory",
+    "event_subtype": "taiwan_customs_notice",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-09T00:50:12Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Dated Taiwan Customs notice. Specific commodity, origin, and effective-date applicability must be reviewed before any business action. Human review decision 2026-09-08: Relabel to monitor because it is a form-change notice."
+  }
+}

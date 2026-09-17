@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-labor-controls-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Ministry of Labor",
+    "source_name": "Labor complaint and inspection guidance",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.mol.gov.tw/1607/1632/1640/18720/post",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T21:32:30Z",
+    "published_at": "2012-07-19T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012.html",
+    "content_hash": "f13e767ef41139ed73d1e64efff7250951c3e515a9d126a7d9927366bb0b84c7",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_guidance_control",
+    "event_subtype": "taiwan-labor-controls-wave11",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:32:30Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-09: keep."
+  }
+}

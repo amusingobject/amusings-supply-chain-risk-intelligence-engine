@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "generated_at": "2026-09-09T13:17:15Z",
+      "collected": 5,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T13:58:15Z",
+      "collected": 0,
+      "failed": 31,
+      "failure_reasons": {
+        "fetch_failed:URLError": 31
+      }
+    },
+    {
+      "generated_at": "2026-09-09T14:00:39Z",
+      "collected": 27,
+      "failed": 4,
+      "failure_reasons": {
+        "fetch_failed:HTTPError": 1,
+        "fetch_failed:URLError": 2,
+        "accept_terms_missing": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T14:02:36Z",
+      "collected": 2,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:HTTPError": 1,
+        "fetch_failed:URLError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T14:31:40Z",
+      "collected": 25,
+      "failed": 4,
+      "failure_reasons": {
+        "accept_terms_missing": 1,
+        "unextractable_payload": 2,
+        "duplicate_content_hash": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T14:34:49Z",
+      "collected": 4,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T15:00:44Z",
+      "collected": 1,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 2
+      }
+    },
+    {
+      "generated_at": "2026-09-09T15:01:14Z",
+      "collected": 34,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 2
+      }
+    },
+    {
+      "generated_at": "2026-09-09T15:44:08Z",
+      "collected": 0,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 1,
+        "fetch_failed:HTTPError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T15:49:53Z",
+      "collected": 4,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 2
+      }
+    },
+    {
+      "generated_at": "2026-09-09T15:49:59Z",
+      "collected": 1,
+      "failed": 1,
+      "failure_reasons": {
+        "fetch_failed:URLError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T15:50:04Z",
+      "collected": 19,
+      "failed": 2,
+      "failure_reasons": {
+        "accept_terms_missing": 1,
+        "fetch_failed:URLError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T16:06:34Z",
+      "collected": 4,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T16:07:05Z",
+      "collected": 2,
+      "failed": 2,
+      "failure_reasons": {
+        "accept_terms_missing": 2
+      }
+    },
+    {
+      "generated_at": "2026-09-09T16:09:15Z",
+      "collected": 3,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 1,
+        "accept_terms_missing": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T16:50:36Z",
+      "collected": 0,
+      "failed": 4,
+      "failure_reasons": {
+        "fetch_failed:URLError": 1,
+        "accept_terms_missing": 3
+      }
+    },
+    {
+      "generated_at": "2026-09-09T16:54:10Z",
+      "collected": 5,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T19:36:08Z",
+      "collected": 0,
+      "failed": 4,
+      "failure_reasons": {
+        "accept_terms_missing": 3,
+        "fetch_failed:URLError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T20:09:26Z",
+      "collected": 0,
+      "failed": 2,
+      "failure_reasons": {
+        "fetch_failed:URLError": 1,
+        "fetch_failed:HTTPError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T20:57:26Z",
+      "collected": 4,
+      "failed": 1,
+      "failure_reasons": {
+        "fetch_failed:HTTPError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T21:31:54Z",
+      "collected": 10,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T21:32:43Z",
+      "collected": 10,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T21:33:41Z",
+      "collected": 8,
+      "failed": 2,
+      "failure_reasons": {
+        "accept_terms_missing": 1,
+        "fetch_failed:URLError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T21:34:28Z",
+      "collected": 2,
+      "failed": 2,
+      "failure_reasons": {
+        "accept_terms_missing": 1,
+        "fetch_failed:HTTPError": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T21:39:55Z",
+      "collected": 0,
+      "failed": 3,
+      "failure_reasons": {
+        "fetch_failed:URLError": 2,
+        "accept_terms_missing": 1
+      }
+    },
+    {
+      "generated_at": "2026-09-09T21:42:20Z",
+      "collected": 1,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-09T21:45:17Z",
+      "collected": 2,
+      "failed": 0,
+      "failure_reasons": {}
+    },
+    {
+      "generated_at": "2026-09-10T03:15:19Z",
+      "collected": 3,
+      "failed": 0,
+      "failure_reasons": {}
+    }
+  ],
+  "current": {
+    "generated_at": "2026-09-10T03:15:19Z",
+    "corpus_collected": 420,
+    "ready_candidates": 10,
+    "candidate_statuses": {
+      "ready": 10,
+      "already_present": 173,
+      "cooldown": 2
+    },
+    "enabled_sources": 36,
+    "disabled_sources": 1,
+    "source_cursors": {
+      "ilwu-primary": {
+        "last_checked_at": "2026-09-09T13:17:06Z",
+        "last_sample_id": "ATOM-ILWU-WWL-CONTRACT-2025"
+      },
+      "ofac-maritime": {
+        "last_checked_at": "2026-09-09T13:17:11Z",
+        "last_sample_id": "ATOM-OFAC-OCEANLINK-2024"
+      },
+      "cbp-csms": {
+        "last_checked_at": "2026-09-09T13:17:14Z",
+        "last_sample_id": "ATOM-CBP-CSMS-CROWDSTRIKE-2024"
+      },
+      "ilwu-wave4": {
+        "last_checked_at": "2026-09-09T13:58:52Z",
+        "last_sample_id": "ATOM-ILWU-SOUTH-SEATTLE-STRIKE"
+      },
+      "nlrb-wave4": {
+        "last_checked_at": "2026-09-09T13:59:04Z",
+        "last_sample_id": "ATOM-NLRB-STRIKES-GUIDANCE"
+      },
+      "us-labor-wave4": {
+        "last_checked_at": "2026-09-09T21:34:28Z",
+        "last_sample_id": "ATOM-DOL-ILA-PORT-REOPEN-2024",
+        "last_error": "fetch_failed:HTTPError"
+      },
+      "port-of-los-angeles": {
+        "last_checked_at": "2026-09-09T20:57:25Z",
+        "last_sample_id": "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021"
+      },
+      "us-treasury-maritime": {
+        "last_checked_at": "2026-09-09T13:59:16Z",
+        "last_sample_id": "ATOM-TREASURY-SHADOW-SB0405"
+      },
+      "taiwan-maritime-wave4": {
+        "last_checked_at": "2026-09-09T14:02:06Z",
+        "last_sample_id": "ATOM-MPB-YU-GROUNDING-2024"
+      },
+      "taiwan-port-company": {
+        "last_checked_at": "2026-09-09T20:09:22Z",
+        "last_sample_id": "ATOM-TWPORT-DANAS-PREP-2025",
+        "last_error": "fetch_failed:URLError"
+      },
+      "taiwan-customs-wave4": {
+        "last_checked_at": "2026-09-09T14:00:38Z",
+        "last_sample_id": "ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024"
+      },
+      "ustr-labor-wave5": {
+        "last_checked_at": "2026-09-09T14:30:36Z",
+        "last_sample_id": "ATOM-USTR-VW-RESOLUTION-2024"
+      },
+      "us-treasury-maritime-wave5": {
+        "last_checked_at": "2026-09-09T14:30:42Z",
+        "last_sample_id": "ATOM-TREASURY-SHADOW-SB0502"
+      },
+      "nasa-world-controls-wave5": {
+        "last_checked_at": "2026-09-09T14:30:47Z",
+        "last_sample_id": "ATOM-NASA-SPHEREX-LAUNCH-2025"
+      },
+      "taiwan-maritime-bilingual-wave5": {
+        "last_checked_at": "2026-09-09T14:34:47Z",
+        "last_sample_id": "ATOM-MPB-FTZ-PROPOSAL-2021"
+      },
+      "taiwan-customs-bilingual-wave5": {
+        "last_checked_at": "2026-09-09T14:31:39Z",
+        "last_sample_id": "ATOM-TWCUSTOMS-REPORT-2019"
+      },
+      "taiwan-trade-controls-wave6": {
+        "last_checked_at": "2026-09-09T14:57:39Z",
+        "last_sample_id": "ATOM-TWTRADE-RUSSIA-HITECH-2022"
+      },
+      "taiwan-maritime-wave6": {
+        "last_checked_at": "2026-09-09T15:50:04Z",
+        "last_sample_id": "ATOM-MPB-PORT-SCHEDULE-2025",
+        "last_error": "fetch_failed:URLError"
+      },
+      "ustr-labor-wave6": {
+        "last_checked_at": "2026-09-09T14:58:27Z",
+        "last_sample_id": "ATOM-USTR-YAZAKI-SUSPENSION-2025"
+      },
+      "us-treasury-maritime-wave6": {
+        "last_checked_at": "2026-09-09T14:58:05Z",
+        "last_sample_id": "ATOM-TREASURY-STS-SB0082"
+      },
+      "port-of-los-angeles-wave6": {
+        "last_checked_at": "2026-09-09T14:58:11Z",
+        "last_sample_id": "ATOM-POLA-OPERATIONS-VIDEO-2025"
+      },
+      "taiwan-port-network-wave6": {
+        "last_checked_at": "2026-09-09T15:01:12Z",
+        "last_sample_id": "ATOM-TPNET-MAINTENANCE-2025"
+      },
+      "taiwan-labor-wave7": {
+        "last_checked_at": "2026-09-09T15:48:30Z",
+        "last_sample_id": "ATOM-TWMOL-CSC-TRANSPORT-DISPUTE-2024"
+      },
+      "taiwan-trade-wave7": {
+        "last_checked_at": "2026-09-09T15:48:44Z",
+        "last_sample_id": "ATOM-TWTRADE-TWO-RUSSIA-CONTROLS-2023"
+      },
+      "taiwan-maritime-wave7": {
+        "last_checked_at": "2026-09-09T15:48:49Z",
+        "last_sample_id": "ATOM-MPB-COSTA-GAEMI-REROUTE-2024"
+      },
+      "taiwan-maritime-wave8": {
+        "last_checked_at": "2026-09-09T21:39:55Z",
+        "last_sample_id": "ATOM-MPB-TAICHUNG-DREDGING-2025",
+        "last_error": "accept_terms_missing"
+      },
+      "taiwan-labor-wave9": {
+        "last_checked_at": "2026-09-09T16:53:57Z",
+        "last_sample_id": "ATOM-TWMOL-TOURBUS-INSPECTION-2017"
+      },
+      "taiwan-trade-wave9": {
+        "last_checked_at": "2026-09-09T16:54:08Z",
+        "last_sample_id": "ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024"
+      },
+      "ila-east-gulf-wave10": {
+        "last_checked_at": "2026-09-09T20:57:23Z",
+        "last_sample_id": "ATOM-ILA-EAST-GULF-STRIKE-2024"
+      },
+      "panama-canal-authority-wave10": {
+        "last_checked_at": "2026-09-09T20:57:17Z",
+        "last_sample_id": "ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023"
+      },
+      "taiwan-trade-policy-controls-wave11": {
+        "last_checked_at": "2026-09-09T21:33:40Z",
+        "last_sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2024"
+      },
+      "taiwan-labor-controls-wave11": {
+        "last_checked_at": "2026-09-09T21:34:23Z",
+        "last_sample_id": "ATOM-W11-MOL-RAIL-SAFETY-INSPECTION-2021"
+      },
+      "taiwan-maritime-mixed-wave11": {
+        "last_checked_at": "2026-09-09T21:45:16Z",
+        "last_sample_id": "ATOM-W11-MPB-FENGMIAO-CONSTRUCTION-AUG2025"
+      },
+      "wave15-replacement-usgs-events": {
+        "last_checked_at": "2026-09-10T03:15:16Z",
+        "last_sample_id": "ATOM-W15-USGS-US7000N7B8-2024"
+      },
+      "wave15-replacement-pola-workforce": {
+        "last_checked_at": "2026-09-10T03:15:18Z",
+        "last_sample_id": "ATOM-W15-POLA-WORKFORCE-2024"
+      }
+    },
+    "deficits": {
+      "split": {
+        "dev": 0,
+        "selection": 0,
+        "holdout": 0
+      },
+      "primary_class": {
+        "materially_relevant": 0,
+        "monitor": 0,
+        "irrelevant": 0,
+        "ambiguous_conflicting": 0,
+        "prompt_injection": 0
+      },
+      "language": {
+        "en": 0,
+        "zh-TW": 0,
+        "mixed": 0
+      },
+      "event_category": {
+        "weather_natural_disaster": 0,
+        "port_vessel_carrier": 0,
+        "labor_infrastructure_transportation": 0,
+        "geopolitical_security": 0,
+        "regulatory_trade_customs": 0,
+        "irrelevant_general_world": 0
+      }
+    }
+  }
+}

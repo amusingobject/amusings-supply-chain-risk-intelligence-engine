@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-FR-SANCTIONS-SECURITY-PAGE-19",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "FR-SANCTIONS-SECURITY-19",
+    "source_type": "government",
+    "publisher": "Office of the Federal Register",
+    "source_name": "Federal Register sanctions-security search results page 19",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=sanctions%20security&order=newest&per_page=20&page=19",
+    "language": "en",
+    "content_type": "application/json",
+    "retrieved_at": "2026-09-08T03:14:34Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public Federal Register API",
+    "raw_ref": "raw/wave2/ATOM-FR-SANCTIONS-SECURITY-PAGE-19.json",
+    "content_hash": "b436f5b64c826d1c52e9fa4d6e1bbabdee6a5ecae7580de32d38e58ebee558ba",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "monitor",
+    "primary_label": "federal_register_sanctions-security_search",
+    "event_category": "geopolitical_security",
+    "event_type": "customs_regulatory",
+    "event_subtype": "federal_register_search_page",
+    "expected_relevance_class": "monitor",
+    "expected_disposition": "monitor",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T03:14:34Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "provisional",
+    "notes": "Official search payload for a reviewer queue. Individual result relevance is not presumed."
+  }
+}

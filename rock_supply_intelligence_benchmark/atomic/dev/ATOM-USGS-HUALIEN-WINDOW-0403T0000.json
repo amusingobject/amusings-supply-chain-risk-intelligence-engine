@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-HUALIEN-WINDOW-0403T0000",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "USGS-HUALIEN-0403T0000",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 4.9 - 20 km SSW of Hualien City, Taiwan",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-04-03T00:00:00&endtime=2024-04-03T04:00:00&minlatitude=20&maxlatitude=26&minlongitude=119&maxlongitude=123&minmagnitude=4",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-08T03:06:41Z",
+    "published_at": "2024-04-03T03:57:17Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "effective_at": "2024-04-03T03:57:17Z",
+    "observed_at": "2024-04-03T03:57:17Z",
+    "raw_ref": "raw/wave2/ATOM-USGS-HUALIEN-WINDOW-0403T0000.json",
+    "content_hash": "07425155b586ae77aee82864c333fee49b55dfd62e1c7a4ccf7398af1333cd43",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "taiwan_hualien_earthquake_window",
+    "event_category": "weather_natural_disaster",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_bounded_query",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T03:06:41Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Bounded Taiwan-region Hualien event window. Provisional label requires review. Human review W13-18: keep."
+  }
+}

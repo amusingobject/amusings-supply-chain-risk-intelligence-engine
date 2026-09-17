@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-MMA-RESOLUTION-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave5",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "Modern Metal Alloys labor matter resolved and liquidation resumed",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2025/july/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-modern-metal",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:33Z",
+    "published_at": "2025-07-21T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-MMA-RESOLUTION-2025.html",
+    "content_hash": "d9007a0211e1b1ab8381417c7dad6cac7598b021fcb3381a1ff8bde54231814a",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_trade_recovery",
+    "event_subtype": "ustr-labor-wave5",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:33Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-17: keep."
+  }
+}

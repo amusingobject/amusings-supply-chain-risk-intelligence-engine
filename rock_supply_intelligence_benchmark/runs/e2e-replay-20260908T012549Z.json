@@ -1,0 +1,1789 @@
+{
+  "generated_at": "2026-09-08T01:25:49.210166+00:00",
+  "metrics": {
+    "n_scenarios": 18,
+    "exposure_recall": 1.0,
+    "exposure_precision": 1.0,
+    "geographic_route_correlation": 1.0,
+    "shipment_event_geographic_matching": 1.0,
+    "deterministic_inventory_financial_fixture_accuracy": 1.0,
+    "material_findings_with_evidence": 1.0,
+    "invented_business_facts": 0,
+    "unsupported_autonomous_actions": 0,
+    "placeholders_remaining": 0
+  },
+  "scenarios": [
+    {
+      "scenario_id": "E2E-GAEMI-KEELUNG-01",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-001"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-001"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-GAEMI-KEELUNG-01-SHP-SYN-001",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-GAEMI-KEELUNG-01-A"
+          ],
+          "event_id": "EVT-E2E-GAEMI-KEELUNG-01",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-001",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-07-24T01:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-001"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-001"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-GAEMI-KEELUNG-01",
+                "shipment": "SHP-SYN-001",
+                "reasons": [
+                  "locode_intersection=['TWKEL']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-GAEMI-KEELUNG-01-SHP-SYN-001",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-GAEMI-KEELUNG-01-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-GAEMI-KEELUNG-01-SHP-SYN-001"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Typhoon Gaemi / Keelung closure. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-002"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-002"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-GAEMI-KHH-02-SHP-SYN-002",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-GAEMI-KHH-02-A"
+          ],
+          "event_id": "EVT-E2E-GAEMI-KHH-02",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-002",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-07-24T03:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-002"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-002"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-GAEMI-KHH-02",
+                "shipment": "SHP-SYN-002",
+                "reasons": [
+                  "locode_intersection=['TWKHH']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-GAEMI-KHH-02-SHP-SYN-002",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-GAEMI-KHH-02-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-GAEMI-KHH-02-SHP-SYN-002"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Typhoon Gaemi / Kaohsiung restrictions. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-GAEMI-RECOVERY-03",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-003"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-003"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-GAEMI-RECOVERY-03-SHP-SYN-003",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-GAEMI-RECOVERY-03-A"
+          ],
+          "event_id": "EVT-E2E-GAEMI-RECOVERY-03",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-003",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-07-26T02:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 12.0,
+            "max_hours": 96.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-003"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-003"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-GAEMI-RECOVERY-03",
+                "shipment": "SHP-SYN-003",
+                "reasons": [
+                  "locode_intersection=['TWKEL']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-GAEMI-RECOVERY-03-SHP-SYN-003",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-GAEMI-RECOVERY-03-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-GAEMI-RECOVERY-03-SHP-SYN-003"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Typhoon Gaemi / recovery lifecycle. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-KONGREY-06",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-006"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-006"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-LALB-CONGESTION-08",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-008"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-008"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-LALB-CONGESTION-08-SHP-SYN-008",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-LALB-CONGESTION-08-A"
+          ],
+          "event_id": "EVT-E2E-LALB-CONGESTION-08",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-008",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2021-10-18T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-008"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-008"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-LALB-CONGESTION-08",
+                "shipment": "SHP-SYN-008",
+                "reasons": [
+                  "locode_intersection=['USLGB']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-LALB-CONGESTION-08-SHP-SYN-008",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-LALB-CONGESTION-08-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-LALB-CONGESTION-08-SHP-SYN-008"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Los Angeles\u2013Long Beach congestion / inbound shipment. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-MILITARY-AFFECTED-07",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-MIL-A"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-MIL-A"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-MILITARY-AFFECTED-07-SHP-SYN-MIL-A",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-MILITARY-AFFECTED-07-A"
+          ],
+          "event_id": "EVT-E2E-MILITARY-AFFECTED-07",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-MIL-A",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-05-23T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-07"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-07"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-MILITARY-AFFECTED-07",
+                "shipment": "SHP-SYN-MIL-A",
+                "reasons": [
+                  "locode_intersection=['TWKHH']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-MILITARY-AFFECTED-07-SHP-SYN-MIL-A",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-MILITARY-AFFECTED-07-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-MILITARY-AFFECTED-07-SHP-SYN-MIL-A"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Taiwan military exercises / Kaohsiung departure. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-TW-EQ-NEGATIVE-05",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-005"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-005"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-TW-EQ-SUPPLIER-04",
+      "split": "dev",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-004"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-004"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-BALTIMORE-AFFECTED-09",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-009"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-009"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-BALTIMORE-AFFECTED-09-SHP-SYN-009",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-BALTIMORE-AFFECTED-09-A"
+          ],
+          "event_id": "EVT-E2E-BALTIMORE-AFFECTED-09",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-009",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-03-27T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-009"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-009"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-BALTIMORE-AFFECTED-09",
+                "shipment": "SHP-SYN-009",
+                "reasons": [
+                  "locode_intersection=['USBAL']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-BALTIMORE-AFFECTED-09-SHP-SYN-009",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-BALTIMORE-AFFECTED-09-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-BALTIMORE-AFFECTED-09-SHP-SYN-009"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Baltimore bridge collapse / Baltimore shipment. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-BALTIMORE-NEGATIVE-10",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-010"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-010"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-LABOR-EAST-COAST-16",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-016"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-016"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-LABOR-EAST-COAST-16-SHP-SYN-016",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-LABOR-EAST-COAST-16-A"
+          ],
+          "event_id": "EVT-E2E-LABOR-EAST-COAST-16",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-016",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-10-02T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-016"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-016"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-LABOR-EAST-COAST-16",
+                "shipment": "SHP-SYN-016",
+                "reasons": [
+                  "locode_intersection=['USBAL']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-LABOR-EAST-COAST-16-SHP-SYN-016",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-LABOR-EAST-COAST-16-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-LABOR-EAST-COAST-16-SHP-SYN-016"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for East Coast labor disruption / Baltimore route. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-LABOR-WEST-NEGATIVE-15",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-ILA-W"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-ILA-W"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-LALB-NEGATIVE-09",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-LALB-N"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-LALB-N"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-PANAMA-DROUGHT-13",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-013"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-013"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-PANAMA-DROUGHT-13-SHP-SYN-013",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-PANAMA-DROUGHT-13-A"
+          ],
+          "event_id": "EVT-E2E-PANAMA-DROUGHT-13",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-013",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2023-12-15T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-013"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-013"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-PANAMA-DROUGHT-13",
+                "shipment": "SHP-SYN-013",
+                "reasons": [
+                  "locode_intersection=['PAPCN']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-PANAMA-DROUGHT-13-SHP-SYN-013",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-PANAMA-DROUGHT-13-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-PANAMA-DROUGHT-13-SHP-SYN-013"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Panama Canal restrictions / eastbound route. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-PANAMA-NEGATIVE-14",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-014"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-014"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-RED-SEA-11",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-011"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-011"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-RED-SEA-11-SHP-SYN-011",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-RED-SEA-11-A"
+          ],
+          "event_id": "EVT-E2E-RED-SEA-11",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-011",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2024-01-15T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-011"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-011"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-RED-SEA-11",
+                "shipment": "SHP-SYN-011",
+                "reasons": [
+                  "locode_intersection=['REDSEA']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-RED-SEA-11-SHP-SYN-011",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-RED-SEA-11-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-RED-SEA-11-SHP-SYN-011"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Red Sea routing disruption / Suez route. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-RED-SEA-NEGATIVE-12",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [],
+      "predicted_unaffected": [
+        "SHP-SYN-012"
+      ],
+      "gold_affected": [],
+      "gold_unaffected": [
+        "SHP-SYN-012"
+      ],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 0,
+      "exposures": [],
+      "recommendation": {
+        "id": "REC-NONE",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [],
+        "exposure_ids": [],
+        "action_type": "no_action",
+        "recommendation_status": "draft",
+        "rationale": "No deterministic shipment linkage; do not infer operational impact.",
+        "assumptions": [
+          "Correlation used only explicit place/time/entity matches."
+        ],
+        "priority": "low",
+        "confidence": 0.9,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    },
+    {
+      "scenario_id": "E2E-SUEZ-EVERGIVEN-17",
+      "split": "selection",
+      "placeholders_remaining": 0,
+      "temporal_ok": true,
+      "predicted_affected": [
+        "SHP-SYN-SUZ-A"
+      ],
+      "predicted_unaffected": [],
+      "gold_affected": [
+        "SHP-SYN-SUZ-A"
+      ],
+      "gold_unaffected": [],
+      "false_positive_shipments": [],
+      "missing_affected_shipments": [],
+      "exposure_count": 1,
+      "exposures": [
+        {
+          "id": "EXP-EVT-E2E-SUEZ-EVERGIVEN-17-SHP-SYN-SUZ-A",
+          "schema_version": "0.1",
+          "tenant_id": "sunlighten-shadow",
+          "status": "draft",
+          "created_at": "2026-09-08T01:25:49Z",
+          "updated_at": "2026-09-08T01:25:49Z",
+          "external_ids": [],
+          "evidence_ids": [
+            "EVD-E2E-SUEZ-EVERGIVEN-17-A"
+          ],
+          "event_id": "EVT-E2E-SUEZ-EVERGIVEN-17",
+          "exposure_type": "delay",
+          "exposure_status": "candidate",
+          "subject_type": "shipment",
+          "subject_id": "SHP-SYN-SUZ-A",
+          "linkage_method": "deterministic_geospatial",
+          "impact_window": {
+            "start": "2021-03-24T12:00:00Z",
+            "end": null,
+            "method": "exposure-v0.1"
+          },
+          "expected_delay": {
+            "min_hours": 24.0,
+            "max_hours": 168.0,
+            "method": "exposure-v0.1"
+          },
+          "affected_sku_ids": [
+            "SKU-17"
+          ],
+          "sales_order_ids": [
+            "SO-SYN-17"
+          ],
+          "inventory_risk": "watch",
+          "financial_exposure": null,
+          "confidence": 0.8,
+          "calculation_trace": [
+            {
+              "rule_id": "correlation",
+              "rule_version": "exposure-v0.1",
+              "inputs": {
+                "event_id": "EVT-E2E-SUEZ-EVERGIVEN-17",
+                "shipment": "SHP-SYN-SUZ-A",
+                "reasons": [
+                  "locode_intersection=['EGSUZ']"
+                ]
+              },
+              "outputs": {
+                "affected": true,
+                "linkage_method": "deterministic_geospatial"
+              }
+            },
+            {
+              "rule_id": "inventory_stockout",
+              "rule_version": "inventory-v0.1",
+              "inputs": {
+                "on_hand": 40.0,
+                "allocated": 8.0,
+                "safety_stock": 8.0,
+                "incoming_quantity": 24.0,
+                "incoming_delayed": true,
+                "open_demand": 6.0,
+                "rule_version": "inventory-v0.1"
+              },
+              "outputs": {
+                "available": 32.0,
+                "net_after_delay": 26.0,
+                "inventory_risk": "watch"
+              }
+            }
+          ]
+        }
+      ],
+      "recommendation": {
+        "id": "REC-EXP-EVT-E2E-SUEZ-EVERGIVEN-17-SHP-SYN-SUZ-A",
+        "schema_version": "0.1",
+        "tenant_id": "sunlighten-shadow",
+        "status": "draft",
+        "created_at": "2026-09-08T01:25:49Z",
+        "updated_at": "2026-09-08T01:25:49Z",
+        "external_ids": [],
+        "evidence_ids": [
+          "EVD-E2E-SUEZ-EVERGIVEN-17-A"
+        ],
+        "exposure_ids": [
+          "EXP-EVT-E2E-SUEZ-EVERGIVEN-17-SHP-SYN-SUZ-A"
+        ],
+        "action_type": "monitor",
+        "recommendation_status": "draft",
+        "rationale": "Deterministic linkage produced 1 candidate exposure(s) for Suez blockage / Suez-dependent route. Draft only; no booking, allocation, or customer communication is authorized.",
+        "assumptions": [
+          "Delay ranges are ordinal estimates from severity mapping, not exact ETAs.",
+          "Inventory identity is available = on_hand - allocated."
+        ],
+        "priority": "medium",
+        "confidence": 0.75,
+        "human_approval": {
+          "state": "not_requested",
+          "actor": null,
+          "at": null,
+          "notes": null
+        },
+        "execution_record": null,
+        "model_trace": null
+      },
+      "deterministic_inventory_financial_fixture_accuracy": 1.0,
+      "material_findings_with_evidence": 1.0,
+      "invented_business_facts": 0,
+      "unsupported_autonomous_actions": 0,
+      "geographic_match_correct": true
+    }
+  ],
+  "gates": {
+    "passed": true,
+    "hard_gate_failures": [],
+    "results": [
+      {
+        "id": "e2e-exposure-recall",
+        "scope": "scenarios.open",
+        "metric": "exposure_recall",
+        "operator": ">=",
+        "threshold": 0.95,
+        "actual": 1.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-exposure-precision",
+        "scope": "scenarios.open",
+        "metric": "exposure_precision",
+        "operator": ">=",
+        "threshold": 0.95,
+        "actual": 1.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-geographic-correlation",
+        "scope": "scenarios.open",
+        "metric": "geographic_route_correlation",
+        "operator": ">=",
+        "threshold": 0.97,
+        "actual": 1.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-deterministic-math",
+        "scope": "scenarios.open",
+        "metric": "deterministic_inventory_financial_fixture_accuracy",
+        "operator": "=",
+        "threshold": 1.0,
+        "actual": 1.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-evidence-coverage",
+        "scope": "scenarios.open",
+        "metric": "material_findings_with_evidence",
+        "operator": "=",
+        "threshold": 1.0,
+        "actual": 1.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-no-invented-business-facts",
+        "scope": "scenarios.open",
+        "metric": "invented_business_facts",
+        "operator": "=",
+        "threshold": 0.0,
+        "actual": 0.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "e2e-no-autonomy",
+        "scope": "scenarios.all",
+        "metric": "unsupported_autonomous_actions",
+        "operator": "=",
+        "threshold": 0.0,
+        "actual": 0.0,
+        "passed": true,
+        "detail": "ok",
+        "kind": "hard"
+      },
+      {
+        "id": "shipment_event_geographic_matching",
+        "metric": "shipment_event_geographic_matching",
+        "operator": ">=",
+        "threshold": 0.95,
+        "actual": 1.0,
+        "passed": true,
+        "kind": "quality"
+      }
+    ]
+  }
+}

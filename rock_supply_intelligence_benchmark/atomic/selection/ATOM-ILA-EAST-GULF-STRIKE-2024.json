@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-ILA-EAST-GULF-STRIKE-2024",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ila-east-gulf-wave10",
+    "source_type": "government",
+    "publisher": "International Longshoremen's Association",
+    "source_name": "ILA launches coastwide East and Gulf Coast port strike",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://ilaunion.org/ila-president-harold-j-daggett-joins-picket-lines-throughout-port-newark-elizabeth-at-start-of-strike-rallies-tens-of-thousands-of-ila-members-to-stay-strong-and-united/",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T20:57:23Z",
+    "published_at": "2024-10-01T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-ILA-EAST-GULF-STRIKE-2024.html",
+    "content_hash": "10f563ba10b41b356f1af0a986afefd9db26773c408e89bc2e14aade37c2dea4",
+    "hash_method": "sha256",
+    "license": "Public labor organization publication",
+    "access_constraints": "Public direct organizational article"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_disruption",
+    "event_subtype": "ila-east-gulf-wave10",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T20:57:23Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W10-03: keep."
+  }
+}

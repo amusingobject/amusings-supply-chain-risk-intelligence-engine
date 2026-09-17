@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-09T21:32:43Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-DELIVERY-PLATFORM-INSPECTION-2019.json",
+      "content_hash": "b9c32c64495041320c88936a494e2ab4477c0d76208370bd99ca5ed1b3f69aee",
+      "sample_id": "ATOM-W11-MOL-DELIVERY-PLATFORM-INSPECTION-2019"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-DOCK-SAFETY-STANDARD-2010.json",
+      "content_hash": "8adb9ba8931f155bd648c1f40280193c09433827246959fa96860dc71a78ab10",
+      "sample_id": "ATOM-W11-MOL-DOCK-SAFETY-STANDARD-2010"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-FOREIGN-FISHER-RULES-2017.json",
+      "content_hash": "d5a0d8ae4ec1882a228d133accc146b335cd34b6415f9298d717b5b158eda1d7",
+      "sample_id": "ATOM-W11-MOL-FOREIGN-FISHER-RULES-2017"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-FREIGHT-DRIVER-HOURS-2018.json",
+      "content_hash": "86786c270faa1e35cdc41bedba18742b640d587d2ee38a9a608af09b00caa1fa",
+      "sample_id": "ATOM-W11-MOL-FREIGHT-DRIVER-HOURS-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012.json",
+      "content_hash": "f13e767ef41139ed73d1e64efff7250951c3e515a9d126a7d9927366bb0b84c7",
+      "sample_id": "ATOM-W11-MOL-LABOR-COMPLAINT-GUIDANCE-2012"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-RAIL-LABOR-DECISION-2017.json",
+      "content_hash": "24a3ba0214cd12b2e1a7a00039c27ce71507b4bd1f569fc62ba0eddd2ae17d92",
+      "sample_id": "ATOM-W11-MOL-RAIL-LABOR-DECISION-2017"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-SPRING-SAFETY-LOGISTICS-2022.json",
+      "content_hash": "c3f1b5d6e06f1816d6d8364b57a322154598b5d7cc34b3ef3d52e8b0b7765959",
+      "sample_id": "ATOM-W11-MOL-SPRING-SAFETY-LOGISTICS-2022"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-SUPPLIER-LABOR-COMPLIANCE-2024.json",
+      "content_hash": "809dff295e79e22b46a0b34e5f25261047fdbf51869b2f8dc19f1f529b189886",
+      "sample_id": "ATOM-W11-MOL-SUPPLIER-LABOR-COMPLIANCE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-MOL-TRANSPORT-INSPECTION-CAPACITY-2016.json",
+      "content_hash": "e4e0c0c84c71d4078c83736248e7d5a37da793b35925ea954a2f52c853dcbee4",
+      "sample_id": "ATOM-W11-MOL-TRANSPORT-INSPECTION-CAPACITY-2016"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-W11-TRADE-CANADA-FRAMEWORK-2023.json",
+      "content_hash": "014a5992fd64452411633106052a148ef6b78dfe3bfd0699b57f76c01a14d5b9",
+      "sample_id": "ATOM-W11-TRADE-CANADA-FRAMEWORK-2023"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 407,
+  "raw_bodies_retained": 504,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T213243Z.md"
+}

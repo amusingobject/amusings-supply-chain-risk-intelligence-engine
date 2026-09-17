@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-NASA-BENNU-2025",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "nasa-world-controls-wave5",
+    "source_type": "government",
+    "publisher": "National Aeronautics and Space Administration",
+    "source_name": "Asteroid Bennu sample science findings",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:43Z",
+    "published_at": "2025-01-29T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-NASA-BENNU-2025.html",
+    "content_hash": "e8fa92c1a52741da18d59450cdd14f1055004805b30ff5d06d3caa46001d8e99",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct NASA news release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "irrelevant_general_world",
+    "event_type": "astronomy_control",
+    "event_subtype": "nasa-world-controls-wave5",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:43Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-27: keep."
+  }
+}

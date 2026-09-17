@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-TWCUSTOMS-ECFA-RULE-2024",
+  "source_id": "taiwan-customs-wave4",
+  "url": "https://web.customs.gov.tw/singlehtml/698?cntId=afd06e3cb2674e959b7dbec740374721",
+  "reason": "fetch_failed:URLError",
+  "observed_at": "2026-09-09T13:58:06Z",
+  "content_hash": null
+}

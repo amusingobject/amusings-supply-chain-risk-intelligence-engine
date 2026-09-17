@@ -1,0 +1,38 @@
+[
+  {
+    "decision_id": "W10-01",
+    "sample_id": "ATOM-ILA-STRIKE-EXEMPTIONS-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T21:07:36Z",
+    "manifest_hash": "24eef49ff32e74e96371b3362a65459f94c11b14eb1108cfc961e9e32839aa47",
+    "rationale": "Human reviewer approved the Wave 10 fixture with its proposed narrow label."
+  },
+  {
+    "decision_id": "W10-02",
+    "sample_id": "ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T21:07:36Z",
+    "manifest_hash": "7c7fd4062c483492dbc31a610259dd37022a15290e7b8966168dcb7b7a336812",
+    "rationale": "Human reviewer approved the Wave 10 fixture with its proposed narrow label."
+  },
+  {
+    "decision_id": "W10-03",
+    "sample_id": "ATOM-ILA-EAST-GULF-STRIKE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T21:07:36Z",
+    "manifest_hash": "31119dfaca9899dc119b338a2d6bc012d898ec02756c5db0774cf3f833a7e823",
+    "rationale": "Human reviewer approved the Wave 10 fixture with its proposed narrow label."
+  },
+  {
+    "decision_id": "W10-04",
+    "sample_id": "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-09T21:07:36Z",
+    "manifest_hash": "b4694ed8bc49b18d4211f9ffc585a886471fa457c235c38d6e83c427c0d31576",
+    "rationale": "Human reviewer approved the Wave 10 fixture with its proposed narrow label."
+  }
+]

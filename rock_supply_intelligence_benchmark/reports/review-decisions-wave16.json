@@ -1,0 +1,29 @@
+[
+  {
+    "decision_id": "W16-01",
+    "sample_id": "ATOM-W15-USGS-US6000MT0S-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:24:00Z",
+    "manifest_hash": "bc73a456832a9bf131c303f59a2188680d14ea33816e1d65bc57b0860de92c4c",
+    "rationale": "Human reviewer approved the immutable single-event USGS record as materially relevant earthquake evidence."
+  },
+  {
+    "decision_id": "W16-02",
+    "sample_id": "ATOM-W15-USGS-US7000N7B8-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:24:00Z",
+    "manifest_hash": "34ac0f7b241633b2da11f14716a41f7855442632ed281f996a1f3c098e8529ba",
+    "rationale": "Human reviewer approved the immutable single-event USGS record as materially relevant earthquake evidence."
+  },
+  {
+    "decision_id": "W16-03",
+    "sample_id": "ATOM-W15-POLA-WORKFORCE-2024",
+    "decision": "keep",
+    "reviewer": "human-reviewer-unspecified",
+    "reviewed_at": "2026-09-10T03:24:00Z",
+    "manifest_hash": "cc3b41db53b45e8997e24ed12fcf63299fab4bac94432e759875cf737577f2e0",
+    "rationale": "Human reviewer approved the official workforce-infrastructure notice as a monitor record."
+  }
+]

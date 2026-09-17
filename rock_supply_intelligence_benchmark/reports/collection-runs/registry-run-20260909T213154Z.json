@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-09T21:31:54Z",
+  "registry_id": "RSIB-collection-registry-wave11",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-CANADA-DIALOGUE-2024.json",
+      "content_hash": "85f6ab374475391d16de58533a2af5b79e3e9f43919dca8200daa7d886668846",
+      "sample_id": "ATOM-W11-TRADE-CANADA-DIALOGUE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-SEMICONDUCTOR-EXPO-2025.json",
+      "content_hash": "4f5a694aa0120f59f5b53754c71f8b791af7013978be74df2bc83329346c2570",
+      "sample_id": "ATOM-W11-TRADE-SEMICONDUCTOR-EXPO-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-TAIWAN-SELECT-APR2025.json",
+      "content_hash": "86192d61cf6fe4707a20153bd1e9fb6ae92acab78b33463b2bad2450db923b34",
+      "sample_id": "ATOM-W11-TRADE-TAIWAN-SELECT-APR2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-TAIWAN-SELECT-OCT2025.json",
+      "content_hash": "ba742a646299e3306273ac3872b4e68f7af29354e7fd5041757ca161df64b152",
+      "sample_id": "ATOM-W11-TRADE-TAIWAN-SELECT-OCT2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-TENNESSEE-MOU-2025.json",
+      "content_hash": "7d1307551ceec53e7d4c44e7fac777fa9bb0b7f05a08835ecee21dd6690a1c52",
+      "sample_id": "ATOM-W11-TRADE-TENNESSEE-MOU-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-TRADE-US-BUSINESS-DAY-2025.json",
+      "content_hash": "31b9fc7e273ebc318db9d6d763f2b851150c976186542d3175669d75faf6cfcd",
+      "sample_id": "ATOM-W11-TRADE-US-BUSINESS-DAY-2025"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MOL-AIRLINE-HOURS-RESULTS-2015.json",
+      "content_hash": "9c4840c86fec47f669809ff96a59189719e694c9dcc7933c0cebe21c21311baa",
+      "sample_id": "ATOM-W11-MOL-AIRLINE-HOURS-RESULTS-2015"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MOL-AIRLINE-INSPECTION-LAUNCH-2015.json",
+      "content_hash": "e89acd93fd9b536bc63b63f7cbe2b0d329a284d13ae786545532727096a5fe67",
+      "sample_id": "ATOM-W11-MOL-AIRLINE-INSPECTION-LAUNCH-2015"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MOL-BUS-OVERWORK-PREVENTION-2017.json",
+      "content_hash": "4bcaee8493b62ae1afab19fc92548536e2af65d6897347ac77bcb686bb670f6f",
+      "sample_id": "ATOM-W11-MOL-BUS-OVERWORK-PREVENTION-2017"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-W11-MOL-HIGHWAY-FREIGHT-SAFETY-2009.json",
+      "content_hash": "891c5641ab874fc5a23fe6e7398c76684e2210c815467533072bcd84c58606cd",
+      "sample_id": "ATOM-W11-MOL-HIGHWAY-FREIGHT-SAFETY-2009"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 397,
+  "raw_bodies_retained": 494,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T213154Z.md"
+}

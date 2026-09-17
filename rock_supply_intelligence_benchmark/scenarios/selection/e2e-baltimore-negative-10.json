@@ -16,21 +16,29 @@
     {
       "id": "EVD-E2E-BALTIMORE-NEGATIVE-10-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
-      "source_type": "government",
-      "source_locator": "collection-plan://E2E-BALTIMORE-NEGATIVE-10/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-BALTIMORE-NEGATIVE-10/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Synthetic historical notice: Baltimore bridge collapse / Long Beach shipment",
+      "source_type": "analyst",
+      "source_locator": "synthetic://E2E-BALTIMORE-NEGATIVE-10",
+      "publisher": "Rock Supply Intelligence benchmark authors",
+      "retrieved_at": "2026-09-07T21:30:00Z",
+      "published_at": "2024-03-27T12:00:00Z",
+      "effective_at": "2024-03-27T12:00:00Z",
+      "observed_at": "2024-03-27T12:00:00Z",
+      "content_hash": "5476516e31b87149c6072dd9df4f6ad96afac7c9769695766449f5452b6e78c2",
+      "raw_ref": "raw/e2e-synthetic/E2E-BALTIMORE-NEGATIVE-10.txt",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "scenario-evidence-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
+      "collection_status": "collected",
       "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "synthetic": true,
+      "license": "benchmark-internal synthetic fixture",
+      "access_constraints": "synthetic; not a real-world source",
+      "provenance": "authored synthetic historical notice; marked synthetic=true"
     }
   ],
   "synthetic_business_state": {

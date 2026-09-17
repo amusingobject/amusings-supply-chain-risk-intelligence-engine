@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-PIRELLELI-PANEL-2024",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave6",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "Pirelli Neumaticos labor dispute panel",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/december/united-states-requests-usmca-rapid-response-labor-mechanism-dispute-settlement-panel-pirelli",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:58:20Z",
+    "published_at": "2024-12-18T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-PIRELLELI-PANEL-2024.html",
+    "content_hash": "f27e0528a7a1f4bd98e45e94fe45f4ba5df8d155faaf3ffd91bed53efd2db4ae",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_trade_disruption",
+    "event_subtype": "ustr-labor-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:58:20Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-07: keep."
+  }
+}

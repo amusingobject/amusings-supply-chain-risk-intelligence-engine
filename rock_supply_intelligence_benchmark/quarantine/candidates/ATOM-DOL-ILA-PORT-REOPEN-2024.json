@@ -1,0 +1,8 @@
+{
+  "sample_id": "ATOM-DOL-ILA-PORT-REOPEN-2024",
+  "source_id": "us-labor-wave4",
+  "url": "https://www.dol.gov/newsroom/releases/osec/osec20241003",
+  "reason": "fetch_failed:HTTPError",
+  "observed_at": "2026-09-09T21:34:28Z",
+  "content_hash": null
+}

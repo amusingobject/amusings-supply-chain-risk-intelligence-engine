@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-USTR-FREIXENET-SUSPENSION-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "ustr-labor-wave6",
+    "source_type": "government",
+    "publisher": "Office of the United States Trade Representative",
+    "source_name": "Freixenet labor review suspends tariff liquidation",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://ustr.gov/about/policy-offices/press-office/press-releases/2025/november/united-states-seeks-mexicos-review-alleged-denial-workers-rights-freixenet-facility",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:57:53Z",
+    "published_at": "2025-11-26T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-USTR-FREIXENET-SUSPENSION-2025.html",
+    "content_hash": "bae0b67f4ced83a30590078b0b8b2d57b4d48ed79bfed4429b1e43d2b996a6fe",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_trade_disruption",
+    "event_subtype": "ustr-labor-wave6",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:57:53Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W6-16: keep."
+  }
+}

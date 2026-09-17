@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-customs-wave4",
+    "source_type": "government",
+    "publisher": "Taiwan Customs Administration",
+    "source_name": "Single Window remains available during holiday",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://web.customs.gov.tw/singlehtml/2222?cntId=ba275701e3d7497983fb82b77a137549",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:00:38Z",
+    "published_at": "2024-02-07T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWCUSTOMS-HOLIDAY-NORMAL-2024.html",
+    "content_hash": "9f5da365a88218d6efed9167142d7957f3c517575c6f833f80fcaefa84fc55e0",
+    "hash_method": "sha256",
+    "license": "Public government notice",
+    "access_constraints": "Public direct Traditional Chinese page"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "normal_customs_control",
+    "event_subtype": "taiwan-customs-wave4",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:00:38Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W4-20260909-29: keep."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-mixed-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Northern waters submarine-cable maintenance caution",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/4669eaa8-102c-454c-aae6-4dc2fb8cfc6b?DLCount=1",
+    "language": "mixed",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T21:33:15Z",
+    "published_at": "2024-01-02T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MPB-CABLE-MAINTENANCE-JAN2024.pdf",
+    "content_hash": "dff1cd4291919573333c7433d9e33042eca151feb6f0c7bd29ee4f59e2536f2f",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice or notice PDF"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "port_vessel_carrier",
+    "event_type": "planned_operations_control",
+    "event_subtype": "taiwan-maritime-mixed-wave11",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:33:15Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-16: keep."
+  }
+}

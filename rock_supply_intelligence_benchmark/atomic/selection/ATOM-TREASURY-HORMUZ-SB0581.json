@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TREASURY-HORMUZ-SB0581",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us-treasury-maritime-wave5",
+    "source_type": "government",
+    "publisher": "U.S. Department of the Treasury",
+    "source_name": "Strait of Hormuz maritime insurance and shadow-fleet sanctions",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://home.treasury.gov/news/press-releases/sb0581",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:30:38Z",
+    "published_at": "2026-07-29T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TREASURY-HORMUZ-SB0581.html",
+    "content_hash": "79cbaf421a7d057782b7264593355216cc881b1e2cb4cc4049e40daee34a7637",
+    "hash_method": "sha256",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "Public direct Treasury press release"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "maritime_sanctions",
+    "event_subtype": "us-treasury-maritime-wave5",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:30:38Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W5-20260909-25: keep."
+  }
+}

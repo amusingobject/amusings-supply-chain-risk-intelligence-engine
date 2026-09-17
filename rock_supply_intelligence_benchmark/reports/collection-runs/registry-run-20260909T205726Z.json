@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-09T20:57:26Z",
+  "registry_id": "RSIB-collection-registry-wave10",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-ILA-STRIKE-EXEMPTIONS-2024.json",
+      "content_hash": "b7962cd5911558ee4682344d6e0c4fe352c952f8240f5372a7417a23ab6eae21",
+      "sample_id": "ATOM-ILA-STRIKE-EXEMPTIONS-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023.json",
+      "content_hash": "29c4b82c57d19d3f344ed0151f47d8f1f2a1c87be83c84be4b3c27182b51d13d",
+      "sample_id": "ATOM-PANAMA-TRANSIT-REDUCTION-A48-2023"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-ILA-EAST-GULF-STRIKE-2024.json",
+      "content_hash": "10f563ba10b41b356f1af0a986afefd9db26773c408e89bc2e14aade37c2dea4",
+      "sample_id": "ATOM-ILA-EAST-GULF-STRIKE-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-POLA-CONGESTION-CLEAR-CARGO-2021.json",
+      "content_hash": "775ad56fdfb1e16931ef147ef76c09467620c0bb489d0a376e20b7c245973b99",
+      "sample_id": "ATOM-POLA-CONGESTION-CLEAR-CARGO-2021"
+    }
+  ],
+  "failed": [
+    {
+      "sample_id": "ATOM-DOL-ILA-PORT-REOPEN-2024",
+      "reason": "fetch_failed:HTTPError"
+    }
+  ],
+  "corpus_collected": 387,
+  "raw_bodies_retained": 484,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T205726Z.md"
+}

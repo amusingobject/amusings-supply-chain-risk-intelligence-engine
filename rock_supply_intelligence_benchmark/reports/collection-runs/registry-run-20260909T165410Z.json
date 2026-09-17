@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-09T16:54:10Z",
+  "registry_id": "RSIB-collection-registry-wave9",
+  "collected": [
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWMOL-TAIPEI-TERMINAL-INSPECTION-2010.json",
+      "content_hash": "d681e1953b9bc29ed410907894b6e438d653c3c7adf534685a85c079f6f20f00",
+      "sample_id": "ATOM-TWMOL-TAIPEI-TERMINAL-INSPECTION-2010"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-KUO-KUANG-INSPECTION-2018.json",
+      "content_hash": "1600733485262a5fb2a40e1f89101fe90a4a9df0f0038c81f20b0579cf39e03a",
+      "sample_id": "ATOM-TWMOL-KUO-KUANG-INSPECTION-2018"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/selection/ATOM-TWMOL-TOURBUS-INSPECTION-2017.json",
+      "content_hash": "bd3ebf9ba65c6bb39b3368ceed6f9d3361d7cca0b68a41c491f1aa3a38582a77",
+      "sample_id": "ATOM-TWMOL-TOURBUS-INSPECTION-2017"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-RUSSIA-NITROCELLULOSE-CONTROLS-2024.json",
+      "content_hash": "75db44f6fe7f5670cb4ce193d563b2a31230b7fc99fdc24a158003d0eff48821",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-NITROCELLULOSE-CONTROLS-2024"
+    },
+    {
+      "path": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/atomic/holdout/ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024.json",
+      "content_hash": "6485c201bfcec278691053e12172f56aeea9ce6153756995c7b4b494f92f3f56",
+      "sample_id": "ATOM-TWTRADE-RUSSIA-TOOLMACHINE-CONTROLS-2024"
+    }
+  ],
+  "failed": [],
+  "corpus_collected": 383,
+  "raw_bodies_retained": 480,
+  "review_packet": "/var/home/amusing/Documents/projects/business_projects/supply-chain-disruption-project/rock_supply_intelligence_benchmark/reports/human-review-registry-20260909T165410Z.md"
+}

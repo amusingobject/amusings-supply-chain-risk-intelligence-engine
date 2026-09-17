@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MPB-AIS-SUBSIDY-2025",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-wave4",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "AIS installation subsidy program",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/Information/Detail/6c54a084-fabc-41a8-be6f-54cf27ad69cb?NodeId=15&SiteId=1",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T14:00:34Z",
+    "published_at": "2025-08-01T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-MPB-AIS-SUBSIDY-2025.html",
+    "content_hash": "0a5357a7978216c2be0e92b65d7323ae3afc0f82b87e5fa2a1a7989fc6730db7",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct Traditional Chinese page"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "administrative_control",
+    "event_subtype": "taiwan-maritime-wave4",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T14:00:34Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review HR-W4-20260909-28: keep."
+  }
+}

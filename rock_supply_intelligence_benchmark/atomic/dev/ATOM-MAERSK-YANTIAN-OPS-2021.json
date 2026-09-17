@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-MAERSK-YANTIAN-OPS-2021",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "MAERSK-YANTIAN-OPS-2021",
+    "source_type": "news",
+    "publisher": "A.P. Moller - Maersk",
+    "source_name": "Maersk Greater China Yantian/Shekou/Nansha Port Operations Update",
+    "source_authority": "primary_carrier_publisher",
+    "source_reliability": "high",
+    "source_locator": "https://www.maersk.com/news/articles/2021/05/27/greater-china-yantian-port-operations-update",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-08T22:43:29Z",
+    "published_at": null,
+    "license": "public web page; retained for benchmark evaluation",
+    "access_constraints": "public carrier/investor web page",
+    "raw_ref": "raw/wave2/ATOM-MAERSK-YANTIAN-OPS-2021.html",
+    "content_hash": "6e4b21703322355d07e63087f8bde5b899a44294a76f864f271e958354d909e6",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "carrier_operational_notice",
+    "event_category": "port_vessel_carrier",
+    "event_type": "port_disruption",
+    "event_subtype": "carrier_first_party_notice",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T22:43:29Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Yantian-Shekou-Nansha operational notice with dated carrier service, yard-density, delay, and gate-in information. Human review decision 2026-09-08: Keep."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-TWMOL-DISPUTE-STATISTICS-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-labor-wave7",
+    "source_type": "government",
+    "publisher": "Taiwan Ministry of Labor",
+    "source_name": "General labor-dispute statistics and compliance guidance",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.mol.gov.tw/1607/1632/1640/77731/?cprint=pt",
+    "language": "zh-TW",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-09T15:47:45Z",
+    "published_at": "2025-01-03T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-TWMOL-DISPUTE-STATISTICS-2025.html",
+    "content_hash": "0b547a20a4912b7b7f7d953c600a7c932c4573de102b92e9d50749f9a538a44b",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct government release"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "registry_provisional",
+    "event_category": "labor_infrastructure_transportation",
+    "event_type": "labor_policy_control",
+    "event_subtype": "taiwan-labor-wave7",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T15:47:45Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W7-08: keep."
+  }
+}

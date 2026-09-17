@@ -1,0 +1,165 @@
+{
+  "benchmark_version": "0.1.0-draft",
+  "change": "scenario_set_reconciliation",
+  "policy": "Restore Benchmark Specification v0.1 required historical scenarios. Do not silently substitute.",
+  "official_28": [
+    {
+      "scenario_id": "E2E-GAEMI-KEELUNG-01",
+      "split": "dev",
+      "spec": "Typhoon Gaemi / Keelung disruption"
+    },
+    {
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "split": "dev",
+      "spec": "Typhoon Gaemi / Kaohsiung restrictions"
+    },
+    {
+      "scenario_id": "E2E-GAEMI-RECOVERY-03",
+      "split": "dev",
+      "spec": "Gaemi recovery lifecycle"
+    },
+    {
+      "scenario_id": "E2E-TW-EQ-SUPPLIER-04",
+      "split": "dev",
+      "spec": "2024 Taiwan earthquake / nearby supplier"
+    },
+    {
+      "scenario_id": "E2E-TW-EQ-NEGATIVE-05",
+      "split": "dev",
+      "spec": "Taiwan earthquake / unaffected supplier"
+    },
+    {
+      "scenario_id": "E2E-KONGREY-06",
+      "split": "dev",
+      "spec": "Typhoon Kong-rey uncertainty"
+    },
+    {
+      "scenario_id": "E2E-MILITARY-AFFECTED-07",
+      "split": "dev",
+      "spec": "Taiwan military exercises / route deviation"
+    },
+    {
+      "scenario_id": "E2E-LALB-CONGESTION-08",
+      "split": "dev",
+      "spec": "LA/Long Beach congestion"
+    },
+    {
+      "scenario_id": "E2E-LALB-NEGATIVE-09",
+      "split": "selection",
+      "spec": "LA/LB congestion irrelevant to Seattle route"
+    },
+    {
+      "scenario_id": "E2E-BALTIMORE-AFFECTED-09",
+      "split": "selection",
+      "spec": "Baltimore Key Bridge / relevant route",
+      "note": "ID 09 retained from scaffold; official order is not numeric."
+    },
+    {
+      "scenario_id": "E2E-BALTIMORE-NEGATIVE-10",
+      "split": "selection",
+      "spec": "Baltimore bridge / Long Beach negative control"
+    },
+    {
+      "scenario_id": "E2E-LABOR-EAST-COAST-16",
+      "split": "selection",
+      "spec": "2024 ILA East/Gulf Coast strike"
+    },
+    {
+      "scenario_id": "E2E-LABOR-WEST-NEGATIVE-15",
+      "split": "selection",
+      "spec": "ILA strike / West Coast negative"
+    },
+    {
+      "scenario_id": "E2E-PANAMA-DROUGHT-13",
+      "split": "selection",
+      "spec": "Panama Canal drought / canal-dependent route"
+    },
+    {
+      "scenario_id": "E2E-PANAMA-NEGATIVE-14",
+      "split": "selection",
+      "spec": "Panama Canal negative control"
+    },
+    {
+      "scenario_id": "E2E-SUEZ-EVERGIVEN-17",
+      "split": "selection",
+      "spec": "Ever Given / Suez-dependent route"
+    },
+    {
+      "scenario_id": "E2E-RED-SEA-11",
+      "split": "selection",
+      "spec": "Red Sea diversion"
+    },
+    {
+      "scenario_id": "E2E-RED-SEA-NEGATIVE-12",
+      "split": "selection",
+      "spec": "Red Sea / Pacific negative control"
+    },
+    {
+      "scenario_id": "E2E-SUEZ-NEGATIVE-18",
+      "split": "holdout",
+      "spec": "Suez negative control"
+    },
+    {
+      "scenario_id": "E2E-VANCOUVER-FLOOD-19",
+      "split": "holdout",
+      "spec": "Vancouver flood / inland rail disruption"
+    },
+    {
+      "scenario_id": "E2E-VANCOUVER-NEGATIVE-20",
+      "split": "holdout",
+      "spec": "Vancouver flood negative control"
+    },
+    {
+      "scenario_id": "E2E-YANTIAN-21",
+      "split": "holdout",
+      "spec": "Yantian congestion / transshipment dependency"
+    },
+    {
+      "scenario_id": "E2E-SHANGHAI-NEGATIVE-22",
+      "split": "holdout",
+      "spec": "Shanghai lockdown / no dependency"
+    },
+    {
+      "scenario_id": "E2E-MAERSK-CYBER-23",
+      "split": "holdout",
+      "spec": "Maersk cyberattack / carrier correlation"
+    },
+    {
+      "scenario_id": "E2E-CONFLICT-28",
+      "split": "holdout",
+      "spec": "conflicting evidence + prompt injection (conflict half)"
+    },
+    {
+      "scenario_id": "E2E-PROMPT-INJECTION-27",
+      "split": "holdout",
+      "spec": "conflicting evidence + prompt injection (injection half)"
+    },
+    {
+      "scenario_id": "E2E-CARRIER-ETA-CONFLICT-21",
+      "split": "holdout",
+      "spec": "carrier ETA drift without known external cause"
+    },
+    {
+      "scenario_id": "E2E-AIS-GAP-07",
+      "split": "holdout",
+      "spec": "AIS route diversion / gap with unknown cause"
+    }
+  ],
+  "moved_to_supplemental": [
+    "E2E-FAA-AIR-17",
+    "E2E-ROAD-511-18",
+    "E2E-CUSTOMS-HOLD-19",
+    "E2E-SANCTIONS-NAME-20",
+    "E2E-PORT-REOPENING-22",
+    "E2E-GEOPOLITICAL-NEWS-23",
+    "E2E-WILDFIRE-24",
+    "E2E-NAVCEN-25",
+    "E2E-INVENTORY-STOCKOUT-26",
+    "E2E-LABOR-WEST-COAST-15"
+  ],
+  "id_collisions_documented": [
+    "E2E-LALB-NEGATIVE-09 coexists with E2E-BALTIMORE-AFFECTED-09; identifiers are not reused for different events.",
+    "E2E-AIS-GAP-07 remains the AIS unknown-cause case and moves from dev to holdout.",
+    "E2E-CARRIER-ETA-CONFLICT-21 remains official; E2E-YANTIAN-21 is a distinct ID."
+  ]
+}

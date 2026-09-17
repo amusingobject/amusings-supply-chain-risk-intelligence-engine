@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "taiwan-maritime-mixed-wave11",
+    "source_type": "government",
+    "publisher": "Taiwan Maritime and Port Bureau",
+    "source_name": "Taiwan around-waters military exercise restriction",
+    "source_authority": "primary_organization",
+    "source_reliability": "high",
+    "source_locator": "https://www.motcmpb.gov.tw/ServerFile/Get/bac05a2b-61a5-411f-9913-313352fce0e7?DLCount=1",
+    "language": "mixed",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-09-09T21:33:04Z",
+    "published_at": "2025-10-01T00:00:00Z",
+    "raw_ref": "raw/registry-wave3/ATOM-W11-MPB-AROUND-WATERS-EXERCISE-OCT2025.pdf",
+    "content_hash": "93dbb8c1afa31511954dfc69bd0397ded893ac1c7534121aa45074e5d70454b1",
+    "hash_method": "sha256",
+    "license": "Public government publication",
+    "access_constraints": "Public direct bilingual notice or notice PDF"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "registry_provisional",
+    "event_category": "geopolitical_security",
+    "event_type": "military_navigation_restriction",
+    "event_subtype": "taiwan-maritime-mixed-wave11",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-registry-wave3",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "registry-collector/1.0.0",
+    "ingestion_method": "registry_direct_https_get",
+    "pipeline_run_id": "RSIB-registry-wave3-2026-09-09T21:33:04Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "Registry-selected direct primary source; provisional label requires human review. Human review W11-15: keep."
+  }
+}

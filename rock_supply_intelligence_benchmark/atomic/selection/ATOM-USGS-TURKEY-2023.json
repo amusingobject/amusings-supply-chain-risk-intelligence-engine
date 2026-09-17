@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-TURKEY-2023",
+  "schema_version": "0.1",
+  "split": "selection",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us6000jllz",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us6000jllz",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-07T20:53:55Z",
+    "published_at": "2023-02-06T01:17:34Z",
+    "effective_at": "2023-02-06T01:17:34Z",
+    "observed_at": "2023-02-06T01:17:34Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "raw_ref": "raw/wave2/ATOM-USGS-TURKEY-2023.json",
+    "content_hash": "13361ad7cd54e6df126be8aa82030e7bf823e2175a7502c1aee0e687e2925baa",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "earthquake",
+    "event_category": "irrelevant_general_world",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_origin",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:53:55Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "M 7.8 Türkiye 2023-02-06 — negative-control geography. Human review W13-47: keep."
+  }
+}

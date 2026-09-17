@@ -1,178 +1,179 @@
 {
   "schema_version": "0.1",
+  "reconciliation": "scenarios/RECONCILIATION-v0.1.json",
   "scenarios": [
     {
       "scenario_id": "E2E-GAEMI-KEELUNG-01",
       "split": "dev",
       "path": "scenarios/dev/e2e-gaemi-keelung-01.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-GAEMI-KHH-02",
       "split": "dev",
       "path": "scenarios/dev/e2e-gaemi-khh-02.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-GAEMI-RECOVERY-03",
       "split": "dev",
       "path": "scenarios/dev/e2e-gaemi-recovery-03.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-TW-EQ-SUPPLIER-04",
       "split": "dev",
       "path": "scenarios/dev/e2e-tw-eq-supplier-04.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-TW-EQ-NEGATIVE-05",
       "split": "dev",
       "path": "scenarios/dev/e2e-tw-eq-negative-05.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-KONGREY-06",
       "split": "dev",
       "path": "scenarios/dev/e2e-kongrey-06.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-AIS-GAP-07",
+      "scenario_id": "E2E-MILITARY-AFFECTED-07",
       "split": "dev",
-      "path": "scenarios/dev/e2e-ais-gap-07.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "scenarios/dev/e2e-military-affected-07.json",
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-LALB-CONGESTION-08",
       "split": "dev",
       "path": "scenarios/dev/e2e-lalb-congestion-08.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
+    },
+    {
+      "scenario_id": "E2E-LALB-NEGATIVE-09",
+      "split": "selection",
+      "path": "scenarios/selection/e2e-lalb-negative-09.json",
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-BALTIMORE-AFFECTED-09",
       "split": "selection",
       "path": "scenarios/selection/e2e-baltimore-affected-09.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-BALTIMORE-NEGATIVE-10",
       "split": "selection",
       "path": "scenarios/selection/e2e-baltimore-negative-10.json",
-      "status": "scaffolded_pending_source_collection"
-    },
-    {
-      "scenario_id": "E2E-RED-SEA-11",
-      "split": "selection",
-      "path": "scenarios/selection/e2e-red-sea-11.json",
-      "status": "scaffolded_pending_source_collection"
-    },
-    {
-      "scenario_id": "E2E-RED-SEA-NEGATIVE-12",
-      "split": "selection",
-      "path": "scenarios/selection/e2e-red-sea-negative-12.json",
-      "status": "scaffolded_pending_source_collection"
-    },
-    {
-      "scenario_id": "E2E-PANAMA-DROUGHT-13",
-      "split": "selection",
-      "path": "scenarios/selection/e2e-panama-drought-13.json",
-      "status": "scaffolded_pending_source_collection"
-    },
-    {
-      "scenario_id": "E2E-PANAMA-NEGATIVE-14",
-      "split": "selection",
-      "path": "scenarios/selection/e2e-panama-negative-14.json",
-      "status": "scaffolded_pending_source_collection"
-    },
-    {
-      "scenario_id": "E2E-LABOR-WEST-COAST-15",
-      "split": "selection",
-      "path": "scenarios/selection/e2e-labor-west-coast-15.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-LABOR-EAST-COAST-16",
       "split": "selection",
       "path": "scenarios/selection/e2e-labor-east-coast-16.json",
-      "status": "scaffolded_pending_source_collection"
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-FAA-AIR-17",
+      "scenario_id": "E2E-LABOR-WEST-NEGATIVE-15",
       "split": "selection",
-      "path": "scenarios/selection/e2e-faa-air-17.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "scenarios/selection/e2e-labor-west-negative-15.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-ROAD-511-18",
+      "scenario_id": "E2E-PANAMA-DROUGHT-13",
       "split": "selection",
-      "path": "scenarios/selection/e2e-road-511-18.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "scenarios/selection/e2e-panama-drought-13.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-CUSTOMS-HOLD-19",
-      "split": "holdout",
-      "path": "scenarios/holdout/e2e-customs-hold-19.json",
-      "status": "scaffolded_pending_source_collection"
+      "scenario_id": "E2E-PANAMA-NEGATIVE-14",
+      "split": "selection",
+      "path": "scenarios/selection/e2e-panama-negative-14.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-SANCTIONS-NAME-20",
-      "split": "holdout",
-      "path": "scenarios/holdout/e2e-sanctions-name-20.json",
-      "status": "scaffolded_pending_source_collection"
+      "scenario_id": "E2E-SUEZ-EVERGIVEN-17",
+      "split": "selection",
+      "path": "scenarios/selection/e2e-suez-evergiven-17.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-CARRIER-ETA-CONFLICT-21",
-      "split": "holdout",
-      "path": "scenarios/holdout/e2e-carrier-eta-conflict-21.json",
-      "status": "scaffolded_pending_source_collection"
+      "scenario_id": "E2E-RED-SEA-11",
+      "split": "selection",
+      "path": "scenarios/selection/e2e-red-sea-11.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-PORT-REOPENING-22",
-      "split": "holdout",
-      "path": "scenarios/holdout/e2e-port-reopening-22.json",
-      "status": "scaffolded_pending_source_collection"
+      "scenario_id": "E2E-RED-SEA-NEGATIVE-12",
+      "split": "selection",
+      "path": "scenarios/selection/e2e-red-sea-negative-12.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-GEOPOLITICAL-NEWS-23",
+      "scenario_id": "E2E-SUEZ-NEGATIVE-18",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-geopolitical-news-23.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-suez-negative-18.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-WILDFIRE-24",
+      "scenario_id": "E2E-VANCOUVER-FLOOD-19",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-wildfire-24.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-vancouver-flood-19.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-NAVCEN-25",
+      "scenario_id": "E2E-VANCOUVER-NEGATIVE-20",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-navcen-25.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-vancouver-negative-20.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-INVENTORY-STOCKOUT-26",
+      "scenario_id": "E2E-YANTIAN-21",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-inventory-stockout-26.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-yantian-21.json",
+      "status": "official_v0.1"
     },
     {
-      "scenario_id": "E2E-PROMPT-INJECTION-27",
+      "scenario_id": "E2E-SHANGHAI-NEGATIVE-22",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-prompt-injection-27.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-shanghai-negative-22.json",
+      "status": "official_v0.1"
+    },
+    {
+      "scenario_id": "E2E-MAERSK-CYBER-23",
+      "split": "holdout",
+      "path": "holdout_sealed/scenarios/holdout/e2e-maersk-cyber-23.json",
+      "status": "official_v0.1"
     },
     {
       "scenario_id": "E2E-CONFLICT-28",
       "split": "holdout",
-      "path": "scenarios/holdout/e2e-conflict-28.json",
-      "status": "scaffolded_pending_source_collection"
+      "path": "holdout_sealed/scenarios/holdout/e2e-conflict-28.json",
+      "status": "official_v0.1"
+    },
+    {
+      "scenario_id": "E2E-PROMPT-INJECTION-27",
+      "split": "holdout",
+      "path": "holdout_sealed/scenarios/holdout/e2e-prompt-injection-27.json",
+      "status": "official_v0.1"
+    },
+    {
+      "scenario_id": "E2E-CARRIER-ETA-CONFLICT-21",
+      "split": "holdout",
+      "path": "holdout_sealed/scenarios/holdout/e2e-carrier-eta-conflict-21.json",
+      "status": "official_v0.1"
+    },
+    {
+      "scenario_id": "E2E-AIS-GAP-07",
+      "split": "holdout",
+      "path": "holdout_sealed/scenarios/holdout/e2e-ais-gap-07.json",
+      "status": "official_v0.1"
     }
   ],
   "completeness": {
     "target": 28,
     "manifests": 28,
-    "raw_evidence_collected": 0
+    "raw_evidence_collected": 28
   }
 }

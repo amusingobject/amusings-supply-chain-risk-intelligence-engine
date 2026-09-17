@@ -16,21 +16,29 @@
     {
       "id": "EVD-E2E-KONGREY-06-A",
       "schema_version": "0.1",
-      "status": "draft",
-      "source_name": "TO_BE_COLLECTED",
+      "status": "active",
+      "source_name": "Typhoon Database: Kong-rey (202421)",
       "source_type": "government",
-      "source_locator": "collection-plan://E2E-KONGREY-06/primary",
-      "retrieved_at": null,
-      "published_at": null,
-      "content_hash": null,
-      "raw_ref": "raw/E2E-KONGREY-06/",
-      "excerpt_or_payload_path": "TO_BE_COLLECTED",
+      "source_locator": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202421",
+      "publisher": "Central Weather Administration, Taiwan",
+      "retrieved_at": "2026-09-07T19:47:30Z",
+      "published_at": "2024-10-29T09:30:00Z",
+      "effective_at": "2024-10-29T17:30:00+08:00",
+      "observed_at": "2024-10-29T09:30:00Z",
+      "content_hash": "bbe1721ca320e817db50a8cf0456b6b16c8800d70a8d24f462590ddea4c84f90",
+      "raw_ref": "raw/first20/ATOM-CWA-KONGREY-2024.html",
+      "excerpt_or_payload_path": "$",
       "extraction": {
-        "method": "pending"
+        "method": "deterministic",
+        "model_or_rule": "atomic-link-v0.1",
+        "execution_class": "deterministic"
       },
-      "collection_status": "planned",
-      "language": "en",
-      "provenance": "historical-anchor metadata only"
+      "collection_status": "collected",
+      "language": "zh-TW",
+      "synthetic": false,
+      "license": "not stated on retained page",
+      "access_constraints": "public web page",
+      "provenance": "linked atomic sample ATOM-CWA-KONGREY-2024"
     }
   ],
   "synthetic_business_state": {

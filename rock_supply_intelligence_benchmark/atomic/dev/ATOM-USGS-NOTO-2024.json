@@ -1,0 +1,53 @@
+{
+  "sample_id": "ATOM-USGS-NOTO-2024",
+  "schema_version": "0.1",
+  "split": "dev",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "us6000m0xl",
+    "source_type": "authoritative_feed",
+    "publisher": "U.S. Geological Survey",
+    "source_name": "M 7.5 - 2024 Noto Peninsula, Japan Earthquake",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=us6000m0xl",
+    "language": "en",
+    "content_type": "application/geo+json",
+    "retrieved_at": "2026-09-07T20:53:55Z",
+    "published_at": "2024-01-01T07:10:09Z",
+    "effective_at": "2024-01-01T07:10:09Z",
+    "observed_at": "2024-01-01T07:10:09Z",
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public FDSN API",
+    "raw_ref": "raw/wave2/ATOM-USGS-NOTO-2024.json",
+    "content_hash": "61dbe9e081b9fcae93656c69a93615dc519853deec438b217bb7e375480a5ee9",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "irrelevant",
+    "primary_label": "earthquake",
+    "event_category": "irrelevant_general_world",
+    "event_type": "earthquake",
+    "event_subtype": "usgs_fdsn_origin",
+    "expected_relevance_class": "irrelevant",
+    "expected_disposition": "suppress",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-07T20:53:55Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "M 7.5 Noto, Japan 2024-01-01 — not Taiwan manufacturing geography. Human review W13-29: keep."
+  }
+}

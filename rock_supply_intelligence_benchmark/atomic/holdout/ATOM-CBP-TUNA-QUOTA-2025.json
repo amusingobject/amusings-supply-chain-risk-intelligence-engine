@@ -1,0 +1,51 @@
+{
+  "sample_id": "ATOM-CBP-TUNA-QUOTA-2025",
+  "schema_version": "0.1",
+  "split": "holdout",
+  "collection_status": "collected",
+  "source": {
+    "source_id": "CBP-QB-25-214",
+    "source_type": "government",
+    "publisher": "U.S. Customs and Border Protection",
+    "source_name": "2025 Tuna Final Restraint Limit and Proration",
+    "source_authority": "official_government",
+    "source_reliability": "high",
+    "source_locator": "https://www.cbp.gov/trade/quota/bulletins/qb-25-214-2025",
+    "language": "en",
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-08T22:10:39Z",
+    "published_at": null,
+    "license": "U.S. Government work / public domain",
+    "access_constraints": "public CBP web page",
+    "raw_ref": "raw/wave2/ATOM-CBP-TUNA-QUOTA-2025.html",
+    "content_hash": "8d676ce8afa669f1aaca4a5e03f52f689ef6bed75e7ab85aca171e1453c595bc",
+    "hash_method": "sha256"
+  },
+  "labels": {
+    "primary_class": "materially_relevant",
+    "primary_label": "cbp_trade_compliance_notice",
+    "event_category": "regulatory_trade_customs",
+    "event_type": "customs_regulatory",
+    "event_subtype": "cbp_trade_guidance",
+    "expected_relevance_class": "materially_relevant",
+    "expected_disposition": "normalize",
+    "tasks": [
+      "relevance",
+      "event_extraction",
+      "grounding"
+    ]
+  },
+  "provenance": {
+    "collection_plan_id": "RSIB-v0.1-wave2",
+    "collector_id": "rock-supply-intelligence",
+    "collector_version": "osint-fixture-ingest/0.2.0",
+    "ingestion_method": "direct_https_get",
+    "pipeline_run_id": "RSIB-v0.1-wave2-2026-09-08T22:10:39Z",
+    "transformations": [],
+    "ai_used": false,
+    "synthetic": false,
+    "content_status": "lawful_capture",
+    "adjudication_status": "reviewed",
+    "notes": "CBP quota bulletin is a dated primary trade-control record; commodity and applicability review remain required. Human review decision 2026-09-08: Keep."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "review_type": "human_scenario_oracle_decision",
+  "reviewed_at": "2026-09-15T00:55:00Z",
+  "reviewer": "human-reviewer-unspecified",
+  "packet": "reports/gaemi-weather-only-redesign-packet-2026-09-15.md",
+  "decisions": [
+    {
+      "id": "22A",
+      "scenario_id": "E2E-GAEMI-KEELUNG-01",
+      "decision": "approved_weather_only_monitor"
+    },
+    {
+      "id": "22B",
+      "scenario_id": "E2E-GAEMI-KHH-02",
+      "decision": "approved_weather_only_monitor"
+    },
+    {
+      "id": "22C",
+      "scenario_id": "E2E-GAEMI-RECOVERY-03",
+      "decision": "approved_weather_only_monitor"
+    }
+  ]
+}
